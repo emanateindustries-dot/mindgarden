@@ -38,6 +38,13 @@ window.GUIDE = {
       ],
       see:["rules","day","find"] },
 
+    { id:"ticket", cat:"Rules", title:"Your Ticket In",
+      text:[
+        "Your ticket is a <b>book</b> that has impacted you or made you grow. Fiction or non-fiction, it doesn't matter. It's donated to the Mind Garden library for others to take home and read. <b>You don't get it back.</b> It's your ticket in.",
+        "You also bring <b>something you've made</b> to share with another Mind Garden participant: handmade sliced bread, anything that might help a fellow traveller find Mind Garden."
+      ],
+      see:["must","day"] },
+
     { id:"rules", cat:"Rules", title:"The Rules",
       text:[
         "<b>1.</b> Be at the Mind Garden Door at <b>06:00</b>.",
@@ -73,13 +80,6 @@ window.GUIDE = {
         "<b>The only clue:</b> Mind Garden is near the public toilet."
       ],
       see:["gully","day","must"] },
-
-    { id:"ticket", cat:"Rules", title:"Your Ticket In",
-      text:[
-        "Your ticket is a <b>book</b> that has impacted you or made you grow. Fiction or non-fiction, it doesn't matter. It's donated to the Mind Garden library for others to take home and read. <b>You don't get it back.</b> It's your ticket in.",
-        "You also bring <b>something you've made</b> to share with another Mind Garden participant: handmade sliced bread, anything that might help a fellow traveller find Mind Garden."
-      ],
-      see:["must","day"] },
 
     { id:"must", cat:"Rules", title:"The Must-Have List",
       text:[
