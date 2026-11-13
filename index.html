@@ -24,7 +24,7 @@ main{flex:1;position:relative;overflow:hidden}
 .view{position:absolute;inset:0;overflow:auto;padding:20px 18px 28px;display:none}
 .view.on{display:block}
 .wrap{max-width:560px;margin:0 auto}
-nav{flex:none;display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);background:var(--paper);padding-bottom:env(safe-area-inset-bottom)}
+nav{flex:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line);background:var(--paper);padding-bottom:env(safe-area-inset-bottom)}
 nav a{padding:13px 0 12px;text-align:center;font:500 11px Cinzel,serif;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);text-decoration:none;border-top:2px solid transparent;margin-top:-1px}
 nav a.on{color:var(--ink);border-top-color:var(--ink)}
 h1{font:700 26px/1.15 Cinzel,serif;letter-spacing:.02em;margin:18px 0 6px;text-align:center}
@@ -95,6 +95,17 @@ h1{font:700 26px/1.15 Cinzel,serif;letter-spacing:.02em;margin:18px 0 6px;text-a
 .chips button{border:1px solid var(--ink);background:none;border-radius:99px;padding:8px 13px;font:500 13px Inter;color:var(--ink)}
 .chips button.pinbtn{background:var(--ink);color:#fff}
 .empty{color:var(--mute);font-style:italic}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-top:14px}
+.gal button{padding:0;border:0;background:var(--line);aspect-ratio:1;overflow:hidden;cursor:pointer}
+.gal img{width:100%;height:100%;object-fit:cover;display:block}
+#lb{position:fixed;inset:0;background:rgba(10,10,10,.94);display:none;flex-direction:column;align-items:center;justify-content:center;z-index:50;padding:16px}
+#lb.on{display:flex}
+#lb img{max-width:100%;max-height:78vh;object-fit:contain}
+#lb p{color:#f5f4ef;font-size:14px;margin:12px 0 0;text-align:center;max-width:520px}
+#lb .x{position:absolute;top:12px;right:16px;background:none;border:0;color:#f5f4ef;font-size:34px;cursor:pointer}
+#lb .nv{position:absolute;top:50%;background:none;border:0;color:#f5f4ef;font-size:40px;cursor:pointer;padding:12px}
+#lb .nv.l{left:2px}#lb .nv.r{right:2px}
+
 </style>
 </head>
 <body>
@@ -108,14 +119,17 @@ h1{font:700 26px/1.15 Cinzel,serif;letter-spacing:.02em;margin:18px 0 6px;text-a
       <div class="mapnote"><span>Tap a dot. Pinch to zoom.</span><button id="lay">Schematic</button></div>
     </section>
     <section class="view" id="v-list"><div class="wrap"><input class="search" id="q" type="search" placeholder="Search the Guide" autocomplete="off"><div id="list"></div></div></section>
+    <section class="view" id="v-photos"><div class="wrap" id="photos"></div></section>
     <section class="view" id="v-dates"><div class="wrap" id="dates"></div></section>
   </main>
-  <nav id="nav"><a href="#home" data-t="home">Home</a><a href="#map" data-t="map">Map</a><a href="#entries" data-t="list">Entries</a><a href="#dates" data-t="dates">Dates</a></nav>
+  <nav id="nav"><a href="#home" data-t="home">Home</a><a href="#map" data-t="map">Map</a><a href="#entries" data-t="list">Entries</a><a href="#photos" data-t="photos">Photos</a><a href="#dates" data-t="dates">Dates</a></nav>
 </div>
+<div id="lb"><button class="x" aria-label="Close">&times;</button><button class="nv l" aria-label="Previous">&lsaquo;</button><img alt=""><p></p><button class="nv r" aria-label="Next">&rsaquo;</button></div>
 <div id="back"></div>
 <div id="sheet" role="dialog" aria-modal="true"></div>
 
 <script src="entries.js"></script>
+<script src="photos.js"></script>
 <script>
 const G=window.GUIDE, E=Object.fromEntries(G.entries.map(e=>[e.id,e]));
 const $=s=>document.querySelector(s), pad=n=>String(n).padStart(2,'0');
@@ -245,8 +259,23 @@ document.addEventListener('click',e=>{
   const m=e.target.closest('[data-map]'); if(m){closeSheet();focusEntry(m.dataset.map)}
 });
 
+/* ---------- photos ---------- */
+let lbI=0;
+function renderPhotos(){
+  const P=window.PHOTOS||[];
+  $('#photos').innerHTML=`<p class="sub" style="margin-top:6px">Photos from Mind Garden, added by Brodie.</p>`+(P.length?`<div class="gal">${P.map((p,i)=>`<button data-ph="${i}" aria-label="${(p.caption||'Photo '+(i+1)).replace(/"/g,'')}"><img loading="lazy" src="${p.src}" alt=""></button>`).join('')}</div>`:`<p class="empty" style="margin-top:18px">No photos yet. Brodie adds them after each Mind Garden.</p>`);
+}
+function showPhoto(i){const P=window.PHOTOS||[];if(!P.length)return;lbI=(i+P.length)%P.length;const p=P[lbI];$('#lb img').src=p.src;$('#lb p').textContent=[p.caption,p.date].filter(Boolean).join(' · ');$('#lb').classList.add('on')}
+document.addEventListener('click',e=>{
+  const b=e.target.closest('[data-ph]'); if(b){showPhoto(+b.dataset.ph);return}
+  if(e.target.closest('#lb .x')||e.target.id==='lb'){$('#lb').classList.remove('on');return}
+  if(e.target.closest('#lb .l')){showPhoto(lbI-1);return}
+  if(e.target.closest('#lb .r')){showPhoto(lbI+1)}
+});
+document.addEventListener('keydown',e=>{if(!$('#lb').classList.contains('on'))return;if(e.key==='Escape')$('#lb').classList.remove('on');if(e.key==='ArrowLeft')showPhoto(lbI-1);if(e.key==='ArrowRight')showPhoto(lbI+1)});
+
 /* ---------- tabs via hash ---------- */
-const TABS={home:'home',map:'map',entries:'list',dates:'dates'};
+const TABS={home:'home',map:'map',entries:'list',photos:'photos',dates:'dates'};
 function route(){
   const h=(location.hash||'#home').slice(1), t=TABS[h]||'home';
   document.querySelectorAll('.view').forEach(v=>v.classList.toggle('on',v.id==='v-'+t));
@@ -254,6 +283,7 @@ function route(){
   closeSheet();
   if(t==='map') initMap();
   if(t==='dates') renderDates();
+  if(t==='photos') renderPhotos();
   if(t==='home') tickDoor(true);
 }
 window.addEventListener('hashchange',route);
