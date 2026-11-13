@@ -628,6 +628,10 @@ window.GUIDE = {
         `Lifetime membership confers the right to attend Mind Garden for life. It does not confer the right to win, because there is no way to win. It does not protect you from Kevin. It does not get you out of the Door of Losers.`,
         `<p style="margin-top:140px;text-align:right;font-size:9px;opacity:.35;letter-spacing:.05em">Brodie's mower is open to all. <a href="https://claude.ai/artifact/ShsVFNGQCVtsiTKV8bSFd3" target="_blank" rel="noopener" style="color:inherit">Booking</a> is essential.</p>`
       ],
-      see:["rules","losers","kevin"] }
+      see:["rules","losers","kevin"] },
+
+    { id:"secret", cat:"Things", title:"The Secret to Life",
+      text:[],
+      see:[] }
   ]
 };
