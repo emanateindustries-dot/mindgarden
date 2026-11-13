@@ -137,7 +137,7 @@ window.GUIDE = {
 
     { id:"substances", cat:"Rules", title:"Drugs: What's In, What's Out",
       text:[
-        "<b>Recommended for a Mind Garden experience:</b> LSD (advanced), mushrooms, MDMA, ketamine (this may well slow you down finding Mind Garden), DMT and mescaline.",
+        "<b>Recommended for a Mind Garden experience:</b> LSD (advanced), mushrooms, MDMA, ketamine (this may well slow you down finding Mind Garden), DMT, mescaline and edibles.",
         "<b>Respect the dose.</b> A buddy system is advised. Lower doses are recommended for your first time here. Sober is also great, especially if you're hanging out with your family and bring them to swim.",
         "Vaping is allowed.",
         "<b>Banned at Mind Garden:</b>",
