@@ -119,6 +119,8 @@ window.GUIDE = {
       quote:["Camp anywhere. Leave nothing."],
       text:[
         `Camping is allowed, welcomed, free, and recommended for your first Mind Garden experience. Many people make a night of it, or a weekend, and the Guide thoroughly approves. There is one thing to understand first: <b>Brodie will only stay until 8 o'clock.</b> His home is where his bed is, and a full day of Mind Gardening needs a shower. This is not negotiable, and it is not a reflection on you or your campfire.`,
+        `<div class="sec">What Camping Is For</div>`,
+        `Camping is just for the night of Mind Garden. This is not a party. It is an experience. Mind Garden is a day-only event, and camping at night is there for one reason: <b>safety</b>. A lot of people travel a long way to get here, and driving home after a full day of Mind Gardening is a real risk. Camp so you don't have to.`,
         `<div class="sec">Where</div>`,
         `You are welcome to camp anywhere on the block. The property is large, with many places to camp, so there is no need to pile on top of each other. Find a spot you like, away from everyone else if that is what you want. The Guide has never known anyone to run out of options.`,
         `<div class="sec">Off Limits</div>`,
