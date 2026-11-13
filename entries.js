@@ -68,7 +68,10 @@ window.GUIDE = {
           <li><b>Swim, rest, party.</b> Jonah's Pool or the Bend, metres from the party in the Trench.</li>
           <li><b>Back to the Door by 18:00.</b> That's 200 metres of climb, at the end of the day. Don't be late.</li>
         </ol>`,
-        `You can finish early if you want. Hang out with <a href="#" data-open="neil">Neil</a>, or spend time with the family at camp or on <a href="#" data-open="easy">Easy Street</a>.`
+        `You can finish early if you want. Hang out with <a href="#" data-open="neil">Neil</a>, or spend time with the family at camp or on <a href="#" data-open="easy">Easy Street</a>.`,
+        `<div class="sec">After the Door Closes</div>`,
+        `Music is still allowed once the Door is closed, but after <b>9 pm</b> we switch to <b>instruments only</b>.`,
+        `In an ideal world, the perfect Mind Gardener is home by then: showered, and asleep in their own bed.`
       ],
       see:["find","gully","trench","losers","door","neil","easy","camping"] },
 
