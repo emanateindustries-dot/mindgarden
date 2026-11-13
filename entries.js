@@ -138,7 +138,7 @@ window.GUIDE = {
     { id:"substances", cat:"Rules", title:"Drugs: What's In, What's Out",
       text:[
         "<b>Recommended for a Mind Garden experience:</b> LSD (advanced), mushrooms, MDMA, ketamine (this may well slow you down finding Mind Garden), DMT and mescaline.",
-        "<b>Respect the dose.</b> A buddy system is advised. Lower doses are recommended until reaching Mind Garden, then we walk as a collective down to the Trench.",
+        "<b>Respect the dose.</b> A buddy system is advised. Lower doses are recommended for your first time here. Sober is also great, especially if you're hanging out with your family and bring them to swim.",
         "Vaping is allowed.",
         "<b>Banned at Mind Garden:</b>",
         `<ul>
@@ -181,7 +181,7 @@ window.GUIDE = {
         `<div class="sec">Getting Down There</div>`,
         `There is 4x4 access down Easy Street into Recovery Lane. Brodie can bring his family of five into <a href="#" data-open="bend">the Bend</a> for a half day, and it is, as he puts it, easy as. It is steep, but you will find a spot. In the worst conditions Brodie has only ever needed high-range four-wheel drive to get back up the hill.`,
         `<div class="sec">The Good Bit</div>`,
-        `If you do Mind Garden right, your life partner will be there to meet you for a living embrace as you walk into <a href="#" data-open="trench">the Trench</a> to finish the day. This is one of the best things the Guide knows of, and it only works if the children were looked after, and somebody was sober, and the partner stayed behind and made it down. Do it properly and you get the embrace.`
+        `If you do Mind Garden right, your life partner will be there to meet you for a loving embrace as you walk into <a href="#" data-open="trench">the Trench</a> to finish the day. This is one of the best things the Guide knows of, and it only works if the children were looked after, and somebody was sober, and the partner stayed behind and made it down. Do it properly and you get the embrace.`
       ],
       see:["trench","bend","easy","recovery","substances"] },
 
