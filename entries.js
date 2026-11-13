@@ -41,7 +41,7 @@ window.GUIDE = {
     { id:"ticket", cat:"Rules", title:"Your Ticket In",
       text:[
         "Your ticket is a <b>book</b> that has impacted you or made you grow. Fiction or non-fiction, it doesn't matter. It's donated to the Mind Garden library for others to take home and read. <b>You don't get it back.</b> It's your ticket in.",
-        "You also bring <b>something you've made</b> to share with another Mind Garden participant: handmade sliced bread, anything that might help a fellow traveller find Mind Garden."
+        "You also bring <b>something you've made</b> to share with another Mind Garden participant: handmade sliced bread, anything that might help a fellow traveller find Mind Garden. <b>It must be made by you, not bought.</b>"
       ],
       see:["must","day"] },
 
