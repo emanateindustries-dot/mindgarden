@@ -119,7 +119,7 @@ window.GUIDE = {
     { id:"camping", cat:"Rules", title:"Camping",
       quote:["Camp anywhere. Leave nothing."],
       text:[
-        `Camping is allowed, welcomed, free, and recommended for your first Mind Garden experience. Many people make a night of it, and the Guide thoroughly approves. One night only. There is one thing to understand first: <b>Brodie will only stay until 8 o'clock.</b> His home is where his bed is, and a full day of Mind Gardening needs a shower. This is not negotiable, and it is not a reflection on you or your campfire.`,
+        `Camping is allowed, welcomed, free, and recommended for your first Mind Garden experience. Many people make a night of it, and the Guide thoroughly approves. One night only.`,
         `<div class="sec">What Camping Is For</div>`,
         `Camping is just for the night of Mind Garden. This is not a party. It is an experience. Mind Garden is a day-only event, and camping at night is there for one reason: <b>safety</b>. A lot of people travel a long way to get here, and driving home after a full day of Mind Gardening is a real risk. Camp so you don't have to.`,
         `<div class="sec">When</div>`,
@@ -131,7 +131,7 @@ window.GUIDE = {
         `<div class="sec">Leave No Trace Still Applies</div>`,
         `<a href="#" data-open="leave">Leave No Trace</a> is a firm rule, and it does not take the night off. Camping makes it harder, not easier, so plan for it. In particular, <b>pack a shitter.</b> Bring a way to take your waste with you, and then take it with you. If you bring it in, you carry it out.`,
         `<div class="sec">It Gets Easier</div>`,
-        `Over the years, as you get better at Mind Garden, you will learn how much to pack and how long to stay. You will learn what you actually used and what you carried up a hill for nothing. And you will learn to be okay with missing some of it. Nobody sees all of Mind Garden in one go. Brodie included, and he has the bed to go home to.`
+        `Over the years, as you get better at Mind Garden, you will learn how much to pack and how long to stay. You will learn what you actually used and what you carried up a hill for nothing. And you will learn to be okay with missing some of it. Nobody sees all of Mind Garden in one go.`
       ],
       see:["leave","must","recovery","day"] },
 
