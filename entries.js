@@ -67,9 +67,10 @@ window.GUIDE = {
           <li><b>12:00.</b> Music at Mind Garden stops. Brodie hikes out with everyone who's found him and heads down to the Bend, then the Trench, for more music. Haven't found it by noon? Head down to the Trench and we'll meet you there.</li>
           <li><b>Swim, rest, party.</b> Jonah's Pool or the Bend, metres from the party in the Trench.</li>
           <li><b>Back to the Door by 18:00.</b> That's 200 metres of climb, at the end of the day. Don't be late.</li>
-        </ol>`
+        </ol>`,
+        `You can finish early if you want. Hang out with <a href="#" data-open="neil">Neil</a>, or spend time with the family at camp or on <a href="#" data-open="easy">Easy Street</a>.`
       ],
-      see:["find","gully","trench","losers","door"] },
+      see:["find","gully","trench","losers","door","neil","easy","camping"] },
 
     { id:"find", cat:"Rules", title:"How to Find Mind Garden",
       quote:["You will know when you find Mind Garden. It's hard to find, but once you find it, you'll know."],
