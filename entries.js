@@ -67,7 +67,7 @@ window.GUIDE = {
           <li><b>Find Mind Garden.</b> Brodie will guide people down into Mind Garden, for those who are keen enough to meet him at the Mind Garden Door at 06:00.</li>
           <li><b>12:00.</b> Music at Mind Garden stops. Brodie hikes out with everyone who's found him and heads down to the Bend, then the Trench, for more music. Haven't found it by noon? Head down to the Trench and we'll meet you there.</li>
           <li><b>Swim, rest, party.</b> Jonah's Pool or the Bend, metres from the party in the Trench.</li>
-          <li><b>Back to the Door by 18:00.</b> That's 200 metres of climb, at the end of the day. Don't be late.</li>
+          <li><b>Back to the Door by 18:00.</b> That's 200 metres of climb, at the end of the day. Don't be late. Remember, this is a carry in, carry out deal. You have to pack and carry everything you need for the day, and if you open the Mind Garden Door, that's your responsibility.</li>
         </ol>`,
         `You can finish early if you want. Hang out with <a href="#" data-open="neil">Neil</a>, or spend time with the family at camp or on <a href="#" data-open="easy">Easy Street</a>.`,
         `<div class="sec">After the Door Closes</div>`,
