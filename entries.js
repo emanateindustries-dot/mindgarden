@@ -54,9 +54,10 @@ window.GUIDE = {
         "<b>5.</b> You can't “win” Mind Garden. You already won if you opened the Door. But you can lose it.",
         "<b>6.</b> No littering. Ever. Seriously. This is our family property, and it's a zero chance system.",
         "<b>7.</b> Respect your dose. Buddy system advised.",
-        "<b>8.</b> Respect Kevin."
+        "<b>8.</b> Everyone who opens the Mind Garden Door must obey the <a href=\"#\" data-open=\"substances\">substance rules</a>. Carers of children must also obey the sober rule if you bring your kids. See <a href=\"#\" data-open=\"children\">Bringing Children</a>.",
+        "<b>9.</b> Respect Kevin."
       ],
-      see:["day","losers","leave","substances","kevin"] },
+      see:["day","losers","leave","substances","children","kevin"] },
 
     { id:"day", cat:"Rules", title:"The Day, Start to Finish",
       text:[
