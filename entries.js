@@ -147,9 +147,13 @@ window.GUIDE = {
           <li>Alcohol, from 06:00 to 18:00 (door to door)</li>
           <li>Smoking cigarettes</li>
           <li>Anything fucking disgusting, really</li>
-        </ul>`
+        </ul>`,
+        `<div class="sec">After 18:00</div>`,
+        `Once Mind Garden is finished at 18:00, the drug ban lifts and alcohol is allowed. The rules above are for Mind Garden, door to door. Carers of children stay sober for as long as the children are in their care, whatever the time. See <a href="#" data-open="children">Bringing Children</a>.`,
+        `<div class="sec">Neil's Place</div>`,
+        `This is Neil's property, so Neil is not bound by any Mind Garden rules. He can do whatever he sees fit. It is his place, and he has let Brodie use it four times a year to show everyone how beautiful it is. Treat it, and him, accordingly.`
       ],
-      see:["safety","rules"] },
+      see:["safety","rules","children","neil"] },
 
     { id:"safety", cat:"Rules", title:"The Boring Bit",
       text:[
