@@ -27,7 +27,7 @@ window.GUIDE = {
     /* ================= RULES & HOW IT WORKS ================= */
     { id:"first", cat:"Rules", title:"Read This First",
       text:[
-        "Mind Garden is a 06:00 to 18:00 day out on a 110 acre bush block, and only Brodie knows where Mind Garden is. He'll run straight at it, by very hard and indirect ways. Follow him at your discretion, but he knows these hills better than anyone.",
+        "Mind Garden is a 06:00 to 18:00 day out on a 110 acre bush block, and only Brodie knows where Mind Garden is. He starts at 6, and you are welcome to follow him in.",
         `<b>Do not come if:</b>`,
         `<ul>
           <li>you're not ready for an experience of mind, body and soul</li>
