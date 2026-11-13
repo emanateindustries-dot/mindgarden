@@ -92,7 +92,7 @@ window.GUIDE = {
         "Pack everything you need and leave no trace. Brodie has done this enough times to know what you need. Don't be afraid to pack extra, but it may weigh you down.",
         `<ul>
           <li><b>Water.</b> At least 3 litres for the day. Brodie usually drinks 4.</li>
-          <li><b>Food</b> for the full day. There's 300+ m of vert to climb back to the Door at the end.</li>
+          <li><b>Food</b> for the full day. There's 200 m of vert to climb back to the Door at the end.</li>
           <li><b>Garden clippers</b>, hand-held or larger. Carry them in your pack at all times. They <b>cannot be used.</b> Battery trimmers are strictly banned.</li>
           <li><b>Headphones</b>, or a small speaker if travelling in duos.</li>
           <li><b>A hammock.</b> A small lightweight one, to rest or dance at Mind Garden. There's a bunch of trees to clip to.</li>
