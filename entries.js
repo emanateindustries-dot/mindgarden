@@ -140,6 +140,10 @@ window.GUIDE = {
         "<b>Recommended for a Mind Garden experience:</b> LSD (advanced), mushrooms, MDMA, ketamine (this may well slow you down finding Mind Garden), DMT, mescaline and edibles.",
         "<b>Respect the dose.</b> A buddy system is advised. Lower doses are recommended for your first time here. Sober is also great, especially if you're hanging out with your family and bring them to swim.",
         "Vaping is allowed.",
+        `<div class="sec">This Is Not the Place for a Mega Dose</div>`,
+        "Mind Garden is not the time or the place to take a mega dose of anything and disappear on a solely internal journey. It is a game of the ultimate self control. It is about respecting your body, respecting your resources, and respecting everyone else out there doing the same.",
+        "If you take a big dose and think you are going to walk into Mind Garden, that is fucking idiotic. It cuts against everything this is about: control, resource management, community and presence. You will not find the gully. You will find a log, and you will sit on it, and that is a perfectly good day, but it is not this one.",
+        "Make no mistake, Mind Garden is a journey of mind, body and soul. It goes outwards as much as it goes inwards. The water you carry, the people beside you, the ground under your feet and the hours left before the Door closes are all part of it. Remember that.",
         "<b>Banned at Mind Garden:</b>",
         `<ul>
           <li>Methamphetamine</li>
