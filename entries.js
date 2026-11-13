@@ -52,7 +52,7 @@ window.GUIDE = {
         "<b>3.</b> Find Mind Garden. There's no path in.",
         "<b>4.</b> Be back at the Door by <b>18:00</b>.",
         "<b>5.</b> You can't “win” Mind Garden. You already won if you opened the Door. But you can lose it.",
-        "<b>6.</b> No littering. Ever. Seriously. This is our family property, and it's a zero chance system.",
+        "<b>6.</b> No littering. Ever. Seriously. This is our family property, and it's a zero chance system. We don't actually have a bin here, so pack it out.",
         "<b>7.</b> Respect your dose. Buddy system advised.",
         "<b>8.</b> Everyone who opens the Mind Garden Door must obey the <a href=\"#\" data-open=\"substances\">substance rules</a>. Carers of children must also obey the sober rule if you bring your kids. See <a href=\"#\" data-open=\"children\">Bringing Children</a>.",
         "<b>9.</b> Respect Kevin."
