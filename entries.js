@@ -63,7 +63,7 @@ window.GUIDE = {
       text:[
         `<ol>
           <li><b>06:00.</b> Everyone at the Door at the top. Ornate door, multiple locks, old trinkets. We open it and walk through. Brodie leaves both doors open for the whole day, so anyone running late can still come in.</li>
-          <li><b>Hike in.</b> Open-world sandbox: no path, just your map. Lower doses until you reach Mind Garden.</li>
+          <li><b>Hike in.</b> Open-world sandbox: no path, just your map. Please respect your dose, and a buddy system is advised.</li>
           <li><b>Find Mind Garden.</b> Brodie will guide people down into Mind Garden, for those who are keen enough to meet him at the Mind Garden Door at 06:00.</li>
           <li><b>12:00.</b> Music at Mind Garden stops. Brodie hikes out with everyone who's found him and heads down to the Bend, then the Trench, for more music. Haven't found it by noon? Head down to the Trench and we'll meet you there.</li>
           <li><b>Swim, rest, party.</b> Jonah's Pool or the Bend, metres from the party in the Trench.</li>
