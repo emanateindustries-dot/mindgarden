@@ -110,6 +110,21 @@ window.GUIDE = {
       ],
       see:["trench","must"] },
 
+    { id:"camping", cat:"Rules", title:"Camping",
+      quote:["Camp anywhere. Leave nothing."],
+      text:[
+        `Camping is allowed and welcomed. Many people make a night of it, or a weekend, and the Guide thoroughly approves. There is one thing to understand first: <b>Brodie will only stay until 8 o'clock.</b> His home is where his bed is, and a full day of Mind Gardening needs a shower. This is not negotiable, and it is not a reflection on you or your campfire.`,
+        `<div class="sec">Where</div>`,
+        `You are welcome to camp anywhere on the block. The property is large, with many places to camp, so there is no need to pile on top of each other. Find a spot you like, away from everyone else if that is what you want. The Guide has never known anyone to run out of options.`,
+        `<div class="sec">Off Limits</div>`,
+        `Two places only. <b>The main drive</b> and <b>the road down to Recovery Lane.</b> Both are used to get in and out, and someone will need to drive down them at an inconvenient hour. Do not camp on either. Do not park across either, either.`,
+        `<div class="sec">Leave No Trace Still Applies</div>`,
+        `<a href="#" data-open="leave">Leave No Trace</a> is a firm rule, and it does not take the night off. Camping makes it harder, not easier, so plan for it. In particular, <b>pack a shitter.</b> Bring a way to take your waste with you, and then take it with you. If you bring it in, you carry it out.`,
+        `<div class="sec">It Gets Easier</div>`,
+        `Over the years, as you get better at Mind Garden, you will learn how much to pack and how long to stay. You will learn what you actually used and what you carried up a hill for nothing. And you will learn to be okay with missing some of it. Nobody sees all of Mind Garden in one go. Brodie included, and he has the bed to go home to.`
+      ],
+      see:["leave","must","recovery","day"] },
+
     { id:"substances", cat:"Rules", title:"Drugs: What's In, What's Out",
       text:[
         "<b>Recommended for a Mind Garden experience:</b> LSD (advanced), mushrooms, MDMA, ketamine (this may well slow you down finding Mind Garden), DMT and mescaline.",

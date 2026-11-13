@@ -15,7 +15,6 @@ Door dates are generated automatically from the equinoxes and solstices (Melbour
 
 ## Publish with GitHub Pages
 1. Push this repo to GitHub (branch `main`).
-2. Settings → Pages → Source: **GitHub Actions**.
-3. The included workflow deploys on every push.
+2. Settings → Pages → Source: **Deploy from a branch** → `main` → `/ (root)` → Save.
 
 Note: a public repo means a public site and public source. If the guide should stay private, use a private repo with a plan that supports private Pages, or host it somewhere with a password.
