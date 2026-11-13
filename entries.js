@@ -28,6 +28,7 @@ window.GUIDE = {
     { id:"first", cat:"Rules", title:"Read This First",
       text:[
         "Mind Garden is a 06:00 to 18:00 day out on a 110 acre bush block, and only Brodie knows where Mind Garden is. He starts at 6, and you are welcome to follow him in.",
+        "Mind Garden is an <b>all-weather event</b>. Rain, wind or shine, the Door opens. Pack and dress for whatever the day throws at you.",
         `<b>Do not come if:</b>`,
         `<ul>
           <li>you're not ready for an experience of mind, body and soul</li>
