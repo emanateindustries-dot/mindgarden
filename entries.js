@@ -112,7 +112,7 @@ window.GUIDE = {
         "If you litter, Brodie will be forced to remove you from Mind Garden, violent or not, your choice.",
         "<b>Rubbish:</b> pack a small zip lock bag.",
         "<b>Organic waste:</b> can be disposed of at the Trench, where the giant ants' nest lives nearby. They love a good donation.",
-        "<b>Toilet:</b> there isn't one. If you must poo or wee, pick a spot and use toilet paper only. <b>No wet wipes.</b>"
+        "<b>Toilet:</b> there's a toilet at Neil's, but it's only for the few who arrive early with Brodie. For everyone else there isn't one. If you must poo or wee, pick a spot and use toilet paper only. <b>No wet wipes.</b>"
       ],
       see:["trench","must"] },
 
