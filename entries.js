@@ -48,10 +48,10 @@ window.GUIDE = {
     { id:"rules", cat:"Rules", title:"The Rules",
       text:[
         "<b>1.</b> Be at the Mind Garden Door at <b>06:00</b>.",
-        "<b>2.</b> Every guest gets a map. Pay close attention to it. It will help you navigate the block and, hopefully, find Mind Garden.",
+        "<b>2.</b> Every guest gets a map. Check this app for the <a href=\"#map\" data-tab=\"map\">map</a>. Pay close attention to it. It will help you navigate the block and, hopefully, find Mind Garden.",
         "<b>3.</b> Find Mind Garden. There's no path in.",
         "<b>4.</b> Be back at the Door by <b>18:00</b>.",
-        "<b>5.</b> You can't “win” Mind Garden. You already won if you opened the Door. But you can 💯 lose it.",
+        "<b>5.</b> You can't “win” Mind Garden. You already won if you opened the Door. But you can lose it.",
         "<b>6.</b> No littering. Ever.",
         "<b>7.</b> Respect your dose. Buddy system advised.",
         "<b>8.</b> Respect Kevin."

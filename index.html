@@ -235,6 +235,7 @@ $('#back').addEventListener('click',closeSheet);
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
 document.addEventListener('click',e=>{
   const o=e.target.closest('[data-open]'); if(o){e.preventDefault();openEntry(o.dataset.open);return}
+  const g=e.target.closest('[data-tab]'); if(g){e.preventDefault();closeSheet();location.hash='#'+g.dataset.tab;return}
   const m=e.target.closest('[data-map]'); if(m){closeSheet();focusEntry(m.dataset.map)}
 });
 
