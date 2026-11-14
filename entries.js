@@ -464,6 +464,7 @@ window.GUIDE = {
         `The Guide does <b>not</b> have the words DON'T PANIC inscribed on its cover, unlike certain other books that claim to be the guide to the universe. The Guide has no cover to speak of. It has you. It is the most useful piece of advice in the entire Guide, and it is also the one most often forgotten at exactly the moment it is needed, so the Guide would like it inscribed on you instead.`,
         `<div class="sec">If You Find Yourself Having a Bad Time</div>`,
         `It happens to the best of travellers. The gully looks wrong, the trees look too interested, and a thought has arrived that will not leave. The Guide's advice is simple, and it comes in order.`,
+        `<div><blockquote>&ldquo;Every tree was a snake, and every branch was barbed wire, and every rock a spider.&rdquo;<br><span style="font-style:normal;font-size:13px;color:var(--mute)">Brodie, on his second Mind Garden</span></blockquote></div>`,
         `<ol>
           <li><b>Reach out to a fellow traveller first.</b> Somebody on this block is within shouting distance, and almost all of them have been exactly where you are. Say so out loud. &ldquo;I'm having a hard time&rdquo; is a complete sentence, and it is the beginning of the cure.</li>
           <li><b>If that fails, hang your hammock.</b> Pick a spot, string it up and climb in. Bunker down.</li>
