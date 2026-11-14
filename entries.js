@@ -913,7 +913,7 @@ window.GUIDE = {
     { id:"cantbuy", cat:"Things", title:"What Money Can't Buy",
       quote:["A fit body, a calm mind, a house full of love. &mdash; Naval Ravikant"],
       text:[
-        `Naval Ravikant, who knows a thing or two about money, listed three things it cannot buy: <b>a fit body, a calm mind, and a house full of love.</b> They cannot be bought, he said. They have to be earned. The Guide has read a great many things, and it has not found a better description of what Mind Garden is for.`,
+        `The Guide would like to introduce Naval Ravikant. Naval is an entrepreneur and investor who knows a thing or two about money, and the Guide can report that he is the reason Brodie is who he is. Brodie read him, listened to him, and has never been the same since. Naval listed three things money cannot buy: <b>a fit body, a calm mind, and a house full of love.</b> They cannot be bought, he said. They have to be earned. The Guide has read a great many things, and it has not found a better description of what Mind Garden is for.`,
         `<div class="sec">A Fit Body</div>`,
         `You cannot pay someone to walk up the ridge for you. Nobody can climb the gully on your behalf, and nobody can carry your water. Every step down to the Trench is yours, and so is every step back out. That is the whole point of it.`,
         `<div class="sec">A Calm Mind</div>`,
