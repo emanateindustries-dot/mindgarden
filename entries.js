@@ -551,7 +551,7 @@ window.GUIDE = {
         `<div style="margin:18px 0 6px"><img src="photos/snake.jpg" alt="" style="width:100%;border-radius:12px;display:block"><div style="font-size:12px;color:var(--mute);line-height:1.45;margin:6px 4px 0"><b>Kevin, in the wild.</b> A real sighting on the block, and the best camouflage in the Guide. Look left of the rock, among the sticks: he is the dark, glossy shape about halfway down. He is not hiding from you. He is simply better at this than you are at noticing.</div></div>`,
         `<div style="margin:18px 0 6px"><img src="photos/kevin-zoom.jpg" alt="" style="width:100%;border-radius:12px;display:block"><div style="font-size:12px;color:var(--mute);line-height:1.45;margin:6px 4px 0"><b>Kevin, zoomed in.</b> Glossy, calm, and entirely uninterested in the camera.</div></div>`,
         `<div class="sec">Brodie's Spirit Animal</div>`,
-        `The Guide has reviewed the evidence and hereby declares that Kevin is Brodie's spirit animal. This was not Brodie's idea. It is the Guide's finding, and it is final. Both are at their best in the gully. Both go quiet when anyone gets too close. Both have been on this block longer than any visitor, and both are entirely sure of the way out.`,
+        `The Guide has reviewed the evidence and hereby declares that Kevin is Brodie's spirit animal. This was not Brodie's idea. It is the Guide's finding, and it is final. The Guide has applied the same rigour here as Brodie applies to the grading of termite mounds, where he is the foremost expert in the known universe and holds the highest accreditation of <a href="#" data-open="society">The Official Termite Mound Ranking Society of the World</a>. A man who can look at a mound for a very long time and produce a correct number can also look at a snake for a very long time and recognise a kindred spirit. For the method, see <a href="#" data-open="termites">The Definitive Guide to Ranking Termite Mounds</a>. Both are at their best in the gully. Both go quiet when anyone gets too close. Both have been on this block longer than any visitor, and both are entirely sure of the way out.`,
         `<b>If you see Kevin:</b>`,
         `<ol>
           <li><b>Stop.</b> Don't leap backwards, don't lunge forwards, don't attempt an interpretive dance.</li>
@@ -576,7 +576,7 @@ window.GUIDE = {
         `<div class="short"><b>The short version:</b> See Kevin. Stop. Leave him alone. Let him leave. Tell the others. Carry on. Note that Kevin has never lost Mind Garden, as he lives there. The Guide considers this deeply unfair.</div>`,
         `<i>Kevin has been sighted at two spots on the map. Kevin does not read maps and moves about, so treat the dots as suggestions.</i>`
       ],
-      see:["gully","safety","easy"] },
+      see:["gully","safety","easy","society","termites"] },
 
     { id:"neil", cat:"Things", title:"Neil", pins:[[49.9,77.3]],
       quote:["Hanging out with Neil, he's spiritually advanced, you won't get it."],
