@@ -831,6 +831,23 @@ window.GUIDE = {
       ],
       see:["marketing","fringes","kevin","termites"] },
 
+    { id:"money", cat:"Things", title:"I've Had Such a Sick Time. How Do I Give Brodie My Money?",
+      quote:["The best things in life are free."],
+      text:[
+        `You cannot. The Guide has checked, and Brodie does not want it. Put the wallet away.`,
+        `<div class="sec">You Have Already Paid</div>`,
+        `You paid at the Door, with a book and a homemade goodie. That was the price of entry, and it was a fair one. The best things in life are free, and Mind Garden is one of them. Nothing is owed.`,
+        `<div class="sec">If That Still Is Not Enough</div>`,
+        `If you still feel the need to give something back, the Guide suggests a donation to <b>MAPS</b>, the Multidisciplinary Association for Psychedelic Studies, which does research into psychedelics. Give what you can, and only what you can.`,
+        `<div class="sec">The Boring Bit</div>`,
+        `Depending on where you live, a donation may be tax-deductible. In some countries it is, and in others, including for many overseas charities in Australia, it is not. The Guide is not an accountant. Check with a real one before you claim anything.`,
+        `<div class="sec">Do Not Tell Brodie</div>`,
+        `Do not show Brodie that you donated. He does not actually care whether you did or not. Give quietly, for your own reasons, and then forget about it.`,
+        `<div class="sec">What Brodie Actually Needs</div>`,
+        `A hug. Someone to hold him at the closing of Mind Garden, when the Door shuts and the song plays. It has been a hell of a road out of the woods. If you want to give him something, give him that.`,
+        `<div class="short">I love every single one of you, so so much. &mdash; Brodie</div>`
+      ],
+      see:["closingsong","brodie","beginners"] },
     { id:"closingsong", cat:"Things", title:"Why There Is a Closing Song, and Why It Matters",
       quote:["All good things have to come to an end."],
       text:[
