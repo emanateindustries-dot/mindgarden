@@ -81,6 +81,8 @@ h1{font:700 26px/1.15 Cinzel,serif;letter-spacing:.02em;margin:18px 0 6px;text-a
 #back.on{opacity:1;pointer-events:auto}
 #sheet{position:fixed;left:0;right:0;bottom:0;z-index:10;max-height:78dvh;overflow:auto;background:var(--paper);border-radius:20px 20px 0 0;padding:22px 22px calc(26px + env(safe-area-inset-bottom));transform:translateY(105%);transition:transform .25s ease;max-width:600px;margin:0 auto}
 #sheet.on{transform:none}
+#sheet.nobar{scrollbar-width:none;-ms-overflow-style:none}
+#sheet.nobar::-webkit-scrollbar{display:none}
 #sheet>*{opacity:0}
 #sheet.on>*{animation:rise .35s ease both}
 @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
@@ -249,7 +251,7 @@ function openEntry(id){
   if(e.pins&&e.pins.length&&location.hash!=='#map') chips.push(`<button class="pinbtn" data-map="${e.id}">Show on map</button>`);
   (e.see||[]).filter(s=>E[s]).forEach(s=>chips.push(`<button data-open="${s}">${E[s].title}</button>`));
   if(chips.length) h+=`<div class="chips">${chips.join('')}</div>`;
-  $('#sheet').innerHTML=h; $('#sheet').scrollTop=0; [...$('#sheet').children].forEach((c,i)=>c.style.animationDelay=(i*70)+'ms');
+  $('#sheet').innerHTML=h; $('#sheet').classList.toggle('nobar',e.id==='secret'); $('#sheet').scrollTop=0; [...$('#sheet').children].forEach((c,i)=>c.style.animationDelay=(i*70)+'ms');
   $('#sheet').classList.add('on'); $('#back').classList.add('on');
 }
 function closeSheet(){$('#sheet').classList.remove('on');$('#back').classList.remove('on')}
