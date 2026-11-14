@@ -961,6 +961,20 @@ window.GUIDE = {
         `Mind Garden is where you practise earning them. It costs a book, a homemade goodie and a promise to grow, and every bit of the rest is up to you. See <a href="#" data-open="money">how to give Brodie your money</a> (you cannot), and <a href="#" data-open="closingsong">why there is a closing song</a>.`
       ],
       see:["money","closingsong","sober","panic"] },
+    { id:"freemoney", cat:"Things", title:"Free Money",
+      quote:["He is here having a good time."],
+      text:[
+        `Yes, there is such a thing. The Guide would like you to listen carefully, because it is about to tell you where to find it, and then it is about to tell you where not to.`,
+        `<div class="sec">The Expert</div>`,
+        `<b>Vinnie</b> is the Guide's expert on how to gain wealth. Nobody on the block, or in the rest of the galaxy as far as the Guide has been able to establish, knows more about the subject. If you wanted to learn how money is made, kept and grown, Vinnie is the person you would want to talk to.`,
+        `<div class="sec">The Rule</div>`,
+        `If you see Vinnie participating in Mind Garden, do not, under any circumstances, ask him for advice. Not at the Door. Not in the gully. Not at the fire. Not even a small question, such as &ldquo;what would you do if you had a thousand dollars?&rdquo;, however casual you think it sounds.`,
+        `<div class="sec">Why</div>`,
+        `Because he is here having a good time. He has come to walk, to breathe, to dance and to hold his mates at 18:00, the same as everyone else. Mind Garden is a place where nobody is anybody's adviser, and nobody is working. A person who has spent a career being asked for advice has earned a day when no one asks. Let Vinnie be a person in the bush with a good song on.`,
+        `<div class="sec">So Where Is the Free Money?</div>`,
+        `Look around you. Free water, free shade, free views, free company and a free sunrise at 06:00. A free mower, on request. A free hug at the Door. The Guide has done the sums, and it comes to a great deal. If you want to ask Vinnie anything at all, ask him how his day has been. Then listen, and let that be the whole conversation. See <a href="#" data-open="cantbuy">what money can't buy</a> and <a href="#" data-open="money">how to give Brodie your money</a>.`
+      ],
+      see:["cantbuy","money","sober","closingsong"] },
     { id:"dedication", cat:"Things", title:"For Those Who Couldn't Make It",
       quote:["Thank you for listening to your unhinged son."],
       text:[
