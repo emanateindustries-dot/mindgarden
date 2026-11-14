@@ -633,7 +633,7 @@ window.GUIDE = {
       see:["rules","losers","kevin"] },
 
     { id:"secret", cat:"Things", title:"The Secret to Life",
-      text:[`See footnote.`,`<div aria-hidden="true" style="height:1000000px"></div>`],
+      text:[`It begins with being able to <a href="https://claude.ai/artifact/ShsVFNGQCVtsiTKV8bSFd3" target="_blank" rel="noopener">hire Brodie's mower</a>.`,`See footnote.`,`<div aria-hidden="true" style="height:1000000px"></div>`],
       see:[] }
   ]
 };
