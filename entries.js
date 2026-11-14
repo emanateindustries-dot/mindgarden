@@ -55,7 +55,7 @@ window.GUIDE = {
         "<b>5.</b> You can't “win” Mind Garden. You already won if you opened the Door. But you can lose it.",
         "<b>6.</b> No littering. Ever. Seriously. This is our family property, and it's a zero chance system. We don't actually have a bin here, so pack it out.",
         "<b>7.</b> Respect your dose. Buddy system advised.",
-        "<b>8.</b> Everyone who opens the Mind Garden Door must obey the <a href=\"#\" data-open=\"substances\">substance rules</a>. Carers of children must also obey the sober rule if you bring your kids. See <a href=\"#\" data-open=\"children\">Bringing Children</a>.",
+        "<b>8.</b> Everyone who opens the Mind Garden Door must obey the <a href=\"#\" data-open=\"substances\">substance rules</a>. Carers of children, and of dogs, must also obey the sober rule if you bring them. See <a href=\"#\" data-open=\"children\">Bringing Children</a>.",
         "<b>9.</b> Respect Kevin."
       ],
       see:["day","losers","leave","substances","children","kevin"] },
@@ -172,7 +172,7 @@ window.GUIDE = {
       ],
       see:["easy","kevin","substances"] },
 
-    { id:"children", cat:"Rules", title:"Bringing Children",
+    { id:"children", cat:"Rules", title:"Bringing Children (and Dogs)",
       quote:["Sober. Present. Yours."],
       text:[
         `Children are welcome in the lower part of the block. The Guide would like this to be clear: <b>if you bring children, you and solely you are responsible for them.</b> Not the group, not Brodie, not the nearest adult who looks capable. You.`,
@@ -184,6 +184,8 @@ window.GUIDE = {
         `If you open the Mind Garden door, you are not caring for children. That is the standard rule, and it has no exceptions. Whoever is walking the day is not on childcare. So your partner must stay behind, or stay with you and the children on <a href="#" data-open="easy">Easy Street</a>, down into <a href="#" data-open="recovery">Recovery Lane</a>.`,
         `<div class="sec">Getting Down There</div>`,
         `There is 4x4 access down Easy Street into Recovery Lane. Brodie can bring his family of five into <a href="#" data-open="bend">the Bend</a> for a half day, and it is, as he puts it, easy as. It is steep, but you will find a spot. In the worst conditions Brodie has only ever needed high-range four-wheel drive to get back up the hill.`,
+        `<div class="sec">Bringing a Dog</div>`,
+        `The same rule applies to dogs. If you bring a dog, it is treated exactly like a child: <b>someone sober must watch it the entire time.</b> Not the group, not Brodie, not whoever happens to be nearest. You. A dog on a block this size is one distracted afternoon away from a snake, a wallaby, a cliff or a very long walk home without you.`,
         `<div class="sec">The Good Bit</div>`,
         `If you do Mind Garden right, your life partner will be there to meet you for a loving embrace as you walk into <a href="#" data-open="trench">the Trench</a> to finish the day. This is one of the best things the Guide knows of, and it only works if the children were looked after, and somebody was sober, and the partner stayed behind and made it down. Do it properly and you get the embrace.`
       ],
