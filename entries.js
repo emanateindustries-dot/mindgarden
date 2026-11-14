@@ -983,6 +983,31 @@ window.GUIDE = {
         `<b>1.</b> A fan does not choose its airflow. The system does. <b>2.</b> Halving the speed cuts the power to an eighth. <b>3.</b> A clogged filter costs you far more air than you would expect. <b>4.</b> Almost everything that happens around a blade is turbulent, and nobody fully understands it. <b>5.</b> A breeze is a small miracle, so enjoy it. See <a href="#" data-open="likeneil">How Do I Be More Like Neil?</a> for the rest of him.`
       ],
       see:["neil","likeneil","infinityhotel","jonahfactorial"] },
+    { id:"string", cat:"Things", title:"Scientists Finally Measure a Piece of String. You Will NOT Believe the Length",
+      quote:["Exactly as long as it needs to be."],
+      text:[
+        `For centuries the question has gone unanswered, and it has been asked at fires, in pubs, in the back of utes and, in at least one famous case, to a man at a hardware store. The Guide has looked into it properly. The Guide has measured. The Guide is ready to tell you.`,
+        `<div class="sec">The Short Answer</div>`,
+        `<b>A piece of string is twice as long as the distance from its middle to one end.</b> That is the traditional answer, and it is correct. Take the string, find the middle, measure from the middle to either end, and double it. You are welcome. The Guide would like to go home now.`,
+        `<div class="sec">The Problem With That Answer</div>`,
+        `It is, of course, completely useless. It defines the length of the string using the length of the string. It is a circle that knows it is a circle and is very pleased with itself. The Guide cannot leave it there, and neither could the physicists.`,
+        `<div class="sec">Does It Have a Length at All?</div>`,
+        `Pull the string tight and it is one length. Let it go slack and it is another, because string stretches. Under a pull of force <i>F</i>, a string of original length <i>L<sub>0</sub></i>, cross-section <i>A</i> and stiffness <i>E</i> grows by:`,
+        `<div style="margin:10px 0;padding:10px 14px;background:#f7f4ee;border-left:3px solid var(--ink);font:15px/1.8 Georgia,serif;overflow-x:auto;white-space:nowrap">&Delta;L = F&middot;L<sub>0</sub> / (A&middot;E)</div>`,
+        `That is Hooke's law, and it means that the length of a piece of string depends on how hard you are pulling it. On a hot afternoon it also depends on the temperature, since string expands in the heat, and on the humidity, since natural fibre soaks up water and shrinks. Tie a knot in it and you have used up some of its length again. A piece of string at 06:00 at the Door is not the same piece of string at 17:00 in the Trench.`,
+        `<div class="sec">Zooming In</div>`,
+        `The Guide asked a different question: how precisely can you measure it? Put a ruler next to the string and you can read it to the nearest millimetre. Use a microscope and the string stops being a line. It is a rope of fibres, each of them a rope of smaller fibres, each of them a tangle of molecules. The edge of the string becomes fuzzy. The shorter your ruler, the more of the fuzz you measure, and the longer the string gets. Mathematicians know this as the coastline paradox: the more finely you measure a ragged edge, the longer it comes out.`,
+        `Carry on far enough and you run into the smallest length that physics can make sense of, the Planck length, about 1.6 &times; 10<sup>&minus;35</sup> metres. A one-metre string is then:`,
+        `<div style="margin:10px 0;padding:10px 14px;background:#f7f4ee;border-left:3px solid var(--ink);font:15px/1.8 Georgia,serif;overflow-x:auto;white-space:nowrap">1 m / (1.6 &times; 10<sup>&minus;35</sup> m) &approx; 6 &times; 10<sup>34</sup> Planck lengths</div>`,
+        `So the Guide can tell you that a one-metre piece of string is about sixty million billion billion billion Planck lengths long, give or take a molecule falling off it.`,
+        `<div class="sec">What About String Theory?</div>`,
+        `The Guide has been asked, and the answer is no. String theory is about tiny vibrating strings, thought to be about twenty orders of magnitude smaller than a proton. Nobody has measured one. This entry is about the string in your shed.`,
+        `<div class="sec">The Real Answer</div>`,
+        `A piece of string is exactly as long as it needs to be to reach whatever you are trying to tie. If it is too short, it was too short. If it is too long, you cut it. Nobody in the history of the universe has needed to know its length in advance, because the only way to find out is to try. This is also a fair description of most of the things the Guide has seen people worry about at the fire.`,
+        `<div class="sec">The Final Measurement</div>`,
+        `The Guide has measured one piece of string, personally, and it came to <b>one piece of string long</b>. The Guide stands by this. For the other kind of puzzle that cannot be answered by looking at it, see <a href="#" data-open="infinityhotel">the Infinity Hotel</a>, and for the other kind of puzzle that does not get easier when you keep going, see <a href="#" data-open="jonahfactorial">Jonah Factorial</a>.`
+      ],
+      see:["infinityhotel","jonahfactorial","neilfans","fortytwo"] },
     { id:"rock", cat:"Things", title:"Can I Take This Rock Home?",
       text:[
         `No. Ask Brodie why.`
