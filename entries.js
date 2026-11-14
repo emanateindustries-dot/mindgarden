@@ -649,7 +649,7 @@ window.GUIDE = {
       ],
       see:["gully","safety","easy","society","termites"] },
 
-    { id:"neil", cat:"Things", title:"Neil", pins:[[49.9,77.3]],
+    { id:"neil", cat:"Things", title:"Neil, Spiritually", pins:[[49.9,77.3]],
       quote:["Hanging out with Neil, he's spiritually advanced, you won't get it."],
       text:[
         `Somewhere in the galaxy there are probably wiser beings than Neil. The Guide has looked, thoroughly, and has so far not found one. Neil is a spiritually advanced creature, and the orange clearing on the map is where he can be found.`,
@@ -663,6 +663,23 @@ window.GUIDE = {
         `Mind Garden is about walking into the bush scared, with almost no plan. <b>Facing the fear is the core lesson Mind Garden teaches.</b> Neil can teach you a great deal, and he will do it gently, in comfort. Mind Garden will teach you something else, and it will do it somewhere uphill.`,
       ],
       see:["gully","find","brodie"] },
+
+    { id:"neilwild", cat:"Things", title:"I've Encountered Neil in the Wild",
+      quote:["Sightings are rare. Sightings of Neil standing still are rarer."],
+      text:[
+        `First, stay calm. You have just had a close encounter with one of the most remarkable creatures on the block, and the Guide would like you to enjoy it correctly.`,
+        `<div class="sec">Speed</div>`,
+        `Neil moves incredibly fast. He can cross the block in the time it takes you to find your water bottle, and he has been known to be in multiple spots at once. If you saw him at the house and then saw him in the gully before you had finished your sentence, you did not imagine it. The Guide has not been able to explain this, and has stopped trying.`,
+        `<div class="sec">Good Luck</div>`,
+        `If you have encountered Neil, that is a sign of good luck. The Guide recommends noting the time, taking a breath and carrying on with your day feeling lucky. You are.`,
+        `<div class="sec">One Important Rule</div>`,
+        `Unlike a Buddha, <b>do not pat his belly.</b> The Guide understands the temptation. It is a long-standing custom with statues. Neil is not a statue, he is not here to bring you luck by being touched, and he has not agreed to it. Luck is already yours. Keep your hands to yourself.`,
+        `<div class="sec">Think of Kevin</div>`,
+        `The correct approach is the one for <a href="#" data-open="kevin">Kevin the snake</a>. Neil is similar to Kevin in all the ways that matter: he is spiritually advanced, he has been here far longer than any of us, he keeps his own hours, and he does not want to be bothered. Give him room. Appreciate him from a respectful distance. Let him get on with his day.`,
+        `<div class="sec">Remember Whose Property This Is</div>`,
+        `This is Neil's property. He lets Brodie use it four times a year to show everyone how beautiful it is, and he is under no obligation to do so. You are a guest. Behave like one. See <a href="#" data-open="neil">Neil</a> for the full picture, and <a href="#" data-open="legal">the legal bit</a> for what you agreed to on the way in.`
+      ],
+      see:["neil","kevin","legal","substances"] },
     { id:"love", cat:"Things", title:"Love",
       quote:["Mostly harmless. Occasionally load-bearing."],
       text:[
