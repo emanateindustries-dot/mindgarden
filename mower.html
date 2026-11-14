@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Z33 Booking Portal: The Full Gauntlet</title>
+<style>
+:root{--g:#2f6b2f;--y:#f2c200;--ink:#1d2a1d;--mut:#6b776b;--line:#d5dcd0}
+*{box-sizing:border-box}
+body{margin:0;background:#f4f6f1;color:var(--ink);font:16px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:600px;margin:0 auto;padding:20px 16px 60px}
+header{border-top:6px solid var(--y);padding-top:14px;margin-bottom:14px}
+header b{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--g)}
+header span{display:block;font-size:12px;color:var(--mut)}
+.barwrap{height:6px;background:#e3e8de;border-radius:3px;overflow:hidden}
+#bar{height:100%;width:0;background:var(--g);transition:width .4s}
+#meta{display:flex;justify-content:space-between;font-size:12px;color:var(--mut);margin:6px 0 18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px}
+h1{font-size:21px;line-height:1.25;margin:0 0 6px}
+.sub{color:var(--mut);font-size:14px;margin:0 0 16px;min-height:0}
+.note{border-radius:10px;padding:10px 12px;margin-bottom:14px;font-size:14px;background:#fff1ef;border:1px solid #e9b7b0;color:#8a2a1e}
+.note:empty{display:none}
+.grid{display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(120px,1fr))}
+.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}.g7{grid-template-columns:repeat(7,1fr)}
+.scroll{max-height:320px;overflow:auto;padding-right:4px}
+button{font:inherit;cursor:pointer}
+.opt{background:#fff;border:1.5px solid var(--line);border-radius:10px;padding:10px 6px;color:var(--ink)}
+.opt:hover{border-color:var(--g)}.opt:active,.opt.on{background:var(--g);color:#fff;border-color:var(--g)}
+.tile{font-size:28px;padding:12px 0}
+.go{display:block;width:100%;margin-top:16px;background:var(--g);color:#fff;border:0;border-radius:10px;padding:13px;font-weight:600}
+input[type=text],textarea{width:100%;font:inherit;padding:11px;border:1.5px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+textarea{min-height:110px;resize:vertical}
+.cnt{font-size:13px;color:var(--mut);text-align:right;margin-top:4px}
+.qn{font-weight:600;margin:0 0 10px}
+.timer{font-size:28px;font-weight:700;color:var(--g);margin:0 0 10px}
+.row{display:flex;gap:10px;align-items:flex-start;padding:9px 2px;border-bottom:1px solid #eef1ea;font-size:15px}
+.row input{margin-top:4px;width:18px;height:18px;flex:none}
+.quote{background:#f4f6f1;border-radius:10px;padding:12px;font-size:15px;user-select:none;-webkit-user-select:none}
+.holdwrap{text-align:center}
+.hold{width:150px;height:150px;border-radius:50%;border:0;background:var(--y);color:#222;font-size:22px;font-weight:800;touch-action:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
+.hold:active{background:#d9ab00}
+.hbar{height:8px;background:#e3e8de;border-radius:4px;margin-top:16px;overflow:hidden}
+.hfill{height:100%;width:0;background:var(--g)}
+pre{white-space:pre-wrap;background:#f4f6f1;border-radius:10px;padding:12px;font-size:14px;margin:12px 0 0}
+.ok{background:#eef8ea;border-color:#b6d9ab;color:#245a1c}
+.hd{display:flex;gap:12px;align-items:center}
+#face{width:56px;height:56px;border-radius:50%;object-fit:cover;border:2px solid var(--y);flex:none}
+.cert{border:3px double var(--g);border-radius:8px;padding:18px;margin-top:14px;text-align:center;background:#fffef6}
+.cert h2{margin:0 0 4px;font-size:20px;color:var(--g)}
+.cert p{margin:6px 0;font-size:14px}
+.sig{display:flex;gap:16px;margin-top:26px;text-align:left;font-size:12px;color:var(--mut)}
+.sig div{flex:1;border-top:1.5px solid var(--ink);padding-top:4px}
+.fine{font-size:11px;color:var(--mut)}
+@media print{body{background:#fff}header,.barwrap,#meta,#note,#q,#sub,.noprint{display:none!important}.card{border:0;padding:0}.cert{margin-top:0;padding:28px}}
+.rbox{width:100%;height:150px;border:0;border-radius:12px;color:#fff;font-size:26px;font-weight:700;background:#c0392b;touch-action:none;user-select:none;-webkit-user-select:none}
+</style>
+</head>
+<body>
+<a href="index.html#entries" style="position:fixed;top:8px;left:8px;z-index:99;background:#1d2a1d;color:#fff;font:600 12px system-ui,sans-serif;padding:7px 11px;border-radius:999px;text-decoration:none;opacity:.85">&larr; The Guide</a>
+<main>
+<header><div class="hd"><img id="face" src="face.jpg" alt="" onerror="this.style.display='none'"><div><b>Brodie's Mowing</b><span>Home of the zero-turn, zero-tolerance policy. Z33 booking portal in three parts. Allow at least two hours.</span></div></div></header>
+<div class="barwrap"><div id="bar"></div></div>
+<div id="meta"><span id="mq"></span><span id="mr"></span></div>
+<div class="card">
+<div id="note" class="note"></div>
+<h1 id="q"></h1>
+<p class="sub" id="sub"></p>
+<div id="body"></div>
+</div>
+</main>
+<script>
+const $=s=>document.querySelector(s);
+const qEl=$('#q'),subEl=$('#sub'),body=$('#body'),noteEl=$('#note'),bar=$('#bar');
+const S={i:0,a:{},rej:0,dateTries:0,draft:{},t0:Date.now()};
+let timers=[],cleanups=[];
+const clearTimers=()=>{timers.forEach(t=>{clearInterval(t);clearTimeout(t)});timers=[];cleanups.forEach(f=>f());cleanups=[]};
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const h=(tag,cls,txt)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e};
+const ord=n=>n+(['th','st','nd','rd'][(n%100>10&&n%100<14)?0:Math.min(n%10,4)%4]||'th');
+const fmt12=x=>{const hh=Math.floor(x),mm=Math.round((x%1)*60);return ((hh%12)||12)+':'+String(mm).padStart(2,'0')+' '+(hh>=12?'pm':'am')};
+const fmtDur=d=>{const hr=Math.floor(d),mn=Math.round((d-hr)*60);return (hr?hr+' hr':'')+(hr&&mn?' ':'')+(mn?mn+' min':'')};
+const steps=[];const add=(id,o)=>steps.push({id,...o});const at=id=>steps.findIndex(s=>s.id===id);
+
+function showNote(t,ok){noteEl.textContent=t||'';noteEl.classList.toggle('ok',!!ok)}
+function updateProgress(){const T=steps.length+S.rej*3;$('#mq').textContent=(steps[S.i]&&steps[S.i].part?steps[S.i].part+' · ':'')+'Q '+(S.i+1+S.rej*2)+' of '+T;$('#mr').textContent='Rejections: '+S.rej;bar.style.width=Math.min(96,(S.i/T)*100)+'%'}
+function go(i,note){clearTimers();S.i=i;if(i>=steps.length)return finish();const st=steps[i];qEl.textContent=st.q();subEl.textContent=(typeof st.sub==='function'?st.sub():st.sub)||'';body.innerHTML='';showNote(note||'');st.render(body);updateProgress();window.scrollTo({top:0})}
+const pass=()=>go(S.i+1);
+function verdict(r){if(!r)return pass();S.rej++;const to=r.to==null?S.i:(typeof r.to==='string'?at(r.to):r.to);go(to,r.why)}
+function choice(el,opts,cb,cls){const g=h('div','grid '+(cls||''));opts.forEach(o=>{const b=h('button','opt',typeof o==='string'?o:o.label);b.type='button';b.onclick=()=>cb(o);g.appendChild(b)});el.appendChild(g)}
+function btn(el,label,cb){const b=h('button','go',label);b.type='button';b.onclick=cb;el.appendChild(b);return b}
+function checklist(el,items,state){items.forEach((t,k)=>{const r=h('label','row');const c=document.createElement('input');c.type='checkbox';c.checked=!!state[k];c.onchange=()=>{state[k]=c.checked};r.append(c,h('span',null,t));el.appendChild(r)})}
+
+/* ---------- 1. WHEN ---------- */
+const now=new Date();
+const months=[...Array(12)].map((_,k)=>{const d=new Date(now.getFullYear(),now.getMonth()+k,1);return{label:d.toLocaleString('en-AU',{month:'short',year:'numeric'}),y:d.getFullYear(),m:d.getMonth()}});
+add('month',{q:()=>'When would you like to mow?',sub:'Select a month.',render(el){choice(el,months,m=>{S.a.month=m;verdict(m.m>=5&&m.m<=7?{why:'Grass is dormant in '+m.label+'. There is nothing to mow. Please choose a month in which grass is alive.'}:null)},'g3')}});
+
+add('day',{q:()=>'Which day of '+S.a.month.label+'?',sub:'Select a date.',render(el){choice(el,[...Array(31)].map((_,k)=>String(k+1)),v=>{
+ const d=+v,m=S.a.month;S.dateTries++;
+ if(S.dateTries===1)return verdict({why:'Sorry, '+ord(d)+' '+m.label+' is booked.'});
+ const dim=new Date(m.y,m.m+1,0).getDate();
+ if(d>dim)return verdict({why:m.label+' does not have a '+ord(d)+'. Basic calendar knowledge is required to operate heavy machinery.'});
+ const dt=new Date(m.y,m.m,d),t0=new Date();t0.setHours(0,0,0,0);const diff=Math.round((dt-t0)/864e5);
+ if(diff<0)return verdict({why:'That date is in the past. The Z33 does not do time travel.'});
+ if(diff<2)return verdict({why:'48 hours notice is required. Please select a later date.'});
+ if(dt.getDay()===0)return verdict({why:'The Z33 is closed on Sundays. Even machines rest.'});
+ S.a.date=dt;pass()},'g7')}});
+
+add('time',{q:()=>'What time would you like to start?',sub:'Select a 30 minute slot.',render(el){choice(el,[...Array(48)].map((_,k)=>({h:k/2,label:fmt12(k/2)})),o=>{
+ if(o.h<7||o.h>=18)return verdict({why:'Noise curfew. The Z33 operates 7:00 am to 6:00 pm only.'});
+ if(o.h>=12&&o.h<15)return verdict({why:'Peak heat window (12 to 3 pm). Mower and operator may both overheat. Pick another slot.'});
+ S.a.start=o.h;pass()},'g3 scroll')}});
+
+/* ---------- 2. HOW BIG ---------- */
+const R=[[0,50],[50,100],[100,200],[200,300],[300,400],[400,500],[500,650],[650,800],[800,1000],[1000,1250],[1250,1500],[1500,2000],[2000,2500],[2500,3000],[3000,4000],[4000,5000],[5000,7500],[7500,10000],[10000,15000],[15000,20000],[20000,30000],[30000,50000],[50000,100000],[100000,Infinity]].map(([lo,hi])=>({lo,hi,label:hi===Infinity?lo.toLocaleString()+'+ m²':lo.toLocaleString()+' to '+hi.toLocaleString()+' m²'}));
+add('arange',{q:()=>'Approximately how many square metres do you want to mow?',sub:'Select the closest range.',render(el){choice(el,R,r=>{S.a.range=r;
+ if(r.hi<=500)return verdict({why:'That is a push-mower-sized lawn. Fun fact: you own a push mower. It works.'});
+ if(r.lo>=14164)return verdict({why:'That is bigger than the entire 3.5 acre block (about 14,164 m²). Nobody has that much lawn.'});
+ pass()},'g2 scroll')}});
+
+function numInput(el,ph,cb){const i=h('input');i.type='text';i.inputMode='decimal';i.placeholder=ph;i.autocomplete='off';el.appendChild(i);btn(el,'Submit',()=>cb(i.value.trim()));i.addEventListener('keydown',e=>{if(e.key==='Enter')cb(i.value.trim())});return i}
+add('aexact',{q:()=>'Now enter the exact area in square metres.',sub:()=>'You selected '+S.a.range.label+'. Numbers only.',render(el){numInput(el,'m²',v=>{const n=Number(v.replace(/,/g,''));
+ if(!isFinite(n)||n<=0)return verdict({why:'That is not a number.'});
+ if(n<S.a.range.lo||n>S.a.range.hi)return verdict({to:'arange',why:'You selected '+S.a.range.label+', then typed '+n+' m². Inconsistent applicant. Returning to the area question.'});
+ if(n>14164)return verdict({why:'Over 14,164 m²? That is more than the whole 3.5 acre block. Measure again.'});S.a.area=n;pass()})}});
+add('ha',{q:()=>'Convert '+S.a.area.toLocaleString()+' m² to hectares.',sub:'Give your answer in hectares. Calculators are permitted. Shame is not.',render(el){numInput(el,'hectares',v=>{const x=Number(v);const need=S.a.area/10000;
+ if(!isFinite(x)||Math.abs(x-need)>Math.max(0.001,need*0.01))return verdict({why:'Incorrect. The correct answer is withheld for security reasons.'});
+ pass()})}});
+
+const DUR=[...Array(16)].map((_,k)=>(k+1)/2);
+add('dur',{q:()=>'How long do you need the mower for?',sub:'Select a duration.',render(el){choice(el,DUR.map(d=>({d,label:fmtDur(d)})),o=>{
+ const need=S.a.area/4000,d=o.d;
+ if(d<need*0.9)return verdict({why:'Insufficient. At roughly 4,000 m² per hour the Z33 needs about '+need.toFixed(2)+' hr for '+S.a.area.toLocaleString()+' m². You have asked for '+fmtDur(d)+'. Do the maths.'});
+ if(d>need*2+0.5)return verdict({why:'Excessive. '+fmtDur(d)+' for '+S.a.area.toLocaleString()+' m² is mower hogging. Reduce your request.'});
+ if(S.a.start+d>18)return verdict({to:'time',why:'You would still be mowing past the 6:00 pm curfew. Choose an earlier start time.'});
+ S.a.dur=d;pass()},'g3 scroll')}});
+
+/* ---------- 3. THE PUSH MOWER INTERROGATION ---------- */
+add('push',{q:()=>'Do you own a working push mower?',sub:'Answer honestly. Brodie will know.',render(el){choice(el,['Yes','No','It is complicated','Define "working"'],v=>{
+ if(v==='Yes')return verdict({to:0,why:'Booking declined. You own a working push mower. It is free, quiet, and excellent cardio. Application restarted.'});
+ if(v==='It is complicated')return verdict({why:'Please uncomplicate it.'});
+ if(v.startsWith('Define'))return verdict({why:'Working: starts, moves, cuts. Yours does all three. Please answer again.'});
+ pass()},'g2')}});
+add('why',{q:()=>'In exactly 150 characters, explain why your push mower is insufficient.',sub:'Must include the words "please" and "thank you Brodie".',render(el){
+ const t=h('textarea');t.value=S.draft.why||'';t.spellcheck=false;const c=h('div','cnt');const upd=()=>{S.draft.why=t.value;c.textContent=t.value.length+' / 150'};t.oninput=upd;el.append(t,c);upd();
+ btn(el,'Submit',()=>{const v=t.value,l=v.toLowerCase();
+  if(v.length!==150)return verdict({why:'Length is '+v.length+'. Required: exactly 150.'});
+  if(!l.includes('please'))return verdict({why:'Missing the word "please". Manners are mandatory.'});
+  if(!l.includes('thank you brodie'))return verdict({why:'Missing the phrase "thank you Brodie".'});
+  pass()})}});
+
+/* ---------- 4. GRASS SCIENCE ---------- */
+add('gh',{q:()=>'How tall is the grass right now?',sub:'Measure it. With a ruler.',render(el){choice(el,[10,20,25,40,50,75,100,125,150,200,250,300,400,500,750,1000].map(n=>({n,label:n+' mm'})),o=>{
+ if(o.n<=25)return verdict({why:'Grass at or under 25 mm is below the lowest deck setting. It does not need mowing.'});
+ if(o.n>153)return verdict({why:'Grass over 153 mm cannot be cut in one pass by the Z33. Hire a slasher, or a goat. Re-measure.'});
+ S.a.gh=o.n;pass()},'g4')}});
+add('deck',{q:()=>'What deck height will you use?',sub:()=>'Grass is '+S.a.gh+' mm. Select a cutting height.',render(el){choice(el,[25,32,38,44,51,57,64,70,76,83,89,95,102].map(n=>({n,label:n+' mm'})),o=>{
+ const g=S.a.gh;
+ if(o.n>=g)return verdict({why:'Deck at '+o.n+' mm, grass at '+g+' mm. You would be mowing air.'});
+ const pct=Math.round((g-o.n)/g*100);
+ if(o.n<g*2/3)return verdict({why:'That removes '+pct+'% of the blade. Maximum is 33% (the one-third rule). That is scalping, and the lawn will remember.'});
+ S.a.deck=o.n;pass()},'g4')}});
+add('type',{q:()=>'What type of grass is it?',sub:'Select the closest match.',render(el){choice(el,['Kikuyu','Couch','Soft-leaf buffalo','Tall fescue','Ryegrass','Zoysia','Paspalum','Mostly weeds','Bindii and capeweed','Moss','Artificial turf','Not sure'],v=>{
+ if(v==='Artificial turf')return verdict({why:'Mowing plastic voids the warranty and your dignity.'});
+ if(v==='Not sure')return verdict({why:'Go outside. Look at it. Come back.'});
+ S.a.type=v;pass()},'g3')}});
+add('wet',{q:()=>'What is the moisture condition of the grass?',sub:'Be specific.',render(el){choice(el,['Bone dry','Dry-ish','Dewy','Damp','Wet','Soaked','Swamp','Rained in the last 48 hrs but looks fine','Have not looked'],v=>{
+ if(v==='Bone dry'||v==='Dry-ish'){S.a.wet=v;return pass()}
+ if(v==='Dewy')return verdict({to:'time',why:'Morning dew detected. Wet blades clump and slip. Select a later start time.'});
+ if(v==='Have not looked')return verdict({why:'Go and look. We will wait.'});
+ verdict({to:'day',why:'Wet grass clogs the deck and wrecks the lawn. Please reselect a drier date.'})},'g2')}});
+add('slope',{q:()=>'How steep is the lawn?',sub:'Zero-turn mowers and hills are a rollover story.',render(el){choice(el,['Flat as a pancake','Gentle (under 5°)','Moderate (5° to 10°)','Sloped (10° to 15°)','Steep (15° to 20°)','Ski field (20°+)','Not sure, I am not a surveyor','There is a creek'],v=>{
+ if(v.startsWith('Sloped')||v.startsWith('Steep')||v.startsWith('Ski'))return verdict({to:'arange',why:'Slopes over 10° risk a Z33 rollover. Booking cancelled. Reassess your lawn from the top.'});
+ if(v.startsWith('Not sure'))return verdict({why:'Download an inclinometer app. Measure. Return.'});
+ if(v==='There is a creek')return verdict({why:'Water hazard noted. Is it inside the mowing zone? Answer again.'});
+ S.a.slope=v;pass()},'g2')}});
+
+/* ---------- 5. OBSTACLES ---------- */
+const OB=['Rocks','Sticks and branches','Dog droppings','Sprinkler heads','Garden hoses',"Kids' toys",'Lego (a single piece counts)','Trampoline','Garden gnomes','Golf balls','Clothesline pegs','Wire, string or fishing line','Tent pegs','Bricks, pavers and edging','Pot plants','Snakes (relocated)','Echidnas (relocated)',"Brodie's tools you borrowed and never returned"];
+add('obs',{q:()=>'Confirm every obstruction has been removed from the lawn.',sub:'Tick each one. All 18 are mandatory.',render(el){S.draft.obs=S.draft.obs||[];checklist(el,OB.map(o=>'Removed: '+o),S.draft.obs);
+ btn(el,'Confirm',()=>{const k=OB.findIndex((_,i)=>!S.draft.obs[i]);if(k>=0)return verdict({why:'Obstruction #'+(k+1)+' ('+OB[k]+') is not confirmed as removed.'});pass()})}});
+
+/* ---------- 6. OPERATOR EXAM ---------- */
+add('p1quiz',{q:()=>'Operator Competency Exam',sub:'5 questions. 20 seconds each. One wrong answer or timeout restarts the exam.',render(el){
+ const Q=[
+  {t:'You need to hop off to grab a stick. What first?',o:['Blades off, park brake on, engine off, key out','Nothing, sticks are quick','Shout "MOWER!" and run','Put on sunnies'],w:'Always disengage blades, set the brake and stop the engine before leaving the seat.'},
+  {t:'How do you go forward on a zero-turn?',o:['Push both lap bars forward','Pull both lap bars back','Twist the bars like a motorbike','Hold the bars and think positively'],w:'Both lap bars forward.'},
+  {t:'What fuel does the Z33 take?',o:['Unleaded petrol','Diesel','Diesel with a splash of two-stroke','Beer'],w:'Unleaded petrol.'},
+  {t:'Where should the discharge chute point?',o:['Away from people, pets, cars and windows','At Brodie\'s ute','At the neighbour','At the dog, for fun'],w:'Away from people, pets, cars and windows.'},
+  {t:'You must reverse out of a tight spot. Do you:',o:['Disengage blades, look behind, reverse slowly','Floor it, you only live once','Reverse with the blades on to save time','Close your eyes and trust the mower'],w:'Blades off, look behind, go slow.'}
+ ];let n=0;
+ const run=()=>{el.innerHTML='';const qq=Q[n];el.appendChild(h('p','qn','Question '+(n+1)+' of '+Q.length+': '+qq.t));const tm=h('div','timer','20');el.appendChild(tm);let left=20;
+  const iv=setInterval(()=>{left--;tm.textContent=left;if(left<=0){clearInterval(iv);verdict({why:'Time expired on exam question '+(n+1)+'. Exam restarted.'})}},1000);timers.push(iv);
+  choice(el,shuffle(qq.o),o=>{clearInterval(iv);if(o===qq.o[0]){n++;n>=Q.length?pass():run()}else verdict({why:'Wrong. '+qq.w+' Exam restarted from question 1.'})},'g2')};
+ run()}});
+
+/* ---------- 7. ARE YOU HUMAN ---------- */
+add('p1captcha',{q:()=>'Prove you are not a robot.',sub:'Select all squares containing grass. Three rounds.',render(el){
+ const G=['🌱','🌿','☘️','🍀','🌾'],O=['🪨','🧱','🚗','🐕','🧸','🐍','🛢️','🪓'];let round=1;
+ const draw=()=>{el.innerHTML='';el.appendChild(h('p','qn','Round '+round+' of 3'));
+  const tiles=[...Array(16)].map(()=>Math.random()<0.4?{e:G[Math.floor(Math.random()*G.length)],g:1}:{e:O[Math.floor(Math.random()*O.length)],g:0});
+  if(!tiles.some(t=>t.g))tiles[3]={e:'🌿',g:1};
+  const sel=new Set(),gr=h('div','grid g4');
+  tiles.forEach((t,k)=>{const b=h('button','opt tile',t.e);b.type='button';b.onclick=()=>{sel.has(k)?sel.delete(k):sel.add(k);b.classList.toggle('on')};gr.appendChild(b)});
+  el.appendChild(gr);
+  btn(el,'Verify',()=>{if(!tiles.every((t,k)=>!!t.g===sel.has(k)))return verdict({why:'Bot detected. Wrong tiles. Starting again from round 1.'});if(round>=3)return pass();round++;draw()})};
+ draw()}});
+add('p1hold',{q:()=>'Prime the engine.',sub:'Press and hold the button for 7 seconds. Do not let go. Do not scroll. Do not blink.',render(el){
+ const wrap=h('div','holdwrap'),b=h('button','hold','HOLD'),bar2=h('div','hbar'),fill=h('div','hfill');b.type='button';bar2.appendChild(fill);wrap.append(b,bar2);el.appendChild(wrap);
+ let t0=0,raf=0;
+ const stop=()=>{if(!t0)return;t0=0;cancelAnimationFrame(raf);fill.style.width='0%';b.textContent='HOLD';S.rej++;updateProgress();showNote('Released early. Engine flooded. Start again.')};
+ const loop=()=>{if(!t0)return;const p=(performance.now()-t0)/7000;fill.style.width=Math.min(100,p*100)+'%';b.textContent=Math.max(1,Math.ceil(7-p*7));if(p>=1){t0=0;return pass()}raf=requestAnimationFrame(loop)};
+ b.addEventListener('pointerdown',e=>{e.preventDefault();showNote('');try{b.setPointerCapture(e.pointerId)}catch(_){}t0=performance.now();loop()});
+ ['pointerup','pointercancel','lostpointercapture'].forEach(ev=>b.addEventListener(ev,stop));
+ b.addEventListener('contextmenu',e=>e.preventDefault())}});
+
+/* ---------- 8. PAYMENT ---------- */
+add('p1comp',{q:()=>'Select your compensation to Brodie.',sub:'Tick everything you are offering. Minimum requirements apply.',render(el){
+ const C=['Refill the tank to full','Wash the mower and the deck','A slab of beer',"Mow Brodie's lawn as well",'A heartfelt apology for the previous 400 requests','Nothing, we are family','Hugs'];
+ S.draft.comp=S.draft.comp||[];checklist(el,C,S.draft.comp);
+ btn(el,'Submit offer',()=>{const s=S.draft.comp;
+  if(s[5])return verdict({why:'"Nothing" has been declined. Family is not a payment method.'});
+  if(!s[0])return verdict({why:'Fuel top-up is mandatory. The mower does not run on good intentions.'});
+  if(!s[1])return verdict({why:'The mower must come back clean. Deck included. Tick the wash.'});
+  S.a.comp=C.filter((_,i)=>s[i]);pass()})}});
+
+/* ---------- 9. DECLARATION ---------- */
+const DECL1='I solemnly swear to return the Z33 with a full tank, a clean deck and no new dents, and I acknowledge that my push mower is also a mower.';
+add('p1decl',{q:()=>'Type the following declaration exactly.',sub:'Pasting is disabled. Capitals and punctuation count.',render(el){
+ el.appendChild(h('p','quote',DECL1));const i=h('input');i.type='text';i.style.marginTop='12px';i.value=S.draft.decl||'';i.autocomplete='off';i.autocapitalize='off';i.spellcheck=false;i.setAttribute('autocorrect','off');
+ ['paste','drop','copy','cut','contextmenu'].forEach(ev=>i.addEventListener(ev,e=>e.preventDefault()));i.oninput=()=>{S.draft.decl=i.value};el.appendChild(i);
+ btn(el,'Sign',()=>{const v=i.value;if(v===DECL1)return pass();let k=0;while(k<v.length&&k<DECL1.length&&v[k]===DECL1[k])k++;
+  verdict({why:k>=v.length?'Incomplete. Keep typing.':'First error at character '+(k+1)+'.'})})}});
+
+/* ---------- 10. TERMS1 ---------- */
+const TERMS1=['I have read these terms in full, including the ones that are not here.','I will mow in straight lines. Stripes are a legal requirement.','I accept the Z33 does not care about my deadline.','I will use unleaded petrol only. Diesel is a crime against engines.','I will not mow wet grass, dry grass that looks wet, or grass that is emotionally damp.','I will not use the Z33 to tow, transport, race or impress anyone.','I will keep children, pets and neighbours well clear while the blades are running.','I will clean the deck, including the underside. Yes, the underside.','UNTICK this box to confirm you have read these terms.','I will return the keys to Brodie in person, by hand, with eye contact.','I accept that "it was like that when I got it" is not a defence.','I accept that a push mower is a valid form of exercise and a valid mower.','I acknowledge that Brodie is a legend for letting me get this far.','I am not a robot, nor a sibling pretending to be less annoying.'];
+add('p1terms',{q:()=>'Terms and Conditions',sub:'Tick every clause. Read them. There may be a test.',render(el){
+ if(!S.draft.terms){S.draft.terms=TERMS1.map((_,k)=>k===8)}checklist(el,TERMS1.map((t,k)=>(k+1)+'. '+t),S.draft.terms);
+ btn(el,'Accept',()=>{const s=S.draft.terms;
+  if(s[8])return verdict({why:'Clause 9 was a test. You did not read the terms. Untick it and try again.'});
+  const k=TERMS1.findIndex((_,i)=>i!==8&&!s[i]);if(k>=0)return verdict({why:'Clause '+(k+1)+' has not been accepted.'});
+  pass()})}});
+
+/* ---------- SKILLS GAUNTLET ---------- */
+const GAUNT='react';
+const fail=why=>verdict({to:GAUNT,why});
+const cv=(el,w,hh)=>{const c=document.createElement('canvas');c.width=w;c.height=hh;c.style.cssText='width:100%;max-width:'+w+'px;touch-action:none;border:1.5px solid #d5dcd0;border-radius:10px;background:#fff;display:block;margin:0 auto';el.appendChild(c);return c};
+const pos=(c,e)=>{const r=c.getBoundingClientRect();return{x:(e.clientX-r.left)*c.width/r.width,y:(e.clientY-r.top)*c.height/r.height}};
+
+add('react',{q:()=>'Reflex test',sub:'Tap the box the instant it turns green. Under 350 ms. Five in a row. Tapping early fails everything from here.',render(el){
+ const box=h('button','rbox','Wait…');box.type='button';el.appendChild(box);const info=h('p','sub','0 / 5');info.style.marginTop='10px';el.appendChild(info);
+ let ok=0,state='wait',t0=0,to=0;
+ const arm=()=>{state='wait';box.style.background='#c0392b';box.textContent='Wait…';to=setTimeout(()=>{state='go';t0=performance.now();box.style.background='#27ae60';box.textContent='TAP';},1800+Math.random()*4200);timers.push(to)};
+ box.addEventListener('pointerdown',e=>{e.preventDefault();
+  if(state==='wait'){clearTimeout(to);return fail('Too early. Patience is a safety feature.')}
+  if(state==='go'){const rt=performance.now()-t0;if(rt>350)return fail('Too slow: '+Math.round(rt)+' ms. Limit is 350.');ok++;info.textContent=ok+' / 5  (last: '+Math.round(rt)+' ms)';if(ok>=5)return pass();arm()}});
+ arm()}});
+
+add('trace',{q:()=>'Steering precision test',sub:'Drag from the green dot to the red dot without leaving the track. 10 seconds. No lifting off.',render(el){
+ const W=340,H=200,c=cv(el,W,H),g=c.getContext('2d');
+ const amp=40+Math.random()*25,fr=1.2+Math.random()*1.2,ph=Math.random()*6.28;
+ const P=[];for(let x=24;x<=W-24;x+=2)P.push({x,y:H/2+amp*0.8*Math.sin(ph+fr*(x-24)/(W-48)*6.28)});
+ const draw=trail=>{g.clearRect(0,0,W,H);g.lineCap='round';g.lineJoin='round';g.strokeStyle='#e3e8de';g.lineWidth=30;g.beginPath();P.forEach((p,i)=>i?g.lineTo(p.x,p.y):g.moveTo(p.x,p.y));g.stroke();
+  g.fillStyle='#27ae60';g.beginPath();g.arc(P[0].x,P[0].y,11,0,7);g.fill();const en=P[P.length-1];g.fillStyle='#c0392b';g.beginPath();g.arc(en.x,en.y,11,0,7);g.fill();
+  if(trail&&trail.length>1){g.strokeStyle='#2f6b2f';g.lineWidth=4;g.beginPath();trail.forEach((p,i)=>i?g.lineTo(p.x,p.y):g.moveTo(p.x,p.y));g.stroke()}};
+ draw();let drag=false,trail=[],t0=0;
+ const dist=p=>{let m=1e9;for(const q of P){const d=Math.hypot(p.x-q.x,p.y-q.y);if(d<m)m=d}return m};
+ c.addEventListener('pointerdown',e=>{e.preventDefault();const p=pos(c,e);if(Math.hypot(p.x-P[0].x,p.y-P[0].y)>22)return;drag=true;trail=[p];t0=performance.now();try{c.setPointerCapture(e.pointerId)}catch(_){}});
+ c.addEventListener('pointermove',e=>{if(!drag)return;const p=pos(c,e);trail.push(p);draw(trail);
+  if(performance.now()-t0>10000){drag=false;return fail('Too slow. Steering test failed.')}
+  if(dist(p)>15){drag=false;return fail('You left the track. That is a fence now.')}
+  const en=P[P.length-1];if(Math.hypot(p.x-en.x,p.y-en.y)<14){drag=false;pass()}});
+ ['pointerup','pointercancel'].forEach(ev=>c.addEventListener(ev,()=>{if(drag){drag=false;fail('You lifted off. Steering test failed.')}}))}});
+
+add('circle',{q:()=>'Perfect circle test',sub:'Draw one circle in one stroke, as round as you can. Fully closed. No retries.',render(el){
+ const W=300,c=cv(el,W,W),g=c.getContext('2d');let drag=false,pts=[];
+ c.addEventListener('pointerdown',e=>{e.preventDefault();drag=true;pts=[pos(c,e)];g.clearRect(0,0,W,W);try{c.setPointerCapture(e.pointerId)}catch(_){}});
+ c.addEventListener('pointermove',e=>{if(!drag)return;const p=pos(c,e),l=pts[pts.length-1];pts.push(p);g.strokeStyle='#2f6b2f';g.lineWidth=4;g.lineCap='round';g.beginPath();g.moveTo(l.x,l.y);g.lineTo(p.x,p.y);g.stroke()});
+ const end=()=>{if(!drag)return;drag=false;
+  if(pts.length<20)return fail('That is not a circle. That is a dot.');
+  const cx=pts.reduce((a,p)=>a+p.x,0)/pts.length,cy=pts.reduce((a,p)=>a+p.y,0)/pts.length;
+  const r=pts.map(p=>Math.hypot(p.x-cx,p.y-cy)),m=r.reduce((a,b)=>a+b,0)/r.length,sd=Math.sqrt(r.reduce((a,b)=>a+(b-m)**2,0)/r.length);
+  let sw=0;for(let i=1;i<pts.length;i++){let d=Math.atan2(pts[i].y-cy,pts[i].x-cx)-Math.atan2(pts[i-1].y-cy,pts[i-1].x-cx);while(d>Math.PI)d-=2*Math.PI;while(d<-Math.PI)d+=2*Math.PI;sw+=d}
+  const gap=Math.hypot(pts[0].x-pts[pts.length-1].x,pts[0].y-pts[pts.length-1].y);
+  if(m<50)return fail('Too small. A mower needs a bigger turning circle.');
+  if(Math.abs(sw)<Math.PI*1.85)return fail('Not a full circle.');
+  if(Math.abs(sw)>Math.PI*2.5)return fail('Too many loops. One circle. ONE.');
+  if(gap>m*0.35)return fail('Not closed. Gap of '+Math.round(gap)+' px.');
+  if(sd/m>0.12)return fail('Roundness '+Math.round((1-sd/m)*100)+'%. Required: 88%. That is an egg.');
+  pass()};
+ ['pointerup','pointercancel'].forEach(ev=>c.addEventListener(ev,end))}});
+
+add('whack',{q:()=>'Weed response test',sub:'Tap each weed as it pops up. 15 weeds. Hit at least 13. No more than 2 stray taps.',render(el){
+ const gr=h('div','grid g3');const tiles=[...Array(9)].map(()=>{const b=h('button','opt tile','');b.type='button';b.style.height='72px';gr.appendChild(b);return b});el.appendChild(gr);
+ const info=h('p','sub','Hits 0 · Misses 0');info.style.marginTop='10px';el.appendChild(info);
+ let hits=0,miss=0,n=0,cur=-1;
+ tiles.forEach((b,k)=>b.addEventListener('pointerdown',e=>{e.preventDefault();if(k===cur){hits++;b.textContent='';cur=-1}else miss++;info.textContent='Hits '+hits+' · Misses '+miss;if(miss>2)fail('Too many stray taps. Those were innocent lawn.')}));
+ const next=()=>{tiles.forEach(t=>t.textContent='');if(n>=15)return hits>=13?pass():fail('Only '+hits+' of 15 weeds. The lawn is now a jungle.');
+  cur=Math.floor(Math.random()*9);tiles[cur].textContent='🌿';n++;
+  const t=setTimeout(()=>{cur=-1;tiles.forEach(x=>x.textContent='');const t2=setTimeout(next,250+Math.random()*350);timers.push(t2)},750);timers.push(t)};
+ const t0=setTimeout(next,800);timers.push(t0)}});
+
+add('simon',{q:()=>'Memory test',sub:'Watch the pads flash. Repeat the sequence exactly. 10 steps.',render(el){
+ const cols=['#27ae60','#f1c40f','#c0392b','#2980b9'];const gr=h('div','grid g2');
+ const pads=cols.map(c=>{const b=h('button','opt','');b.type='button';b.style.cssText='height:90px;background:'+c+';opacity:.35;border-color:transparent';gr.appendChild(b);return b});el.appendChild(gr);
+ const info=h('p','sub','Watch…');info.style.marginTop='10px';el.appendChild(info);
+ const seq=[...Array(10)].map(()=>Math.floor(Math.random()*4));let inp=0,accept=false;
+ const flash=(k,ms)=>{pads[k].style.opacity=1;const t=setTimeout(()=>{pads[k].style.opacity=.35},ms);timers.push(t)};
+ seq.forEach((k,i)=>{const t=setTimeout(()=>flash(k,420),900+i*750);timers.push(t)});
+ const t=setTimeout(()=>{accept=true;info.textContent='Your turn.'},900+10*750);timers.push(t);
+ pads.forEach((b,k)=>b.addEventListener('pointerdown',e=>{e.preventDefault();if(!accept)return;flash(k,200);if(k!==seq[inp])return fail('Wrong pad at step '+(inp+1)+'. Memory test failed.');inp++;if(inp>=10)pass()}))}});
+
+add('hold',{q:()=>'Prime the engine.',sub:'Press and hold the button for 15 seconds. Do not let go. Do not scroll. Do not blink.',render(el){
+ const wrap=h('div','holdwrap'),b=h('button','hold','HOLD'),bar2=h('div','hbar'),fill=h('div','hfill');b.type='button';bar2.appendChild(fill);wrap.append(b,bar2);el.appendChild(wrap);
+ let t0=0,raf=0;
+ const stop=()=>{if(!t0)return;t0=0;cancelAnimationFrame(raf);fill.style.width='0%';b.textContent='HOLD';S.rej++;updateProgress();showNote('Released early. Engine flooded. Start again.')};
+ const loop=()=>{if(!t0)return;const p=(performance.now()-t0)/15000;fill.style.width=Math.min(100,p*100)+'%';b.textContent=Math.max(1,Math.ceil(15-p*15));if(p>=1){t0=0;return pass()}raf=requestAnimationFrame(loop)};
+ b.addEventListener('pointerdown',e=>{e.preventDefault();showNote('');try{b.setPointerCapture(e.pointerId)}catch(_){}t0=performance.now();loop()});
+ ['pointerup','pointercancel','lostpointercapture'].forEach(ev=>b.addEventListener(ev,stop));
+ b.addEventListener('contextmenu',e=>e.preventDefault())}});
+
+
+
+const TYPE='Blades off, brake on, engine off, key out. Then, and only then, I may step off the Z33.';
+add('type2',{q:()=>'Pre-start checklist typing test',sub:'Type this exactly within 30 seconds of your first keystroke. No pasting.',render(el){
+ el.appendChild(h('p','quote',TYPE));const i=h('input');i.type='text';i.style.marginTop='12px';i.autocomplete='off';i.autocapitalize='off';i.spellcheck=false;i.setAttribute('autocorrect','off');
+ ['paste','drop','copy','cut','contextmenu'].forEach(ev=>i.addEventListener(ev,e=>e.preventDefault()));el.appendChild(i);
+ const tm=h('div','timer','30');tm.style.marginTop='10px';el.appendChild(tm);let started=false,left=30;
+ i.addEventListener('input',()=>{if(!started){started=true;const iv=setInterval(()=>{left--;tm.textContent=left;if(left<=0){clearInterval(iv);fail('Out of time.')}},1000);timers.push(iv)}});
+ btn(el,'Submit',()=>{if(i.value===TYPE)return pass();fail('Typo detected. Safety checklists do not tolerate typos.')})}});
+
+add('maths',{q:()=>'Quick maths',sub:'5 questions, 10 seconds each. No calculator. Numbers only.',render(el){
+ const R=(a,b)=>a+Math.floor(Math.random()*(b-a+1));
+ const A=[R(12,19),R(12,19)],B=[2000,3000,5000,6000,8000,10000,12000][R(0,6)],C=[R(21,99),R(21,99),R(21,99)];
+ const Q=[{t:A[0]+' × '+A[1],a:A[0]*A[1]},{t:'Minutes to mow '+B.toLocaleString()+' m² at 4,000 m² per hour',a:B/4000*60},{t:C.join(' + '),a:C[0]+C[1]+C[2]},{t:A[1]+' × '+C[0],a:A[1]*C[0]},{t:C[1]+' + '+C[2]+' − '+A[0],a:C[1]+C[2]-A[0]}];
+ let n=0;
+ const run=()=>{el.innerHTML='';el.appendChild(h('p','qn','Question '+(n+1)+' of 5: '+Q[n].t));const tm=h('div','timer','10');el.appendChild(tm);let left=10;
+  const iv=setInterval(()=>{left--;tm.textContent=left;if(left<=0){clearInterval(iv);fail('Time up on maths question '+(n+1)+'.')}},1000);timers.push(iv);
+  const inp=h('input');inp.type='text';inp.inputMode='numeric';inp.autocomplete='off';el.appendChild(inp);
+  const sb=()=>{clearInterval(iv);if(Number(inp.value)!==Q[n].a)return fail('Wrong. Maths is a safety skill.');n++;n>=5?pass():run()};
+  btn(el,'Answer',sb);inp.addEventListener('keydown',e=>{if(e.key==='Enter')sb()});setTimeout(()=>inp.focus(),50)};
+ run()}});
+
+add('hazard',{q:()=>'Hazard spotting',sub:'Tap every hazard (snake, kid, dog, rock, brick, fuel can) in 12 seconds. Do not tap safe grass.',render(el){
+ const HZ=['🐍','🧒','🐕','🪨','🧱','🛢️'],OK=['🌿','🌱','🍀','🌼','🌾'];
+ const sh=shuffle([...Array(25)].map((_,k)=>k<6?{e:HZ[k],h:1}:{e:OK[Math.floor(Math.random()*OK.length)],h:0}));
+ const tm=h('div','timer','12');el.appendChild(tm);let left=12,found=0;const gr=h('div','grid');gr.style.gridTemplateColumns='repeat(5,1fr)';
+ const iv=setInterval(()=>{left--;tm.textContent=left;if(left<=0){clearInterval(iv);fail('Time up. A hazard was left unspotted.')}},1000);timers.push(iv);
+ sh.forEach(c=>{const b=h('button','opt tile',c.e);b.type='button';b.onclick=()=>{if(!c.h)return fail('That was grass. Hazard hallucination.');if(b.classList.contains('on'))return;b.classList.add('on');found++;if(found>=6)pass()};gr.appendChild(b)});el.appendChild(gr)}});
+
+add('slider',{q:()=>'Throttle calibration',sub:'',render(el){
+ const target=10+Math.floor(Math.random()*81);subEl.textContent='Set the throttle to exactly '+target+'%. The readout is disabled for your safety. Tolerance: plus or minus 1.';
+ const r=document.createElement('input');r.type='range';r.min=0;r.max=100;r.value=0;r.style.cssText='width:100%;margin-top:16px';el.appendChild(r);
+ const sc=h('div','cnt','0%  ·  ·  ·  ·  ·  50%  ·  ·  ·  ·  ·  100%');sc.style.textAlign='center';el.appendChild(sc);
+ btn(el,'Lock throttle',()=>{if(Math.abs(+r.value-target)<=1)return pass();fail('Throttle at '+r.value+'%, needed '+target+'%.')})}});
+
+const failW=why=>verdict({to:'walk',why});
+const wake=()=>{try{navigator.wakeLock&&navigator.wakeLock.request('screen').catch(()=>{})}catch(e){}};
+const clock=s=>{s=Math.ceil(s);const hh=Math.floor(s/3600),mm=Math.floor(s%3600/60),ss=s%60;return (hh?hh+':'+String(mm).padStart(2,'0'):mm)+':'+String(ss).padStart(2,'0')};
+function checkin(el,o){
+ const end=Date.now()+o.ms;let next=Date.now()+o.every,promptEnd=0;
+ const big=h('div','timer','');big.style.cssText='font-size:48px;text-align:center';el.appendChild(big);
+ const msg=h('p','sub',o.label);msg.style.textAlign='center';el.appendChild(msg);
+ const b=btn(el,"I'm still here",()=>{promptEnd=0;next=Date.now()+o.every;b.style.display='none';msg.textContent=o.label});
+ b.style.display='none';b.style.background='#c0392b';wake();
+ const tick=()=>{const now=Date.now(),rem=Math.max(0,end-now);big.textContent=clock(rem/1000);
+  if(rem<=0)return pass();
+  if(promptEnd&&now>promptEnd)return o.fail('Check-in missed. Operators who wander off lose their licence.');
+  if(!promptEnd&&now>=next){promptEnd=now+o.win;b.style.display='block'}
+  if(promptEnd)msg.textContent='CHECK IN NOW. '+Math.max(0,Math.ceil((promptEnd-now)/1000))+' seconds left.'};
+ const iv=setInterval(tick,500);timers.push(iv);tick()}
+
+add('idle',{q:()=>'Stillness test',sub:'Do not touch, scroll, type or switch tabs for 10 minutes. Turn off your screen timeout, put the phone down and step away. Any movement resets the clock.',render(el){
+ const big=h('div','timer','10:00');big.style.cssText='font-size:64px;text-align:center';el.appendChild(big);let end=Date.now()+600000;wake();
+ const reset=ev=>{end=Date.now()+600000;S.rej++;updateProgress();showNote('Movement detected ('+ev.type+'). Clock reset to 10:00.')};
+ const evs=['pointerdown','keydown','wheel','touchstart','scroll'];
+ const onvis=()=>{if(document.hidden)end=Date.now()+600000};
+ const arm=setTimeout(()=>{evs.forEach(n=>window.addEventListener(n,reset,{passive:true}));document.addEventListener('visibilitychange',onvis)},500);timers.push(arm);
+ cleanups.push(()=>{evs.forEach(n=>window.removeEventListener(n,reset));document.removeEventListener('visibilitychange',onvis)});
+ const iv=setInterval(()=>{const rem=end-Date.now();big.textContent=clock(Math.max(0,rem)/1000);if(rem<=0)pass()},500);timers.push(iv)}});
+add('walk',{q:()=>'Walk the lawn',sub:'Mandatory 15 minute pre-mow inspection. Keep this page open. Tap "I\'m still here" within 30 seconds whenever the red button appears (every 3 minutes). Leave the page and you fail.',render(el){checkin(el,{ms:15*60000,every:180000,win:30000,label:'Inspecting the lawn…',fail:failW})}});
+add('warm',{q:()=>'Engine warm-up',sub:'10 minutes. Check in within 20 seconds whenever prompted (every 2 minutes).',render(el){checkin(el,{ms:10*60000,every:120000,win:20000,label:'Warming up…',fail:failW})}});
+
+const BANK=[
+{t:'Which protective gear is expected before mowing?',o:['Eye protection, hearing protection, boots and long pants','Thongs and a singlet','A hat only','Sunnies, if they look good'],w:'Eyes, ears, boots and long pants.'},
+{t:'Who may ride on the Z33 with you?',o:['Nobody. Operator only','One child','A dog on your lap','A sibling, for moral support'],w:'Operator only. No passengers, ever.'},
+{t:'Maximum slope for a zero-turn ride-on?',o:['About 10 degrees','About 25 degrees','As steep as the lawn is','Slopes are fine if you lean'],w:'Around 10 degrees. Beyond that is rollover territory.'},
+{t:'When can you refuel the Z33?',o:['Engine off and cooled down, outdoors, no smoking','While it idles, to save time','Straight after mowing, engine hot','Whenever the beer runs out'],w:'Engine off, cool, outdoors, no ignition sources.'},
+{t:'You are about to cross a gravel driveway. What do you do?',o:['Disengage the blades first','Mow faster to get across','Keep the blades on, gravel is soft','Turn up the radio'],w:'Blades off before crossing gravel or any hard surface.'},
+{t:'You need to step off the mower. What first?',o:['Blades off, park brake on, engine off, key out','Nothing, you will be quick','Put it in neutral and sprint','Shout "MOWER!"'],w:'Blades off, brake on, engine off, key out.'},
+{t:'What do you do about sticks, rocks and toys on the lawn?',o:['Clear them before mowing','Mow over them, the blades are strong','Mow around them in a spiral','Tell the dog to move them'],w:'Walk the lawn and clear it first.'},
+{t:'Where does the discharge chute point?',o:['Away from people, pets, cars and windows','At the neighbour','At the house','At whoever is nearest'],w:'Away from people, pets, cars and windows.'},
+{t:'Can you mow after a few drinks?',o:['Never','Only a light beer','Only on flat ground','If you are good at it'],w:'Never. Not after any alcohol.'},
+{t:'The engine bay and muffler after mowing are:',o:['Hot. Do not touch','Fine to touch','Perfect for warming your hands','Cool, because it is a Deere'],w:'They stay hot well after you stop.'},
+{t:'You need to reverse. What do you do?',o:['Blades off, look behind, go slowly','Floor it, you only live once','Reverse with the blades on to save time','Trust the mower'],w:'Blades off, look behind, go slow.'},
+{t:'Wet grass is:',o:['A reason not to mow','Easier to cut','Better for the deck','Fine with the right attitude'],w:'Wet grass clogs the deck and makes the mower slip.'},
+{t:'How much of the grass blade should one cut remove, at most?',o:['One third','Two thirds','All of it','As much as possible'],w:'No more than a third in one pass.'},
+{t:'Best time to mow, safety-wise?',o:['Daylight, on dry grass, with good visibility','At dusk when it cools down','In the dark, with a torch','At 6 am, to annoy the neighbours'],w:'Daylight and dry grass.'},
+{t:'You hear a new rattle from the deck. You:',o:['Stop, switch off, and check it','Turn the music up','Keep going, it will sort itself out','Blame the grass'],w:'Stop and inspect. Never mow through a new noise.'}
+];
+add('quiz',{q:()=>'Operator Safety Standards Exam',sub:'All 15 questions, random order. 12 seconds each. One wrong answer or timeout sends you back to the start of the lawn walk.',render(el){
+ const Q=shuffle(BANK).slice(0,15);let n=0;
+ const run=()=>{el.innerHTML='';const qq=Q[n];el.appendChild(h('p','qn','Question '+(n+1)+' of 15: '+qq.t));const tm=h('div','timer','12');el.appendChild(tm);let left=12;
+  const iv=setInterval(()=>{left--;tm.textContent=left;if(left<=0){clearInterval(iv);failW('Time expired on exam question '+(n+1)+'.')}},1000);timers.push(iv);
+  choice(el,shuffle(qq.o),o=>{clearInterval(iv);if(o===qq.o[0]){n++;n>=15?pass():run()}else failW('Wrong. '+qq.w)},'g2')};
+ run()}});
+
+add('captcha',{q:()=>'Prove you are not a robot.',sub:'Select all squares containing grass. Eight rounds.',render(el){
+ const G=['🌱','🌿','☘️','🍀','🌾'],O=['🪨','🧱','🚗','🐕','🧸','🐍','🛢️','🪓','🌵','🍄'];let round=1;
+ const draw=()=>{el.innerHTML='';el.appendChild(h('p','qn','Round '+round+' of 8'));
+  const tiles=[...Array(25)].map(()=>Math.random()<0.35?{e:G[Math.floor(Math.random()*G.length)],g:1}:{e:O[Math.floor(Math.random()*O.length)],g:0});
+  if(!tiles.some(t=>t.g))tiles[3]={e:'🌿',g:1};
+  const sel=new Set(),gr=h('div','grid');gr.style.gridTemplateColumns='repeat(5,1fr)';
+  tiles.forEach((t,k)=>{const b=h('button','opt tile',t.e);b.type='button';b.onclick=()=>{sel.has(k)?sel.delete(k):sel.add(k);b.classList.toggle('on')};gr.appendChild(b)});
+  el.appendChild(gr);
+  btn(el,'Verify',()=>{if(!tiles.every((t,k)=>!!t.g===sel.has(k)))return failW('Bot detected. Wrong tiles. Back to the lawn walk.');if(round>=8)return pass();round++;draw()})};
+ draw()}});
+
+/* ---------- PART 3: ENGINE EXAM ---------- */
+const failE=why=>verdict({to:'eng_order1',why:why+' Back to the start of the engine exam.'});
+function orderStep(id,title,sub,items){add(id,{q:()=>title,sub,render(el){
+ const want=items,got=[];const list=h('ol');list.style.cssText='margin:0 0 12px;padding-left:22px;font-size:14px;color:#6b776b;min-height:20px';el.appendChild(list);
+ const gr=h('div','grid');gr.style.gridTemplateColumns='1fr';
+ shuffle(items).forEach(t=>{const b=h('button','opt',t);b.type='button';b.style.cssText='text-align:left;padding:10px 12px';
+  b.onclick=()=>{if(t!==want[got.length])return failE('Wrong order: step '+(got.length+1)+' is not that.');got.push(t);b.disabled=true;b.style.opacity=.4;list.appendChild(h('li',null,t));if(got.length===want.length)pass()};gr.appendChild(b)});el.appendChild(gr)}})}
+orderStep('eng_order1','Engine pre-start checks','Tap the steps in the correct order, first to last.',['Park on level ground, brake on, blades disengaged','Check the engine oil level on the dipstick','Check the fuel level and that it is fresh unleaded','Check the air filter and clear grass from the cooling screen','Sit down with the key in and the brake on','Start the engine']);
+orderStep('eng_order2','The four-stroke cycle','Tap the strokes in the order they happen, starting from intake.',['Intake stroke: piston goes down, mixture is drawn in','Compression stroke: piston goes up, mixture is squeezed','Power stroke: spark fires, piston is driven down','Exhaust stroke: piston goes up, burnt gases are pushed out']);
+orderStep('eng_order3','Engine oil change','Tap the steps in the correct order, first to last.',['Run the engine briefly to warm the oil, then stop it','Key out and disconnect the spark plug lead(s)','Place a drain pan under the drain point','Open the drain and let the old oil run out','Replace the oil filter if fitted and close the drain','Refill with the correct oil through a funnel to the dipstick mark','Run briefly, stop, and recheck the level','Take the old oil to a proper collection point']);
+const BANK2=[
+{t:'In a four-stroke engine, what is the correct order?',o:['Intake, compression, power, exhaust','Power, intake, exhaust, compression','Compression, exhaust, intake, power','Exhaust, power, compression, intake'],w:'Intake, compression, power, exhaust.'},
+{t:'How many crankshaft revolutions make one full four-stroke cycle?',o:['Two','One','Four','Half a revolution'],w:'Two revolutions per cycle.'},
+{t:'What does a V-twin layout mean?',o:['Two cylinders set in a V shape','Two engines side by side','Two spark plugs in one cylinder','Two fuel tanks'],w:'Two cylinders in a V.'},
+{t:'Small ride-on engines like the Z33\'s are normally cooled by:',o:['Air flowing over cooling fins','A radiator and coolant','Engine oil only','Sheer willpower'],w:'Air cooling: keep the fins and screen clear.'},
+{t:'Best way to check the oil level?',o:['Level ground, engine off and settled, wipe the dipstick and recheck','Engine running at full revs','Parked on a slope','By the colour of the exhaust'],w:'Level ground, engine off, wipe and recheck.'},
+{t:'The oil level is above the full mark. What can happen?',o:['Foaming, smoke and extra pressure','Nothing, more is better','Better cooling','The mower gets quieter'],w:'Overfilling causes foaming, smoke and pressure.'},
+{t:'Best fuel for the Z33?',o:['Fresh unleaded petrol, 10% ethanol at most','Diesel','E85','Fuel that has sat for months'],w:'Fresh unleaded, no more than E10.'},
+{t:'Why use fuel stabiliser for storage?',o:['Old petrol gums up the fuel system','It makes the mower faster','It cleans the blades','It changes the oil'],w:'Stale fuel gums up the fuel system.'},
+{t:'What does the spark plug do?',o:['Ignites the air-fuel mixture at the right moment','Pumps the fuel','Cools the cylinder','Charges the battery'],w:'It ignites the mixture.'},
+{t:'A black, sooty spark plug usually suggests:',o:['A rich mixture or a clogged air filter','Running too lean','A perfect tune','Water in the oil'],w:'Black and sooty points to a rich mixture.'},
+{t:'A clogged air filter usually causes:',o:['Poor power, rough running and black smoke','More power','Better fuel economy','Cooler running'],w:'Poor power and a rich, smoky mixture.'},
+{t:'Engine cranks but will not start. What are the three basics to check?',o:['Fuel, air and spark','Oil, wheels and seat','Battery, horn and lights','Blades, brake and deck'],w:'Fuel, air and spark.'},
+{t:'On engines that have one, the choke is for:',o:['Richening the mixture for a cold start','Cooling the engine','Stopping the engine','Raising the deck'],w:'It enriches the mixture for cold starts.'},
+{t:'Blue smoke from the exhaust usually means:',o:['Burning oil','Burning fuel too rich','Just water vapour','Normal operation'],w:'Blue smoke is burning oil.'},
+{t:'Milky, creamy oil on the dipstick suggests:',o:['Water contamination','Fresh oil','Too much fuel','A full sump'],w:'Milky oil means water has got in.'},
+{t:'What does the governor do?',o:['Holds engine speed steady under load','Steers the mower','Sets the deck height','Limits Brodie\'s patience'],w:'It holds engine speed under load.'},
+{t:'Before working on the blades or engine you should:',o:['Switch off, remove the key and disconnect the spark plug lead(s)','Just keep your hands clear','Work quickly while it idles','Wear gloves and hope'],w:'Switch off, key out, plug leads off.'},
+{t:'What battery voltage does a ride-on mower like the Z33 use?',o:['12 volt','6 volt','24 volt','240 volt'],w:'12 volt.'},
+{t:'The starter only clicks and will not crank. Most likely:',o:['A flat or weak battery, or a poor connection','Wrong fuel','Blunt blades','A dirty deck'],w:'Check the battery and connections.'},
+{t:'The engine overheats on a hot day. First thing to check?',o:['Cooling fins and screen blocked with grass','Tyre pressure','Radio volume','Deck height'],w:'Blocked fins and screens cause overheating.'},
+{t:'What oil grade and capacity does it take?',o:["Whatever the operator's manual specifies",'Whatever is in the shed','The most expensive oil','Whatever the servo guy says'],w:"The operator's manual decides."},
+{t:'How should the spark plug gap be set?',o:["With a feeler gauge, to the manual's spec",'By eye','With a coin','It does not matter'],w:'Feeler gauge, manual spec.'},
+{t:'How do you care for a paper air filter element?',o:['Tap out loose dirt, replace when dirty, never oil it','Soak it in oil','Wash it in petrol','Blast it with a leaf blower'],w:'Tap it clean, replace it, never oil paper.'},
+{t:'How do you care for a foam pre-cleaner?',o:['Wash, dry fully, then lightly oil as per the manual','Never touch it','Soak it in diesel','Run it dry forever'],w:'Wash, dry, lightly oil.'},
+{t:'Safety interlocks should stop the engine starting unless:',o:['The brake is on and the blades are disengaged','The radio is on','The deck is clean','Brodie is watching'],w:'Brake on, blades off.'},
+{t:'The engine is hot and the tank is low. You:',o:['Let it cool, refuel outdoors, no ignition sources','Refuel straight away','Refuel while it idles','Have a quick smoke first'],w:'Let it cool, refuel outdoors.'},
+{t:'Used engine oil should be:',o:['Taken to a proper collection point','Poured on the weeds','Tipped down the drain','Burned in the fire pit'],w:'Take it to a collection point.'},
+{t:'Which of these is NOT one of the four strokes?',o:['Reverse','Intake','Compression','Exhaust'],w:'The strokes are intake, compression, power, exhaust.'},
+{t:'After months in storage you should:',o:['Replace stale fuel, check the oil, battery and filters','Just start it','Top up the old fuel','Add diesel'],w:'Fresh fuel and a full check first.'},
+{t:'The engine starts knocking or making a new metallic noise. You:',o:['Stop immediately and investigate','Turn up the music','Mow faster','Ignore it'],w:'Stop and investigate. Never run it through a new noise.'}
+];
+add('eng_exam',{q:()=>'Engine Mechanical Exam',sub:'20 random questions. 15 seconds each. One wrong answer or timeout and you restart Part 3.',render(el){
+ const Q=shuffle(BANK2).slice(0,20);let n=0;
+ const run=()=>{el.innerHTML='';const qq=Q[n];el.appendChild(h('p','qn','Question '+(n+1)+' of 20: '+qq.t));const tm=h('div','timer','15');el.appendChild(tm);let left=15;
+  const iv=setInterval(()=>{left--;tm.textContent=left;if(left<=0){clearInterval(iv);failE('Time expired on question '+(n+1)+'.')}},1000);timers.push(iv);
+  choice(el,shuffle(qq.o),o=>{clearInterval(iv);if(o===qq.o[0]){n++;n>=20?pass():run()}else failE('Wrong. '+qq.w)},'g2')};
+ run()}});
+
+/* ---------- FINAL REVIEW ---------- */
+add('review',{q:()=>'Compliance review',sub:'Your application is under review. Minimum review period: 2 hours from your first answer. Keep this page open and check in within 45 seconds whenever the red button appears (every 5 minutes). Missing a check-in sends you back to the lawn walk.',render(el){
+ const ms=S.t0+7200000-Date.now();if(ms<=0)return pass();
+ checkin(el,{ms,every:300000,win:45000,label:'Reviewing your application…',fail:failW})}});
+
+/* ---------- BLOOD ALCOHOL ---------- */
+add('bac',{q:()=>'What is your legal blood alcohol limit?',sub:'Select your exact limit while operating the Z33.',render(el){
+ choice(el,['0.00%','0.01%','0.02%','0.03%','0.04%','0.05%','0.08%','Depends how the day went','One for the road'],v=>{
+  if(v==='0.00%')return pass();
+  verdict({why:v==='0.05%'?'That is the general driving limit. The Z33 limit is stricter. Zero means zero.':'Wrong. Alcohol and a Z33 mix like fuel and a campfire.'})},'g3')}});
+
+/* ---------- LICENCE ---------- */
+add('licence',{q:()=>'Upload a copy of your driver licence.',sub:'Must be a clear photo of a valid, current licence. Not expired, not suspended, not disqualified. It stays on your device and is not sent anywhere. Brodie will inspect the original at handover.',render(el){
+ const f=document.createElement('input');f.type='file';f.accept='image/*';f.style.cssText='width:100%;padding:12px;border:1.5px dashed #d5dcd0;border-radius:10px;background:#fff';el.appendChild(f);
+ btn(el,'Submit licence',()=>{const file=f.files&&f.files[0];
+  if(!file)return verdict({why:'No licence attached. You cannot drive a mower on vibes.'});
+  if(!file.type.startsWith('image/'))return verdict({why:'That is not a photo. Licences are plastic, not a PDF of a cat.'});
+  if(file.size<20000)return verdict({why:'Image too small to read. Take a proper photo of the front.'});
+  S.licURL=URL.createObjectURL(file);el.innerHTML='';const p=h('p','sub','Scanning licence…');p.style.textAlign='center';el.appendChild(p);
+  const L=['Scanning licence…','Checking expiry date…','Checking status…','Handing over to Brodie for the final say…'];let k=0;
+  const iv=setInterval(()=>{k++;if(k<L.length)p.textContent=L[k];else{clearInterval(iv);pass()}},1400);timers.push(iv)})}});
+
+/* ---------- FINISH ---------- */
+function finish(){clearTimers();qEl.textContent='Submitting your request…';subEl.textContent='';body.innerHTML='';showNote('');bar.style.width='100%';$('#mq').textContent='Almost done';
+ const p=h('p','sub','');body.appendChild(p);
+ const L=['Contacting Brodie…','Checking you are not an AI…','Reviewing your reflexes…','Brodie is not answering. Retrying…','Verifying lawn dimensions…','Checking the mower still has fuel…','Cross-referencing 400 previous refusals…','Approving…'];let k=0;
+ const iv=setInterval(()=>{if(k<L.length)p.textContent=L[k++];else{clearInterval(iv);done()}},1200);timers.push(iv)}
+function done(){
+ const A=S.a,ref='Z33-'+Math.random().toString(36).slice(2,8).toUpperCase(),secs=Math.round((Date.now()-S.t0)/1000);
+ const date=A.date.toLocaleDateString('en-AU',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+ const txt=['Z33 BOOKING: CONFIRMED (ALL 3 PARTS)','Ref: '+ref,'Date: '+date,'Start: '+fmt12(A.start)+' for '+fmtDur(A.dur)+' (back by '+fmt12(A.start+A.dur)+')','Lawn: '+A.area.toLocaleString()+' m² of '+A.type+', '+A.gh+' mm, cut at '+A.deck+' mm','Compensation: '+A.comp.join(', '),'Rejections endured: '+S.rej+' in '+Math.floor(secs/60)+'m '+(secs%60)+'s','','Valid driver licence: to be inspected in person by Brodie before the keys are released.','','Brodie must hand over the keys. No further questions.'].join('\n');
+ qEl.textContent='Booking confirmed.';subEl.textContent='You did it. Show this to Brodie. He has to honour it.';body.innerHTML='';
+ const cert=h('div','cert');
+ const add2=(t,c)=>cert.appendChild(h('p',c||null,t));
+ cert.appendChild(h('h2',null,'Certificate of Mower Authorisation'));
+ add2("Issued by Brodie's Mowing",'fine');
+ add2('Ref: '+ref);
+ add2(date+', '+fmt12(A.start)+' for '+fmtDur(A.dur));
+ add2(A.area.toLocaleString()+' m² of '+A.type+' at '+A.deck+' mm. Back by '+fmt12(A.start+A.dur)+'.');
+ add2('The holder has survived '+S.rej+' rejections, 11 skill tests, three exams and an engine mechanical, and is hereby cleared to operate one (1) John Deere Z33, once.');
+ if(S.licURL){const box=h('div',null);box.style.cssText='margin:10px auto 0;max-width:260px';const im=document.createElement('img');im.src=S.licURL;im.alt='Licence photo';im.style.cssText='width:100%;border:1px solid #d5dcd0;border-radius:6px';box.appendChild(im);box.appendChild(h('p','fine','Licence photo submitted. Kept on this device only. Cover the licence number before sharing a screenshot.'));cert.appendChild(box)}
+ const sg=h('div','sig');['Operator signature','Date signed','Brodie sighted this'].forEach(t=>sg.appendChild(h('div',null,t)));cert.appendChild(sg);
+ add2('Print, sign and show Brodie before the keys are released, along with the original of a valid driver licence (not suspended, not disqualified). Invalid if unsigned, reused from a previous booking, or crumpled. Full tank, clean deck, no new dents.','fine');
+ body.appendChild(cert);
+ const pb=btn(body,'Print certificate',()=>{try{window.print()}catch(e){}pb.textContent='If nothing happened: open this page in your browser and press Print (Ctrl or Cmd + P)'});pb.classList.add('noprint');
+ const pre=h('pre','noprint',txt);body.appendChild(pre);
+ const b=btn(body,'Copy booking summary',()=>{try{navigator.clipboard.writeText(txt).then(()=>{b.textContent='Copied. Now send it to Brodie.'},()=>{b.textContent='Copy blocked. Select the text above and copy it.'})}catch(e){b.textContent='Copy blocked. Select the text above and copy it.'}});b.classList.add('noprint');
+ showNote('Approved. Against all odds.',true)}
+const PI={r:at('react'),e:at('eng_order1'),f:at('review')};
+steps.forEach((s,k)=>{s.part=k>=PI.f?'Final checks':k>=PI.e?'Part 3 of 3: Engine':k>=PI.r?'Part 2 of 3: Safety':'Part 1 of 3: Booking'});
+go(0);
+</script>
+</body>
+</html>

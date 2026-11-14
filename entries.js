@@ -628,12 +628,12 @@ window.GUIDE = {
         `There is a second category, <b>honorary lifetime membership</b>, awarded at Brodie's sole discretion for services to the block. The Guide cannot tell you what he looks for. It can only report that Brodie lets absolutely anyone use his mower, and that he takes a keen interest in who does. Applications are considered. Most are declined, and nobody has ever been told why.`,
         `<div class="sec">The Fine Print</div>`,
         `Lifetime membership confers the right to attend Mind Garden for life. It does not confer the right to win, because there is no way to win. It does not protect you from Kevin. It does not get you out of the Door of Losers.`,
-        `<p style="margin-top:140px;text-align:right;font-size:9px;opacity:.35;letter-spacing:.05em">Brodie's mower is open to all. <a href="https://claude.ai/artifact/ShsVFNGQCVtsiTKV8bSFd3" target="_blank" rel="noopener" style="color:inherit">Booking</a> is essential.</p>`
+        `<p style="margin-top:140px;text-align:right;font-size:9px;opacity:.35;letter-spacing:.05em">Brodie's mower is open to all. <a href="mower.html">Booking</a> is essential.</p>`
       ],
       see:["rules","losers","kevin"] },
 
     { id:"secret", cat:"Things", title:"The Secret to Life",
-      text:[`It begins with being able to <a href="https://claude.ai/artifact/ShsVFNGQCVtsiTKV8bSFd3" target="_blank" rel="noopener">hire Brodie's mower</a>.`,`See footnote.`,`<div aria-hidden="true" style="height:1000000px"></div>`,`<p style="font-size:12px;color:var(--mute)">¹ See footnote.</p>`],
+      text:[`It begins with being able to <a href="mower.html">hire Brodie's mower</a>.`,`See footnote.`,`<div aria-hidden="true" style="height:1000000px"></div>`,`<p style="font-size:12px;color:var(--mute)">¹ See footnote.</p>`],
       see:[] }
   ]
 };
