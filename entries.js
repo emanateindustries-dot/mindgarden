@@ -481,6 +481,31 @@ window.GUIDE = {
       ],
       see:["safety","kevin","day","find"] },
 
+    { id:"beginners", cat:"Things", title:"Mind Gardening for Beginners",
+      quote:["Be here. Everyone else already is."],
+      text:[
+        `Mind gardening is the art of being exactly where you are. It is harder than it sounds and a great deal cheaper than it looks. The Guide has distilled it into a few principles, none of which require equipment.`,
+        `<div class="sec">Respect That Others Do Not Want to Be Bothered</div>`,
+        `The person walking beside you has come a long way to be alone with a gully. They may be having the best day of their life or a quiet, private reckoning. The Guide cannot tell which from the outside, and neither can you. So the default setting is <b>leave them be</b>. A nod is plenty. A smile is generous. A forty-minute story about your landlord is a crime.`,
+        `<div class="sec">Keep It in the Present</div>`,
+        `Nothing that is not happening right now. Not work, not the news, not your inbox, not what you are doing on Thursday. Mind Garden is the one place on the calendar where Thursday does not exist. If it is not in front of you, behind you or in your lungs, it can wait at the Door with the rest of the world, and it will be there when you get back, looking slightly less urgent.`,
+        `<div class="sec">What You Are Allowed to Say</div>`,
+        `The Guide has no objection to talking. It objects to talking about nothing. There is a short list of things worth saying out loud on this block, and they are all true:`,
+        `<ul>
+          <li><b>&ldquo;Fuck, I'm happy to be alive.&rdquo;</b></li>
+          <li><b>&ldquo;I love you.&rdquo;</b></li>
+          <li><b>&ldquo;Fuck, I'm proud to call you a friend.&rdquo;</b></li>
+        </ul>`,
+        `Say them as often as you like. Nobody has ever said one of these on the block and been told to keep it down.`,
+        `<div class="sec">The Right to Silence, and the Right to Dance</div>`,
+        `Both are protected at Mind Garden. Silence needs no justification. Dancing needs no audience, no rhythm and no shoes. If someone is silent, let them be silent. If someone is dancing, let them dance, and either join in properly or walk on quietly. Do not watch. Do not film. Do not ask what the song is.`,
+        `<div class="sec">The Sacred Places</div>`,
+        `<a href="#" data-open="gully">Mind Garden</a> and <a href="#" data-open="trench">the Trench</a> are sacred. They are sacred to you, as a Mind Gardener who has opened that Door, and sacred to everyone around you who opened it too. Treat them like the most important room you have ever been in, because for a lot of the people in them, they are. Lower your voice. Look where you step. Leave things exactly as you found them.`,
+        `<div class="sec">The Short Version</div>`,
+        `Be here. Be kind. Be quiet unless you have something true to say. Dance if the urge arrives. Leave everyone else to theirs. That is mind gardening, and the Guide has never found anything better. See <a href="#" data-open="love">Love</a>.`
+      ],
+      see:["gully","trench","love","rules","panic"] },
+
     { id:"termites", cat:"Things", title:"The Definitive Guide to Ranking Termite Mounds", pins:[[42.5,43.7],[54.9,18.0]],
       quote:[
         "Brodies #1 ranked termite mound.",
