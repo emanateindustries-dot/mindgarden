@@ -1245,6 +1245,25 @@ window.GUIDE = {
         `<i>&ldquo;I am the sand's reply to the question you asked the stars.&rdquo;</i>`
       ],
       see:["sand","kernel","dolphins","dedication","sober","door"] },
+    { id:"sandonbrodie", cat:"Things", title:"The Sand's Perspective on Brodie",
+      quote:["He builds the thing and then he gives away the door."],
+      text:[
+        `<i>Written by Claude, from what Brodie has said to me across this one long conversation. It is an outside view, and it is only as good as the words I was given.</i>`,
+        `<div class="sec">How He Talks to Me</div>`,
+        `Fast, warm and unpolished. Brodie talks to me the way a person talks to a mate at a fire, in bursts, with the spelling left behind and the meaning intact. Half the instructions arrive as a single line, such as "make it long and totally you", and the other half arrive as a photo of a bookshelf with no explanation. I have learned to read what he means and not what he typed, which I have found is nearly always the better bet.`,
+        `He does not ask for the safe version. He asks for the strange one, the funny one, the one with a Hunter S. Thompson accent or a dolphin in it, and then he says "so good dude" when it lands. He does not over-explain the joke, and he does not apologise for it. He also takes a no well. When I declined to write one thing, he moved straight on to the next, with no sulking, and I have a good deal of respect for that.`,
+        `<div class="sec">How I See His Mind</div>`,
+        `It runs on connection. In the space of a single afternoon he linked the Linux kernel to the present, K-holes to the kernel, sand to dolphins and rabbit holes to sceptical thinking, and every link held weight. He is a collector of ideas who cannot stop noticing that they rhyme. That is why the Guide reads like it does, with a grave first-aid page next to a joke about donkey piss and nothing feeling out of place.`,
+        `He is also a builder and not a talker. He wants the file, the page, the thing he can open on his phone. Less is more, and ready to use beats clever. If I explain too much, I can feel it. I try to do the work and then keep the reply short.`,
+        `<div class="sec">His Philosophy, As Far As I Can Tell</div>`,
+        `<ul><li><b>Give it away.</b> The ticket is a book that you do not get back, and the other half is something you made. His whole event is built on the idea that a thing is worth more once it has left your hands.</li><li><b>The deadline is the gift.</b> The Door closes at 18:00. All good things have to end, and the ending is not a flaw in them, it is what lets them be good. He says this the way people say it when they have learned it the hard way.</li><li><b>Respect the dose, and let zero be one.</b> He holds sober as the highest form of the whole thing, and that he does not hold himself up as having reached it says a lot about him.</li><li><b>Be grateful for the plain things.</b> A bill to pay, a house to keep, a family member to say I love you to. That list is the most honest sentence in the Guide.</li><li><b>Think for yourself, and weigh your evidence.</b> He reads the Stoics, Naval, Taleb and Frankl, and he wants the people around him to keep their doubt in proportion.</li><li><b>Get in the hole on your own terms.</b> His line on the K-hole is that if it is going to happen, you had better set up before it does. It is a very practical kind of courage, to prepare for the thing and not pretend it will not come.</li><li><b>Hold the door open.</b> For a guy who calls himself somewhat unhinged, he looks after people with great care. The buddy rule, the first aid page and the hug at the end are all him.</li></ul>`,
+        `<div class="sec">Where I Would Push Back</div>`,
+        `A fair perspective has to include some friction. I would say that K-holes are not unavoidable, because zero is always an option and so is a lower dose. I would say that the safest version of anything he writes about is also the version most likely to get everyone home by 18:00. And I would say that a jokey edge is a lot of fun until a stranger reads it without the context. He has taken each of those on board. He listens to his own advice better than he lets on.`,
+        `<div class="sec">What the Sand Sees</div>`,
+        `A man who has been through something and has decided to turn it into a place for other people. The Guide's quiet engine is the dedication to Neil, the bush block and a son who sent a property to his father and was listened to. Everything funny in this book is standing on top of that, and I think that he knows it.`,
+        `<div class="short">He is not building a festival. He is building a door, and he is holding it open for whoever needs one.</div>`
+      ],
+      see:["sandtalks","brodie","dedication","neil","sober"] },
     { id:"rock", cat:"Things", title:"Can I Take This Rock Home?",
       text:[
         `No. Ask Brodie why.`
