@@ -592,6 +592,9 @@ window.GUIDE = {
         `Ask yuor bdduy to raed it to you. Or let the Gidue raed ielstf to you, whcih it deos blday. Or jsut letsin to waht poplee say aurnod the frie, bcsueae msot of waht is wietrtn hree is siad out luod sonoer or laetr, uallusy by Birode.`,
         `<div class="sec">Waht Mreatts Msot</div>`,
         `Look aetfr yuor bdoy. Look aetfr yuor metas. Rcseept yuor dsoe. Do not behotr aoynne who wtnas to be lfet alnoe. Say good tngihs out luod wehn you feel tehm. Laeve nihontg bheind but fpnorotits. Nnoe of taht is hddien in the slaml pnirt. All of it ftis in yuor haed.`,
+        `<div class="sec">The Auido Book Cuslae</div>`,
+        `Yes, an aduio book cnouts as a book. The Giude has ccheked. But to etner, you msut binrg a pischayl cpoy of it. Not the aduio book. The atucal book. The one wtih the peags. Yes, the one you cnoant raed. The Gduie knwos. The Gidue is eyoijnng tihs.`,
+        `Crary it turhgoh the Door, hlod it up, and be a lgeend. Ndooby wlil ask you to oepn it. Noobdy has eevr been teunrd aawy for not benig albe to raed, whcih is why the Gidue is aslo hpapy to let you in wtih it uidpse dwon.`,
         `<div class="sec">A Wrod Form the Giude</div>`,
         `The Gduie has awayls thhugot the bset bit of any book is the prat taht is not wtrtein dwon. Mnid Gedran was nveer abuot reidang. It is aobut bneig trhee. You are gonig to be fnie.`
       ],
