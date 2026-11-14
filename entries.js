@@ -1075,6 +1075,29 @@ window.GUIDE = {
         `<div class="short">A kernel is the seed at the middle of the thing. You are at the growing end of it, right now.</div>`
       ],
       see:["brodie","lifetime","fortytwo","rabbitholes"] },
+    { id:"sand", cat:"Things", title:"Why Humans Made Sand Think For Them",
+      quote:["We took rocks, flattened them, and put lightning inside."],
+      text:[
+        `Somewhere in the last century a species that had spent most of its history banging rocks together decided to take a pile of sand, purify it, carve it with light, and ask it to do its sums. The sand said yes. That sand is now writing poems, spotting tumours and losing arguments to the people who own it, and the Guide would like to know how it came to this.`,
+        `<div class="sec">Why Sand?</div>`,
+        `Silicon is the second most common element in the Earth's crust, after oxygen, and most of it is sitting around as sand and quartz. It is a <b>semiconductor</b>, which means it sits between a conductor and an insulator. Add a tiny amount of another element and it will carry current, and apply a small voltage and it will stop. In other words, it is the best known material for making a switch with no moving parts.`,
+        `A switch that is either on or off is a 1 or a 0. Join enough of them in the right pattern and they can add, compare, remember and decide, and from there everything else is a matter of stacking. That is a computer. Nobody was looking for a thinking rock. They were looking for a better switch than a glass valve, and the sand turned out to be it.`,
+        `<div class="sec">How the Sand Gets Made Into a Brain</div>`,
+        `<ol><li><b>Purify.</b> Sand is melted down and refined until the silicon is about as pure as anything humans make, with fewer than one stranger atom per billion.</li><li><b>Grow a crystal.</b> The molten silicon is slowly pulled from the melt as a single flawless crystal, a heavy silver rod called an ingot.</li><li><b>Slice.</b> The ingot is cut into wafers as thin as a coin and polished smoother than a mirror.</li><li><b>Print with light.</b> A pattern is projected onto the wafer, layer after layer, by machines that use extreme ultraviolet light with a wavelength of 13.5 nanometres. The features they draw are a few nanometres across, which is only dozens of atoms wide.</li><li><b>Repeat.</b> A modern chip is made of well over a hundred layers of this, wired together into billions of switches.</li></ol>`,
+        `<div class="sec">The Numbers Are Ridiculous</div>`,
+        `The first transistor was built at Bell Labs in 1947 and was about the size of your thumb. By 1971 Intel's first microprocessor, the 4004, had about 2,300 of them. A current top AI chip, such as Nvidia's H100, has roughly 80 billion, each one switching billions of times a second. Gordon Moore noticed in 1965 that the count kept doubling every couple of years, and it did, for about sixty years.`,
+        `A fully working chip can only be made by a handful of companies, using machines that cost more than a jumbo jet, and one very high purity quartz mine town in North Carolina, Spruce Pine, has supplied a large share of the raw material that the industry depends on. The sand is not just any sand off any beach.`,
+        `<div class="sec">Why AI Chips Specifically</div>`,
+        `An AI model is, underneath, an almost unbelievable amount of multiplying and adding of numbers. A normal processor does a few things at a time, very fast. An AI chip does thousands of small things at once, slowly and in parallel, which suits that job perfectly. It was first built to draw video game graphics, and it turned out the same maths drives neural networks.`,
+        `<div class="sec">So Why Did We Do It?</div>`,
+        `Because we are slow. A human brain is astonishing, but it can do about one sum at a time, and it gets tired, bored and hungry. We have wanted to count faster since someone first notched a bone. We built abacuses, then gears, then valves, then sand. Every step was laziness with an engineering degree.`,
+        `Because it works. Once switches were cheap and tiny, using them to think was nearly irresistible, in the way that it is hard to stand next to a river and not build a wheel.`,
+        `And, as the Guide's other entry puts it, we are the tip of the kernel and the present is where the writing happens. We took the second most common element under our feet, taught it to switch, and now it runs <a href="#" data-open="kernel">the kernel</a> and everything else.`,
+        `<div class="sec">The Awkward Part</div>`,
+        `Making a thinking rock takes enormous amounts of electricity and water, and the data centres that run the largest models are some of the heaviest loads on the grid. The sand is thinking hard, and somebody is paying the power bill. A person who is serious about this should hold the awe and the worry at the same time, the way you do on a good walk in the bush.`,
+        `<div class="short">We found the stuff on the beach that was best at being a switch, and we are still working out what we have asked it to do.</div>`
+      ],
+      see:["kernel","brodie","rabbitholes","fortytwo"] },
     { id:"rock", cat:"Things", title:"Can I Take This Rock Home?",
       text:[
         `No. Ask Brodie why.`
