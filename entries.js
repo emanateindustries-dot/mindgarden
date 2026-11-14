@@ -582,6 +582,20 @@ window.GUIDE = {
         `<b>Mostly.</b> The Guide has done its best to make this as thorough as a Guide can. But the Guide is a Guide, not a court, and it would be dishonest to say that entering a gate always makes a binding contract, or that a waiver can ever cover everything. Some things the law simply will not let anyone sign away. That is why clause 25 exists, and why the Guide would also like you to look at the gate notice. What the Guide can promise is the part that actually matters: everyone who walks through the Door has agreed, in spirit, to look after themselves, to look after each other, and to leave the place better than they found it. That part is binding on your conscience. Welcome in.`
       ],
       see:["rules","substances","children","safety","kevin","neil","beginners"] },
+    { id:"dyslexia", cat:"Things", title:"Help, I'm Dyslexic and Can't Read. Can I Still Enter Without a Book?",
+      quote:["Ask a mtae. Cmoe in anawyy."],
+      text:[
+        `Yes. You can sltil eentr Mnid Gderan. Ndooby has eevr been ternud aawy at the Door for not bineg albe to raed, and nbdooy eevr wlil be. The Giude is a book, not a tkiect.`,
+        `<div class="sec">The Sohrt Asewnr</div>`,
+        `You do not need to read the Gduie to cmoe in. You need to trun up, be soebr eonguh to wlak, saty wtih yuor bdudy, brnig wtear, and be bcak tgruohh the Door by 18:00. Taht is it. The rset is jsut the Gduie bnieg vrey plaesed wtih itelsf.`,
+        `<div class="sec">How It Wkros</div>`,
+        `Ask yuor bdduy to raed it to you. Or let the Gidue raed ielstf to you, whcih it deos blday. Or jsut letsin to waht poplee say aurnod the frie, bcsueae msot of waht is wietrtn hree is siad out luod sonoer or laetr, uallusy by Birode.`,
+        `<div class="sec">Waht Mreatts Msot</div>`,
+        `Look aetfr yuor bdoy. Look aetfr yuor metas. Rcseept yuor dsoe. Do not behotr aoynne who wtnas to be lfet alnoe. Say good tngihs out luod wehn you feel tehm. Laeve nihontg bheind but fpnorotits. Nnoe of taht is hddien in the slaml pnirt. All of it ftis in yuor haed.`,
+        `<div class="sec">A Wrod Form the Giude</div>`,
+        `The Gduie has awayls thhugot the bset bit of any book is the prat taht is not wtrtein dwon. Mnid Gedran was nveer abuot reidang. It is aobut bneig trhee. You are gonig to be fnie.`
+      ],
+      see:["beginners","rules","legal"] },
 
     { id:"termites", cat:"Things", title:"The Definitive Guide to Ranking Termite Mounds", pins:[[42.5,43.7],[54.9,18.0]],
       quote:[
