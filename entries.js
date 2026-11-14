@@ -154,6 +154,8 @@ window.GUIDE = {
           <li>Smoking cigarettes</li>
           <li>Anything fucking disgusting, really</li>
         </ul>`,
+        `<div class="sec">Sober Is Good Too</div>`,
+        `Nobody has to take anything to come to Mind Garden. Sober is good. Sober is more than good: it is the highest form of mind gardening there is, and even Brodie has not reached those levels of enlightenment. If you are walking the whole day with nothing in your system, you are not missing out, you are the reference point. Zero is a dose, and the Guide respects it completely. See <a href="#" data-open="sober">Can I Do This Sober?</a>`,
         `<div class="sec">After 18:00</div>`,
         `Once Mind Garden is finished at 18:00, the drug ban lifts and alcohol is allowed. The rules above are for Mind Garden, door to door. Carers of children stay sober for as long as the children are in their care, whatever the time. See <a href="#" data-open="children">Bringing Children</a>.`,
         `<div class="sec">Neil's Place</div>`,
