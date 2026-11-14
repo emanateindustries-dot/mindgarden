@@ -802,10 +802,10 @@ window.GUIDE = {
       ],
       see:["rules","losers","kevin"] },
 
-    { id:"infinityhotel", cat:"Things", title:"The Infinity Hotel",
+    { id:"infinityhotel", cat:"Things", title:"Please Stop Getting Brodie to Explain Infinity",
       quote:["Sorry, we're full. Actually, hang on."],
       text:[
-        `Somewhere in the mathematics of the universe there is a hotel with infinitely many rooms, numbered 1, 2, 3, and so on without end. Every room is occupied. A traveller walks up to the desk and asks for a room. The Guide has checked, and this is a perfectly sensible request. The hotel is called <b>Hilbert's Hotel</b>, after the mathematician David Hilbert, and it exists to show you that infinity does not behave like a big number.`,
+        `The Guide has a request. Brodie has a speech injury, and he has been asked to explain infinity at the fire far too many times, by people who ought to know better. Please stop. That is the Guide's job, and the Guide is very happy to do it, so here it is. Somewhere in the mathematics of the universe there is a hotel with infinitely many rooms, numbered 1, 2, 3, and so on without end. Every room is occupied. A traveller walks up to the desk and asks for a room. The Guide has checked, and this is a perfectly sensible request. The hotel is called <b>Hilbert's Hotel</b>, after the mathematician David Hilbert, and it exists to show you that infinity does not behave like a big number.`,
         `<div class="sec">One New Guest</div>`,
         `The hotel is full, but the manager is not worried. He asks every guest to move to the next room along: the guest in room 1 moves to room 2, the guest in room 2 moves to room 3, and so on. Nobody is left without a room, because there is always a next room. Room 1 is now empty, and the new guest takes it.`,
         `<div style="margin:10px 0;padding:10px 14px;background:#f7f4ee;border-left:3px solid var(--ink);font:15px/1.8 Georgia,serif;overflow-x:auto;white-space:nowrap">Room <i>n</i> &rarr; Room <i>n</i> + 1</div>`,
