@@ -842,7 +842,7 @@ window.GUIDE = {
         `<div class="sec">What You Get</div>`,
         `Everything. The same hike, the same gully, the same view, the same people, the same song at the end. Nobody is keeping score. Nobody is watching to see who took what. Sober travellers are some of the best buddies in the group, because they notice everything, and they remember it in the morning.`,
         `<div class="sec">Respect Your Dose</div>`,
-        `Zero is a dose, and the Guide respects it completely.`
+        `Zero is a dose, and the Guide respects it completely. It is the ultimate form of respect for Mind Garden.`
       ],
       see:["substances","beginners","brodie"] },
     { id:"money", cat:"Things", title:"I've Had Such a Sick Time. How Do I Give Brodie My Money?",
