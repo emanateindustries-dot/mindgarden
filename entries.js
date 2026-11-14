@@ -1189,6 +1189,12 @@ window.GUIDE = {
         `<div class="short">Set it up, go slow, respect the dose, and when you are ready, ask Brodie.</div>`
       ],
       see:["substances","safety","sober","kholes","brodie"] },
+    { id:"lostproperty", cat:"Things", title:"Lost Property",
+      text:[
+        `<ul><li><b>Guitar pick</b></li><li><b>Sunglasses</b></li><li><b>Clippers</b></li><li><b>Time</b></li></ul>`,
+        `<div class="short">If you find any of these, do not remove them. Only graffiti on them.</div>`
+      ],
+      see:["rules","brodie"] },
     { id:"rock", cat:"Things", title:"Can I Take This Rock Home?",
       text:[
         `No. Ask Brodie why.`
