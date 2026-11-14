@@ -252,7 +252,7 @@ function openEntry(id){
   if(e.pins&&e.pins.length&&location.hash!=='#map') chips.push(`<button class="pinbtn" data-map="${e.id}">Show on map</button>`);
   (e.see||[]).filter(s=>E[s]).forEach(s=>chips.push(`<button data-open="${s}">${E[s].title}</button>`));
   if(chips.length) h+=`<div class="chips">${chips.join('')}</div>`;
-  $('#sheet').innerHTML=h; $('#sheet').classList.toggle('nobar',e.id==='secret'); $('#sheet').scrollTop=0; [...$('#sheet').children].forEach((c,i)=>c.style.animationDelay=(i*70)+'ms');
+  $('#sheet').innerHTML=h; $('#sheet').classList.toggle('nobar',e.id==='secret'); $('#sheet').scrollTop=0; (function(){const sh=$('#sheet');sh.onscroll=null;if(e.id!=='secret')return;sh.onscroll=()=>{const L=sh.querySelector('.loop');if(!L)return;const H=L.offsetHeight,st=L.offsetTop;if(sh.scrollTop>st+2*H)sh.scrollTop-=H}})(); [...$('#sheet').children].forEach((c,i)=>c.style.animationDelay=(i*70)+'ms');
   $('#sheet').classList.add('on'); $('#back').classList.add('on');
 }
 function closeSheet(){$('#sheet').classList.remove('on');$('#back').classList.remove('on')}
