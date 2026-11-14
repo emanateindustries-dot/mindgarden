@@ -897,7 +897,7 @@ window.GUIDE = {
         `Mix it with water, as the bottle says. Bring enough, and bring it as well as your own water, not instead of it. The sober carer is still the sober carer. And if another adult asks for donkey piss, they may have it too. Nobody here is too old.`
       ],
       see:["children","beginners","love"] },
-    { id:"moldavite", cat:"Things", title:"The Hidden Dangers of Moldavite",
+    { id:"moldavite", cat:"Things", title:"THE HIDDEN DANGERS OF MOLDAVITE",
       quote:["It is not a gentle stone."],
       text:[
         `This is a cautionary tale. The Guide would like you to read it sitting down, preferably with a cold cup of <a href="#" data-open="donkeypiss">donkey piss</a> within reach, and preferably not while wearing anything green.`,
