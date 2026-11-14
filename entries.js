@@ -29,15 +29,16 @@ window.GUIDE = {
       text:[
         "Mind Garden is a 06:00 to 18:00 day out on a 110 acre bush block, and only Brodie knows where Mind Garden is. He starts at 6, and you are welcome to follow him in.",
         "Mind Garden is an <b>all-weather event</b>. Rain, wind or shine, the Door opens. Pack and dress for whatever the day throws at you.",
-        `<b>Do not come if:</b>`,
+        `<b>Mind Garden may not be for you right now if:</b>`,
         `<ul>
-          <li>you're not ready for an experience of mind, body and soul</li>
-          <li>you're scared of taking psychedelics</li>
-          <li>you don't want to grow and be more than you are now</li>
+          <li>you're not ready for a long day of mind, body and soul on steep, rough bush</li>
+          <li>you aren't up for growing and being a bit more than you are now</li>
+          <li>you're not prepared to follow the safety basics: your buddy, your water, your map and the 18:00 Door</li>
         </ul>`,
+        `Nobody has to take anything to come. <b>Sober is the ultimate form of mind gardening</b>, and plenty of people walk the whole day with nothing in their system. If you do choose to take something, make it an informed choice: read <a href="#" data-open="substances">the substance rules</a> and <a href="#" data-open="safety">The Boring Bit</a> first, go lower than you think you need, and keep a sober buddy close. Respect your dose.`,
         "Mind Garden isn't easy. Let Brodie tell you."
       ],
-      see:["rules","day","find"] },
+      see:["rules","day","find","sober","substances","safety"] },
 
     { id:"ticket", cat:"Rules", title:"Your Ticket In",
       text:[
