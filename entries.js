@@ -675,9 +675,9 @@ window.GUIDE = {
         `<div class="sec">One Important Rule</div>`,
         `Unlike a Buddha, <b>do not pat his belly.</b> The Guide understands the temptation. It is a long-standing custom with statues. Neil is not a statue, he is not here to bring you luck by being touched, and he has not agreed to it. Luck is already yours. Keep your hands to yourself.`,
         `<div class="sec">Think of Kevin</div>`,
-        `The correct approach is the one for <a href="#" data-open="kevin">Kevin the snake</a>. Neil is similar to Kevin in all the ways that matter: he is spiritually advanced, he has been here far longer than any of us, he keeps his own hours, and he does not want to be bothered. Give him room. Appreciate him from a respectful distance. Let him get on with his day.`,
+        `The correct approach is the one for <a href="#" data-open="kevin">Kevin the snake</a>, and there is a reason for that. Neil is similar to Kevin, and Kevin is in fact Neil's brother. He lives on one of Neil's many properties, this one. Like his brother, Neil is spiritually advanced, keeps his own hours and does not want to be bothered. Give him room. Appreciate him from a respectful distance. Let him get on with his day.`,
         `<div class="sec">Remember Whose Property This Is</div>`,
-        `This is Neil's property. He lets Brodie use it four times a year to show everyone how beautiful it is, and he is under no obligation to do so. You are a guest. Behave like one. See <a href="#" data-open="neil">Neil</a> for the full picture, and <a href="#" data-open="legal">the legal bit</a> for what you agreed to on the way in.`
+        `This is Neil's property, one of his many, and the Guide expects it to almost certainly never be sold, because all of Neil's good stuff is here. He lets Brodie use it four times a year to show everyone how beautiful it is, and he is under no obligation to do so. You are a guest. Behave like one. See <a href="#" data-open="neil">Neil</a> for the full picture, and <a href="#" data-open="legal">the legal bit</a> for what you agreed to on the way in.`
       ],
       see:["neil","kevin","legal","substances"] },
     { id:"love", cat:"Things", title:"Love",
