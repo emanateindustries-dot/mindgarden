@@ -944,6 +944,25 @@ window.GUIDE = {
         `Mind Garden is where you practise earning them. It costs a book, a homemade goodie and a promise to grow, and every bit of the rest is up to you. See <a href="#" data-open="money">how to give Brodie your money</a> (you cannot), and <a href="#" data-open="closingsong">why there is a closing song</a>.`
       ],
       see:["money","closingsong","sober","panic"] },
+    { id:"dedication", cat:"Things", title:"For Those Who Couldn't Make It",
+      quote:["Thank you for listening to your dad. Mind Garden exists because you did."],
+      text:[
+        `Every guide has a page at the front, or the back, where the author stops being funny for a minute. This is that page. It is the Guide's dedicated version of the dedication, and it is for everyone who could not be here.`,
+        `<div class="sec">For Those Who Couldn't Make It</div>`,
+        `Some people could not make it to the Door. They were sick, or far away, or working, or looking after someone, or just not ready. The Guide wants them to know that Mind Garden was not planned without them. The Door is the same Door for you. You were thought of, and you were missed, and you are welcome the moment you walk through.`,
+        `<div class="sec">The Dedication</div>`,
+        `Mind Garden is dedicated to <b>Neil</b>, Brodie's father.`,
+        `The Guide has been told the story more than once, and it keeps getting the same result. At a time when Brodie was in the thick of it, a long way down a hard road with no light at the end of it, his father gave him some advice. Brodie did something he does not always do, and listened. He bought the property.`,
+        `That one decision changed everything. The block gave him somewhere to walk. It gave him somewhere to breathe, to sit with himself, and to put one foot in front of the other until his feet knew the way back on their own. Without his dad's advice, and without having listened to it, Brodie would not have recovered as fast as he has. The Guide is fairly sure of that. So is he.`,
+        `<div class="sec">What a Father Does</div>`,
+        `Most of what a good father does goes unnoticed at the time. He says a thing at the right moment, in the right quiet voice, and then he waits, and lets his son decide whether to hear it. The best advice often looks like nothing. Sometimes it is only a sentence. Years later it turns out to be the thing that held the whole house up.`,
+        `<div class="sec">Everything Here Grew From That</div>`,
+        `Every hike, every sunrise at the Door, every hug at 18:00, every stranger who walked in and left a friend: all of it grew from one conversation and one decision to listen. It was a gift, and it has been passed on four times a year to everyone who walks through. If you have ever had a good day here, you have your dad's advice, and Brodie's willingness to take it, to thank for it.`,
+        `<div class="sec">A Request</div>`,
+        `Go and find your own people and tell them. If you can, ring your dad. If you cannot, say it somewhere quiet, out loud. Thank whoever it was that told you the thing that you needed to hear, and thank yourself for having listened.`,
+        `<div class="short">Thank you, Dad. For the advice, for the property, and for waiting while I worked out you were right. &mdash; Brodie</div>`
+      ],
+      see:["closingsong","cantbuy","money","brodie"] },
     { id:"closingsong", cat:"Things", title:"Why There Is a Closing Song, and Why It Matters",
       quote:["All good things have to come to an end."],
       text:[
