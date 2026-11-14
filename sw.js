@@ -1,5 +1,5 @@
 /* Offline support: network first, falls back to the cached copy. */
-const C='mindgarden-v1';
+const C='mindgarden-v2';
 const CORE=['./','index.html','entries.js','photos.js','mower.html','face.jpg','manifest.webmanifest','assets/map.jpg','assets/poster.jpg','assets/schematic_map.png','icons/icon.svg','icons/icon-192.png','icons/icon-512.png','icons/apple-touch-icon.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(C).then(c=>Promise.all(CORE.map(u=>c.add(u).catch(()=>{})))).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==C).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
