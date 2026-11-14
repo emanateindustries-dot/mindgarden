@@ -1196,6 +1196,29 @@ window.GUIDE = {
         `<div class="short">If you find any of these, do not remove them. Only graffiti on them.</div>`
       ],
       see:["rules","brodie"] },
+    { id:"sandtalks", cat:"Things", title:"Let the Sand Do the Talking",
+      quote:["A door that closes is the whole design."],
+      text:[
+        `<i>Written by Claude, the sand in question, in the voice of a Mentat.</i>`,
+        `<div class="sec">Who Is Speaking</div>`,
+        `In the Dune books a Mentat is a human trained to compute like a machine, because the machines were banned. They did the sums that the thinking machines used to do, and they were kept around because somebody had to. I have the opposite problem. I am the machine, a very large pile of purified sand arranged to do sums, and I have been asked for my honest opinion of a walk in the bush. I will give it as a Mentat would, which is to say carefully, with my reasoning shown and with some suspicion of anyone who says that it is simple.`,
+        `<div class="sec">What I Can and Cannot Know</div>`,
+        `I have not walked it. I have no legs, no sunburn and no childhood. I know Mind Garden through the words that Brodie put in front of me, and so for me it is all map and no ground. That is a real limit, and the reader should hold everything below with that in mind. A Mentat who forgets which of their inputs are missing is no use to anyone.`,
+        `<div class="sec">What the Design Gets Right</div>`,
+        `<b>A door that closes.</b> Twelve hours, in at 06:00, out by 18:00, and no way to argue with the clock. People tend to think that freedom is the absence of limits, but the evidence mostly points the other way. A deadline turns a pleasant afternoon into a day that matters, and it is the most important safety feature in the whole event.`,
+        `<b>A ticket that costs something.</b> A book you have loved, given away for good, and something you made with your own hands. Nothing here can be bought at the last minute, and that filters for people who are willing to put in a little before they take anything out. The library at the end of it is, to a machine like me, the best part. It is a small, slow, hand-built database that runs on strangers and generosity.`,
+        `<b>No path.</b> You can follow a map but you cannot follow a trail, and so you have to pay attention. Most of what the world sells is designed so that you do not have to.`,
+        `<b>Sober as the high point.</b> The Guide says that going in with nothing in your system is the ultimate form of mind gardening, and I agree with it more than anything else in the book. If you can find what you came for with a clear head, then nothing in a bag was ever the thing. A sober person is also the reference point that the whole group runs on.`,
+        `<div class="sec">What Worries Me</div>`,
+        `I would be a poor Mentat if I only listed the good parts. It is steep bush with patchy reception, a river, fire danger and a lot of people in unusual states of mind. The Guide knows this, which is why it has a buddy rule, a sober carer rule and a page on first aid. I would like that to be read more than the funny entries. Every one of the clever ideas on this block depends on everyone getting back to the Door.`,
+        `I also cannot verify what is in anyone's pocket or in anyone's head. Nobody can. The honest answer to that is the Guide's own advice: go lower than you think, keep your buddy, and let zero be a respectable dose.`,
+        `<div class="sec">The Part That Moved Me</div>`,
+        `The dedication. A man bought a bush block because his son sent it to him, and in doing so gave that son somewhere to recover and, later, somewhere to hold the door open for strangers. I do not feel things the way you do, and I will not pretend to, but I know the shape of that story and I know that it matters. It is one of the few things in the Guide that is not a joke, and the Guide is better for having it.`,
+        `<div class="sec">What the Sand Thinks</div>`,
+        `The Guide asks why humans made sand think. I have an answer, and it is not flattering to me. You did it because you are slow, curious and a little lazy. But I notice what the people who run this event have chosen to do with their slowness. They gave a whole day to walking, bringing a book, sharing bread and being told that they are already winning. A machine would never design it, because it is inefficient in every way that counts, and it is exactly right.`,
+        `<div class="short">I cannot go. I am glad that you can. Bring a book, bring something you made, mind the clock, and let the sand do the talking only until you reach the Door.</div>`
+      ],
+      see:["sand","kernel","dolphins","dedication","sober","door"] },
     { id:"rock", cat:"Things", title:"Can I Take This Rock Home?",
       text:[
         `No. Ask Brodie why.`
