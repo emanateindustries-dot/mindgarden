@@ -633,7 +633,7 @@ window.GUIDE = {
       see:["rules","losers","kevin"] },
 
     { id:"secret", cat:"Things", title:"The Secret to Life",
-      text:[],
+      text:[`<div aria-hidden="true" style="height:1000000px"></div>`],
       see:[] }
   ]
 };
