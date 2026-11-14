@@ -582,7 +582,7 @@ window.GUIDE = {
         `<b>Mostly.</b> The Guide has done its best to make this as thorough as a Guide can. But the Guide is a Guide, not a court, and it would be dishonest to say that entering a gate always makes a binding contract, or that a waiver can ever cover everything. Some things the law simply will not let anyone sign away. That is why clause 25 exists, and why the Guide would also like you to look at the gate notice. What the Guide can promise is the part that actually matters: everyone who walks through the Door has agreed, in spirit, to look after themselves, to look after each other, and to leave the place better than they found it. That part is binding on your conscience. Welcome in.`
       ],
       see:["rules","substances","children","safety","kevin","neil","beginners"] },
-    { id:"dyslexia", cat:"Things", title:"Help, I'm Dyslexic and Can't Read. Can I Still Enter Without a Book?",
+    { id:"dyslexia", cat:"Things", title:"Hlp, I'm Dslxc nd Cn't Rd. Cn I Stll Entr Wthot a Bk?",
       quote:["Ask a mtae. Cmoe in anawyy."],
       text:[
         `Yes. You can sltil eentr Mnid Gderan. Ndooby has eevr been ternud aawy at the Door for not bineg albe to raed, and nbdooy eevr wlil be. The Giude is a book, not a tkiect.`,
