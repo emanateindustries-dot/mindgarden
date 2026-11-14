@@ -458,6 +458,18 @@ window.GUIDE = {
       ],
       see:["find","gully","kevin","safety","day"] },
 
+    { id:"panic", cat:"Things", title:"Don't Panic",
+      quote:["In large, friendly letters."],
+      text:[
+        `The Guide has the words <b>DON'T PANIC</b> inscribed on its cover in large, friendly letters, and it would like them inscribed on you as well.`,
+        `You will probably be lost at some point. This is not a failure. It is the experience. You will be late, or confused, or standing in a gully wondering whether this is the right gully. It might be. It might not. Either way, nothing here requires you to hurry.`,
+        `<b>If you are lost:</b> stop, drink some water, look at the <a href="#" data-tab="map">map</a>, and have a think. Walk back to the last place you were sure of. The block is large, but it is not infinite, and the Door will still be there at 18:00.`,
+        `<b>If you see Kevin:</b> see <a href="#" data-open="kevin">Kevin</a>. He is more worried than you are.`,
+        `<b>If something is genuinely wrong,</b> someone is hurt or sick, or you cannot find a person you are responsible for, <b>that is the one time to act quickly.</b> Stay calm, get to the Door for signal, and call <b>000</b>. See <a href="#" data-open="safety">The Boring Bit</a>.`,
+        `Everything else can wait. You have a map, some water, some company and a very good view. Don't panic.`
+      ],
+      see:["safety","kevin","day","find"] },
+
     { id:"termites", cat:"Things", title:"The Definitive Guide to Ranking Termite Mounds", pins:[[42.5,43.7],[54.9,18.0]],
       quote:[
         "Brodies #1 ranked termite mound.",
