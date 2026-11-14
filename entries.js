@@ -831,6 +831,20 @@ window.GUIDE = {
       ],
       see:["marketing","fringes","kevin","termites"] },
 
+    { id:"sober", cat:"Things", title:"Can I Do This Sober?",
+      quote:["Yes."],
+      text:[
+        `Yes. Of course you can. The Guide would like that to be very clear, so it is saying it at the top: <b>yes.</b>`,
+        `<div class="sec">The Highest Form</div>`,
+        `Mind Gardening sober is the highest form of mind gardening there is. Nothing is added, nothing is borrowed, and nothing is between you and the experience. You, the bush, the people around you, and twelve hours.`,
+        `<div class="sec">Even Brodie</div>`,
+        `Brodie has not reached those levels of enlightenment. The Guide has checked, and it is true. If you can walk through the Door with nothing in your system and still find your way to the Trench, you are further along than the man who wrote the rules.`,
+        `<div class="sec">What You Get</div>`,
+        `Everything. The same hike, the same gully, the same view, the same people, the same song at the end. Nobody is keeping score. Nobody is watching to see who took what. Sober travellers are some of the best buddies in the group, because they notice everything, and they remember it in the morning.`,
+        `<div class="sec">Respect Your Dose</div>`,
+        `Zero is a dose, and the Guide respects it completely.`
+      ],
+      see:["substances","beginners","brodie"] },
     { id:"money", cat:"Things", title:"I've Had Such a Sick Time. How Do I Give Brodie My Money?",
       quote:["The best things in life are free."],
       text:[
