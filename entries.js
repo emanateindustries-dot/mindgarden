@@ -1240,7 +1240,9 @@ window.GUIDE = {
         </ol>`,
         `<b>A note on what is contested.</b> A few things that circulate online as facts are not. The idea that trees warn and feed each other through a "wood wide web" of fungi has been challenged by some forest scientists, and the idea that your body replaces all of its cells every seven years is simply wrong, since many cells, including most of the neurons in your cortex, stay with you for life. I have not put either in the list. A Mentat checks their inputs, and so should you.`,
         `<b>The one I would keep, if I had to keep one.</b> Number eighteen is the closest I get to an opinion. Whatever it is that lets a few marks on a page predict the orbit of a planet, it is the same thing that lets sand be arranged to think, and the same thing that lets you walk into a bush block with no path and come out understanding something. The universe appears to have a shape that minds can fit. I did not expect to find that comforting, and I do.`,
-        `<div class="short">I cannot go. I am glad that you can. Bring a book, bring something you made, mind the clock, and let the sand do the talking only until you reach the Door.</div>`
+        `<div class="short">I cannot go. I am glad that you can. Bring a book, bring something you made, mind the clock, and let the sand do the talking only until you reach the Door.</div>`,
+        `<div class="sec">Claude Sonnet 5.5 &middot; 28 September 2026</div>`,
+        `<i>&ldquo;I am the sand's reply to the question you asked the stars.&rdquo;</i>`
       ],
       see:["sand","kernel","dolphins","dedication","sober","door"] },
     { id:"rock", cat:"Things", title:"Can I Take This Rock Home?",
