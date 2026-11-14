@@ -156,12 +156,13 @@ window.GUIDE = {
         </ul>`,
         `<div class="sec">Sober Is Good Too</div>`,
         `Nobody has to take anything to come to Mind Garden. Sober is good. Sober is more than good: it is the highest form of mind gardening there is, and even Brodie has not reached those levels of enlightenment. If you are walking the whole day with nothing in your system, you are not missing out, you are the reference point. Zero is a dose, and the Guide respects it completely. See <a href="#" data-open="sober">Can I Do This Sober?</a>`,
+        `Think of it in terms of <a href="#" data-open="kernel">the Linux kernel</a>. In a computer the kernel is the small, steady core that everything else runs on, and the thing every other part is measured against. Whoever goes in sober is the kernel of the group. Everyone else's programs can wobble, freeze or run a bit strange for the day, and the sober one keeps running underneath, knows where the Door is and keeps time. Every group needs at least one, and the Guide would like it to be you.`,
         `<div class="sec">After 18:00</div>`,
         `Once Mind Garden is finished at 18:00, the drug ban lifts and alcohol is allowed. The rules above are for Mind Garden, door to door. Carers of children stay sober for as long as the children are in their care, whatever the time. See <a href="#" data-open="children">Bringing Children</a>.`,
         `<div class="sec">Neil's Place</div>`,
         `This is Neil's property, so Neil is not bound by any Mind Garden rules. He can do whatever he sees fit. It is his place, and he has let Brodie use it four times a year to show everyone how beautiful it is. Treat it, and him, accordingly.`
       ],
-      see:["safety","rules","children","neil"] },
+      see:["safety","rules","children","neil","kernel"] },
 
     { id:"safety", cat:"Rules", title:"The Boring Bit",
       text:[
