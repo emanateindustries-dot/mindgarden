@@ -910,6 +910,22 @@ window.GUIDE = {
         `<div class="short">I love every single one of you, so so much. &mdash; Brodie</div>`
       ],
       see:["closingsong","brodie","beginners"] },
+    { id:"cantbuy", cat:"Things", title:"What Money Can't Buy",
+      quote:["A fit body, a calm mind, a house full of love. &mdash; Naval Ravikant"],
+      text:[
+        `Naval Ravikant, who knows a thing or two about money, listed three things it cannot buy: <b>a fit body, a calm mind, and a house full of love.</b> They cannot be bought, he said. They have to be earned. The Guide has read a great many things, and it has not found a better description of what Mind Garden is for.`,
+        `<div class="sec">A Fit Body</div>`,
+        `You cannot pay someone to walk up the ridge for you. Nobody can climb the gully on your behalf, and nobody can carry your water. Every step down to the Trench is yours, and so is every step back out. That is the whole point of it.`,
+        `<div class="sec">A Calm Mind</div>`,
+        `You cannot buy a quiet head, either. You can buy a nice holiday and still bring your mind with you. A calm mind comes from sitting with yourself in a hammock, with some good tunes, and learning to breathe. That is the same lesson as <a href="#" data-open="panic">not panicking</a>, and it is free.`,
+        `<div class="sec">A House Full of Love</div>`,
+        `Nobody sells it. You get it by turning up for people, by saying the true thing out loud, and by holding your mate at the Door when the song plays. It is made out of small, repeated, unglamorous acts, and there is no shortcut to it.`,
+        `<div class="sec">What Else You Cannot Buy</div>`,
+        `A sunrise at the Door at 06:00. The view from the ridge. A mate you trust to be your buddy. A silence that two people can share. The first sip of water at the end of a hard walk. Brodie has looked for these in shops and has so far found none of them.`,
+        `<div class="sec">So</div>`,
+        `Mind Garden is where you practise earning them. It costs a book, a homemade goodie and a promise to grow, and every bit of the rest is up to you. See <a href="#" data-open="money">how to give Brodie your money</a> (you cannot), and <a href="#" data-open="closingsong">why there is a closing song</a>.`
+      ],
+      see:["money","closingsong","sober","panic"] },
     { id:"closingsong", cat:"Things", title:"Why There Is a Closing Song, and Why It Matters",
       quote:["All good things have to come to an end."],
       text:[
