@@ -837,6 +837,20 @@ window.GUIDE = {
         `If this has opened a door in your head, the Guide knows exactly which book to point you to: <b>The Beginning of Infinity</b> by <b>David Deutsch</b>. Deutsch uses Hilbert's Hotel, along with a great deal else, to argue that there is no limit to how much we can come to understand, and that every problem is soluble given the right explanation. It is one of the best books on how knowledge grows that the Guide has come across. Read it, ideally somewhere with a view. Bring a physical copy. See <a href="#" data-open="dyslexia">the audio book clause</a> for why.`
       ],
       see:["fortytwo","lifetime","beginners"] },
+    { id:"donkeypiss", cat:"Things", title:"Why All Children Should Consume Donkey Piss",
+      quote:["If a child asks for donkey piss, you oblige."],
+      text:[
+        `The Guide would like to begin with a clarification, in the interests of everyone's safety, the Guide's reputation and any parents who are currently reaching for the phone. <b>Donkey piss is cordial.</b> It is the drink. It is made from a sweet concentrated syrup, topped up with water, and served cold in a cup. No donkeys are involved at any stage.`,
+        `<div class="sec">Where the Name Came From</div>`,
+        `One night, around the dinner table, Brodie referred to cordial as donkey piss. Nobody knows exactly why. The Guide has spent a long time on the question and has concluded that some questions are best left unanswered. The name stuck at once and has never gone away. It is now the official name of the drink, in the part of the galaxy where Brodie lives.`,
+        `<div class="sec">Why Every Child Should Have It</div>`,
+        `Because it is delicious, it is cold, it is cheap, and it turns a plain glass of water into the best thing that has happened all afternoon. A child with a cup of donkey piss is a happy child, and a happy child on a long walk is a child who keeps walking. It is also very good at getting water into a person who would otherwise have refused it, and the Guide has made its position on <a href="#" data-open="children">water and children</a> clear elsewhere.`,
+        `<div class="sec">The Rule</div>`,
+        `If any child asks for donkey piss, you oblige. Especially at Mind Garden. No questions, no lectures, no looks. Pour it, mix it properly with water, and hand it over with a straight face. A child who asks for donkey piss by name has understood something important about the place, and should be rewarded.`,
+        `<div class="sec">A Note for the Adults</div>`,
+        `Mix it with water, as the bottle says. Bring enough, and bring it as well as your own water, not instead of it. The sober carer is still the sober carer. And if another adult asks for donkey piss, they may have it too. Nobody here is too old.`
+      ],
+      see:["children","beginners","love"] },
     { id:"rock", cat:"Things", title:"Can I Take This Rock Home?",
       text:[
         `No. Ask Brodie why.`
