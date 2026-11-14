@@ -459,9 +459,9 @@ window.GUIDE = {
       see:["find","gully","kevin","safety","day"] },
 
     { id:"panic", cat:"Things", title:"Don't Panic",
-      quote:["In large, friendly letters."],
+      quote:["Not on the cover. Somewhere more useful."],
       text:[
-        `The Guide has the words <b>DON'T PANIC</b> inscribed on its cover in large, friendly letters. This is the most useful piece of advice in the entire Guide, and it is also the one most often forgotten at exactly the moment it is needed. The Guide would like it inscribed on you as well.`,
+        `The Guide does <b>not</b> have the words DON'T PANIC inscribed on its cover, unlike certain other books that claim to be the guide to the universe. The Guide has no cover to speak of. It has you. It is the most useful piece of advice in the entire Guide, and it is also the one most often forgotten at exactly the moment it is needed, so the Guide would like it inscribed on you instead.`,
         `<div class="sec">If You Find Yourself Having a Bad Time</div>`,
         `It happens to the best of travellers. The gully looks wrong, the trees look too interested, and a thought has arrived that will not leave. The Guide's advice is simple, and it comes in order.`,
         `<ol>
