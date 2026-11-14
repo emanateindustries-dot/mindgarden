@@ -802,7 +802,7 @@ window.GUIDE = {
       ],
       see:["rules","losers","kevin"] },
 
-    { id:"infinityhotel", cat:"Things", title:"Please Stop Getting Brodie to Explain Infinity",
+    { id:"infinityhotel", cat:"Things", title:"Please Stop Getting Brodie to Explain Infinity. He Has a Speech Injury and Might Actually Choke and Die",
       quote:["Sorry, we're full. Actually, hang on."],
       text:[
         `The Guide has a request. Brodie has a speech injury, and he has been asked to explain infinity at the fire far too many times, by people who ought to know better. Please stop. That is the Guide's job, and the Guide is very happy to do it, so here it is. Somewhere in the mathematics of the universe there is a hotel with infinitely many rooms, numbered 1, 2, 3, and so on without end. Every room is occupied. A traveller walks up to the desk and asks for a room. The Guide has checked, and this is a perfectly sensible request. The hotel is called <b>Hilbert's Hotel</b>, after the mathematician David Hilbert, and it exists to show you that infinity does not behave like a big number.`,
