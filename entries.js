@@ -660,7 +660,7 @@ window.GUIDE = {
       see:["marketing","fringes","kevin","termites"] },
 
     { id:"secret", cat:"Things", title:"The Secret to Life",
-      text:[`It begins with being able to <a href="mower.html">hire Brodie's mower</a>.`,`See footnote.`,`<div aria-hidden="true" style="height:1000000px"></div>`,`<p style="font-size:12px;color:var(--mute)">¹ See footnote.</p>`],
+      text:[`It begins with being able to <a href="mower.html">hire Brodie's mower</a>. And the final answer is at the footnote of this page.`,`<div aria-hidden="true" style="height:1000000px"></div>`,`<p style="font-size:12px;color:var(--mute)">¹ See footnote.</p>`],
       see:[] }
   ]
 };
