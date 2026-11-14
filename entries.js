@@ -856,7 +856,7 @@ window.GUIDE = {
         `<div class="sec">The Boring Bit</div>`,
         `Depending on where you live, a donation may be tax-deductible. In some countries it is, and in others, including for many overseas charities in Australia, it is not. The Guide is not an accountant. Check with a real one before you claim anything.`,
         `<div class="sec">Do Not Tell Brodie</div>`,
-        `Do not show Brodie that you donated. He does not actually care whether you did or not. Give quietly, for your own reasons, and then forget about it.`,
+        `Do not show Brodie that you donated. He does not actually care whether you did or not. Give quietly. That is a universal rule, and it applies to everything, not just this. You will understand why after enough Mind Gardens.`,
         `<div class="sec">What Brodie Actually Needs</div>`,
         `A hug. Someone to hold him at the closing of Mind Garden, when the Door shuts and the song plays. It has been a hell of a road out of the woods. If you want to give him something, give him that.`,
         `<div class="short">I love every single one of you, so so much. &mdash; Brodie</div>`
