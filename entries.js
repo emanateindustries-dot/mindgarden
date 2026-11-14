@@ -1129,6 +1129,11 @@ window.GUIDE = {
         `<div class="short">Check danger. Call 000. Start CPR. Use the AED. Keep going.</div>`
       ],
       see:["safety","kevin","substances","kholes"] },
+    { id:"actuallysave", cat:"Things", title:"How to Actually Save a Life",
+      text:[
+        `<div class="short">Brodie to fill out.</div>`
+      ],
+      see:["savealife","brodie"] },
     { id:"dolphins", cat:"Things", title:"Why Dolphins Might Be Smarter Than the Sand Humans Made Think",
       quote:["The dolphin was never asked to think. It just did."],
       text:[
