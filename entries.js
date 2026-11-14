@@ -852,7 +852,7 @@ window.GUIDE = {
       text:[
         `You cannot. The Guide has checked, and Brodie does not want it. Put the wallet away.`,
         `<div class="sec">You Have Already Paid</div>`,
-        `You paid at the Door, with a book and a homemade goodie. That was the price of entry, and it was a fair one. The best things in life are free, and Mind Garden is one of them. Nothing is owed.`,
+        `You paid at the Door, with a book, a homemade goodie, and a promise to grow in the way you see most fit. That was the price of entry, and it was a fair one. The best things in life are free, and Mind Garden is one of them. Nothing is owed.`,
         `<div class="sec">If That Still Is Not Enough</div>`,
         `If you still feel the need to give something back, the Guide suggests a donation to <b>MAPS</b>, the Multidisciplinary Association for Psychedelic Studies, which does research into psychedelics. Give what you can, and only what you can.`,
         `<div class="sec">The Boring Bit</div>`,
