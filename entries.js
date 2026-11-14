@@ -477,7 +477,7 @@ window.GUIDE = {
         `<div class="sec">But Remember: Don't Panic</div>`,
         `If you find yourself having a bad trip, help is never far away. The block is large, but the people on it are close. And if you respected your dose, which the Guide has asked you to do several times, the chances of any of this are very, very slim.`,
         `<b>The one exception:</b> a medical emergency is not an experience. If someone is hurt, unresponsive, having a seizure, overheating or injured, <b>that is the one time to act quickly.</b> Stay calm, get to the Door for signal and call <b>000</b>. See <a href="#" data-open="safety">The Boring Bit</a>.`,
-        `Everything else can wait. You have a map, some water, some company and a very good view. Don't panic.`
+        `Everything else can wait. You have a map, some water, some company, a very good view and some epic trail snacks to share with those around you. <b>DON'T PANIC.</b>`
       ],
       see:["safety","kevin","day","find"] },
 
