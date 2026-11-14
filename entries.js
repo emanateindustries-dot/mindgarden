@@ -802,6 +802,24 @@ window.GUIDE = {
       ],
       see:["rules","losers","kevin"] },
 
+    { id:"infinityhotel", cat:"Things", title:"The Infinity Hotel",
+      quote:["Sorry, we're full. Actually, hang on."],
+      text:[
+        `Somewhere in the mathematics of the universe there is a hotel with infinitely many rooms, numbered 1, 2, 3, and so on without end. Every room is occupied. A traveller walks up to the desk and asks for a room. The Guide has checked, and this is a perfectly sensible request. The hotel is called <b>Hilbert's Hotel</b>, after the mathematician David Hilbert, and it exists to show you that infinity does not behave like a big number.`,
+        `<div class="sec">One New Guest</div>`,
+        `The hotel is full, but the manager is not worried. He asks every guest to move to the next room along: the guest in room 1 moves to room 2, the guest in room 2 moves to room 3, and so on. Nobody is left without a room, because there is always a next room. Room 1 is now empty, and the new guest takes it.`,
+        `<div style="margin:10px 0;padding:10px 14px;background:#f7f4ee;border-left:3px solid var(--ink);font:15px/1.8 Georgia,serif;overflow-x:auto;white-space:nowrap">Room <i>n</i> &rarr; Room <i>n</i> + 1</div>`,
+        `<div class="sec">An Infinite Bus</div>`,
+        `Now an infinite bus arrives, with infinitely many passengers. The manager asks every guest to move to the room with twice their number. Room 1 goes to room 2, room 2 goes to room 4, room 3 goes to room 6. Every old guest now sits in an even room, which leaves every odd room free, and there are infinitely many of those, which is exactly what the bus needs.`,
+        `<div style="margin:10px 0;padding:10px 14px;background:#f7f4ee;border-left:3px solid var(--ink);font:15px/1.8 Georgia,serif;overflow-x:auto;white-space:nowrap">Room <i>n</i> &rarr; Room 2<i>n</i></div>`,
+        `<div class="sec">Infinitely Many Infinite Buses</div>`,
+        `Even this is fine. The manager can use a smarter rule to fit every passenger from every bus without a collision. One such rule gives the guest from room <i>n</i> the room 2<sup><i>n</i></sup>, and gives passenger <i>m</i> of bus <i>b</i> the room 3<sup><i>b</i></sup>&middot;5<sup><i>m</i></sup>. No two people ever land in the same room, because of a quirk of prime numbers. The hotel, which was full, now holds infinitely many infinities of people, and still has rooms to spare.`,
+        `<div class="sec">What the Guide Takes From It</div>`,
+        `A full hotel can always take more. A finite thing that is full is full, and an infinite thing that is full is not. The mathematics has no problem with this, and the human brain, which evolved to count goats, has a great deal of trouble. If you find yourself sitting in the gully at 3pm thinking that you cannot possibly take any more in, and that every room in your head is booked, the Guide suggests that you may simply need to ask the guests in there to shuffle along.`,
+        `<div class="sec">Where to Go Next</div>`,
+        `If this has opened a door in your head, the Guide knows exactly which book to point you to: <b>The Beginning of Infinity</b> by <b>David Deutsch</b>. Deutsch uses Hilbert's Hotel, along with a great deal else, to argue that there is no limit to how much we can come to understand, and that every problem is soluble given the right explanation. It is one of the best books on how knowledge grows that the Guide has come across. Read it, ideally somewhere with a view. Bring a physical copy. See <a href="#" data-open="dyslexia">the audio book clause</a> for why.`
+      ],
+      see:["fortytwo","lifetime","beginners"] },
     { id:"rock", cat:"Things", title:"Can I Take This Rock Home?",
       text:[
         `No. Ask Brodie why.`
