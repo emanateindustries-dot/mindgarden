@@ -506,20 +506,6 @@ window.GUIDE = {
       ],
       see:["gully","trench","love","rules","panic"] },
 
-    { id:"closingsong", cat:"Things", title:"Why There Is a Closing Song, and Why It Matters",
-      quote:["All good things have to come to an end."],
-      text:[
-        `Every Mind Garden ends with a closing song. The song is <b>Black Lung</b> by <b>Jonah Kagen</b>. The Guide has been asked many times why it is there, and why it matters. This is the answer.`,
-        `<div class="sec">The Lesson</div>`,
-        `All good things have to come to an end. That is the lesson of Mind Garden, and it is the reason Mind Garden lasts for twelve hours and no more. The Door opens at 06:00 and it closes at 18:00. It does not stay open for one more hour because the day was good. The day was good <i>because</i> it ended.`,
-        `<div class="sec">Why Twelve Hours</div>`,
-        `A day that never ended would stop being a day. It would be just more time. The Guide has noticed that people pay far more attention to the things they know are about to finish, and the closing song is where that attention is meant to land. It is the last thing, so you hear it properly.`,
-        `<div class="sec">What the Song Is For</div>`,
-        `The closing song is the sound of the Door closing. It tells you that you were here, that it was real, and that it is time to go. Listen to it. Do not talk through it. Do not look at your phone. Be present for the end the same way you were present for the start.`,
-        `<div class="sec">If You Do Not Get It Yet</div>`,
-        `If you need help understanding why, the Guide has only one piece of advice: do more Mind Gardens. You will eventually get it. Brodie did, on his first run through, when he discovered it. He did not get it from someone telling him. He got it from being there when it ended. You will too.`
-      ],
-      see:["rules","beginners","brodie"] },
     { id:"legal", cat:"Things", title:"I've Entered Mind Garden. Is Any of This Legal?",
       quote:["Mostly."],
       text:[
@@ -845,6 +831,20 @@ window.GUIDE = {
       ],
       see:["marketing","fringes","kevin","termites"] },
 
+    { id:"closingsong", cat:"Things", title:"Why There Is a Closing Song, and Why It Matters",
+      quote:["All good things have to come to an end."],
+      text:[
+        `Every Mind Garden ends with a closing song. The song is <b>Black Lung</b> by <b>Jonah Kagen</b>. The Guide has been asked many times why it is there, and why it matters. This is the answer.`,
+        `<div class="sec">The Lesson</div>`,
+        `All good things have to come to an end. That is the lesson of Mind Garden, and it is the reason Mind Garden lasts for twelve hours and no more. The Door opens at 06:00 and it closes at 18:00. It does not stay open for one more hour because the day was good. The day was good <i>because</i> it ended.`,
+        `<div class="sec">Why Twelve Hours</div>`,
+        `A day that never ended would stop being a day. It would be just more time. The Guide has noticed that people pay far more attention to the things they know are about to finish, and the closing song is where that attention is meant to land. It is the last thing, so you hear it properly.`,
+        `<div class="sec">What the Song Is For</div>`,
+        `The closing song is the sound of the Door closing. It tells you that you were here, that it was real, and that it is time to go. Listen to it. Do not talk through it. Do not look at your phone. Be present for the end the same way you were present for the start.`,
+        `<div class="sec">If You Do Not Get It Yet</div>`,
+        `If you need help understanding why, the Guide has only one piece of advice: do more Mind Gardens. You will eventually get it. Brodie did, on his first run through, when he discovered it. He did not get it from someone telling him. He got it from being there when it ended. You will too.`
+      ],
+      see:["rules","beginners","brodie"] },
     { id:"secret", cat:"Things", title:"The Secret to Life",
       text:[`<div style="position:sticky;top:0;z-index:5;display:flex;align-items:center;justify-content:space-between;margin:0 -22px 10px;padding:10px 22px;background:var(--paper);border-bottom:1px solid var(--line);font:700 11px Cinzel,serif;letter-spacing:.2em;text-transform:uppercase;color:var(--mute)"><span>Easy way out</span><button onclick="closeSheet()" aria-label="Close" style="width:32px;height:32px;border-radius:50%;border:0;background:#e9e7df;font-size:20px;line-height:1;color:var(--ink)">&times;</button></div>`,`It begins with being able to <a href="mower.html">hire Brodie's mower</a>. It is a totally free service, and it can be booked through the app. And the final answer is at the footnote of this page.`,`<div class="loop" aria-hidden="true" style="height:6000px"></div>`,`<div class="loop" aria-hidden="true" style="height:6000px"></div>`,`<div class="loop" aria-hidden="true" style="height:6000px"></div>`,`<div class="loop" aria-hidden="true" style="height:6000px"></div>`],
       see:[] }
