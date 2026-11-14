@@ -55,7 +55,7 @@ window.GUIDE = {
         "<b>5.</b> You can't “win” Mind Garden. You already won if you opened the Door. But you can lose it.",
         "<b>6.</b> No littering. Ever. Seriously. This is our family property, and it's a zero chance system. We don't actually have a bin here, so pack it out.",
         "<b>7.</b> Respect your dose. Buddy system advised.",
-        "<b>8.</b> Everyone who opens the Mind Garden Door must obey the <a href=\"#\" data-open=\"substances\">substance rules</a>. Carers of children, and of dogs, must also obey the sober rule if you bring them. See <a href=\"#\" data-open=\"children\">Bringing Children</a>.",
+        "<b>8.</b> Everyone who opens the Mind Garden Door must obey the <a href=\"#\" data-open=\"substances\">substance rules</a>. Carers of children, and of dogs, must also obey the sober rule if you bring them. Dogs must be on a leash at all times. See <a href=\"#\" data-open=\"children\">Bringing Children</a>.",
         "<b>9.</b> Respect Kevin."
       ],
       see:["day","losers","leave","substances","children","kevin"] },
@@ -186,6 +186,8 @@ window.GUIDE = {
         `There is 4x4 access down Easy Street into Recovery Lane. Brodie can bring his family of five into <a href="#" data-open="bend">the Bend</a> for a half day, and it is, as he puts it, easy as. It is steep, but you will find a spot. In the worst conditions Brodie has only ever needed high-range four-wheel drive to get back up the hill.`,
         `<div class="sec">Bringing a Dog</div>`,
         `The same rule applies to dogs. If you bring a dog, it is treated exactly like a child: <b>someone sober must watch it the entire time.</b> Not the group, not Brodie, not whoever happens to be nearest. You. A dog on a block this size is one distracted afternoon away from a snake, a wallaby, a cliff or a very long walk home without you.`,
+        `<div class="sec">Firm Rule: Dogs on a Leash</div>`,
+        `<b>Every dog must be on a leash, at all times, with no exceptions.</b> The block is full of wild animals, and a dog that catches a scent will go after it. It may run off and never be seen again. The Guide has no way of finding it, and neither does anyone else. This rule is not up for discussion, and it applies to the good dog, the old dog and the dog that has never once run off.`,
         `<div class="sec">The Good Bit</div>`,
         `If you do Mind Garden right, your life partner will be there to meet you for a loving embrace as you walk into <a href="#" data-open="trench">the Trench</a> to finish the day. This is one of the best things the Guide knows of, and it only works if the children were looked after, and somebody was sober, and the partner stayed behind and made it down. Do it properly and you get the embrace.`
       ],
