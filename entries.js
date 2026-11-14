@@ -733,7 +733,7 @@ window.GUIDE = {
     { id:"likeneil", cat:"Things", title:"How Do I Be More Like Neil?",
       quote:["Well, actually, you can't."],
       text:[
-        `It is a fair question. Neil is calm, wise and spiritually advanced, he has been here longer than anyone, and he looks like he has worked it all out. People ask the Guide how to be more like him about once a day, usually by the fire, usually while squinting at the horizon. The Guide has thought about it carefully and has an answer.`,
+        `It is a fair question. Neil is calm, wise and spiritually advanced, he has been here longer than anyone, and he looks like he has worked it all out. His lawnmowers never need servicing, and his entire ecosystem is beautifully looked after. He is also one of the best fishermen in all of Australia, and if you have ever eaten fish and chips, it has most likely passed through Neil's hands, or the lack thereof. People ask the Guide how to be more like him about once a day, usually by the fire, usually while squinting at the horizon. The Guide has thought about it carefully and has an answer.`,
         `<div class="sec">The Answer</div>`,
         `<b>Well, actually, you can't.</b>`,
         `Neil is Neil. There is only one of him, and he got that way by living exactly one life, which was his. You cannot copy it. Anyone who tries ends up with a poor imitation of a thing that only works because it is the original. The Guide is very fond of you, and it will say this kindly: the world already has one Neil, and he is doing a perfectly good job.`,
