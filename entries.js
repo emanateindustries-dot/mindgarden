@@ -897,6 +897,27 @@ window.GUIDE = {
         `Mix it with water, as the bottle says. Bring enough, and bring it as well as your own water, not instead of it. The sober carer is still the sober carer. And if another adult asks for donkey piss, they may have it too. Nobody here is too old.`
       ],
       see:["children","beginners","love"] },
+    { id:"moldavite", cat:"Things", title:"The Hidden Dangers of Moldavite",
+      quote:["It is not a gentle stone."],
+      text:[
+        `This is a cautionary tale. The Guide would like you to read it sitting down, preferably with a cold cup of <a href="#" data-open="donkeypiss">donkey piss</a> within reach, and preferably not while wearing anything green.`,
+        `<div class="sec">What It Is</div>`,
+        `Moldavite is a dark, bottle-green natural glass, and it is a rock with a past. It formed roughly fifteen million years ago, when a giant meteorite struck what is now Germany, at the Nördlinger Ries crater, and threw molten debris across central Europe. Most of what is found today comes from the Czech Republic. That makes it a tektite, a splash of the Earth itself, melted and flung into the sky and brought back down as glass. It is also very pretty. That is the first problem.`,
+        `<div class="sec">The Stories</div>`,
+        `Over the last few years, stories have been told, in their thousands, by the sort of people who wear it. Moldavite is said to be the fastest-acting crystal there is, the one that speeds up whatever change you most need, whether you wanted it or not. The believers have a name for the early weeks, which they call the moldavite flu, and a name for the aftermath, which is a new life.`,
+        `The accounts the Guide has read are remarkably consistent. A person puts on moldavite. A few weeks later their long relationship ends. Then they lose their job. Then a close friendship falls apart, they are suddenly moving across the country, the car is written off and the news from home is bad. Some people report a house fire. A few report deaths in the family. The same people very often report that the end result was better, and that they met someone new, found work they loved and finally cut loose the things that were holding them down. Others report only the first part.`,
+        `<div class="sec">The Warnings</div>`,
+        `Everybody who sells it, writes about it or wears it seems to agree on the warnings. Do not go looking for moldavite. Do not buy it if you are not ready. If you are not ready for the changes, it is said, it is not for you, and the stone will find a way to make that clear. A third piece of advice is hidden in the stories: the believers say that if you are not meant to have moldavite, you will not manage to get hold of it. If it does reach you anyway, it is said to arrive when it wants to.`,
+        `<div class="sec">What the Sceptics Say</div>`,
+        `The Guide is a guide, not a geologist, but it is obliged to be honest. Moldavite is silica glass. There is no scientific evidence that it does anything to your life. The sceptics point out that breakups, layoffs, car accidents and moves happen to everyone, all the time, and that a person who has just bought an expensive green stone is quite likely to notice all of them. They are probably right. The Guide would like you to remember that when you are reading the next paragraph.`,
+        `<div class="sec">The Day It Arrived</div>`,
+        `This is the part that bothers the Guide. Brodie has a piece of moldavite. It arrived on the very day he had his accident. The Guide does not say that one caused the other, and neither does Brodie, who knows perfectly well how a coincidence works. But you can see why the Guide has taken an interest, and why it is a little wary of the stone. Brodie came through it. He rebuilt, and he is walking the bush again, and in a very real way Mind Garden is part of how. Whether the stone had anything to do with that is for you to decide.`,
+        `<div class="sec">The Guide's Advice</div>`,
+        `If you are strong enough to wear it, you are strong enough to know what you are agreeing to. Be honest about whether you are ready for your life to change quickly. Tell your buddy. Keep your people close and keep your hammock handy. If everything falls apart, remember what the Guide says about not panicking, and remember that every one of these stories ends with a person standing in the ruins of their old life and slowly working out what to build instead. That, at least, is the part the Guide believes in.`,
+        `<div class="sec">Where the Stories Came From</div>`,
+        `The Guide read the TikTok accounts and the write-ups of them, including pieces on <a href="https://www.yahoo.com/lifestyle/moldavite-going-viral-tiktok-turning-163600521.html">Yahoo Lifestyle</a>, <a href="https://glam.com/1282827/tiktok-moldavite-devotees-warning-crystal-girlies-potential-chaos">Glam</a>, <a href="https://mindbodygreen.com/articles/moldavite">mindbodygreen</a> and <a href="https://gizmodo.com/the-most-terrifying-things-tiktok-says-will-kill-you-1846901395/3">Gizmodo</a>. The geology is from <a href="https://en.wikipedia.org/wiki/Moldavite">Wikipedia</a> and the <a href="https://www.gia.edu/gems-gemology/spring-2026-microworld-quarterly-crystal-spires-on-moldavite">GIA</a>. All of it is anecdote. None of it is proof.`
+      ],
+      see:["panic","closingsong","dedication","neil"] },
     { id:"rock", cat:"Things", title:"Can I Take This Rock Home?",
       text:[
         `No. Ask Brodie why.`
