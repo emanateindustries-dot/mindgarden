@@ -664,6 +664,12 @@ window.GUIDE = {
       ],
       see:["rules","losers","kevin"] },
 
+    { id:"rock", cat:"Things", title:"Can I Take This Rock Home?",
+      text:[
+        `No. Ask Brodie why.`
+      ],
+      see:[] },
+
     { id:"spiders", cat:"Things", title:"Why Spiders Cannot Be Farmed",
       quote:["Eight legs, eight eyes, no interest in your business plan."],
       text:[
