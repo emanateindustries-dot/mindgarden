@@ -461,11 +461,21 @@ window.GUIDE = {
     { id:"panic", cat:"Things", title:"Don't Panic",
       quote:["In large, friendly letters."],
       text:[
-        `The Guide has the words <b>DON'T PANIC</b> inscribed on its cover in large, friendly letters, and it would like them inscribed on you as well.`,
-        `You will probably be lost at some point. This is not a failure. It is the experience. You will be late, or confused, or standing in a gully wondering whether this is the right gully. It might be. It might not. Either way, nothing here requires you to hurry.`,
-        `<b>If you are lost:</b> stop, drink some water, look at the <a href="#" data-tab="map">map</a>, and have a think. Walk back to the last place you were sure of. The block is large, but it is not infinite, and the Door will still be there at 18:00.`,
-        `<b>If you see Kevin:</b> see <a href="#" data-open="kevin">Kevin</a>. He is more worried than you are.`,
-        `<b>If something is genuinely wrong,</b> someone is hurt or sick, or you cannot find a person you are responsible for, <b>that is the one time to act quickly.</b> Stay calm, get to the Door for signal, and call <b>000</b>. See <a href="#" data-open="safety">The Boring Bit</a>.`,
+        `The Guide has the words <b>DON'T PANIC</b> inscribed on its cover in large, friendly letters. This is the most useful piece of advice in the entire Guide, and it is also the one most often forgotten at exactly the moment it is needed. The Guide would like it inscribed on you as well.`,
+        `<div class="sec">If You Find Yourself Having a Bad Time</div>`,
+        `It happens to the best of travellers. The gully looks wrong, the trees look too interested, and a thought has arrived that will not leave. The Guide's advice is simple, and it comes in order.`,
+        `<ol>
+          <li><b>Reach out to a fellow traveller first.</b> Somebody on this block is within shouting distance, and almost all of them have been exactly where you are. Say so out loud. &ldquo;I'm having a hard time&rdquo; is a complete sentence, and it is the beginning of the cure.</li>
+          <li><b>If that fails, hang your hammock.</b> Pick a spot, string it up and climb in. Bunker down.</li>
+          <li><b>Put on some of your best tunes.</b> You know the ones. Let them do the talking for a while.</li>
+          <li><b>Breathe.</b> Focus on your breathing, and get back into your body. The Guide states that this is usually the best way through, and in its experience it is also the cheapest.</li>
+        </ol>`,
+        `<div class="sec">There Are No Bad Trips, Only Experiences</div>`,
+        `This is not a slogan. Some of Brodie's most horrific solo Mind Gardens taught him that there is only the experience, and that when it turns hard, it is because you have started asking yourself the great question of the age: <i>&ldquo;But what does it all mean, Basil?&rdquo;</i> as Austin Powers once put it.`,
+        `The Guide has examined the evidence and found that the answer is nearly always the same. The problem was never the meaning. The problem is that you stopped being present with the experience, and went looking for the meaning somewhere else. Come back. Feel your feet and your breath. The experience is not trying to tell you anything. It is just happening, and you are in it.`,
+        `<div class="sec">But Remember: Don't Panic</div>`,
+        `If you find yourself having a bad trip, help is never far away. The block is large, but the people on it are close. And if you respected your dose, which the Guide has asked you to do several times, the chances of any of this are very, very slim.`,
+        `<b>The one exception:</b> a medical emergency is not an experience. If someone is hurt, unresponsive, having a seizure, overheating or injured, <b>that is the one time to act quickly.</b> Stay calm, get to the Door for signal and call <b>000</b>. See <a href="#" data-open="safety">The Boring Bit</a>.`,
         `Everything else can wait. You have a map, some water, some company and a very good view. Don't panic.`
       ],
       see:["safety","kevin","day","find"] },
