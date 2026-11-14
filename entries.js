@@ -730,6 +730,23 @@ window.GUIDE = {
         `This is Neil's property, one of his many, and the Guide expects it to almost certainly never be sold, because all of Neil's good stuff is here. He lets Brodie use it four times a year to show everyone how beautiful it is, and he is under no obligation to do so. You are a guest. Behave like one. See <a href="#" data-open="neil">Neil</a> for the full picture, and <a href="#" data-open="legal">the legal bit</a> for what you agreed to on the way in.`
       ],
       see:["neil","kevin","legal","substances"] },
+    { id:"likeneil", cat:"Things", title:"How Do I Be More Like Neil?",
+      quote:["Well, actually, you can't."],
+      text:[
+        `It is a fair question. Neil is calm, wise and spiritually advanced, he has been here longer than anyone, and he looks like he has worked it all out. People ask the Guide how to be more like him about once a day, usually by the fire, usually while squinting at the horizon. The Guide has thought about it carefully and has an answer.`,
+        `<div class="sec">The Answer</div>`,
+        `<b>Well, actually, you can't.</b>`,
+        `Neil is Neil. There is only one of him, and he got that way by living exactly one life, which was his. You cannot copy it. Anyone who tries ends up with a poor imitation of a thing that only works because it is the original. The Guide is very fond of you, and it will say this kindly: the world already has one Neil, and he is doing a perfectly good job.`,
+        `<div class="sec">So What Do You Do?</div>`,
+        `Start being yourself. That is the whole instruction. Do not wait until you are ready, or wiser, or calmer, or until you have worked out what Neil would do. Start now, as the person you actually are, with the actual habits, jokes and flaws that you actually have. The Guide has noticed that this is the one thing that every spiritually advanced creature on the block has in common. None of them is trying to be anyone else.`,
+        `<div class="sec">Think of the Gully</div>`,
+        `This is the lesson of <a href="#" data-open="marketing">Marketing 101</a>. A gully is a crowded market, where everything is fighting for the same light by being the same as everything around it. Copying Neil is moving into the gully. It is full, it is loud, and it is not where you grow.`,
+        `<div class="sec">Think of the Ridge</div>`,
+        `Now look at the <a href="#" data-open="schwechten">ridge</a>. It is open and quiet, and it has a view. Nobody up there is competing for anything, because there is nobody else like you in the spot you stand in. That is where being yourself gets you. Be your own ridge, and let Neil be his.`,
+        `<div class="sec">If You Still Want a Little Neil</div>`,
+        `Then do what Neil does, and take your time. Spend some of it quietly. Give the people around you room, and do not rush anywhere. But do it as you, in your own way, at your own pace. See <a href="#" data-open="neil">Neil</a> for who he is, and <a href="#" data-open="neilwild">what to do if you meet him</a>.`
+      ],
+      see:["neil","neilwild","marketing","schwechten","fringes"] },
     { id:"love", cat:"Things", title:"Love",
       quote:["Mostly harmless. Occasionally load-bearing."],
       text:[
