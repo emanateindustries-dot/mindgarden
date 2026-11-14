@@ -508,6 +508,20 @@ window.GUIDE = {
       ],
       see:["gully","trench","love","rules","panic"] },
 
+    { id:"late", cat:"Things", title:"When You're Late to Mind Garden",
+      quote:["Sorry boss, I slept in again."],
+      text:[
+        `It happens to the best of travellers. The alarm went off, you negotiated with it, and you lost. The Guide is not going to lecture you. You are still welcome. People may attend Mind Garden late, and the doors stay open for them.`,
+        `<div class="sec">What You Can Still Do</div>`,
+        `Come through whenever you arrive, and follow Brodie's trail in. See <a href="#" data-open="brodie">Following Brodie</a> for how that goes. Take your time, drink your water, and keep your buddy close, because it is a lot harder to find your own way in at 10:00 than at 06:00.`,
+        `<div class="sec">The Music</div>`,
+        `Here is the part nobody likes. <b>You cannot actually get music in unless you arrive early and walk in with Brodie.</b> That is the only way it goes in. Nobody carries a speaker in behind him later on, because it does not work, and the Guide would be very grateful if you did not try. If you turn up late, you are coming in without your own sound. You can still hear Brodie's, if it carries. Headphones are fine, and the rest is up to the bush.`,
+        `<div class="sec">The Clock Does Not Care</div>`,
+        `Being late does not move the deadline. You still need to be back through the Door before 18:00, or you lose Mind Garden, and then you are carving your name into <a href="#" data-open="losers">the Door of Losers</a> yourself. The later you arrive, the less time you have, so plan your day accordingly.`,
+        `<div class="sec">Next Time</div>`,
+        `Set two alarms. Put one across the room. Go to bed at a sensible time the night before. Come early, walk in with Brodie, and bring a hammock. Everything is better with the music, and the music is only there for the people who showed up for it.`
+      ],
+      see:["brodie","losers","door","beginners"] },
     { id:"legal", cat:"Things", title:"I've Entered Mind Garden. Is Any of This Legal?",
       quote:["Mostly."],
       text:[
