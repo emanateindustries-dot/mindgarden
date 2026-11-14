@@ -872,6 +872,10 @@ window.GUIDE = {
         `A day that never ended would stop being a day. It would be just more time. The Guide has noticed that people pay far more attention to the things they know are about to finish, and the closing song is where that attention is meant to land. It is the last thing, so you hear it properly.`,
         `<div class="sec">What the Song Is For</div>`,
         `The closing song is the sound of the Door closing. It tells you that you were here, that it was real, and that it is time to go. Listen to it. Do not talk through it. Do not look at your phone. Be present for the end the same way you were present for the start.`,
+        `<div class="sec">Embrace Each Other at the Door</div>`,
+        `It is a sign of respect to embrace each other at the Door, and to let it all out, mate. Every one of us has been through our own version of hell, and that is why Mind Garden was founded. It is okay to cry. It is okay to yell, to scream, to do anything you need to. Let it all go. Nobody here will think less of you for it. They are doing the same thing.`,
+        `<div class="sec">Be Thankful</div>`,
+        `Then be thankful, for a bill to pay, a house to keep, and a family member to tell you they love you. Those are not complaints. They are the whole point. Walk out through the Door grateful for them, and go and tell someone you love them.`,
         `<div class="sec">If You Do Not Get It Yet</div>`,
         `If you need help understanding why, the Guide has only one piece of advice: do more Mind Gardens. You will eventually get it. Brodie did, on his first run through, when he discovered it. He did not get it from someone telling him. He got it from being there when it ended. You will too.`
       ],
