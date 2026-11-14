@@ -466,7 +466,7 @@ window.GUIDE = {
         `It happens to the best of travellers. The gully looks wrong, the trees look too interested, and a thought has arrived that will not leave. The Guide's advice is simple, and it comes in order.`,
         `<div><blockquote>&ldquo;Every tree was a snake, and every branch was barbed wire, and every rock a spider.&rdquo;<br><span style="font-style:normal;font-size:13px;color:var(--mute)">Brodie, on his second Mind Garden</span></blockquote></div>`,
         `<ol>
-          <li><b>Reach out to a fellow traveller first.</b> Somebody on this block is within shouting distance, and almost all of them have been exactly where you are. Say so out loud. &ldquo;I'm having a hard time&rdquo; is a complete sentence, and it is the beginning of the cure.</li>
+          <li><b>Reach out to a fellow traveller first.</b> Somebody on this block is within shouting distance, and almost all of them have been exactly where you are. Say so out loud. &ldquo;I'm having a hard time&rdquo; is a complete sentence, and it is the beginning of the cure. And if you followed the buddy system, which the Guide has asked of you, this means you are actually totally fine. Your buddy is already right there.</li>
           <li><b>If that fails, hang your hammock.</b> Pick a spot, string it up and climb in. Bunker down.</li>
           <li><b>Put on some of your best tunes.</b> You know the ones. Let them do the talking for a while.</li>
           <li><b>Breathe.</b> Focus on your breathing, and get back into your body. The Guide states that this is usually the best way through, and in its experience it is also the cheapest.</li>
