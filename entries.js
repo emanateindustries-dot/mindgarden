@@ -981,6 +981,22 @@ window.GUIDE = {
         `That is the famous five-thirds law, and it has been measured in wind tunnels, rivers, the atmosphere and the solar wind. It is about the only thing in turbulence that is both simple and broadly true, and the Guide finds it quite moving, in the way that a single straight road is moving in a very large forest.`,
         `<div class="sec">What This Means for Neil</div>`,
         `It means that the fans in Neil's ecosystem are, at every moment, doing something that the world's best mathematicians cannot fully describe, while delivering a gentle breeze on a hot afternoon. He does not need to understand any of it. He needs to clean the filter, run the fan slowly, and let the air do what it wants. This is also, the Guide suspects, how he has run everything else.`,
+        `<div class="sec">Neil's Favourite Fan: The Spec Sheet</div>`,
+        `Of every fan that has ever blown on Neil, whether it was a ceiling fan, a pedestal, an industrial wall unit or the great big drum fan in the shed, there is one that he likes best. It costs about twelve dollars. It is pink. Out of all the fans in all the world, this is Neil's favourite, and the Guide has read the box.`,
+        `<div style="margin:10px 0;padding:6px 14px;background:#f7f4ee;border-left:3px solid var(--ink);font:14px/1.7 Georgia,serif;overflow-x:auto"><table style="border-collapse:collapse;width:100%;font:inherit"><tbody>
+<tr><td style="padding:3px 10px 3px 0;white-space:nowrap"><b>Make</b></td><td>Adesso</td></tr>
+<tr><td style="padding:3px 10px 3px 0;white-space:nowrap"><b>Model</b></td><td>Rechargeable Handle Fan</td></tr>
+<tr><td style="padding:3px 10px 3px 0;white-space:nowrap"><b>Speeds</b></td><td>5</td></tr>
+<tr><td style="padding:3px 10px 3px 0;white-space:nowrap"><b>Power</b></td><td>Rechargeable battery</td></tr>
+<tr><td style="padding:3px 10px 3px 0;white-space:nowrap"><b>Warranty</b></td><td>12 months</td></tr>
+<tr><td style="padding:3px 10px 3px 0;white-space:nowrap"><b>Colour</b></td><td>Pink, with a coral guard</td></tr>
+<tr><td style="padding:3px 10px 3px 0;white-space:nowrap"><b>Head</b></td><td>Round, caged, tilts on a hinge</td></tr>
+<tr><td style="padding:3px 10px 3px 0;white-space:nowrap"><b>Body</b></td><td>Doubles as a handle, folds out into a stand, and has a small display window</td></tr>
+<tr><td style="padding:3px 10px 3px 0;white-space:nowrap"><b>Price on the shelf</b></td><td>$12</td></tr>
+<tr><td style="padding:3px 10px 3px 0;white-space:nowrap"><b>Airflow, battery capacity, blade diameter</b></td><td>Not printed on the box</td></tr>
+</tbody></table></div>`,
+        `<b>Why this one.</b> It has five speeds, which is the fan laws made into a button. As a rule, halving the speed cuts the power drawn to about an eighth, so the lowest settings run a very long time on a small battery, which is exactly what a man who likes to sit by the water for the afternoon would want. It tilts, so the breeze goes where he does, and it folds out into its own stand, which means that it can sit on the tinny, the bench or a stump. It has no cord, so there is nothing to trip on and nothing to be eaten by a snake. And it is pink, which Neil has never once apologised for.`,
+        `The box does not give the airflow, the blade size or the battery capacity, and Neil has never asked. It is a fan, it moves air, and the air arrives on time. By his standards that is a full specification.`,
         `<div class="sec">The Takeaways</div>`,
         `<b>1.</b> A fan does not choose its airflow. The system does. <b>2.</b> Halving the speed cuts the power to an eighth. <b>3.</b> A clogged filter costs you far more air than you would expect. <b>4.</b> Almost everything that happens around a blade is turbulent, and nobody fully understands it. <b>5.</b> A breeze is a small miracle, so enjoy it. See <a href="#" data-open="likeneil">How Do I Be More Like Neil?</a> for the rest of him.`
       ],
