@@ -1328,10 +1328,18 @@ window.GUIDE = {
     { id:"brodiepacks", cat:"Things", title:"What Brodie Actually Packs",
       text:[
         `The <a href="#" data-open="must">Must-Have List</a> is what the Guide says to bring. This is what Brodie really puts in the bag.`,
-        `<ul><li><b>Water:</b> about 4 litres, which is one more than the Guide tells you to carry.</li></ul>`,
-        `<div class="short">The rest: Brodie to fill out.</div>`
+        `<ul>
+          <li><b>First aid kit.</b> Always. See <a href="#" data-open="savealife">How to Save a Life</a>.</li>
+          <li><b>Snake bite kit.</b> It is the bush, and <a href="#" data-open="kevin">Kevin</a> lives here. Brodie hopes never to use it, and carries it anyway.</li>
+          <li><b>Three litres of iced water in a yellow Yeti.</b> The ice is the point. Water that is still cold at 2 pm is a small miracle on a hot day.</li>
+          <li><b>Coconut water.</b> For the electrolytes, and because it tastes like a holiday.</li>
+          <li><b>Lots of fruit, and especially mandarins.</b> A lot of them. They are the easiest thing in the world to eat on a climb, and they come in their own wrapping, which goes back in the zip lock bag.</li>
+          <li><b>Good headphones that can let the bush in.</b> The kind with a transparency mode that feeds the outside sound through with the music. It is literally bird country out here, and the bird calls become part of the music, so Brodie wants to hear both. There are also a lot of mounds.</li>
+          <li><b>A small speaker, if he is with a duo or a trio.</b> A small one, shared out among the group, and not turned up.</li>
+          <li><b>A small hammock.</b> For resting, or dancing, at Mind Garden.</li>
+        </ul>`
       ],
-      see:["must","brodie","leave"] },
+      see:["must","brodie","leave","savealife","kevin"] },
     { id:"rock", cat:"Things", title:"Can I Take This Rock Home?",
       text:[
         `No. Ask Brodie why.`
