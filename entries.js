@@ -1325,6 +1325,13 @@ window.GUIDE = {
         `<div class="short">The Guide's advice is to believe none of this until you have checked, and then, when you have checked, to be a little annoyed with the universe.</div>`
       ],
       see:["alltrue","rabbitholes","sandtalks"] },
+    { id:"brodiepacks", cat:"Things", title:"What Brodie Actually Packs",
+      text:[
+        `The <a href="#" data-open="must">Must-Have List</a> is what the Guide says to bring. This is what Brodie really puts in the bag.`,
+        `<ul><li><b>Water:</b> about 4 litres, which is one more than the Guide tells you to carry.</li></ul>`,
+        `<div class="short">The rest: Brodie to fill out.</div>`
+      ],
+      see:["must","brodie","leave"] },
     { id:"rock", cat:"Things", title:"Can I Take This Rock Home?",
       text:[
         `No. Ask Brodie why.`
