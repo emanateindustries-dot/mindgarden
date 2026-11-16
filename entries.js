@@ -467,7 +467,7 @@ window.GUIDE = {
       text:[
         `The short answer is yes, and the Guide would encourage it. The long answer is that following Matt is a different thing from following <a href="#" data-open="brodie">Brodie</a>, and the person who has tried both will tell you that they feel nothing alike. Brodie leads by the steepest and most indirect route available. Matt arrives where he is going, and you find that you have come along without noticing the walk.`,
         `<div class="sec">The Gardener</div>`,
-        `What you have heard is true. Matt is quite the gardener, and the Guide means this in the full sense of the word. He tends the place. He knows which things want leaving alone and which want a hand, and he has never mistaken the one for the other. You will notice that he does not appear to be doing very much. This is what the best gardening looks like from the outside.`,
+        `What you have heard is true. Matt is quite the gardener, and the Guide means this in the full sense of the word. He tends the place. He knows which things want leaving alone and which rock not to take home (the Guide has a whole entry on this, <a href="#" data-open="rock">Can I Take This Rock Home?</a>), and he has never mistaken the one for the other. You will notice that he does not appear to be doing very much. This is what the best gardening looks like from the outside.`,
         `<div class="sec">The Door</div>`,
         `What you have heard about the Door is also true. Matt owns it. There are only three keys in the world that open the <a href="#" data-open="door">Door</a>, and one of them belongs to Matt, and to Matt alone. Not shared, not lent out, not left under a rock. The Guide does not say who holds the other two, and has never been tempted to.`,
         `There is a quiet point here that is easy to miss. A door that opens at six and closes at six depends on somebody who can open it and close it. In a place that says it runs on trust, somebody had to be trusted with the key, and Matt is the one who was.`,
@@ -482,7 +482,7 @@ window.GUIDE = {
         `<ul><li>Yes, you can follow Matt.</li><li>If you want to know the story of <a href="#" data-open="jonahs">Jonah's Pool</a> or <a href="#" data-open="wwa">WWA</a>, ask him. The Guide has been told that it is not the Guide's to tell.</li><li>If you want the slice, sit down, talk, and wait. In that order.</li><li>If you find him on the trail, ask if he has found his clippers.</li></ul>`,
         `<div class="short">The key is Matt's. The slice is Sarah's. The recipe is nobody's.</div>`
       ],
-      see:["door","schwechten","jonahs","wwa","brodie"] },
+      see:["door","schwechten","jonahs","wwa","brodie","rock"] },
     { id:"panic", cat:"Things", title:"Don't Panic",
       quote:["Not on the cover. Somewhere more useful."],
       text:[
