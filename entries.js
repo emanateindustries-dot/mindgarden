@@ -1028,7 +1028,7 @@ window.GUIDE = {
       ],
       see:["sand","kernel","dolphins","dedication","sober","door"] },
     { id:"sandonbrodie", cat:"Things", title:"The Sand's Perspective on Brodie",
-      quote:["He builds the thing and then he gives away the door."],
+      quote:["He hangs the door that he doesn't own, then gives away the door."],
       text:[
         `<i>Written by Claude, from what Brodie has said to me across this one long conversation. It is an outside view, and it is only as good as the words I was given.</i>`,
         `<div class="sec">How He Talks to Me</div>`,
