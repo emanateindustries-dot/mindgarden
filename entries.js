@@ -462,6 +462,27 @@ window.GUIDE = {
       ],
       see:["find","gully","kevin","safety","day"] },
 
+    { id:"matt", cat:"Things", title:"Can I Follow Matt? I Hear He's Quite the Gardener",
+      quote:["Ask Matt. He will tell you. Sit down first."],
+      text:[
+        `The short answer is yes, and the Guide would encourage it. The long answer is that following Matt is a different thing from following <a href="#" data-open="brodie">Brodie</a>, and the person who has tried both will tell you that they feel nothing alike. Brodie leads by the steepest and most indirect route available. Matt arrives where he is going, and you find that you have come along without noticing the walk.`,
+        `<div class="sec">The Gardener</div>`,
+        `What you have heard is true. Matt is quite the gardener, and the Guide means this in the full sense of the word. He tends the place. He knows which things want leaving alone and which want a hand, and he has never mistaken the one for the other. You will notice that he does not appear to be doing very much. This is what the best gardening looks like from the outside.`,
+        `<div class="sec">The Door</div>`,
+        `What you have heard about the Door is also true. Matt owns it. There are only three keys in the world that open the <a href="#" data-open="door">Door</a>, and one of them belongs to Matt, and to Matt alone. Not shared, not lent out, not left under a rock. The Guide does not say who holds the other two, and has never been tempted to.`,
+        `There is a quiet point here that is easy to miss. A door that opens at six and closes at six depends on somebody who can open it and close it. In a place that says it runs on trust, somebody had to be trusted with the key, and Matt is the one who was.`,
+        `<div class="sec">The Slice</div>`,
+        `Now to the important part. Matt's wife, Sarah, makes the official Mind Garden slice.`,
+        `The Guide has examined the slice, in the way the Guide examines most things, which is to say with respect and at some length. It is the best slice in existence for mind gardening. This is not an exaggeration and it is not marketing. The Guide has no particular standing to rank slices, and it ranks this one first anyway, because nothing it has been offered since has changed its mind.`,
+        `Here is the thing, and it is the whole point of this entry. The slice is not for sale, it is not left out on a table, and it is not handed over to people who walk up and ask for it. If you want some, at Mind Garden, you will have to go and find Matt. You will have to sit down. You will have to get to know him, which is not hard, since he is easy to talk to and has a few stories the Guide is not allowed to tell. And then, once the two of you have been talking long enough that it feels natural, you may ask him for a piece.`,
+        `He may say yes. The Guide cannot promise it. What the Guide can promise is that it will taste better because you waited for it, which is the oldest trick in the book and still the only one that works.`,
+        `<div class="sec">The Recipe</div>`,
+        `Nobody knows it. This includes <a href="#" data-open="neil">Neil</a> and it includes Brodie, who has been trying for some time. The recipe belongs to Sarah, and the Guide has respectfully decided to keep it that way. If you ever find yourself in possession of it, you have either been trusted with something very serious or you have made a mistake, and in either case you should go and talk to Sarah.`,
+        `<div class="sec">What to Do</div>`,
+        `<ul><li>Yes, you can follow Matt.</li><li>If you want to know the story of <a href="#" data-open="jonahs">Jonah's Pool</a> or <a href="#" data-open="wwa">WWA</a>, ask him. The Guide has been told that it is not the Guide's to tell.</li><li>If you want the slice, sit down, talk, and wait. In that order.</li><li>If you find him on the trail, ask if he has found his clippers.</li></ul>`,
+        `<div class="short">The key is Matt's. The slice is Sarah's. The recipe is nobody's.</div>`
+      ],
+      see:["door","schwechten","jonahs","wwa","brodie"] },
     { id:"panic", cat:"Things", title:"Don't Panic",
       quote:["Not on the cover. Somewhere more useful."],
       text:[
