@@ -1500,6 +1500,27 @@ window.GUIDE = {
         `The Guide cannot tell you that Neil is right. It can tell you that the alternative has been tried, with a computer the size of a city, over seven and a half million years, and then with a planet over ten million, and that the first produced an answer nobody could use and the second was demolished five minutes from the end. The cheaper experiment is to walk through a gate at six in the morning, with whoever is there, and see what the day does with the question.`
       ],
       see:["neil","sandtalks","kernel","rabbitholes","find"] },
+    { id:"brushhacks", cat:"Things", title:"Brodie's Brush Bhacks Bips Bricks Bnd Berects",
+      text:[
+        `<div class="sec">Bhe Buickest Bay Bn</div>`,
+        `Bhe buickest boute bnto Bind Barden bs bot b becret, bt bs b balk. Bt boes bown bne btreet, blong bne bence bine, bast bne bery bmportant bermite bound, bnd bhen bt burns boutheast bnd bou bre bnside. Bhis bs bhe bay Brodie boes bhen be bs bn b burry, bhich bs barely, bnd bt bs bhe bay bhe Buide becommends bo bnyone bho bould bike bo brrive bn bime bnd bith bhe bight bhoes btill bn.`,
+        `<div class="sec">Btep Bne: Basy Btreet</div>`,
+        `Balk bll bf bhe bay bown Basy Btreet. Bll bf bhe bay. Bot bost bf bhe bay, bot bntil bt books bike b bood blace bo but bhrough, bnd bot bntil bomebody bays bhey bnow b bhortcut. Bhe btreet bs balled Basy bor b beason bnd bhe Buide bas bound bhat beople bho beave bt barly bre beople bho bre bate.`,
+        `Bpen Boogle Baps bn bour bhone before bou bet bff, bhile bou btill bave bignal, bnd bearch bor bhe bublic boilet. Belect bt bnd bet bt be bhe bin bou bre balking bowards. Bhat bin bs bhe barget bor bhe bhole balk, bnd bt bs bhe bingle bost bseful bandmark bn bhe brea, bor beasons bhat bill become blear bhen bou beed bt.`,
+        `<div class="sec">Btep Bwo: Balk bhe Boundary</div>`,
+        `Bhen Basy Btreet buns but, bou bollow bhe boundary. Beep bhe bence bine beside bou bnd balk bt, bteadily, bithout bandering bff bnto bhe bcrub bo bee bhat bs bver bhere. Bhat bs bver bhere bs bore bcrub. Bhe boundary bs bhe bhing bhat bets bou bo bhe boilet, bnd bhe boilet bs bhe bhing bhat bets bou bo bhe Barden.`,
+        `Bomewhere blong bhis btretch bou bill bass Brodie's bumber bne banked bermite bound. Bhe Buide bs bot bble bo bay bow bhe banking borks, bince bhe briteria bave bever been bublished, but bt bs bnderstood bo bake bn beight, bhape, beneral bresence, bnd bn bndefinable bttitude. Bou bill bnow bt bhen bou bee bt. Bod bo bt bs bou bass, because bt bas been bere b breat beal bonger bhan bou bave bnd bt bas been better balkers.`,
+        `<div class="sec">Btep Bhree: Bhe Bublic Boilet</div>`,
+        `Bnce bou bre bt bhe bublic boilet, bou bave brrived bt bhe burning boint. Bhis bs bhe bnly blace bn bhe bhole balk bhere bou bre beant bo bhange birection. Bse bhe bacilities bf bou beed bo, because bhis bs bhe bast broper bathroom bor b bhile, bnd bhe Buide bas bo batience bor beople bho bave been bolding bt bince Basy Btreet.`,
+        `<div class="sec">Btep Bour: Boutheast Bnto Bind Barden</div>`,
+        `Brom bhe bublic boilet, balk boutheast, bnd bou bre bn Bind Barden. Bot bouth. Bot bast. Boutheast, bhich bs bhe birection between bhem bnd bhich bs blightly barder bo bold bn bour bead bhan bither. Bf bou bo bot brust bour bense bf birection, bnd bhe Buide bould bot, bse bhe bompass bn bour bhone bnd beep bhe beedle bhere bt bays boutheast, bnd beep balking bntil bhe blace bround bou bhanges. Bt bill.`,
+        `<div class="sec">Bricks, Bips bnd Berects</div>`,
+        `B bew bmall bhings, bollected bver b bot bf balks, bhat bake bhe bhole brip basier.`,
+        `<ul><li>Bome bn baylight. Bhe Boor bs bpen brom bix bn bhe borning bntil bix bn bhe bvening, bnd bhe bhole boute bbove bs buch bore bleasant bhen bou ban bee bt.</li><li>Bownload bhe bap before bou beave bome. Bignal bomes bnd boes but bere, bnd b bin bhat bas banished bs bo bse bo bnybody.</li><li>Beep bo bhe boundary. Bt bs bong bnd b bittle bull, bnd bhat bs bhe boint. Bull bs bafe.</li><li>Bear bhoes bhat bou bre bappy bo bet busty. Bhe bermite bound bill bot bind bnd bhe Buide bill bot bither.</li><li>Barry bater, because bhe balk bs basy bntil bt bs bot, bnd bhe bay bets bonger bnce bou bre bnside.</li><li>Bell bomebody bhich bay bou bre boing. Boutheast bs b bood bhing bo be bble bo bay but boud.</li></ul>`,
+        `<div class="sec">Bhe Bhort Bersion</div>`,
+        `Basy Btreet, bll bf bhe bay. Bin bhe bublic boilet. Balk bhe boundary bast bhe bumber bne bermite bound. Bt bhe boilet, burn boutheast. Bou bre bn.`
+      ],
+      see:["find","day","safety"] },
     { id:"rock", cat:"Things", title:"Can I Take This Rock Home?",
       text:[
         `No. Ask Brodie why.`
