@@ -1658,7 +1658,7 @@ window.GUIDE = {
         `The Guide has been asked to make this part heavy, so it will.`,
         `Some of the symptoms are vicious. They are not an inconvenience or a bad mood. They arrive without asking and take the day, and on the worst ones there is nothing to do but ride them out. The Guide will not list them, because they are his to list, but it will say that "vicious" is the right word and the Guide has not chosen it lightly.`,
         `That is why, sometimes, Brodie wants to come to your events and cannot. He wants to be there. He has built the thing, he loves the people in it, and he would be at every one of them if he could. When he is not, it is for a good reason, and it is not a lack of care. It is the opposite. Please do not take it personally, and please do not ask him to explain.`,
-        `And the Door will not be left shut. Brodie plans to always make it, but if he cannot, there are <b>three keys</b> into Mind Garden and three custodians to hold them. Brodie holds one and <a href="#" data-open="matt">Matt</a> holds one. The third goes to whoever can book the Brodies, even once. So, for the next ten years, the Door will be open on the dates, with or without him.`,
+        `And the Door will not be left shut. Brodie plans to always make it, but if he cannot, there are <b>three keys</b> into Mind Garden and three custodians to hold them. Brodie holds one and <a href="#" data-open="matt">Matt</a> holds one. The third goes to whoever can <a href="mower.html">book Brodie's mower</a>, even once, and in doing so finds out <a href="#" data-open="secret">the secret to life</a>, even once. So, for the next ten years, the Door will be open on the dates, with or without him.`,
         `It has also cost him moments he can never have back. He missed a lot of family moments early on: the birthdays, the dinners, the ordinary evenings that nobody thinks of as precious until they have gone. There is no good way to write that sentence, and the Guide will not try to make it better than it is.`,
         `And there were the early mornings. Many, many hours of them, before the light, alone, letting the tears do the healing. Nobody was watching and nobody clapped. That is the part of the story that does not appear in the diary, and it is perhaps the part the diary was for.`,
         `If you want to understand why the Guide says the day has to end, and why that is a kindness and not a cruelty, go and read <a href="#" data-open="closingsong">why there is a closing song</a>. It is about all good things coming to an end, and that none of them are lost for having ended. A man who has sat in the dark until morning understands that better than most.`,
@@ -1682,7 +1682,7 @@ window.GUIDE = {
         `<i>The Guide is not a doctor, and nothing here is medical advice. If you are struggling, talk to your GP, and if it feels too heavy, ring Lifeline on 13 11 14.</i>`,
         `<div class="short">The diary does not lie, the body keeps no secrets from a patient reader, and a long road is not a closed one.</div>`
       ],
-      see:["sober","mirror","kernel","panopticon","beerhole","closingsong","recovery","easy"] },
+      see:["sober","mirror","kernel","panopticon","beerhole","closingsong","recovery","easy","secret"] },
     { id:"tankpump", cat:"Things", title:"How to Buy a 10,000 Litre Tank and a Single Phase Pump",
       quote:["Water is heavy, and everything about it is expensive to move."],
       text:[
