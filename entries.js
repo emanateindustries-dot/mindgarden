@@ -1603,6 +1603,20 @@ window.GUIDE = {
         `<div style="margin:14px 0;padding:10px 16px;border-left:3px solid var(--ink);background:#f7f4ee;font:italic 16px/1.7 Georgia,serif">“I love you Timmy and always will.”<div style="font:12px/1.5 Georgia,serif;opacity:.7;margin-top:4px;font-style:normal">Brodie</div></div>`
       ],
       see:["reptilekingdom","matt","panopticon","mirror"] },
+    { id:"garyloiters", cat:"Things", title:"Why Is Gary Always Loitering Around Tim's Reptile Kingdom?",
+      text:[
+        `Don't panic. The Guide gets asked this more than almost anything else, and would like to begin with an admission: it has been looking into it for some time, and it has got nowhere.`,
+        `<div class="sec">What Is Known</div>`,
+        `Gary is always loitering around <a href="#" data-open="reptilekingdom">Tim's Reptile Kingdom</a>. That is the whole of the established fact. He is not obviously shopping. He is not obviously leaving. He appears to be doing what the Guide's field researchers call <i>being there</i>, which is a very old and very respectable activity, and one that the Galaxy's best minds have never managed to explain either.`,
+        `<div class="sec">The Theories</div>`,
+        `<ul><li><b>He is waiting for stock.</b> The Reptile Kingdom is, as the Guide has reported, <a href="#" data-open="timsreptiles">frequently out of stock of beardless dragons</a>. Perhaps Gary is waiting for the delivery. This theory is neat, and the Guide distrusts it for that reason.</li><li><b>He is guarding something.</b> Nobody has been able to say what, and Gary has not offered.</li><li><b>He is there for the company.</b> Good friends are hard to find and easy to keep, and the Guide has said so at length. This is the most likely explanation and the least satisfying.</li><li><b>It is a question the universe has not yet asked properly.</b> The Guide has been through this before. It tends to end with a very large computer and the number forty-two.</li></ul>`,
+        `<div class="sec">What the Guide Can Say</div>`,
+        `Nothing. The Guide has no idea. It has checked the usual sources, and a few of the unusual ones, and the only thing it can report with confidence is that Gary will be there again tomorrow.`,
+        `<div class="sec">Who to Ask</div>`,
+        `If you see <b>Timmy Stone</b> at Mind Garden, ask him. He is the man whose shop it is, and so the nearest thing there is to a primary source.`,
+        `<div class="short">Because the Guide has no fucking ideeeeeea why.</div>`
+      ],
+      see:["reptilekingdom","timsreptiles","fortytwo"] },
     { id:"aussiepiss", cat:"Things", title:"Why Australia Needs Your Piss",
       quote:["If an Australian is insulting you, you are in. If they are being polite, run."],
       text:[
