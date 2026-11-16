@@ -1517,9 +1517,12 @@ window.GUIDE = {
           <li><b>Good headphones that can let the bush in.</b> The kind with a transparency mode that feeds the outside sound through with the music. It is literally bird country out here, and the bird calls become part of the music, so Brodie wants to hear both. There are also a lot of mounds.</li>
           <li><b>A small speaker, if he is with a duo or a trio.</b> A small one, shared out among the group, and not turned up.</li>
           <li><b>A small hammock.</b> For resting, or dancing, at Mind Garden.</li>
+          <li><b>Good hiking shoes, not boots.</b> A personal choice, and Brodie will defend it. The Guide notes only that a shoe that is comfortable at kilometre one is still comfortable at kilometre ten.</li>
+          <li><b>Some lollies.</b> For morale. A small sugar hit at the right moment on a climb is worth more than a motivational speech.</li>
+          <li><b>His trail slice.</b> Packed with good intentions. In practice, he usually tries to grab the Mind Garden slice from <a href="#" data-open="matt">Matt</a> instead, which is the better slice, and which he has to ask for like everybody else.</li>
         </ul>`
       ],
-      see:["must","brodie","leave","savealife","kevin"] },
+      see:["must","brodie","leave","savealife","kevin","matt"] },
     { id:"reptilekingdom", cat:"Things", title:"Tim's Reptile Kingdom",
       quote:["The block was theirs first."],
       text:[
