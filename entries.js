@@ -1520,7 +1520,7 @@ window.GUIDE = {
         </ul>`
       ],
       see:["must","brodie","leave","savealife","kevin"] },
-    { id:"reptilekingdom", cat:"Things", title:"Reptile Kingdom",
+    { id:"reptilekingdom", cat:"Things", title:"Tim's Reptile Kingdom",
       quote:["The block was theirs first."],
       text:[
         `Every bush block in East Gippsland has a royal court, and it is made of scales. Victoria is home to about 27 species of snake and 87 species of lizard, and a good number of them live within a few hundred metres of where you will be walking. The Guide cannot vouch for exactly which of them are at home on this particular block on a given day, but it can tell you who the usual subjects are and how to behave in front of them.`,
