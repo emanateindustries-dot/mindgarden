@@ -1444,7 +1444,7 @@ window.GUIDE = {
         `In Australia psilocybin is a prohibited substance. The one exception is that, since 1 July 2023, specially authorised psychiatrists can prescribe it for treatment-resistant depression, in a controlled medical setting. That is not a picked mushroom on a bush walk, and the Guide is not telling anyone to take anything. If you want to know about the medical side, talk to a doctor.`,
         `<div class="sec">The Ultimate Trick</div>`,
         `There is one trick with mushrooms that beats everything above. It was found at Mind Garden, on the discovery run, by Brodie himself.`,
-        `The Guide has been asked not to write it down. If you want to know what it is, <b>ask Brodie</b>. Whether he tells you is up to him, and when you ask is up to you. Use your discretion, pick your moment and do not ask him while he is carrying the esky.`,
+        `The Guide has been asked not to write it down. If you want to know what it is, <b>ask Brodie</b>. Whether he tells you is up to him, and when you ask is up to you. Use your discretion, pick your moment, and the best one is when he is carrying the sound system in, dancing and having a good time.`,
         `<div class="short">Set it up, go slow, respect the dose, and when you are ready, ask Brodie.</div>`
       ],
       see:["substances","safety","sober","kholes","brodie"] },
