@@ -1389,9 +1389,25 @@ window.GUIDE = {
       see:["safety","kevin","substances","kholes"] },
     { id:"actuallysave", cat:"Things", title:"How to Actually Save a Life",
       text:[
-        `<div class="short">Brodie to fill out.</div>`
+        `Don't panic. The first <a href="#" data-open="savealife">How to Save a Life</a> covers the bandages, the pressure and the number to ring. This entry covers the other kind of first aid, the kind that needs no kit and which most people never think to carry.`,
+        `<div class="sec">The Question</div>`,
+        `One very special friend once asked Brodie a question. They asked whether he was in a very tricky spot. Not a general "how are you", which the Galaxy has long agreed means "hello", but the real one, asked on purpose.`,
+        `Here is the remarkable part. Brodie had not asked himself that question. Not once, in any form. He was busy, as he usually is, and the one person who should have been asking was the one person not asking.`,
+        `As it turned out, he wasn't. He was not in that spot. But the Guide would like it noted, in capital letters if the format allowed, that <b>the question itself</b> was the thing. It was asked honestly, with eye contact, by someone who meant it. And it may well have saved a life. Whether it was his, or a version of him, or only the road he would have taken, the Guide cannot say. It can only say that something shifted that day, and that it has been shifting ever since.`,
+        `<div class="short">Sometimes the most useful thing in the first aid kit is a sentence.</div>`,
+        `<div class="sec">What It Costs</div>`,
+        `Almost nothing. A little courage, a little time, and the willingness to be briefly awkward. This is the cheapest lifesaving equipment in the known universe, and it is routinely left at home because of a widespread and entirely false belief that asking will put the idea in someone's head. It does not. The research on this has been consistent for years: asking directly does not increase risk, and for many people it is the first relief they have had in weeks.`,
+        `<div class="sec">How to Do It</div>`,
+        `<ol><li><b>Notice.</b> The person who has gone quiet, the one who has stopped turning up, the one whose jokes have changed their flavour. The Guide cannot give you a complete list of signs, because people are not that tidy, but a change you can't explain is reason enough.</li><li><b>Ask in person if you can.</b> Face to face, or voice to voice. Eye contact if they can bear it. Not a text sent from a doorway.</li><li><b>Ask plainly.</b> Something like "Are you in a really tricky spot at the moment?" If you can say the real words, then say the real words. Euphemisms are how people slip through.</li><li><b>Then be quiet.</b> This is the hard part. Let the silence run. Do not fix it, argue with it or tell them about your cousin.</li><li><b>Listen, and take it seriously.</b> If the answer is yes, they have just trusted you with something enormous. Stay. Do not promise to keep it a secret. Help them get to a person who can help.</li><li><b>Know where to send them.</b> In Australia, <b>Lifeline is 13 11 14</b>, any hour, and <b>000</b> is for when someone is in immediate danger. Beyond Blue and their GP are other good starting points. You do not have to be the whole solution. You only have to be the first door.</li></ol>`,
+        `<div class="sec">The Gift, Repaid</div>`,
+        `Brodie repays that gift. He repays it over and over, as much as he can, and he will for as long as he can. That is the real reason this entry is in the Guide, and the reason there is a Mind Garden at all. It is a place built so that people can sit quietly with a Door, a bit of bush and each other, and perhaps be asked, by somebody who means it, how they are really going.`,
+        `So if you are here, and you notice someone, ask. And if it is you who is in the tricky spot, you can say so to anyone here, and nobody will find it strange.`,
+        `<div class="sec">P.S.</div>`,
+        `If you see <b>Daniel Smuge</b> at Mind Garden, ask him about <b>Hogs Breath Cafe</b>. He can expand on it a great deal more than the Guide can, and the Guide gets the impression that it is worth hearing.`,
+        `<i>The Guide is not a counsellor. If you or someone you know needs help right now, ring Lifeline on 13 11 14, or 000 in an emergency.</i>`,
+        `<div class="short">Thank you. You know who you are.</div>`
       ],
-      see:["savealife","brodie"] },
+      see:["savealife","brodie","outofthewoods","matt"] },
     { id:"mushrooms", cat:"Things", title:"Making the Most of Mushrooms: A Guide to Doing It Effectively",
       quote:["The mushroom does the work. You just have to turn up."],
       text:[
