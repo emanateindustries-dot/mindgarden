@@ -483,6 +483,24 @@ window.GUIDE = {
         `<div class="short">The key is Matt's. The slice is Sarah's. The recipe is nobody's.</div>`
       ],
       see:["door","schwechten","jonahs","wwa","brodie","rock"] },
+    { id:"dyslexia", cat:"Things", title:"Hlp, I'm Dslxc nd Cn't Rd. Cn I Stll Entr Wthot a Bk?",
+      quote:["Ask a mtae. Cmoe in anawyy."],
+      text:[
+        `Yes. You can sltil eentr Mnid Gderan. Ndooby has eevr been ternud aawy at the Door for not bineg albe to raed, and nbdooy eevr wlil be. The Giude is a book, not a tkiect.`,
+        `<div class="sec">The Sohrt Asewnr</div>`,
+        `You do not need to read the Gduie to cmoe in. You need to trun up, be soebr eonguh to wlak, saty wtih yuor bdudy, brnig wtear, and be bcak tgruohh the Door by 18:00. Taht is it. The rset is jsut the Gduie bnieg vrey plaesed wtih itelsf.`,
+        `<div class="sec">How It Wkros</div>`,
+        `Ask yuor bdduy to raed it to you. Or let the Gidue raed ielstf to you, whcih it deos blday. Or jsut letsin to waht poplee say aurnod the frie, bcsueae msot of waht is wietrtn hree is siad out luod sonoer or laetr, uallusy by Birode.`,
+        `<div class="sec">Waht Mreatts Msot</div>`,
+        `Look aetfr yuor bdoy. Look aetfr yuor metas. Rcseept yuor dsoe. Do not behotr aoynne who wtnas to be lfet alnoe. Say good tngihs out luod wehn you feel tehm. Laeve nihontg bheind but fpnorotits. Nnoe of taht is hddien in the slaml pnirt. All of it ftis in yuor haed.`,
+        `<div class="sec">The Auido Book Cuslae</div>`,
+        `Yes, an aduio book cnouts as a book. The Giude has ccheked. But to etner, you msut binrg a pischayl cpoy of it. Not the aduio book. The atucal book. The one wtih the peags. Yes, the one you cnoant raed. The Gduie knwos. The Gidue is eyoijnng tihs.`,
+        `Crary it turhgoh the Door, hlod it up, and be a lgeend. Ndooby wlil ask you to oepn it. Noobdy has eevr been teunrd aawy for not benig albe to raed, whcih is why the Gidue is aslo hpapy to let you in wtih it uidpse dwon.`,
+        `<div class="sec">A Wrod Form the Giude</div>`,
+        `The Gduie has awayls thhugot the bset bit of any book is the prat taht is not wtrtein dwon. Mnid Gedran was nveer abuot reidang. It is aobut bneig trhee. You are gonig to be fnie.`
+      ],
+      see:["beginners","rules","legal"] },
+
     { id:"schedule", cat:"Things", title:"Why Keeping to a Schedule Is Important",
       quote:["Do not ask Brodie. Not once. He is busy keeping to it."],
       text:[
@@ -671,24 +689,6 @@ window.GUIDE = {
         `Do not read this entry. Read those.`
       ],
       see:["cantbuy","infinityhotel","panic","beginners"] },
-    { id:"dyslexia", cat:"Things", title:"Hlp, I'm Dslxc nd Cn't Rd. Cn I Stll Entr Wthot a Bk?",
-      quote:["Ask a mtae. Cmoe in anawyy."],
-      text:[
-        `Yes. You can sltil eentr Mnid Gderan. Ndooby has eevr been ternud aawy at the Door for not bineg albe to raed, and nbdooy eevr wlil be. The Giude is a book, not a tkiect.`,
-        `<div class="sec">The Sohrt Asewnr</div>`,
-        `You do not need to read the Gduie to cmoe in. You need to trun up, be soebr eonguh to wlak, saty wtih yuor bdudy, brnig wtear, and be bcak tgruohh the Door by 18:00. Taht is it. The rset is jsut the Gduie bnieg vrey plaesed wtih itelsf.`,
-        `<div class="sec">How It Wkros</div>`,
-        `Ask yuor bdduy to raed it to you. Or let the Gidue raed ielstf to you, whcih it deos blday. Or jsut letsin to waht poplee say aurnod the frie, bcsueae msot of waht is wietrtn hree is siad out luod sonoer or laetr, uallusy by Birode.`,
-        `<div class="sec">Waht Mreatts Msot</div>`,
-        `Look aetfr yuor bdoy. Look aetfr yuor metas. Rcseept yuor dsoe. Do not behotr aoynne who wtnas to be lfet alnoe. Say good tngihs out luod wehn you feel tehm. Laeve nihontg bheind but fpnorotits. Nnoe of taht is hddien in the slaml pnirt. All of it ftis in yuor haed.`,
-        `<div class="sec">The Auido Book Cuslae</div>`,
-        `Yes, an aduio book cnouts as a book. The Giude has ccheked. But to etner, you msut binrg a pischayl cpoy of it. Not the aduio book. The atucal book. The one wtih the peags. Yes, the one you cnoant raed. The Gduie knwos. The Gidue is eyoijnng tihs.`,
-        `Crary it turhgoh the Door, hlod it up, and be a lgeend. Ndooby wlil ask you to oepn it. Noobdy has eevr been teunrd aawy for not benig albe to raed, whcih is why the Gidue is aslo hpapy to let you in wtih it uidpse dwon.`,
-        `<div class="sec">A Wrod Form the Giude</div>`,
-        `The Gduie has awayls thhugot the bset bit of any book is the prat taht is not wtrtein dwon. Mnid Gedran was nveer abuot reidang. It is aobut bneig trhee. You are gonig to be fnie.`
-      ],
-      see:["beginners","rules","legal"] },
-
     { id:"termites", cat:"Things", title:"The Definitive Guide to Ranking Termite Mounds", pins:[[42.5,43.7],[54.9,18.0]],
       quote:[
         "Brodies #1 ranked termite mound.",
