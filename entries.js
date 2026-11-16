@@ -1441,7 +1441,7 @@ window.GUIDE = {
         `Decide what the water is for. Buy a certified round poly tank of about 10,000 litres. Build the base properly. Check the shire's rules, then match a single-phase pump to your flow and head, with a pressure switch, run-dry protection and a pressure vessel. Have a plumber do the connections, and then enjoy the sound of a full tank, which is the sound of a very large quiet argument you have won against the dry.`
       ],
       see:["brodie","brodiepacks"] },
-    { id:"whynot", cat:"Things", title:"Why Deep Thought Was Wrong, and Why Not",
+    { id:"whynot", cat:"Things", title:"Why Deep Thought Was Wrong",
       quote:["Brodie once put the question to the most spiritual person he knows, his father Neil. The answer, as always, was: why not."],
       text:[
         `<div class="sec">Where This Guide Comes In</div>`,
