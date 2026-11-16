@@ -483,6 +483,24 @@ window.GUIDE = {
         `<div class="short">The key is Matt's. The slice is Sarah's. The recipe is nobody's.</div>`
       ],
       see:["door","schwechten","jonahs","wwa","brodie","rock"] },
+    { id:"schedule", cat:"Things", title:"Why Keeping to a Schedule Is Important",
+      quote:["Do not ask Brodie. Not once. He is busy keeping to it."],
+      text:[
+        `The Guide has been asked to explain why keeping to a schedule is important, and it has decided, after some thought, that it is not the right party to do it. This is rare. The Guide will happily explain the Pyramids, the Kernel and what a goblin is thought to be. But on this one subject it has found a better source, and a Guide that points you to a better source is a Guide that has done its job.`,
+        `<div class="sec">What the Guide Can Say</div>`,
+        `Only this. The <a href="#" data-open="door">Door</a> opens at six in the morning and shuts at six in the evening. It does not open at six-fifteen because you were nearly there, and it does not stay open because the afternoon was going so well. The Guide has noticed that this one rule does more work than all the others put together, and that nobody who has tried to bend it has come out ahead. Beyond that, it will not be drawn.`,
+        `<div class="sec">Who to Ask</div>`,
+        `Come to Mind Garden and ask Matt.`,
+        `Matt is the best person in the known universe to explain it, and the Guide would like the reasons on the record. He owns the Door. He holds one of the only three keys that open it, and it is his alone. He is the person on whom the whole idea of a schedule depends, because a door that opens and shuts on time needs a person who opens it and shuts it on time. Anyone can say that punctuality matters. Matt is the one who has to be there with the key. The Guide has found that people explain best the things that they are personally responsible for, and he is more personally responsible for this than anyone.`,
+        `He is also a gardener, and a gardener understands better than most that the day does not wait. A garden does not care what time you meant to arrive. You can find him and sit down with him, and when you have got to know him a little, ask. The answer will be better than anything the Guide could write, and it will come with a piece of <a href="#" data-open="matt">slice</a> if you ask in the right order.`,
+        `<div class="sec">Who Not to Ask</div>`,
+        `<b>Do not ask Brodie.</b> Not at the Door, not on the trail, not at the Trench, and not once. The Guide wishes to be clear that this is not a matter of him being unwilling. Brodie is busy keeping to the schedule. He is the person on whom the schedule is currently being kept. He is, at this exact moment, in the middle of doing the very thing you would be asking him to explain, and the Guide does not believe that interrupting a man in the act of keeping to the clock will end well for either the clock or the man.`,
+        `If you do ask him, you will find that he is delighted to talk about it, which is the problem. He will talk about it, you will both lose track of the time, and the schedule will have been broken by a conversation about the importance of the schedule. The Guide has seen this happen. It was not pretty, and it was not on time.`,
+        `<div class="sec">The Point</div>`,
+        `The Guide thinks there is something right about this arrangement. A thing that is explained by the person who is living it is worth more than a thing that is explained by a book. So come in at six. Find Matt. Sit down. Ask.`,
+        `<div class="short">Ask Matt. Not Brodie. Be on time.</div>`
+      ],
+      see:["door","matt","late"] },
     { id:"panic", cat:"Things", title:"Don't Panic",
       quote:["Not on the cover. Somewhere more useful."],
       text:[
