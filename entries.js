@@ -1551,9 +1551,10 @@ window.GUIDE = {
           <li><b>Good hiking shoes, not boots.</b> A personal choice, and Brodie will defend it. The Guide notes only that a shoe that is comfortable at kilometre one is still comfortable at kilometre ten.</li>
           <li><b>Some lollies.</b> For morale. A small sugar hit at the right moment on a climb is worth more than a motivational speech.</li>
           <li><b>His trail slice.</b> Packed with good intentions. In practice, he usually tries to grab the Mind Garden slice from <a href="#" data-open="matt">Matt</a> instead, which is the better slice, and which he has to ask for like everybody else.</li>
+          <li><b>Donkey piss.</b> See <a href="#" data-open="donkeypiss">donkey piss</a>.</li>
         </ul>`
       ],
-      see:["must","brodie","leave","savealife","kevin","matt"] },
+      see:["must","brodie","leave","savealife","kevin","matt","donkeypiss"] },
     { id:"tankpump", cat:"Things", title:"How to Buy a 10,000 Litre Tank and a Single Phase Pump",
       quote:["Water is heavy, and everything about it is expensive to move."],
       text:[
