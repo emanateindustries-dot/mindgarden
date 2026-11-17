@@ -1554,6 +1554,58 @@ window.GUIDE = {
         </ul>`
       ],
       see:["must","brodie","leave","savealife","kevin","matt"] },
+    { id:"tankpump", cat:"Things", title:"How to Buy a 10,000 Litre Tank and a Single Phase Pump",
+      quote:["Water is heavy, and everything about it is expensive to move."],
+      text:[
+        `Ten thousand litres of water weighs ten tonnes. That is the most important fact in this entry, and it is the one that most people forget until the tank is delivered. The rest is a shopping list.`,
+        `<div class="short">The Guide is not a plumber, a builder or a fire authority. Water connections should be done by a licensed plumber, and the rules vary by council and by block. Check before you buy.</div>`,
+        `<div class="sec">Step 1: Decide What the Tank Is For</div>`,
+        `Drinking and household water, garden and stock water, firefighting supply, or a mix? That one question settles the material, the fittings and whether the tank has to meet particular rules. For a bush block, write down what you want the water to do before you look at a single tank.`,
+        `<div class="sec">Step 2: Pick the Type</div>`,
+        `<ul>
+          <li><b>Round poly (plastic).</b> The sensible default. Round tanks are the best value per litre because the shape is naturally strong. Look for tanks certified to <b>AS/NZS 4766</b>, which is the Australian standard for polyethylene tanks, UV-stabilised plastic and a warranty of 10 to 20 years.</li>
+          <li><b>Slimline poly.</b> Narrow and good for tight spaces, but dearer, and it generally needs a concrete slab. Slimlines stop at about 5,000 litres, so for 10,000 you are looking at a round.</li>
+          <li><b>Steel with a liner.</b> Tougher and often used for bigger sizes and for fire storage. It costs more, and at 10,000 litres it is rarely worth it.</li>
+          <li><b>Concrete.</b> Long-lived and heavy, and usually a bigger job than most people want.</li>
+        </ul>`,
+        `<div class="sec">Step 3: Know What You Are Buying</div>`,
+        `A typical round poly 10,000 litre tank is about <b>2.25 to 2.7 metres across and about 2.1 to 2.35 metres high</b>, and it weighs somewhere around 175 to 220 kilograms empty. Prices vary by brand and region, but tank-only prices commonly run from about <b>$2,000 to $2,600</b>, with some specials below that. Expect to pay extra for delivery, a stand or base, fittings, a tap or outlet and the plumber.`,
+        `Compare inclusions, not just price. Check the warranty, the colour range, the outlet size and position, the inlet strainer, the overflow and whether it is made in Australia and for local UV conditions.`,
+        `<div class="sec">Step 4: Do the Base Properly</div>`,
+        `This is the step that decides whether the tank lasts. A full 10,000 litre tank puts about ten tonnes on a circle only a couple of metres wide, so the ground under it has to be level, firm and properly prepared. Poly tank makers usually specify a compacted base, often a layer of compacted sand or crusher dust, and they will tell you what they require for the warranty. A tank on soft or uneven ground will fail. Put it clear of overhanging branches that could fall on it.`,
+        `<div class="sec">Step 5: Check the Rules</div>`,
+        `<ul>
+          <li><b>Building permit.</b> In Victoria, a free-standing domestic rainwater tank on the ground generally does not need one. If it sits on a stand or building, or is attached to one, it may.</li>
+          <li><b>Planning permit.</b> East Gippsland Shire notes that a permit may be required for tanks over 4,500 litres in rural areas where the specified setbacks from boundaries are not met. On a rural block the tank should also be shown on the approved planning permit plans. Overlays on your land can change the answer.</li>
+          <li><b>Height and setbacks.</b> The Shire's guide says the combined height of the tank and stand should not exceed 3 metres within 1 metre of a side or rear boundary.</li>
+          <li><b>Plumbing.</b> Connections to household water supply must be done by a licensed or registered plumber.</li>
+          <li><b>Bushfire.</b> If the tank is meant to help in a fire, ask the CFA and your council what they want in terms of fittings, location and the amount of water kept in reserve.</li>
+        </ul>`,
+        `Ring East Gippsland Shire's building department before you order. It takes five minutes and could save a few thousand dollars.`,
+        `<div class="sec">Step 6: Choose the Pump</div>`,
+        `<b>Single phase</b> just means ordinary 240 volt household power, which is what nearly every house and shed has. Three-phase is for bigger industrial loads. A standard single-phase pump runs from an ordinary power point, with a maximum motor size of around 1.8 kW, and that is more than enough for a house.`,
+        `Every pump is chosen from two numbers:`,
+        `<ul>
+          <li><b>Flow rate</b> in litres per minute. How many taps, showers and appliances you want running at once.</li>
+          <li><b>Head or pressure</b> in metres or kilopascals. How high the water has to be pushed and how much pressure you want at the tap. A common rule of thumb for the required pump head is about 15 metres, plus the height you are lifting, plus pipe friction losses. A double-storey house needs more than a single storey.</li>
+        </ul>`,
+        `Then you match those two numbers to the pump's performance chart. Davey, Onga, Grundfos and Pope all publish them, and suppliers have sizing sheets that ask for flow, demand pressure and the suction and discharge heights.`,
+        `<b>Choose the smallest pump that does the job.</b> It uses less electricity and wears less. For a ground-level house with a tank and pump close together, a pump of about 1 horsepower is often enough.`,
+        `<div class="sec">Step 7: The Bits Around the Pump</div>`,
+        `<ul>
+          <li><b>An automatic pressure switch or controller.</b> This is what makes the pump start when a tap opens and stop when it closes. It also provides run-dry protection, so the pump does not burn out when the tank is empty.</li>
+          <li><b>A pressure (accumulator) tank.</b> A tank of at least 20 litres smooths out the flow and stops the pump switching on and off rapidly.</li>
+          <li><b>External or submersible.</b> An external pump sits beside the tank. A submersible sits in the tank and is quieter, because the water muffles it.</li>
+          <li><b>Rain-to-mains changeover.</b> If you also have town water, this switches over automatically when the tank runs dry. On a bush block with no mains, you do not need it.</li>
+          <li><b>Constant-pressure pumps.</b> Variable-speed units that adjust their speed as you turn taps on and off. They cost more and give very even pressure.</li>
+          <li><b>Weatherproofing.</b> Put the pump under a cover, out of the sun and the rain.</li>
+        </ul>`,
+        `<div class="sec">Step 8: Install It Well</div>`,
+        `Keep the pump close to the tank, with a short suction line that falls toward the pump and has no air leaks. Fit the outlet low on the tank so that water flows to the pump by gravity, which is called flooded suction and is much easier on the pump. Prime it with water before switching it on. Fit a non-return valve, and put an isolation valve between the tank and the pump so that you can service it without draining the tank. Have the plumber check all of it.`,
+        `<div class="sec">The Short Version</div>`,
+        `Decide what the water is for. Buy a certified round poly tank of about 10,000 litres. Build the base properly. Check the shire's rules, then match a single-phase pump to your flow and head, with a pressure switch, run-dry protection and a pressure vessel. Have a plumber do the connections, and then enjoy the sound of a full tank, which is the sound of a very large quiet argument you have won against the dry.`
+      ],
+      see:["brodie","brodiepacks"] },
     { id:"reptilekingdom", cat:"Things", title:"Tim's Reptile Kingdom",
       quote:["The block was theirs first."],
       text:[
@@ -1718,58 +1770,6 @@ window.GUIDE = {
         `<div class="short">The diary does not lie, the body keeps no secrets from a patient reader, and a long road is not a closed one.</div>`
       ],
       see:["sober","mirror","kernel","panopticon","beerhole","closingsong","recovery","easy","secret"] },
-    { id:"tankpump", cat:"Things", title:"How to Buy a 10,000 Litre Tank and a Single Phase Pump",
-      quote:["Water is heavy, and everything about it is expensive to move."],
-      text:[
-        `Ten thousand litres of water weighs ten tonnes. That is the most important fact in this entry, and it is the one that most people forget until the tank is delivered. The rest is a shopping list.`,
-        `<div class="short">The Guide is not a plumber, a builder or a fire authority. Water connections should be done by a licensed plumber, and the rules vary by council and by block. Check before you buy.</div>`,
-        `<div class="sec">Step 1: Decide What the Tank Is For</div>`,
-        `Drinking and household water, garden and stock water, firefighting supply, or a mix? That one question settles the material, the fittings and whether the tank has to meet particular rules. For a bush block, write down what you want the water to do before you look at a single tank.`,
-        `<div class="sec">Step 2: Pick the Type</div>`,
-        `<ul>
-          <li><b>Round poly (plastic).</b> The sensible default. Round tanks are the best value per litre because the shape is naturally strong. Look for tanks certified to <b>AS/NZS 4766</b>, which is the Australian standard for polyethylene tanks, UV-stabilised plastic and a warranty of 10 to 20 years.</li>
-          <li><b>Slimline poly.</b> Narrow and good for tight spaces, but dearer, and it generally needs a concrete slab. Slimlines stop at about 5,000 litres, so for 10,000 you are looking at a round.</li>
-          <li><b>Steel with a liner.</b> Tougher and often used for bigger sizes and for fire storage. It costs more, and at 10,000 litres it is rarely worth it.</li>
-          <li><b>Concrete.</b> Long-lived and heavy, and usually a bigger job than most people want.</li>
-        </ul>`,
-        `<div class="sec">Step 3: Know What You Are Buying</div>`,
-        `A typical round poly 10,000 litre tank is about <b>2.25 to 2.7 metres across and about 2.1 to 2.35 metres high</b>, and it weighs somewhere around 175 to 220 kilograms empty. Prices vary by brand and region, but tank-only prices commonly run from about <b>$2,000 to $2,600</b>, with some specials below that. Expect to pay extra for delivery, a stand or base, fittings, a tap or outlet and the plumber.`,
-        `Compare inclusions, not just price. Check the warranty, the colour range, the outlet size and position, the inlet strainer, the overflow and whether it is made in Australia and for local UV conditions.`,
-        `<div class="sec">Step 4: Do the Base Properly</div>`,
-        `This is the step that decides whether the tank lasts. A full 10,000 litre tank puts about ten tonnes on a circle only a couple of metres wide, so the ground under it has to be level, firm and properly prepared. Poly tank makers usually specify a compacted base, often a layer of compacted sand or crusher dust, and they will tell you what they require for the warranty. A tank on soft or uneven ground will fail. Put it clear of overhanging branches that could fall on it.`,
-        `<div class="sec">Step 5: Check the Rules</div>`,
-        `<ul>
-          <li><b>Building permit.</b> In Victoria, a free-standing domestic rainwater tank on the ground generally does not need one. If it sits on a stand or building, or is attached to one, it may.</li>
-          <li><b>Planning permit.</b> East Gippsland Shire notes that a permit may be required for tanks over 4,500 litres in rural areas where the specified setbacks from boundaries are not met. On a rural block the tank should also be shown on the approved planning permit plans. Overlays on your land can change the answer.</li>
-          <li><b>Height and setbacks.</b> The Shire's guide says the combined height of the tank and stand should not exceed 3 metres within 1 metre of a side or rear boundary.</li>
-          <li><b>Plumbing.</b> Connections to household water supply must be done by a licensed or registered plumber.</li>
-          <li><b>Bushfire.</b> If the tank is meant to help in a fire, ask the CFA and your council what they want in terms of fittings, location and the amount of water kept in reserve.</li>
-        </ul>`,
-        `Ring East Gippsland Shire's building department before you order. It takes five minutes and could save a few thousand dollars.`,
-        `<div class="sec">Step 6: Choose the Pump</div>`,
-        `<b>Single phase</b> just means ordinary 240 volt household power, which is what nearly every house and shed has. Three-phase is for bigger industrial loads. A standard single-phase pump runs from an ordinary power point, with a maximum motor size of around 1.8 kW, and that is more than enough for a house.`,
-        `Every pump is chosen from two numbers:`,
-        `<ul>
-          <li><b>Flow rate</b> in litres per minute. How many taps, showers and appliances you want running at once.</li>
-          <li><b>Head or pressure</b> in metres or kilopascals. How high the water has to be pushed and how much pressure you want at the tap. A common rule of thumb for the required pump head is about 15 metres, plus the height you are lifting, plus pipe friction losses. A double-storey house needs more than a single storey.</li>
-        </ul>`,
-        `Then you match those two numbers to the pump's performance chart. Davey, Onga, Grundfos and Pope all publish them, and suppliers have sizing sheets that ask for flow, demand pressure and the suction and discharge heights.`,
-        `<b>Choose the smallest pump that does the job.</b> It uses less electricity and wears less. For a ground-level house with a tank and pump close together, a pump of about 1 horsepower is often enough.`,
-        `<div class="sec">Step 7: The Bits Around the Pump</div>`,
-        `<ul>
-          <li><b>An automatic pressure switch or controller.</b> This is what makes the pump start when a tap opens and stop when it closes. It also provides run-dry protection, so the pump does not burn out when the tank is empty.</li>
-          <li><b>A pressure (accumulator) tank.</b> A tank of at least 20 litres smooths out the flow and stops the pump switching on and off rapidly.</li>
-          <li><b>External or submersible.</b> An external pump sits beside the tank. A submersible sits in the tank and is quieter, because the water muffles it.</li>
-          <li><b>Rain-to-mains changeover.</b> If you also have town water, this switches over automatically when the tank runs dry. On a bush block with no mains, you do not need it.</li>
-          <li><b>Constant-pressure pumps.</b> Variable-speed units that adjust their speed as you turn taps on and off. They cost more and give very even pressure.</li>
-          <li><b>Weatherproofing.</b> Put the pump under a cover, out of the sun and the rain.</li>
-        </ul>`,
-        `<div class="sec">Step 8: Install It Well</div>`,
-        `Keep the pump close to the tank, with a short suction line that falls toward the pump and has no air leaks. Fit the outlet low on the tank so that water flows to the pump by gravity, which is called flooded suction and is much easier on the pump. Prime it with water before switching it on. Fit a non-return valve, and put an isolation valve between the tank and the pump so that you can service it without draining the tank. Have the plumber check all of it.`,
-        `<div class="sec">The Short Version</div>`,
-        `Decide what the water is for. Buy a certified round poly tank of about 10,000 litres. Build the base properly. Check the shire's rules, then match a single-phase pump to your flow and head, with a pressure switch, run-dry protection and a pressure vessel. Have a plumber do the connections, and then enjoy the sound of a full tank, which is the sound of a very large quiet argument you have won against the dry.`
-      ],
-      see:["brodie","brodiepacks"] },
     { id:"brushhacks", cat:"Things", title:"Brodie's Brush Bhacks Bips Bricks Bnd Berects",
       text:[
         `<div class="sec">Bhe Buickest Bay Bn</div>`,
