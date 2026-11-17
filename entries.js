@@ -1653,6 +1653,7 @@ window.GUIDE = {
         `<div class="sec">The Moral</div>`,
         `Good friends are hard to find because they take a great many hours, and easy to keep because, after the hours, they ask for so little. This is the best bargain in the whole market, and the one that is never out of stock. It is also the one that most people spend the least on.`,
         `<div class="short">I never needed the beardless dragon anyway. One with a beard is just fine.</div>`,
+        `<i>But never tell Timmy that if you see him at Mind Garden.</i>`,
         `<div style="margin:14px 0;padding:10px 16px;border-left:3px solid var(--ink);background:#f7f4ee;font:italic 16px/1.7 Georgia,serif">“I love you Timmy and always will.”<div style="font:12px/1.5 Georgia,serif;opacity:.7;margin-top:4px;font-style:normal">Brodie</div></div>`
       ],
       see:["reptilekingdom","matt","panopticon","mirror"] },
