@@ -2963,6 +2963,335 @@ for g in (250, 350, 450):
 <ul><li>Your local archery club and range officers.</li><li>Archery Australia and state bodies.</li><li>Composites Australia, for composites processes and finding a fabricator.</li><li>A local machine shop, TAFE or makerspace, for CNC and wire cutting.</li><li>An independent engineer, to review your limb and cam design before you load it.</li></ul>
 <div class="short">A bow that is made well, tested honestly and respected is a lifelong companion. A bow that is rushed is a hazard to the one who made it.</div>
 </section>
+<section class="pg" data-t="Part Eleven: What This Part Is" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>Part Eleven: What This Part Is</h3>
+<p>Part Ten gave you the whole path. Part Eleven goes <b>into every step</b> at working level: the numbers, the procedures, the scripts, the paperwork. Read it with the Part Ten pages open next to it.</p>
+<p><b>Order of Part Eleven.</b></p>
+<ol><li>The riser: load path, stiffness, design details, machining, finishing.</li><li>Fasteners, threads, fits and anodising.</li><li>The cams: design process, groove details, axles and bearings, cutting.</li><li>The limbs: laminate design, layup, curing, finishing, fatigue.</li><li>Strings and cables: sizing, making, serving, twisting.</li><li>The test rig and the measurement software.</li><li>Reverse engineering a donor bow, which is the cheapest education there is.</li><li>Templates: build log, test sheet, risk register, weekly schedule.</li></ol>
+<p><b>One rule.</b> Every number in these pages is either a <b>first-pass estimate from a model</b> or a <b>typical handbook value</b>. Both are for planning. Your own measurements replace them. Where a datasheet from the maker of a material, bearing or fastener says something different, the datasheet wins.</p>
+</section>
+<section class="pg" data-t="The Riser: Load Path and Stiffness" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>The Riser: Load Path and Stiffness</h3>
+<p>Before drawing a riser, know what it has to carry.</p>
+<p><b>The load path in words.</b> The string and cables pull the two limb tips towards each other. The limbs, bolted into the riser pockets, push their roots apart and the riser holds them. So the riser is mostly in <b>compression and bending</b>, and the hand pushes on the grip while the string pulls back on the arrow.</p>
+<p><b>Order-of-magnitude check (simple beam model).</b></p>
+<p>Treat the riser as a simply supported beam between the two limb pockets (span 0.31 m) with the draw force at the middle. Use the peak 40 lb draw force (about 178 N) and a solid rectangular section 30 mm wide and 25 mm deep in 7075 (E = 72 GPa).</p>
+<div class="fm">Bending moment M = F x L / 4 = 178 x 0.31 / 4 = about 13.8 N m<br>Section modulus Z = b x h^2 / 6 = 3.1 x 10^-6 m^3<br>Bending stress = M / Z = about 4.4 MPa<br>Mid-span deflection = F x L^3 / (48 E I) = about 0.04 mm</div>
+<p>Now cut a large window through the middle (the sight window) so the effective depth falls to 15 mm:</p>
+<div class="fm">Stress rises to about 12 MPa and deflection to about 0.18 mm</div>
+<p><b>What that tells you.</b></p>
+<ul><li>The <b>bulk stress</b> in the riser is tiny compared with the 7075 yield strength (about 500 MPa). A riser does not fail because the beam is too weak.</li><li>Risers fail, flex or feel bad because of <b>stress concentrations</b> (sharp corners at window ends, pocket corners, bolt holes), <b>fatigue at those spots</b>, and <b>local stiffness</b> at the limb pockets.</li><li>The <b>cable loads are larger than the draw force</b>. Model them with the cam analysis (28) and add the axial compression to the bending. Even so, the nominal stress stays low.</li><li>The purpose of the metal is <b>stiffness and a stable platform</b>, not strength. Every gram of riser mass you can remove without hurting stiffness is free performance: lighter in the hand, lighter on the limb tips (25).</li></ul>
+<p><b>Torsion matters more than bending.</b> A grip that is off the arrow line twists the riser. See 38. Keep the window and the grip symmetric about the centre plane. A deep, closed section is far stiffer in torsion than an open one.</p>
+<p><b>Design targets for Prototype Zero.</b></p>
+<ul><li>Deflection under full draw load less than 0.5 mm at the limb pockets.</li><li>No sharp internal corners: every internal radius at least 3 mm, preferably more.</li><li>Material left around every bolt hole: at least two bolt diameters of edge distance.</li><li>A flat, accurate limb pocket seat. This is the most important surface on the bow.</li></ul>
+<div class="short">A riser is a stiffness and geometry problem wearing a strength costume.</div>
+</section>
+<section class="pg" data-t="Riser Design Details" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>Riser Design Details</h3>
+<p><b>Layout dimensions (start here).</b></p>
+<div class="tw"><table><thead><tr><th>Feature</th><th>Starting value</th></tr></thead><tbody><tr><td>Overall length</td><td>about 310 to 360 mm, set by axle-to-axle, limb length and pocket angle</td></tr><tr><td>Window (sight window)</td><td>cut to the centre line, depth about 55 to 65 percent of riser width at the arrow shelf</td></tr><tr><td>Grip</td><td>narrow, about 22 to 28 mm thick front to back, with the pivot point on the arrow line (see 38)</td></tr><tr><td>Arrow shelf and rest mount</td><td>a flat, a threaded hole for the rest, and a clearance cut for the arrow</td></tr><tr><td>Sight mount</td><td>two or three threaded holes on the window side</td></tr><tr><td>Stabiliser bush</td><td>a threaded hole at the front, usually 5/16-24 UNF in the archery industry</td></tr><tr><td>Cable guard mount</td><td>a threaded hole pair at the back of the riser</td></tr><tr><td>Limb pockets</td><td>one at each end: flat seat, tilt adjust, bolt through</td></tr></tbody></table></div>
+<p><b>Archery thread standards.</b> Archery accessories mostly use <b>imperial</b> threads: 5/16-24 for the stabiliser, 8-32 UNC for sights, rests and many small items, and 1/4-20 for tripod style mounts. Metric appears on the limb bolts and fasteners you choose yourself. Use the thread standard of the accessory you intend to fit, so that bought parts work.</p>
+<p><b>Limb pocket detail.</b></p>
+<ul><li>Machine the pocket seat <b>flat to 0.05 mm</b> and square to the pocket bolt hole.</li><li>The pocket should capture the limb root on its sides, so the limb cannot twist.</li><li>Include a <b>tilt adjustment</b> (a tilt screw or shim) so that you can change the limb angle slightly to adjust draw weight.</li><li>Use <b>steel thread inserts</b> (helical or solid) in aluminium for any bolt you will remove many times.</li></ul>
+<p><b>Weight reduction.</b></p>
+<ul><li>Pocket the inside faces with a <b>3 mm minimum wall</b> and fillet radii.</li><li>Do not remove material near the pocket bolts or the window ends.</li><li>Carbon, aluminium or magnesium alternatives exist but cost more and need more skill.</li></ul>
+<p><b>Grip geometry.</b> A grip that is high pushes the bow's top limb away, which adds torque. A low, narrow grip with the pivot near the arrow line gives less torque. Try a trial grip in wood or foam before you cut it in metal.</p>
+<p><b>Mass target.</b> About 1.0 to 1.3 kg for the finished riser of Prototype Zero. Weigh as you go. Mass accounts for most of the feel of the bow in the hand.</p>
+<p><b>CAD hints.</b></p>
+<ol><li>Build the riser around a <b>sketch of the arrow line</b> and the <b>draw geometry</b> (nock path, pivot point, limb angle).</li><li>Keep all fillets as parameters.</li><li>Make the limb pocket a separate feature so it can be changed.</li><li>Use FEA (101) to look at the <b>stress at the window ends and pocket corners</b>, where the real risks sit.</li></ol>
+</section>
+<section class="pg" data-t="Machining the Riser: Strategy and Workholding" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>Machining the Riser: Strategy and Workholding</h3>
+<p><b>Material.</b> 7075-T651 plate, about 25 x 120 x 400 mm. The blank weighs about 3.4 kg and the finished riser about 1.1 kg, so about two thirds of the plate becomes chips. Plan for that: coolant, chip clearance and a safe way to remove the swarf.</p>
+<p><b>T651 means</b> solution heat treated, stretched to relieve stress, and artificially aged. It is stable but can still <b>move slightly</b> when you remove a lot of material from one side. That is why you rough, rest, then finish.</p>
+<p><b>General rules for machining aluminium (adapt to your machine).</b></p>
+<ul><li>Use <b>sharp, polished carbide end mills</b> made for aluminium, two or three flutes, with generous chip space.</li><li>Use the tool maker's recommended speeds and feeds as the starting point. Aluminium takes <b>high spindle speed and a decent chip load</b>. A rubbing tool that does not cut work-hardens the surface and overheats.</li><li>Flood coolant or mist coolant, or an air blast and a lubricant. Chips welding to the cutter are the most common problem.</li><li><b>Climb mill</b> for finish passes, with light radial depth.</li><li>Leave <b>0.2 to 0.5 mm</b> for finish on every face that matters.</li><li>Use <b>ramped or helical entry</b> instead of plunging.</li><li>Machine <b>internal corners with a radius</b> greater than the cutter radius, and keep the radius in the CAD.</li></ul>
+<p><b>Workholding.</b></p>
+<ul><li>A good vice with soft jaws, or a vacuum or clamp fixture.</li><li>A <b>fixture plate</b> with locating dowels so that the riser goes back in the same place after flipping.</li><li>Do the <b>flat, square reference face</b> first. Everything else is measured from it.</li></ul>
+<p><b>Typical operation order.</b></p>
+<ol><li>Saw the plate to a bar slightly bigger than the part. Mark the plate number and keep the certificate.</li><li>Face and square the blank. Mill the datum face and edge.</li><li><b>Op 1:</b> machine the <b>front</b> side: the main profile, the window rough, the grip rough, limb pockets rough.</li><li>Flip into the fixture (<b>Op 2</b>). Machine the back side, the weight-reduction pockets, the cable guard and rest mounting areas.</li><li><b>Rest</b>: unclamp, let it relax, re-check flatness.</li><li>Finish the pocket seats, the window edges and the grip.</li><li>Drill, ream and tap the holes. Chamfer every hole.</li><li><b>Deburr by hand</b>: every edge, so that nothing can crack or cut skin.</li><li>Inspect against the drawing (88) and log the results.</li><li>Send for anodising (100).</li></ol>
+<p><b>Tolerance and measurement.</b></p>
+<ul><li>Check pocket seat flatness with a surface plate and a feeler gauge or a dial indicator.</li><li>Check hole position with callipers and pin gauges.</li><li>Measure <b>with the part at room temperature</b>. Aluminium expands about 23 micrometres per metre per degree C, so a warm part reads large.</li></ul>
+<p><b>What to do if a mistake happens.</b> If you cut something wrong, stop. Write it in the build file. Do not use a part with a cracked corner, an over-size hole or a bad pocket seat. Re-cut from a new blank. A blank is cheap compared with an injury.</p>
+</section>
+<section class="pg" data-t="Fasteners, Threads and Inserts" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>Fasteners, Threads and Inserts</h3>
+<p>Fasteners are where many first builds fail, so this page is detailed.</p>
+<p><b>Choose a class.</b> Socket head cap screws to ISO 4762 (metric) are the usual choice. Class 12.9 alloy steel is very strong but can be brittle if over-tightened or hydrogen-embrittled. Class A4-80 stainless is corrosion resistant and a little weaker. For the limb bolt you want strength, so use 12.9 with a proper thread lock, or a high-grade stainless if the maker gives a rated strength.</p>
+<p><b>Preload.</b> A bolt works by <b>clamping</b>. For an M6 screw, the stress area is about 20.1 square millimetres. A 75 percent of proof-load preload on a 12.9 screw is on the order of <b>14 kN</b>. Torque to get that depends on friction, so use a <b>maker's torque table</b> for your exact screw and lubricant condition. As a starting idea only, M6 screws are often tightened in the range of roughly 8 to 17 N m depending on class, dry or lubricated threads and the material clamped. Look up a table, do not guess.</p>
+<p><b>Thread engagement in aluminium.</b></p>
+<ul><li>A steel screw in an aluminium thread needs at least <b>1.5 times the screw diameter</b> of engagement, and often 2.</li><li>For parts you will assemble and remove often, press in a <b>thread insert</b> (a helical coil or a keyed insert). It is stronger and lasts longer than aluminium threads.</li><li>Use <b>blind-hole depth</b> with room for the tap and swarf.</li></ul>
+<p><b>Washers and seats.</b> A hardened washer under a socket head spreads load and protects the anodising. Make sure the pocket seat under the head is flat and the hole is square.</p>
+<p><b>Locking.</b> Medium-strength threadlock on the limb bolts, a <b>nyloc nut</b> or a jam nut for anything that vibrates, and a <b>paint mark</b> across the screw and part so a turn shows. Re-check torque during break-in.</p>
+<p><b>Never reuse</b> a screw after it has been over-tightened or has stretched. Cheap screws are an easy fix.</p>
+<p><b>Cam axles and retaining.</b></p>
+<ul><li>Use a <b>hardened, ground axle</b> with a defined diameter tolerance (h6).</li><li>Retain with a <b>circlip or a nut with lock</b> and a small shim so that the cam has just a trace of end play.</li><li>Check that the axle cannot walk out under vibration.</li></ul>
+<p><b>Thread forms for archery parts.</b> See 97. Use the form the accessory needs.</p>
+<p><b>Fit table (running and locating fits, ISO).</b></p>
+<div class="tw"><table><thead><tr><th>Use</th><th>Fit</th><th>Typical meaning</th></tr></thead><tbody><tr><td>Axle in bushing, free turn</td><td>H7 / g6</td><td>Small clearance, free running</td></tr><tr><td>Dowel in fixture plate</td><td>H7 / h6</td><td>Close clearance, locating</td></tr><tr><td>Bearing seat</td><td>per bearing maker</td><td>Usually an H7 bore for the outer ring</td></tr><tr><td>Press-in insert</td><td>per insert maker</td><td>Follow the insert datasheet</td></tr></tbody></table></div>
+<p><b>Do not guess torque, fit or thread engagement.</b> Look up the maker's value or ask a mechanical engineer.</p>
+</section>
+<section class="pg" data-t="Surface Finishing and Anodising" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>Surface Finishing and Anodising</h3>
+<p>Raw 7075 will corrode and wear. Finish it.</p>
+<p><b>Options.</b></p>
+<div class="tw"><table><thead><tr><th>Finish</th><th>What it does</th><th>Notes</th></tr></thead><tbody><tr><td>Type II (sulphuric) anodise</td><td>Corrosion resistance, colour</td><td>Builds about half the coating thickness outward and half into the metal</td></tr><tr><td>Type III hard anodise</td><td>Wear resistance, hard surface</td><td>Thicker and harder; changes dimensions more</td></tr><tr><td>Chromate or alternative conversion coat</td><td>Corrosion protection</td><td>Check availability and local rules</td></tr><tr><td>Paint or powder coat</td><td>Colour, protection</td><td>Not good on sliding or threaded surfaces</td></tr></tbody></table></div>
+<p><b>Dimensional effect.</b> A coating grows from the surface. For a hole or a shaft with a tight tolerance, <b>mask</b> the surface or allow for the growth. Ask the anodiser for their expected growth and masking options. For a fit like H7/g6, leave the bore and axle finished <b>after</b> anodising or mask them.</p>
+<p><b>Preparation.</b></p>
+<ul><li>Remove burrs and machine marks before anodising. The coat follows the surface.</li><li>Do not touch the cleaned part with bare hands before the bath.</li><li>Mask threads and bearing bores.</li></ul>
+<p><b>Aftercare.</b></p>
+<ul><li>Check the axle bores and pocket seats for size and flatness after anodising.</li><li>Clean anodised parts with mild soap and water, not harsh chemicals.</li><li>Wax or lube the moving parts per your maintenance plan.</li></ul>
+<p><b>Galvanic corrosion.</b> Stainless screws in aluminium can seize. Use anti-seize on stainless threads (where a threadlock is not wanted) or an appropriate coating. Keep dissimilar metals from sitting wet.</p>
+<p><b>Marking.</b> Engrave or laser-mark the serial number and date on the riser <b>before</b> anodising. It is your record of which part is which.</p>
+</section>
+<section class="pg" data-t="FEA, Step by Step" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>FEA, Step by Step</h3>
+<p>Finite element analysis (FEA) divides a part into small elements and computes stress. It is a tool that must be used with care.</p>
+<p><b>Free tools.</b> FreeCAD has an FEM workbench and can run CalculiX for static analysis.</p>
+<p><b>A basic workflow for the riser.</b></p>
+<ol><li>Build a <b>simplified solid</b> of the riser. Remove tiny fillets and holes you do not need to study.</li><li>Choose the material: 7075-T6 (E 72 GPa, Poisson 0.33, density 2,810 kg per cubic metre, yield about 500 MPa).</li><li>Fix the <b>limb pockets' bolt holes</b> or the pocket seats as constraints, one end fixed in all directions and the other allowed to slide in the axial direction (to avoid over-constraint).</li><li>Apply the <b>loads</b>: the draw force on the grip, and the limb forces on the pockets. Use numbers from your cam and limb model (28, 24).</li><li>Mesh with <b>second-order tetrahedral elements</b> and refine the mesh around corners and holes.</li><li>Solve. Plot von Mises stress and displacement.</li></ol>
+<p><b>Check the model before you trust it.</b></p>
+<ul><li>Does the deflection match your hand calculation (96)? If not, find out why.</li><li>Does the result change when you halve the element size? If yes, the mesh is too coarse.</li><li>Are the reaction forces equal to the applied loads?</li><li>A <b>stress singularity</b> at a sharp corner goes up as the mesh is refined. Look at stress a little way away, or add a fillet radius.</li></ul>
+<p><b>What to look for.</b></p>
+<ul><li>Peak stress at window ends and pocket corners (use that to set radii).</li><li>Stiffness of the pocket seats.</li><li>Whether weight pockets are removing material where the stress path needs it.</li></ul>
+<p><b>Fatigue.</b> Compare stress amplitude to the fatigue strength at the number of cycles you expect (74). Keep stress amplitude low at the stress concentrations: as a design rule many designers keep local stresses at a modest fraction of yield for aluminium in fatigue.</p>
+<p><b>Limits of FEA.</b></p>
+<ul><li>It does not know about <b>bad machining</b>, residual stress or a surface scratch.</li><li>Composite limbs need <b>anisotropic</b> properties and a layered shell or solid model, which is advanced. Use a hand calculation and coupon tests instead.</li><li><b>Test the real thing.</b> FEA reduces the number of prototypes. It does not replace them.</li></ul>
+</section>
+<section class="pg" data-t="Cam Design: The Process From Zero to a DXF" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>Cam Design: The Process From Zero to a DXF</h3>
+<p>The cam is the hardest part to get right, and the part most worth learning. Work in this order.</p>
+<p><b>Step 1: Fix the requirements.</b> From 87: draw length 28 in, peak 40 lb, let-off 80 percent, axle-to-axle 34 in, brace height 7 in.</p>
+<p><b>Step 2: Choose the system.</b> For a first build use a <b>single-cam-style or hybrid-style two-cam layout with symmetric cams</b> if you can make them identical, because identical cams make timing and tuning far simpler. Read 29 and 27 again. A binary or fully asymmetric system is a later project.</p>
+<p><b>Step 3: Fix the geometry of the string and cable paths.</b> In CAD, draw the bow at <b>brace</b> and at <b>full draw</b>: riser, limb tips, cam axles, string and cable. Measure:</p>
+<ul><li>how much string leaves the cam groove between brace and full draw (the <b>pay-out</b>),</li><li>how much cable is taken up,</li><li>the cable angle to the limb tip,</li><li>the clearance between cable and string and the riser.</li></ul>
+<p><b>Step 4: Get the target force-draw curve.</b> Choose a curve with a gentle rise, a plateau, a smooth valley and a stable holding weight (8, 9). Write it as a table of draw length against force.</p>
+<p><b>Step 5: Run the energy-balance design.</b> Use 75 to compute the <b>cable-to-string radius ratio</b> along the draw, and then integrate the pay-out and the take-up to get the cam profile.</p>
+<p><b>Step 6: Check feasibility.</b></p>
+<ul><li>Radii must be <b>positive and smoothly varying</b>. A sudden jump is a kink, which means a bump in the draw.</li><li>The string groove must <b>not wrap onto itself</b>.</li><li>Cable and string grooves must be at different heights or offsets so they pass each other.</li><li><b>Maximum curvature</b>: a groove with a very tight turn pinches the string and wears it. A rule of thumb used in string design is to keep the groove radius larger than about 10 string diameters. Check with the string maker's guidance.</li></ul>
+<p><b>Step 7: Draw the cam outline</b> as a smooth curve (a spline through points) in CAD. Put the <b>string groove</b> and the <b>cable track</b> on the profile, and the <b>post (stop)</b> and the <b>let-off valley</b>.</p>
+<p><b>Step 8: Make a trial cam from plywood or acetal</b> (see 104) and test string wrap by hand.</p>
+<p><b>Step 9: Export a DXF</b> for wire cutting or CNC. Include the bore and any locating holes. Draw it at 1:1 and check the scale by dimensioning a known feature.</p>
+<p><b>Step 10: Cut the real cam.</b> Wire EDM is best for the outline. Then ream the bore, cut the grooves on a mill if they are not part of the wire cut, and anodise.</p>
+<p><b>Where it goes wrong.</b> Not checking the cam at <b>intermediate draw positions</b>. A cam that is correct at brace and at full draw can still have a bad bump halfway. Plot the whole curve.</p>
+</section>
+<section class="pg" data-t="Cam Details: Grooves, Axles, Bearings, Modules" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>Cam Details: Grooves, Axles, Bearings, Modules</h3>
+<p><b>Grooves.</b></p>
+<ul><li>The groove should be a smooth channel slightly wider than the string, about 1.1 to 1.3 times the <b>string diameter</b> across, with a gently rounded bottom.</li><li>Deburr and polish the groove. Any roughness cuts the serving.</li><li>Keep the groove <b>depth</b> enough to hold the string so that the string cannot jump out. A shallow groove lets a string jump under a bad shot.</li><li>Cut the cable track <b>separately</b> at a different level or offset.</li></ul>
+<p><b>Axle load.</b> At full draw, the load on each cam axle is the <b>vector sum</b> of the string and cable pulls. Use the numbers from 87: a cable load near 200 lb (about 880 N) plus a string pull of a few tens of pounds. The axle sees on the order of <b>1 kN</b>. Choose axle diameter and bearings for that, with a safety factor of at least 3 to 4 on strength and good life.</p>
+<p><b>Bearings or bushes.</b></p>
+<ul><li><b>Sealed ball bearings</b> give low friction. Choose a bearing with a dynamic load rating comfortably above your axle load, and check the bearing maker's tables for life at low speed and oscillating motion, which is not the same as continuous rotation.</li><li><b>Bronze or polymer bushes</b> are simple and robust, with more friction. Use an H7 bore and a g6 axle.</li><li>Lubricate lightly with a thin grease or a dry film lubricant suited to the material. Avoid oil that attracts dust.</li></ul>
+<p><b>Axle diameter by bending.</b> The axle is a short beam loaded in two shear planes (a double-shear pin). A simple check:</p>
+<div class="fm">Shear stress = load / (2 x pin area)<br>For a 1,000 N load and a 8 mm axle (area about 50 square millimetres): 1,000 / 100 = about 10 MPa</div>
+<p>That is low. Bending in the axle between the cam and the limb fork may be the bigger effect, because the load acts a few millimetres from the support. Use a hand beam calculation and a FEA check.</p>
+<p><b>Draw-length adjustment.</b> Commercial cams use <b>modules</b> (interchangeable pieces) or posts and rotate the <b>draw stop</b>. For Prototype Zero keep it simple: <b>a fixed draw length</b> and a second pair of cams only if you need it later.</p>
+<p><b>Stops.</b> The <b>draw stop</b> (a post that catches the cable at full draw) gives a solid wall. See 30. Machine the post from steel, make sure it cannot pull out, and put a <b>cable cover</b> on it. The <b>limb stop</b> and <b>string stop</b> control what happens after the shot.</p>
+<p><b>Cam lean and timing.</b> The cam must <b>sit square</b> on its axle, with no lean. Add shims if you need to adjust the string line to the arrow centre. Cam timing is checked at full draw (47).</p>
+<p><b>Balance.</b> Keep the cam's centre of mass close to its axle so it does not add vibration. A badly balanced cam adds noise and hand shock.</p>
+<p><b>Mass.</b> A finished 7075 cam can weigh on the order of 60 to 100 g, depending on size. Pocket the web (the flat part) to take weight off, keeping radii.</p>
+</section>
+<section class="pg" data-t="Cam Trials: Plywood, Acetal and a Test Jig" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>Cam Trials: Plywood, Acetal and a Test Jig</h3>
+<p>Do not cut your first cam in metal.</p>
+<p><b>Why a trial cam.</b> It shows you string wrap, cable clearance, the cam's range of motion and the force curve, using cheap material and a simple test.</p>
+<p><b>Material choices.</b> 6 to 12 mm plywood or MDF cut on a laser cutter or CNC router, or acetal (Delrin-style) sheet if you have it. Do <b>not</b> use trial cams at full load. They are for checking geometry and rotation with <b>light loads</b> (a few pounds), not for shooting.</p>
+<p><b>Test jig.</b></p>
+<ol><li>A flat board with two axle pins at the right axle-to-axle spacing.</li><li>Two trial cams on the pins.</li><li>A <b>light cord</b> or the real string material on the grooves.</li><li>A <b>small load</b> (a hanging scale and a few pounds) pulling on the string at the nock point.</li></ol>
+<p><b>What to check.</b></p>
+<ul><li>Does the string wrap smoothly off the cam as you draw?</li><li>Does the cable track pay out and take up the way the design says?</li><li>Does the cam rotate through the full angle without hitting anything?</li><li>Does the draw stop engage at the right place?</li><li>Measure the <b>nock travel</b> against <b>cam rotation</b> and compare with the CAD.</li></ul>
+<p><b>Scale model.</b> You can also build the whole bow at <b>half scale</b> in wood and elastic to get the feel of the geometry. This is a design toy, not a test of strength.</p>
+<p><b>Iterate.</b> Each trial cam should be a <b>numbered revision</b>. Write on it what you changed. Keep them all.</p>
+<p><b>When you are ready for metal.</b> The trial cam and CAD agree, the grooves are smooth, the stop works, and your force-draw model looks right. Send the DXF for cutting.</p>
+</section>
+<section class="pg" data-t="Limb Design: Laminate Schedule" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>Limb Design: Laminate Schedule</h3>
+<p>Limbs are the spring. Treat them with the most respect.</p>
+<p><b>Pick the fibre and resin.</b></p>
+<ul><li><b>Glass/epoxy</b> unidirectional: forgiving, cheap, and with a good fatigue life. Most limbs on traditional and many compound bows use glass.</li><li><b>Carbon/epoxy</b>: lighter and stiffer, but more brittle and costly. Often used in the outer layers or in a mix.</li><li><b>Epoxy prepreg</b> (fibre pre-impregnated with resin) gives a consistent resin content and a clean process, but needs cold storage and a cure oven. <b>Wet layup</b> (resin applied by hand to dry fabric) is cheaper but gives more variation.</li></ul>
+<p><b>Estimating stiffness (rule of mixtures).</b> From 74 and Part Nine: E along the fibres is about Vf x E_fibre + (1 - Vf) x E_resin. With E-glass fibre at about 72 GPa and resin about 3.5 GPa:</p>
+<div class="tw"><table><thead><tr><th>Fibre volume fraction</th><th>E along fibres (approx)</th></tr></thead><tbody><tr><td>0.50</td><td>about 38 GPa</td></tr><tr><td>0.55</td><td>about 41 GPa</td></tr><tr><td>0.60</td><td>about 45 GPa</td></tr></tbody></table></div>
+<p>The 38 GPa used in 87 is a <b>conservative middle value</b>. Coupon tests will give the real number.</p>
+<p><b>Number of plies.</b> A cured unidirectional glass prepreg ply is typically in the region of 0.15 to 0.25 mm thick. For the 8.8 mm limb thickness in 87, that is about <b>35 to 60 plies</b> of unidirectional prepreg. In practice limbs are made from <b>fewer, thicker layers or a pultruded laminate</b> and from a mix of fibre directions. Ask your prepreg supplier for the cured ply thickness and the datasheet values.</p>
+<p><b>Laminate schedule: the idea.</b></p>
+<ul><li><b>Mostly 0 degrees</b> (along the limb) for bending stiffness and strength.</li><li>A few plies at <b>plus and minus 45 degrees</b> (or a woven layer) on the outside to resist <b>twist</b> and <b>cracking</b>.</li><li>Optionally a thin <b>surface veil</b> for finish.</li><li><b>Symmetric</b> about the mid-plane, so the limb does not warp when cured.</li></ul>
+<p><b>Tapering the limb.</b> For constant strength the limb gets <b>narrower</b> (or thinner) toward the tip (24). You can taper by <b>cutting the width</b> (a triangular or two-prong planform) or by <b>dropping plies</b> in a staggered pattern toward the tip. Drop plies in steps with a gentle overlap, not all at one place, because a ply drop is a stress concentration.</p>
+<p><b>Root detail.</b> The limb root is clamped in the pocket. Add extra plies or a doubler at the root so the clamp does not crush the laminate. Keep sharp edges off the root. Use a <b>sleeve or metal sandwich</b> if the datasheet and your tests support it.</p>
+<p><b>Tip detail.</b> The limb tip takes the string and cable pull. Bond or bolt a <b>steel or aluminium tip insert</b> and include a bearing surface for the cam axle if the cam sits on the limb tip. Use proper edge distances and a flat bonding surface.</p>
+<p><b>Split limbs.</b> Most compound bows use <b>two-prong limbs</b> so that the cam sits between them. The prongs carry the bending, and the fork carries the axle. Make the prongs identical and test them as a pair.</p>
+<p><b>Design stress.</b> For a first limb keep static strain well below the laminate limit, as described in 87. A conservative design stress is around 30 percent of the coupon-tested static strength, because of fatigue and scatter. <b>Use your own coupon results.</b></p>
+</section>
+<section class="pg" data-t="Making Limbs: The Process" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>Making Limbs: The Process</h3>
+<p>Safety first: wear a respirator or dust mask, gloves, eye protection and work with good ventilation. Resin and fibre dust are harmful. Read the technical datasheet and safety datasheet of every material.</p>
+<p><b>1. The tool (mould).</b></p>
+<ul><li>A <b>flat plate</b> (aluminium, glass or a stable board with a sealed surface) is enough for a straight limb.</li><li>A <b>curved tool</b> is needed for reflex or pre-bent limbs. Make it from a machined block or from a laminated tooling board.</li><li>Seal and apply a <b>release agent</b> compatible with epoxy.</li></ul>
+<p><b>2. Cutting the plies.</b></p>
+<ul><li>Cut the prepreg on a clean mat with a sharp blade or a cutter. Use a <b>template</b> for each ply shape.</li><li>Mark the <b>fibre direction</b> on every ply. Keep the offcuts organised by type.</li><li>Prepreg should come out of the freezer and warm to room temperature in its bag <b>before</b> you open it, so moisture does not condense on it.</li></ul>
+<p><b>3. Layup.</b></p>
+<ul><li>Lay plies one at a time, pressing out air with a roller or a squeegee. Follow the <b>laminate schedule</b> exactly.</li><li>Keep the layup symmetric and clean. Do not touch the prepreg with bare hands.</li><li>After every few plies <b>debulk</b> with a vacuum or a pressure bag if the datasheet recommends it.</li></ul>
+<p><b>4. Bagging and cure.</b></p>
+<ul><li>Cover with <b>peel ply</b>, <b>release film</b> and <b>breather</b>, then a vacuum bag, and pull a vacuum.</li><li>Check for leaks. A bag that holds vacuum is the first sign of a good cure.</li><li>Follow the <b>cure cycle in the datasheet</b>: ramp rate, dwell temperature, dwell time and cool-down. Use a thermocouple <b>on the part</b>, not just the oven air temperature.</li><li>Do not remove the part until it has cooled below the datasheet temperature.</li></ul>
+<p><b>5. Demould and trim.</b></p>
+<ul><li>Remove the limb. Look for <b>dry spots, voids, resin-rich areas and wrinkles</b>.</li><li>Trim to shape with a <b>wet saw with a diamond blade</b> or a router and a template, wearing a mask because the dust is bad.</li><li><b>Sand the edges smooth</b> and put a small radius on the corners. Seal cut edges with a thin layer of resin or a coating so that water cannot enter.</li></ul>
+<p><b>6. Finish.</b> Light sanding, a clear coat or paint compatible with epoxy, and a final inspection.</p>
+<p><b>7. Quality records.</b> For each limb note the <b>mass, length, thickness at several points, cure log, batch number of prepreg</b> and the date. Weigh and match limbs in pairs.</p>
+<p><b>Wet layup (if you cannot get prepreg).</b> The method is similar but you apply resin to dry fabric and need to <b>control the resin content</b> by squeezing out excess under vacuum. Expect more scatter, so test more coupons.</p>
+<p><b>First limbs are practice.</b> Make a few, test them to failure in a safe rig, and learn what each failure looks like. See 107.</p>
+</section>
+<section class="pg" data-t="Testing Limbs: Coupons, Static, Fatigue" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>Testing Limbs: Coupons, Static, Fatigue</h3>
+<p>A limb is a safety-critical part. Prove it in steps.</p>
+<p><b>Coupons first.</b> Make small strips from the same layup and the same cure. Test:</p>
+<ul><li><b>Bending stiffness</b> (three-point bend). From deflection against load, calculate E.</li><li><b>Failure load</b> in bending. Calculate the stress at failure.</li><li><b>Density and fibre fraction</b> by weighing and, if you can, by a burn-off test following a recognised procedure.</li></ul>
+<p>Compare to your design numbers. If the coupon stiffness is not within about 15 percent, your design thickness needs updating.</p>
+<p><b>Full-size static test of a limb.</b></p>
+<ol><li>Clamp the limb in a <b>rigid fixture</b> that copies the real pocket.</li><li>Load the tip with a <b>cable and a winch</b> through a load cell, in small steps, using a barrier. Record force and tip deflection.</li><li>Go to the <b>design deflection</b> (for example 70 mm) and note the force. It should match your model.</li><li>Unload and check the limb returns to its original shape (<b>no set</b>).</li><li>Load to a <b>proof level</b> (for example 125 to 150 percent of design load) and hold for a short time. Inspect.</li></ol>
+<p><b>Fatigue.</b></p>
+<ul><li>Cycle a spare limb between a low load and the design deflection <b>thousands of times</b>, using a cam on a motor or by hand.</li><li>Inspect every few hundred cycles for <b>white lines</b> (delamination), cracks near the root and tip, and any <b>drop in stiffness</b> or growing <b>set</b>.</li><li>Keep going until you are satisfied. Commercial limbs are designed for very large numbers of cycles. A first home-made limb deserves a <b>generous margin</b>, so keep the draw weight low.</li></ul>
+<p><b>Destructive test.</b> Break one on purpose in a <b>safe rig</b>, behind a barrier. You learn the real strength and the failure mode. A failure that starts at the root tells you to strengthen the root, and one at the tip says to rework the tip.</p>
+<p><b>Acceptance.</b></p>
+<div class="tw"><table><thead><tr><th>Check</th><th>Pass</th></tr></thead><tbody><tr><td>Stiffness against model</td><td>within about 15 percent</td></tr><tr><td>Set after a hold at design deflection</td><td>none you can measure</td></tr><tr><td>Visible damage after proof load</td><td>none</td></tr><tr><td>Mass match between the pair</td><td>within a gram or two</td></tr><tr><td>Fatigue run</td><td>no crack, no loss of stiffness</td></tr></tbody></table></div>
+<p><b>Record everything.</b> Photograph each failure, and keep the broken parts in a labelled box. They are the cheapest teachers you will ever have.</p>
+</section>
+<section class="pg" data-t="Strings and Cables: Sizing and Materials" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>Strings and Cables: Sizing and Materials</h3>
+<p>String and cables carry the full load, so size them with a margin.</p>
+<p><b>Materials.</b> Modern strings use high-modulus, low-stretch fibres (Dyneema or Spectra and blends such as the BCY 452X, 652 and X99 type materials listed by Australian retailers) and serving thread (nylon, polyester and Spectra braids) to protect the string where it meets the nock, the cam and the cable guard.</p>
+<p><b>Sizing by load.</b></p>
+<ol><li>Find the <b>peak load</b> on the string or cable from your cam model (28, 87). For Prototype Zero the cable load is estimated near 200 lb, and the string load is much smaller.</li><li>Find the <b>breaking load per strand</b> on the string maker's datasheet. Do not guess it.</li><li>Choose a <b>safety factor</b> of at least 5 for a first bow.</li><li>Strands = safety factor x load / breaking load per strand. Round up to an even number so you can twist or split the bundle evenly.</li></ol>
+<p>Use this small script, and replace the example number with the maker's value:</p>
+<pre class="fm" style="white-space:pre">import math
+# How many strands for a cable or string? Replace the example numbers with maker data.
+load_lb = 200.0         # peak cable load from your model (lb)
+strand_break_lb = 50.0  # EXAMPLE ONLY: breaking load per strand from the string maker&#x27;s datasheet
+safety_factor = 5.0
+strands = math.ceil(safety_factor * load_lb / strand_break_lb)
+print(&quot;strands needed&quot;, strands, &quot;(round up to an even number)&quot;)</pre>
+<p><b>Why the example uses a placeholder.</b> Strand strengths vary widely by material, diameter and maker. The 50 lb figure is an <b>example</b> and not a datasheet value.</p>
+<p><b>Stretch and creep.</b> New strings <b>stretch and settle</b> over the first hundred shots, so <b>pre-stretch</b> them on the jig (a tension of several hundred pounds is used by commercial string makers) and expect to re-tune after a break-in period. A string that creeps changes the <b>brace height</b> and <b>cam timing</b>.</p>
+<p><b>Cable length versus string length.</b> Both depend on the cam geometry, so compute them <b>from your CAD</b>, not from rules of thumb. Measure the path along the groove, around the cam, along the free span, around the other cam and around the limb tip (or over the cable guard). Then apply an <b>allowance</b> for the end loops, for the serving and for stretch. Make a <b>test string</b> from cheap, adjustable material first (109) and measure the real brace height.</p>
+<p><b>Serving size.</b> Choose a serving thread whose diameter is compatible with the nock groove, the peep and the cam. Typical sizes are in the range of 0.014 to 0.025 inch.</p>
+<p><b>Wax.</b> Wax the string regularly. It protects the fibres against moisture and abrasion.</p>
+<p><b>Where to buy and what to ask.</b> Abbey Archery lists BCY string and serving material and custom compound string sets made on jigs and pre-tensioned. Ask the string maker for the <b>breaking load</b>, <b>stretch</b> and <b>recommended strand count</b> for your cable load.</p>
+</section>
+<section class="pg" data-t="Making Strings and Cables on a Jig" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>Making Strings and Cables on a Jig</h3>
+<p>You can buy a custom string and compare yours against it. Making your own teaches you more than any book.</p>
+<p><b>Tools.</b> A string jig with adjustable posts (or two bolts in a board), a serving tool, a spool holder, a heat source for melting serving ends, a lighter, scissors, a wax block, a tape and a good light.</p>
+<p><b>Endless-loop string (most compound bows).</b></p>
+<ol><li>Set the jig posts to the <b>string length</b> in the drawing.</li><li>Wind the <b>strands</b> around the posts in a continuous loop. Count carefully. Use <b>even tension</b> and keep the strands parallel with no crossovers.</li><li><b>Tie off</b> the loop with tape at the start and finish, and mark the joint.</li><li>Remove the <b>twist</b> from the bundle by working along its length. Separate the strands into two bundles at each end where the <b>loops</b> will go.</li><li><b>Serve the end loops</b> with serving thread, laying each turn tightly next to the last, for a length matched to the cam's groove. Use a serving tool to keep tension constant. Tie off at the end with a half-hitch and a drop of glue if the datasheet allows.</li><li><b>Serve the centre</b> (where the nock and D-loop sit) with a longer serving using a thicker thread.</li><li>Twist the string so it is <b>slightly shorter</b>. A few twists tighten the string and let you adjust the brace height. Compound strings are usually twisted <b>in the direction that tightens the strands</b>.</li><li><b>Pre-stretch</b> under the maker's recommended tension, then <b>re-measure</b>.</li></ol>
+<p><b>Cables.</b> Make the buss and control cables with the same method but with the <b>strand count the load calls for</b>. Include a <b>cable slide</b>, a <b>roller guard</b> serving and <b>end servings</b> in the right places.</p>
+<p><b>Quality checks.</b></p>
+<ul><li>Measure the <b>length</b> at a known tension.</li><li>Compare with your drawing and with a commercial string.</li><li>Check every serving for <b>gaps</b>.</li><li>Inspect the loops for <b>chafe</b> and check that the string sits fully in the groove.</li></ul>
+<p><b>Fitting.</b> Fit strings only with a <b>bow press</b>. Do not try to string a compound bow by bending a limb with your hands.</p>
+<p><b>Safety.</b> A string under load is a whip. Wear eye protection, keep fingers out of the plane of the string, and <b>never</b> fit or adjust cables with the bow drawn or without the press.</p>
+<p><b>Peep, D-loop and nock point.</b> Install after the bow shoots well. Tie the peep with the maker's recommended thread and make sure it is <b>straight</b> and tight. Add the D-loop in line with the arrow. See 40 and 44.</p>
+</section>
+<section class="pg" data-t="The Test Rig: Design and Build" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>The Test Rig: Design and Build</h3>
+<p>The rig is the most important tool you will build, because it lets you load things safely.</p>
+<p><b>What it must do.</b></p>
+<ul><li>Hold a <b>limb, a riser or a whole bow</b> securely.</li><li>Apply a <b>slow, controlled load</b> from a safe distance.</li><li><b>Measure force and displacement.</b></li><li><b>Contain a failure</b> (flying parts, a snapping string) behind a barrier.</li></ul>
+<p><b>Frame.</b> A rigid steel frame made from rectangular hollow section, bolted to a concrete floor or a heavy base. Design it for <b>at least 3 times the maximum load</b>. Add a <b>mount for a limb pocket</b> and another for the riser grip.</p>
+<p><b>Loading.</b></p>
+<ul><li>A <b>hand winch</b> or a worm-gear jack with a <b>cable</b> to the string.</li><li>Do <b>not</b> use a hand-held draw. Use a long cord so you stand <b>behind a barrier</b>.</li><li>Provide a <b>quick release</b> for an emergency.</li></ul>
+<p><b>Barrier.</b> A strong barrier between you and the bow, such as a thick plywood and steel panel, with a <b>polycarbonate window</b> to see through. Put the barrier <b>in line</b> with the limb tips and the string.</p>
+<p><b>Load cell.</b> A tension load cell with a digital readout rated for your maximum load with a good margin. A <b>crane scale</b> is a cheaper option but check its resolution and calibrate it with known weights.</p>
+<p><b>Displacement.</b> A <b>steel tape</b> or a <b>dial gauge</b> or a <b>linear encoder</b> to measure draw length. For limb tests, measure the tip movement from a fixed reference.</p>
+<p><b>Data.</b> Log the force and draw length every half inch (or every 10 mm) and put them in a spreadsheet or a CSV file for the analysis script in 111.</p>
+<p><b>Calibration.</b> Check the load cell with <b>known masses</b> before every session. Write down the date and the result.</p>
+<p><b>Operating rules.</b></p>
+<ol><li>Brief anyone present. <b>Nobody</b> stands in line with the limbs.</li><li>Eye and ear protection on.</li><li>Increase load in <b>steps</b>. Pause and <b>look and listen</b> at each step.</li><li>Stop at any unexpected noise or movement.</li><li>After every test, <b>inspect</b> the part and the rig.</li></ol>
+<p><b>Cost control.</b> Build the frame yourself from standard sections or ask a local fabricator. Get a second pair of eyes to check the design.</p>
+</section>
+<section class="pg" data-t="Measuring the Force-Draw Curve and the Script" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>Measuring the Force-Draw Curve and the Script</h3>
+<p>The force-draw curve is the bow's signature. Here is how to measure it and what to calculate.</p>
+<p><b>Procedure.</b></p>
+<ol><li>Mount the bow (or the riser with limbs and strings) in the rig.</li><li>Zero the load cell and the length measurement at the <b>brace position</b>.</li><li>Draw in steps of <b>half an inch</b> (or 10 mm) with the winch. At each step <b>wait a few seconds</b> for the reading to settle and record the force.</li><li>Continue to full draw (the draw stop), then <b>let the bow down</b> the same way and record the return curve.</li><li>Repeat the test three times. Average the runs.</li></ol>
+<p><b>Hysteresis.</b> The draw and the return curves differ. The area between them is energy lost in friction in the cams, bearings, string and limbs. A small loop is good.</p>
+<p><b>Analysis.</b> Save a CSV file with two columns, <b>draw_in</b> and <b>force_lb</b>. Run this script:</p>
+<pre class="fm" style="white-space:pre">import csv, sys
+# Input CSV with header: draw_in,force_lb  (rows in draw order, one every 0.5 in or so)
+rows = list(csv.DictReader(open(sys.argv[1])))
+x = [float(r[&quot;draw_in&quot;]) for r in rows]
+f = [float(r[&quot;force_lb&quot;]) for r in rows]
+E = sum((f[i] + f[i + 1]) / 2 * (x[i + 1] - x[i]) for i in range(len(x) - 1))   # in-lb
+peak = max(f)
+hold = f[-1]
+print(&quot;stored energy in-lb&quot;, round(E, 1), &quot;ft-lb&quot;, round(E / 12, 1), &quot;joules&quot;, round(E / 12 * 1.3558, 1))
+print(&quot;peak lb&quot;, peak, &quot;holding lb&quot;, hold, &quot;let-off %&quot;, round(100 * (1 - hold / peak), 1))
+print(&quot;area factor&quot;, round(E / (peak * (x[-1] - x[0])), 3))
+if len(sys.argv) &gt; 3:
+    grains = float(sys.argv[2]); fps = float(sys.argv[3])
+    ke = grains * fps**2 / 450240
+    print(&quot;arrow KE ft-lb&quot;, round(ke, 1), &quot;efficiency %&quot;, round(100 * ke / (E / 12), 1))</pre>
+<p><b>Run it like this:</b> python3 fdanalysis.py draw.csv 300 255 where 300 is the arrow weight in grains and 255 is the speed in feet per second from a chronograph. The last two numbers are optional.</p>
+<p><b>What it gives you.</b></p>
+<ul><li><b>Stored energy</b> in in-lb, ft-lb and joules (the area under the curve).</li><li><b>Peak</b> and <b>holding weight</b>, and the <b>let-off</b> percentage.</li><li><b>Area factor</b> (stored energy divided by peak weight times draw length).</li><li><b>Efficiency</b>, if you give a chronograph reading: arrow kinetic energy divided by stored energy (31).</li></ul>
+<p><b>Compare with the model.</b> Plot the measured curve over the model curve (8). Differences in the <b>early rise</b>, the <b>peak</b> and the <b>valley</b> tell you where the cam or the limb is not behaving as designed.</p>
+<p><b>Chronograph tips.</b></p>
+<ul><li>Use the same arrow weight for every comparison.</li><li>Shoot at least <b>five</b> shots and average.</li><li>Record the temperature, the draw weight and the arrow weight.</li><li>Keep a log so that you see trends as the bow breaks in.</li></ul>
+</section>
+<section class="pg" data-t="The Limb Sizing Script" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>The Limb Sizing Script</h3>
+<p>Use this script to redo the first-pass limb sizing from 87 with your own numbers. It assumes a constant-strength triangular limb (see 24).</p>
+<pre class="fm" style="white-space:pre">import math
+# Constant-strength (triangular planform) cantilever limb, first-pass sizing
+E = 38e9          # Pa, glass/epoxy along the fibres (use your coupon value)
+rho = 1870.0      # kg/m3
+L = 0.280         # m, limb length
+d = 0.070         # m, tip deflection at full draw
+U = 39.5          # J, energy per limb (half the stored energy)
+sigma = 300e6     # Pa, design stress
+h = sigma * L**2 / (E * d)          # thickness, m
+V = 6 * E * U / sigma**2            # volume, m3
+b0 = 2 * V / (h * L)                # root width, m
+F = 2 * U / d                       # tip force at full draw, N
+print(&quot;thickness mm&quot;, round(h * 1e3, 2))
+print(&quot;root width mm&quot;, round(b0 * 1e3, 1))
+print(&quot;volume cm3&quot;, round(V * 1e6, 1))
+print(&quot;mass g&quot;, round(V * rho * 1e3))
+print(&quot;tip force N&quot;, round(F), &quot;lbf&quot;, round(F / 4.448))
+print(&quot;strain %&quot;, round(100 * sigma / E, 2))</pre>
+<p><b>How to use it.</b></p>
+<ul><li>Change <b>E</b> to the coupon-tested stiffness from 107.</li><li>Set the limb length <b>L</b>, the tip deflection <b>d</b> and the energy per limb <b>U</b> (half the stored energy from 111 or the model).</li><li>Change the <b>design stress</b> and see how thickness, width and mass change.</li></ul>
+<p><b>What the output means.</b></p>
+<ul><li><b>Thickness</b>: uniform thickness for the limb.</li><li><b>Root width</b>: the width at the pocket for a triangular planform.</li><li><b>Mass</b>: shows why a stiffer, higher-strength laminate gives lighter limbs.</li><li><b>Tip force</b>: the load your hardware must carry.</li><li><b>Strain</b>: compare to the laminate strain limit and to your coupon data.</li></ul>
+<p><b>Limits.</b> The model assumes a straight, uniform-strength beam deflecting by a small amount. Real limbs are curved, two-prong, with pockets and cams, and large deflections. It is a <b>starting point</b>. Verify by test.</p>
+<p><b>Try these what-ifs.</b></p>
+<ol><li>Raise the design stress. Thickness grows and the limb gets lighter.</li><li>Shorten the limb. Thickness falls and stress rises for the same tip deflection.</li><li>Use carbon (E about 115 GPa, density about 1,500 kg per cubic metre) and see the mass change.</li><li>Scale to 60 lb (91): U rises by about half.</li></ol>
+</section>
+<section class="pg" data-t="Reverse Engineering a Donor Bow" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>Reverse Engineering a Donor Bow</h3>
+<p>The cheapest education you can buy is a <b>second-hand compound bow</b>. Take measurements from it and you learn what the manufacturers know.</p>
+<p><b>Why do it.</b></p>
+<ul><li>You get <b>real numbers</b> for limb mass, cam size, string length, cable length and force-draw curve.</li><li>You see <b>how parts fit</b>: pocket, cam, axle, stops.</li><li>You can <b>test your rig</b> and your script on a known bow.</li></ul>
+<p><b>Buy sensibly.</b> A used bow from a club member, a shop or a classified ad. Choose an older bow of a standard design. Check limbs for cracks and the string for fraying. Have a shop fit new strings if the old ones are worn. <b>Do not</b> shoot a bow you are not sure about.</p>
+<p><b>Measure.</b></p>
+<ol><li><b>Specification</b>: axle-to-axle, brace height, draw length, draw weight, let-off, mass. Compare with the maker's sheet.</li><li><b>Force-draw curve</b> in your rig (111).</li><li><b>Arrow speed</b> with a chronograph at a known arrow weight.</li><li><b>Dimensions of the riser</b>: length, width, depth, grip height, limb pocket angle.</li><li><b>Cams</b>: photograph them square on, with a scale. Trace the outline from the photo into CAD. This is a <b>learning exercise</b>, not a way to copy someone's design.</li><li><b>String and cable lengths</b> from the label on the limb. Weigh the string.</li><li><b>Limb mass and tip deflection.</b></li></ol>
+<p><b>Respect the maker.</b> Reverse engineering for <b>learning and to calibrate your models</b> is one thing. Copying a patented cam or a current commercial design to sell is another and could infringe patents or design rights. Many early patents have expired (for example the Holless Allen patent history in Part One), but check before you copy a specific current design. For your own design, use the donor to <b>learn</b>, then design your own cams from your own energy balance (102).</p>
+<p><b>Calibrate your models.</b></p>
+<ul><li>Does your <b>energy model</b> predict the stored energy you measured?</li><li>Does your <b>efficiency model</b> predict the arrow speed?</li><li>What <b>let-off</b> and <b>area factor</b> does a modern bow get? Use them as your targets.</li></ul>
+<p><b>Take it apart safely.</b> Only take a donor bow apart <b>using a bow press</b>. Never disassemble a bow with the strings under load. A good archery shop will show you how a press works.</p>
+<div class="short">Before you build your first bow, shoot a good one for a few months and take it apart. You will understand it far better.</div>
+</section>
+<section class="pg" data-t="Templates: Build Log, Test Sheet, Risk Register" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>Templates: Build Log, Test Sheet, Risk Register</h3>
+<p>Good paperwork is a safety tool. Use these as starting templates in a notebook or a spreadsheet.</p>
+<p><b>Build log (one line per work session).</b></p>
+<div class="tw"><table><thead><tr><th>Date</th><th>Part</th><th>Operation</th><th>Material and batch</th><th>Measurements</th><th>Problems</th><th>Next step</th></tr></thead><tbody><tr><td>(date)</td><td>Riser R1</td><td>Op 1 front machining</td><td>7075-T651, plate P-123, cert filed</td><td>flatness 0.03 mm</td><td>chip weld on cutter</td><td>Op 2</td></tr></tbody></table></div>
+<p><b>Test sheet (one per test).</b></p>
+<div class="tw"><table><thead><tr><th>Field</th><th>Entry</th></tr></thead><tbody><tr><td>Date, time, place</td><td></td></tr><tr><td>Test number</td><td></td></tr><tr><td>Item under test (part and revision)</td><td></td></tr><tr><td>Load steps</td><td></td></tr><tr><td>Force and displacement readings</td><td></td></tr><tr><td>Observations (noise, movement, damage)</td><td></td></tr><tr><td>Pass or fail</td><td></td></tr><tr><td>Photos taken</td><td></td></tr><tr><td>Next action</td><td></td></tr></tbody></table></div>
+<p><b>Risk register (start with these rows and add more).</b></p>
+<div class="tw"><table><thead><tr><th>Risk</th><th>Cause</th><th>Effect</th><th>Control</th></tr></thead><tbody><tr><td>Limb fails in test</td><td>Weak laminate, root crush</td><td>Flying parts</td><td>Barrier, coupon tests, proof load</td></tr><tr><td>String breaks</td><td>Too few strands, wear</td><td>Whip, damage</td><td>Safety factor 5 or more, inspect, wax</td></tr><tr><td>Riser crack</td><td>Fatigue at a corner</td><td>Bow comes apart</td><td>Radii, FEA, inspect, no welding</td></tr><tr><td>Cam bearing seizes</td><td>Contamination, wrong fit</td><td>Uneven draw</td><td>Seals, correct fit, lubricant</td></tr><tr><td>Fastener loosens</td><td>No locking</td><td>Alignment loss</td><td>Threadlock, torque, paint marks</td></tr><tr><td>Cut or burn in workshop</td><td>Sharp tool, hot oven</td><td>Injury</td><td>PPE, first aid kit, no working alone</td></tr><tr><td>Resin or dust exposure</td><td>Poor ventilation</td><td>Health harm</td><td>Respirator, gloves, extraction</td></tr></tbody></table></div>
+<p><b>Tuning sheet.</b></p>
+<div class="tw"><table><thead><tr><th>Date</th><th>Draw weight</th><th>Draw length</th><th>Brace height</th><th>Cam timing</th><th>Centre shot</th><th>Nock height</th><th>Paper tear</th><th>Walk-back</th><th>Bare shaft</th><th>Notes</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></div>
+<p><b>Weekly review (ten minutes).</b> What did I make? What did I measure? What surprised me? What do I do next? Update the risk register.</p>
+<p><b>Keep it all in one place.</b> A folder or a notebook, backed up. If you ever sell, lend or hand on a bow, the file is your proof of what was done.</p>
+</section>
+<section class="pg" data-t="A 12-Month Schedule" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>A 12-Month Schedule</h3>
+<p>A realistic hobby schedule, working evenings and weekends. Adjust to your life and to your supplier lead times.</p>
+<div class="tw"><table><thead><tr><th>Months</th><th>Focus</th><th>Output</th></tr></thead><tbody><tr><td>1 to 2</td><td>Read, shoot, buy a donor bow, learn archery form and basic tuning</td><td>You can shoot and tune a bow and have donor measurements</td></tr><tr><td>2 to 3</td><td>Build the test rig and the measurement scripts</td><td>A rig with a barrier, a calibrated load cell and a working script</td></tr><tr><td>3 to 4</td><td>Design Prototype Zero in CAD, run the models, make plywood cam trials</td><td>Drawing pack revision A, trial cams</td></tr><tr><td>4 to 5</td><td>Make limb coupons, test, adjust the model</td><td>Tested laminate data</td></tr><tr><td>5 to 6</td><td>Make trial limbs, static and fatigue test</td><td>A matched pair that passes</td></tr><tr><td>6 to 8</td><td>Machine the riser and cams (or outsource)</td><td>Parts in hand</td></tr><tr><td>8 to 9</td><td>Make strings and cables, assemble, static test in the rig (gates 0 to 3)</td><td>A bow that holds load</td></tr><tr><td>9 to 10</td><td>Remote shots and first hand shots (gates 4 and 5), break-in</td><td>A bow that shoots</td></tr><tr><td>10 to 11</td><td>Tune, log, chronograph, adjust</td><td>A documented bow</td></tr><tr><td>11 to 12</td><td>Review, plan revision B (heavier, lighter or smoother)</td><td>A list of improvements</td></tr></tbody></table></div>
+<p><b>Use buffers.</b> Parts take longer than you think. Allow time for re-cuts, back-orders and failed tests.</p>
+<p><b>Stop rules.</b> If a gate fails, stop and find out why before moving on, even if it costs a month.</p>
+<p><b>Keep shooting.</b> Do not let the build take over the archery. A bow is made to be shot, and shooting teaches what the numbers cannot.</p>
+</section>
+<section class="pg" data-t="Maintenance, Inspection and Retiring Parts" data-ch="Part Eleven: The Nitty-Gritty Manual"><h3>Maintenance, Inspection and Retiring Parts</h3>
+<p>A home-built bow needs more inspection than a factory bow, because you do not have the maker's test history.</p>
+<p><b>Before every session.</b></p>
+<ul><li>Look at the <b>string and cables</b> for fraying and loose servings.</li><li>Look at the <b>limbs</b> for cracks, white lines or twist.</li><li>Check <b>fasteners</b> by looking at the paint marks.</li><li>Check the <b>cam rotation</b> by hand: smooth, no grit.</li><li>Check the <b>nock and D-loop</b>.</li></ul>
+<p><b>Every month or 200 shots.</b></p>
+<ul><li>Check <b>brace height</b> and <b>cam timing</b>.</li><li><b>Re-torque</b> the limb bolts (to the maker's torque, if the bow is unloaded in a press).</li><li>Wax the string.</li><li><b>Re-weigh</b> the draw weight and compare with the log.</li></ul>
+<p><b>Every year.</b></p>
+<ul><li>Remove the limbs and inspect the <b>pocket seats</b> and <b>root</b> of each limb.</li><li>Replace <b>strings and cables</b> (or earlier if worn).</li><li>Check the cam <b>bearings or bushes</b> for wear.</li><li>Photograph everything, compare with last year.</li></ul>
+<p><b>Retire a part when.</b></p>
+<ul><li>A limb shows a <b>crack, a delamination, or a measurable loss of stiffness or set</b>.</li><li>A cam shows <b>wear in the groove</b> or a <b>loose axle</b>.</li><li>A riser shows a <b>crack</b> or a <b>permanently bent</b> section.</li><li>A fastener is <b>stretched, corroded or damaged</b>.</li><li>A string has <b>broken strands</b> or <b>serving damage</b>.</li></ul>
+<p><b>Never repair a cracked limb or riser and go on shooting it.</b> Replace it.</p>
+<p><b>Storage.</b> Keep the bow <b>unstrung or at low tension</b>, away from heat, direct sun and damp. Do not leave it in a hot car. Heat can soften epoxy and shorten life.</p>
+<p><b>Transport.</b> Use a hard case. In Victoria, take care how you carry and store a bow in public, and follow current rules (83).</p>
+</section>
 <section class="pg" data-t="The Mastery Ladder"><h3>The Mastery Ladder</h3>
 <p>A map of the whole journey, as levels. Tick them off.</p>
 <p><b>Level 1: Shooter.</b> You can draw, anchor, aim and release consistently. You know the parts and the safety rules.</p>
