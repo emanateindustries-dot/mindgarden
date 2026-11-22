@@ -1802,6 +1802,7 @@ window.GUIDE = {
           <li><b>His trail slice.</b> Packed with good intentions. In practice, he usually tries to grab the Mind Garden slice from <a href="#" data-open="matt">Matt</a> instead, which is the better slice, and which he has to ask for like everybody else.</li>
           <li><b>Donkey piss.</b> See <a href="#" data-open="donkeypiss">donkey piss</a>.</li>
           <li><b>Sambar slice.</b> Brodie makes it himself. He is not sure on the ingredients yet, so the Guide will not guess.</li>
+          <li><b>Venison jerky.</b> Salty, chewy and made to last in a bag all day.</li>
         </ul>`
       ],
       see:["must","brodie","leave","savealife","kevin","matt","donkeypiss"] },
