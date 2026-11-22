@@ -2021,7 +2021,7 @@ window.GUIDE = {
 <p>The arrow is <b>half</b> of a bow-and-arrow system, and most beginners spend far too little time on it. A great bow shooting a poor arrow is a poor bow.</p>
 <svg viewBox="0 0 360 190" width="100%" role="img" aria-label="Arrow anatomy and front of centre" style="max-width:460px;display:block;margin:8px auto 14px"><line x1="34" y1="80" x2="300" y2="80" stroke="currentColor" stroke-width="4"/><path d="M20 74 L34 74 L34 86 L20 86 Z" fill="currentColor"/><path d="M44 80 L66 66 L98 66 L76 80 Z M44 80 L66 94 L98 94 L76 80 Z" fill="currentColor" opacity=".35" stroke="currentColor"/><rect x="290" y="75" width="16" height="10" fill="currentColor" opacity=".7"/><path d="M306 80 L336 80 L306 66 Z M306 80 L336 80 L306 94 Z" fill="currentColor"/><text x="24" y="108" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">Nock</text><line x1="26" y1="92" x2="26" y2="98" stroke="currentColor" stroke-width=".7"/><text x="86" y="50" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">Fletching (vanes)</text><line x1="80" y1="54" x2="76" y2="66" stroke="currentColor" stroke-width=".7"/><text x="180" y="62" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">Shaft</text><text x="298" y="56" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">Insert</text><line x1="298" y1="60" x2="298" y2="74" stroke="currentColor" stroke-width=".7"/><text x="322" y="112" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">Point</text><line x1="322" y1="98" x2="322" y2="90" stroke="currentColor" stroke-width=".7"/><line x1="34" y1="132" x2="306" y2="132" stroke="currentColor" stroke-width="1"/><line x1="34" y1="126" x2="34" y2="138" stroke="currentColor"/><line x1="306" y1="126" x2="306" y2="138" stroke="currentColor"/><text x="170" y="126" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">L = arrow length</text><line x1="170" y1="128" x2="170" y2="136" stroke="currentColor"/><text x="170" y="150" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">centre (L / 2)</text><circle cx="206" cy="80" r="5" fill="currentColor"/><line x1="206" y1="86" x2="206" y2="168" stroke="currentColor" stroke-dasharray="3 3"/><text x="210" y="165" font-family="Inter,sans-serif" font-size="11" fill="currentColor">balance point (A)</text><text x="34" y="182" font-family="Inter,sans-serif" font-size="11" fill="currentColor">FOC % = 100 x (A - L/2) / L</text></svg>
 <ul><li><b>Shaft:</b> the tube. Carbon, aluminium, or a carbon-aluminium composite. Carbon is the modern default: stiff, light, straight and strong.</li><li><b>Nock:</b> a small plastic fitting at the back that clips onto the string.</li><li><b>Fletching:</b> the vanes or feathers near the nock. They steer the arrow and make it spin.</li><li><b>Insert:</b> a small threaded tube glued into the front of the shaft, so the point can screw in.</li><li><b>Point:</b> a field tip for practice, or a <b>broadhead</b> for hunting.</li></ul>
-<p>The arrow has to do something extraordinary. In about 15 milliseconds it accelerates from rest to about 90 metres per second, bending like a snake as it goes, then it straightens itself out and flies as a stable spear. If any of the following is wrong, it will not:</p>
+<p>The arrow has to do something extraordinary. In roughly 20 to 30 milliseconds it accelerates from rest to about 90 metres per second, bending like a snake as it goes, then it straightens itself out and flies as a stable spear. If any of the following is wrong, it will not:</p>
 <ul><li>the spine (stiffness) does not match your bow,</li><li>the weight is too light or the front too light,</li><li>the fletching does not match the arrow,</li><li>the shaft is bent or the nock misaligned.</li></ul>
 <p>The next several pages are the maths and engineering behind getting those right.</p>
 </section>
@@ -2162,9 +2162,9 @@ window.GUIDE = {
 <p>Here dx is a small movement of the nock and dc the matching movement of cable on the cam. The ratio dc/dx is the <b>mechanical advantage</b> of the cam, and it is the ratio of the radii: r_cable / r_string.</p>
 <p><b>Putting numbers on let-off.</b> For a 70 lb bow with string legs at 28 degrees to the centreline:</p>
 <div class="fm">String tension T_s = F / (2 cos 28) = F / 1.766<br>At peak: F = 70 lb, so T_s = 39.6 lb<br>At full draw: F = 14 lb, so T_s = 7.9 lb</div>
-<p>Suppose the limbs, fully bent, pull the cable with about 80 lb. Then at full draw the radius ratio the cam must provide is:</p>
-<div class="fm">r_cable / r_string = 7.9 / 80 = 0.10</div>
-<p>The cam has to leave the cable on a radius <b>about one tenth</b> of the string radius at the valley. That is a very small radius, which is why the let-off section of a cam looks like a tiny pocket cut into the track.</p>
+<p>In the worked design on page 62 the limb tips are pulling the cable with a few hundred pounds at full draw (about 345 lb in the model on page 75). Then at full draw the radius ratio the cam must provide is:</p>
+<div class="fm">r_cable / r_string = 7.9 / 345 = about 0.02</div>
+<p>That is a <b>very</b> small ratio. Real cams get there with a mix of tricks: a small cable post, a big string radius, effective lever arms that differ from the track radius because the tangent points move, and a draw stop that carries part of the load. Treat the number as the <b>spec the geometry must achieve</b>, not a literal radius.</p>
 <p><b>The designer's recipe</b> for drawing a cam on paper:</p>
 <ol><li>Choose the target force curve F(x).</li><li>Choose the string track so the string pays out the right amount per degree of rotation.</li><li>Model the limb as a spring so cable tension depends on how far the limb tip has moved.</li><li>Solve for the cable radius at each angle: r_cable = F x r_string / (2 x T_cable).</li><li>Check the shape is physically possible, smooth and doesn't violate the minimum radius.</li><li>Machine it, test it, and measure the real curve.</li></ol>
 <p>Real cam design uses software and iterates dozens of times. But the equation above is the entire idea.</p>
@@ -2669,6 +2669,157 @@ window.GUIDE = {
 <p><b>Scaling up.</b> Once a low-weight prototype performs to design, increase the draw weight in stages (35, 45, 55 lb) with a full test at each stage. Do not jump to the full weight.</p>
 <p><b>Know when to stop.</b> At some point the bow is good enough to hunt with. Tune it, practise with it and trust it only after it has passed fatigue testing and many hundreds of shots on the range.</p>
 <div class="short">The difference between a hobby build and engineering is the <b>log</b>. Keep it.</div>
+</section>
+<section class="pg" data-t="Materials: A Datasheet Primer" data-ch="Part Nine: The Workshop (Advanced Engineering)"><h3>Materials: A Datasheet Primer</h3>
+<p>Before you design a part you need to know what it is made of. Here are typical handbook values. They vary by supplier and temper, so always use the datasheet for the actual material you buy.</p>
+<div class="tw"><table><thead><tr><th>Material</th><th>Stiffness E</th><th>Yield / strength</th><th>Density</th><th>E / density</th></tr></thead><tbody><tr><td>Aluminium 6061-T6</td><td>69 GPa</td><td>about 275 MPa</td><td>2,700 kg/m3</td><td>25.5</td></tr><tr><td>Aluminium 7075-T6</td><td>72 GPa</td><td>about 500 MPa</td><td>2,810 kg/m3</td><td>25.5</td></tr><tr><td>Alloy steel (4140, quenched and tempered)</td><td>205 GPa</td><td>650 MPa or more</td><td>7,850 kg/m3</td><td>26</td></tr><tr><td>E-glass / epoxy, unidirectional</td><td>about 38 GPa</td><td>about 1,000 MPa (static)</td><td>about 1,900 kg/m3</td><td>20</td></tr><tr><td>Carbon / epoxy, unidirectional</td><td>about 115 GPa</td><td>about 1,800 MPa (static)</td><td>about 1,500 kg/m3</td><td>78</td></tr></tbody></table></div>
+<p>(E / density is in GPa per 1,000 kg/m3: a measure of stiffness per unit mass.)</p>
+<p><b>What this tells a bow builder.</b></p>
+<ul><li>All the metals have about the <b>same stiffness per kilogram</b>. Switching aluminium for steel does not make a stiffer part for the same weight. Choosing a deeper section does.</li><li><b>Carbon fibre is three times as stiff per kilogram</b>, which is why it appears in risers, stabilisers and arrows.</li><li>For a <b>spring</b> (a limb) you do not want maximum stiffness. You want maximum <b>energy stored per kilogram</b>, which is roughly strength squared divided by stiffness and density:</li></ul>
+<div class="fm">Energy per volume = sigma^2 / (2 E)<br>Glass / epoxy: (1,000 MPa)^2 / (2 x 38 GPa) = about 13 MJ/m3, or about 7 kJ/kg<br>Carbon / epoxy: (1,800 MPa)^2 / (2 x 115 GPa) = about 14 MJ/m3, or about 9 kJ/kg<br>Spring steel: (1,500 MPa)^2 / (2 x 205 GPa) = about 5.5 MJ/m3, or about 0.7 kJ/kg</div>
+<p>Composites store roughly <b>ten times more energy per kilogram</b> than spring steel. That is the real reason a modern bow limb is glass or carbon fibre. (These are static, order-of-magnitude figures. Fatigue brings the usable number down, as the next pages explain.)</p>
+<div class="short">Rule of thumb: metal for the structure, fibre composite for the springs.</div>
+</section>
+<section class="pg" data-t="Composites: The Rule of Mixtures"><h3>Composites: The Rule of Mixtures</h3>
+<p>A composite is fibre in a matrix. The fibre carries the load and the resin holds the fibres in line and passes load between them. A simple model, the <b>rule of mixtures</b>, predicts the properties along the fibres:</p>
+<div class="fm">E_composite = V_f x E_fibre + (1 - V_f) x E_matrix<br>Density = V_f x rho_fibre + (1 - V_f) x rho_matrix</div>
+<p>V_f is the <b>fibre volume fraction</b>. Quality layups run from about 0.45 to 0.60.</p>
+<p><b>Worked example (V_f = 0.5).</b></p>
+<div class="tw"><table><thead><tr><th></th><th>E-glass / epoxy</th><th>Carbon / epoxy</th></tr></thead><tbody><tr><td>Fibre modulus</td><td>73 GPa</td><td>230 GPa</td></tr><tr><td>Epoxy modulus</td><td>3.5 GPa</td><td>3.5 GPa</td></tr><tr><td>Composite E</td><td><b>38.3 GPa</b></td><td><b>116.8 GPa</b></td></tr><tr><td>Fibre density</td><td>2,540 kg/m3</td><td>1,790 kg/m3</td></tr><tr><td>Epoxy density</td><td>1,200 kg/m3</td><td>1,200 kg/m3</td></tr><tr><td>Composite density</td><td><b>1,870 kg/m3</b></td><td><b>1,495 kg/m3</b></td></tr></tbody></table></div>
+<p>That reproduces the table on the previous page. Notice what the numbers say:</p>
+<ul><li>Almost all the stiffness comes from the fibre. The resin barely contributes along the fibres.</li><li>Across the fibres, the composite is very weak, because there the resin dominates. This is why limbs use <b>unidirectional</b> fibre aligned with the bending, plus a few off-axis plies to stop splitting.</li><li><b>Fibre fraction is a quality number.</b> More resin means a heavier, weaker, softer part. Vacuum bagging and a press squeeze out excess resin and raise V_f.</li></ul>
+<p><b>Strain is the limit.</b> Glass fibre tolerates a few percent strain, carbon about one and a half percent. A limb that bends a lot needs a fibre that can <b>stretch</b> without cracking, which favours glass (or a glass-carbon hybrid).</p>
+<div class="short">You can check your own layup: weigh the finished part, measure its volume and compare the density with the prediction. If it is much lower than predicted you have voids. If it is much higher you have too much resin.</div>
+</section>
+<section class="pg" data-t="Fatigue: Why Parts Break at Loads They Can Carry"><h3>Fatigue: Why Parts Break at Loads They Can Carry</h3>
+<p>A part that carries a load once can fail at a much lower load repeated many times. That is <b>fatigue</b>, and it is how bow parts usually die.</p>
+<p><b>The S-N curve.</b> Engineers test a material by cycling it at a given stress amplitude until it breaks, and plot stress (S) against number of cycles (N). Two typical results:</p>
+<ul><li><b>Steels and titanium</b> have a fatigue limit: below a certain stress they can last indefinitely.</li><li><b>Aluminium and composites</b> do not have a true limit. Lower stress just means more cycles before failure.</li></ul>
+<p><b>How many cycles does a bow see?</b> A busy bowhunter might shoot 100 arrows a week for ten years:</p>
+<div class="fm">100 x 52 x 10 = 52,000 cycles</div>
+<p>A bow should survive many times that. For design purposes, test and design for <b>at least several hundred thousand cycles</b>.</p>
+<p><b>What eats fatigue life.</b></p>
+<ul><li><b>Stress concentrations.</b> A hole or sharp corner raises local stress. A round hole in a plate under tension has a stress concentration factor of about <b>3</b>, so local stress is three times the average.</li><li><b>Surface finish.</b> Tool marks and scratches start cracks.</li><li><b>Mean stress.</b> A limb is never fully relaxed. At brace it is already loaded, so its stress swings between a high mean and a higher peak.</li><li><b>Temperature and moisture</b> reduce composite strength.</li><li><b>Damage.</b> A small impact or a nick can start a crack that grows with every shot.</li></ul>
+<p><b>Design approach.</b></p>
+<ol><li>Pick a <b>design stress</b> that is a fraction of static strength. For glass-epoxy limbs, a fatigue strength at a million cycles of roughly <b>30 to 50% of the static strength</b> is typical (check the supplier's data).</li><li>Apply a <b>safety factor</b> on top.</li><li><b>Test</b> coupons and finished limbs to confirm.</li></ol>
+<div class="short">The limb mass budget on page 25 used design stresses of 450 and 600 MPa. If your own fatigue tests of the material say the allowable is lower, the limbs must be heavier. Believe the tests, not the hope.</div>
+</section>
+<section class="pg" data-t="Designing a Cam on Paper (With Code)"><h3>Designing a Cam on Paper (With Code)</h3>
+<p>Here is the design recipe from page 28 turned into something you can run. It uses a powerful simplification: <b>energy balance</b>.</p>
+<p><b>The idea.</b> For each limb, the work you put in equals the energy stored by that limb's tip as it moves in:</p>
+<div class="fm">Half of the draw work goes into each limb: W(x) / 2 = T0 x d + 1/2 x k x d^2<br>x = nock travel, d = limb tip travel, T0 = limb preload (cable tension at brace), k = limb stiffness (lb per inch at the tip)</div>
+<p>That quadratic can be solved directly for the tip travel d at every point of the draw. The cable tension is then T_c = T0 + k d, and torque balance gives the cam radius ratio the geometry must deliver:</p>
+<div class="fm">r_cable / r_string = F / (2 cos(alpha) x T_c)</div>
+<p><b>Run it.</b> Python with numpy. Inputs are the target force curve from page 8, a string angle with cos(alpha) = 0.88, a limb preload of 100 lb and a tip travel of 2.75 in.</p>
+<pre class="fm" style="white-space:pre">import numpy as np
+# --- inputs (lb, inches) ---
+x  = np.linspace(0, 24, 241)                 # nock travel from brace
+kx = [0, 2, 7, 12, 17, 19, 21, 22.5, 24]     # target force curve knots
+kf = [0, 38, 70, 69, 64, 48, 24, 15, 14]
+F  = np.interp(x, kx, kf)                    # target draw force
+cosa, T0, d_tot = 0.88, 100.0, 2.75          # string angle, limb preload, tip travel
+# --- energy balance ---
+W = np.concatenate([[0], np.cumsum((F[1:] + F[:-1]) / 2 * np.diff(x))])   # in-lb
+k = 2 * (W[-1] / 2 - T0 * d_tot) / d_tot**2                              # limb stiffness (lb/in)
+delta = (-T0 + np.sqrt(T0**2 + 2 * k * W / 2)) / k                       # tip travel at each x
+Tc = T0 + k * delta                                                      # cable tension
+ratio = F / (2 * cosa * Tc)                                              # needed r_cable / r_string
+print(k, Tc[-1], ratio.min(), ratio.max())
+for xv in (2,4,7,10,14,17,19,21,23,24):
+    i=int(round(xv*10)); print(xv, round(F[i],1), round(delta[i],2), round(Tc[i],0), round(ratio[i],3))</pre>
+<p><b>What it prints for the model bow.</b></p>
+<div class="tw"><table><thead><tr><th>Draw (in)</th><th>Force (lb)</th><th>Tip travel (in)</th><th>Cable tension (lb)</th><th>r_cable / r_string</th></tr></thead><tbody><tr><td>2</td><td>38</td><td>0.18</td><td>116</td><td>0.19</td></tr><tr><td>7</td><td>70</td><td>1.05</td><td>193</td><td>0.21</td></tr><tr><td>14</td><td>67</td><td>2.06</td><td>284</td><td>0.13</td></tr><tr><td>19</td><td>48</td><td>2.57</td><td>328</td><td>0.08</td></tr><tr><td>24</td><td>14</td><td>2.75</td><td>345</td><td>0.02</td></tr></tbody></table></div>
+<p>Limb stiffness comes out at <b>89 lb per inch</b> at the tip, and the peak tip load is <b>345 lb (1,530 N)</b>.</p>
+<p><b>Reading the result.</b></p>
+<ul><li>The cam must start with a ratio of roughly <b>0.2</b>, the "low gear" that lets force rise quickly.</li><li>It must then fall steadily to about <b>0.02</b>, which is the let-off.</li><li>The ratio falls about tenfold over the draw. That one fact is the shape of the cam.</li></ul>
+<p><b>Limits of the model.</b> It assumes constant string angle, a perfectly linear limb, no friction and no losses. Real cams have to be refined in CAD with the real tangent points, cable routing and stops. But this is a genuine first design tool, and you can change T0, k, tip travel and the target curve to explore.</p>
+<div class="short">Try this: increase the tip travel to 3.5 in and see how the limb stiffness and the peak tip load fall. That is the trade-off between a long soft limb and a short stiff one, shown in numbers.</div>
+</section>
+<section class="pg" data-t="What Happens in the 25 Milliseconds"><h3>What Happens in the 25 Milliseconds</h3>
+<p>You can simulate the shot with the same force curve. The arrow plus the bow's moving parts (the virtual mass) accelerate together, and the energy balance gives speed at every point:</p>
+<div class="fm">(m + m_v) v^2 / 2 = eta x W(x)<br>so v(x) = sqrt( 2 x eta x W(x) / (m + m_v) )</div>
+<p>Time is the sum of small steps: dt = dx / v.</p>
+<pre class="fm" style="white-space:pre">import numpy as np
+x = np.linspace(0, 24, 241)                              # inches
+F = np.interp(x, [0,2,7,12,17,19,21,22.5,24], [0,38,70,69,64,48,24,15,14])   # lb
+W = np.concatenate([[0], np.cumsum((F[1:] + F[:-1]) / 2 * np.diff(x))]) / 12  # ft-lb
+def shoot(m_gr, m_v=60, eta=0.95):
+    m = (m_gr + m_v) / 7000 / 32.174                     # slugs (arrow + virtual mass)
+    v = np.sqrt(2 * eta * W / m); v[0] = 1e-6            # ft/s
+    t = np.concatenate([[0], np.cumsum(np.diff(x) / 12 / ((v[1:] + v[:-1]) / 2))])
+    return v[-1], t[-1] * 1000, (eta * F / m / 32.174).max()
+for g in (250, 350, 450):
+    print(g, shoot(g))</pre>
+<p><b>Results for the model bow.</b></p>
+<div class="tw"><table><thead><tr><th>Arrow</th><th>Exit speed</th><th>Time in the bow</th><th>Peak acceleration</th></tr></thead><tbody><tr><td>250 gr</td><td>375 fps</td><td>20.7 ms</td><td>about 1,500 g</td></tr><tr><td>350 gr</td><td>326 fps</td><td>23.8 ms</td><td>about 1,100 g</td></tr><tr><td>450 gr</td><td>292 fps</td><td>26.6 ms</td><td>about 900 g</td></tr></tbody></table></div>
+<p><b>Think about that.</b> The arrow goes from zero to 326 fps in about <b>24 thousandths of a second</b>, with a peak acceleration of <b>around a thousand times gravity</b>. A carbon shaft takes that without breaking, but only if it is straight and the nock fits properly.</p>
+<p><b>What it teaches.</b></p>
+<ul><li>A heavier arrow spends <b>longer</b> in the bow and is accelerated <b>less violently</b>, which is kinder on the arrow and the bow.</li><li>The peak acceleration happens early, where the force curve peaks and speed is low. The last few inches add little speed, because let-off has dropped the force.</li><li>The string and limbs finish their motion in a similar tiny time. That is the window for noise and vibration.</li><li>Time in the bow is why <b>timing</b> (cam synchronisation, rest drop, vane clearance) matters at the level of <b>fractions of a millisecond</b>.</li></ul>
+<p><b>Where to go next.</b> Add the limb as a separate moving mass, add friction, and add the arrow's bending. Each makes the model more realistic and more difficult. Archery researchers have done exactly this for decades.</p>
+<div class="short">A model that reproduces your chronograph readings within a few fps is a model you can design with.</div>
+</section>
+<section class="pg" data-t="Finite Element Analysis for the Home Builder"><h3>Finite Element Analysis for the Home Builder</h3>
+<p>Finite element analysis (FEA) breaks a part into thousands of small elements and solves the stresses in each. It is the standard way to check a riser, a cam or a limb before you cut metal.</p>
+<p><b>Free tools exist.</b> FreeCAD with its FEM workbench (which uses the CalculiX solver) is free and capable. Others are available, including commercial packages with hobby or student licences. Learn one properly.</p>
+<p><b>The workflow.</b></p>
+<ol><li><b>Model the part</b> in CAD with real fillets and holes.</li><li><b>Define the material</b> (modulus, Poisson's ratio, yield).</li><li><b>Fix</b> the part where it is supported (for a riser, the grip region, applying realistic constraints, not a rigid clamp on one edge).</li><li><b>Apply loads</b>: the limb pocket forces, in the right direction, at the right place.</li><li><b>Mesh</b> the model. Use finer elements where stress changes quickly (holes, fillets).</li><li><b>Solve</b> and read the <b>deflection</b> and <b>von Mises stress</b>.</li><li><b>Check mesh convergence</b>: halve the element size in the hot spot. If peak stress changes by more than about 5%, refine again.</li><li><b>Compare</b> to the allowable stress with a safety factor.</li></ol>
+<p><b>Traps.</b></p>
+<ul><li><b>Singularities.</b> At a sharp internal corner or a point load, computed stress climbs without limit as you refine the mesh. That is a modelling artefact. Add a fillet or spread the load over an area.</li><li><b>Wrong boundary conditions.</b> An FEA result is only as good as how the part is held and loaded.</li><li><b>Believing colours.</b> A beautiful stress plot can be completely wrong. Always sanity-check with a hand calculation like the ones in this book.</li><li><b>Linear analysis on a nonlinear problem.</b> Limbs deflect a lot, so large-deflection analysis matters.</li></ul>
+<p><b>Validate with the real thing.</b> The best check is to put <b>strain gauges</b> on a real riser, load it on the rig and compare the readings with the model. When the two agree, you can trust the model for the next design.</p>
+<div class="short">FEA does not design anything. It tells you whether your design survives. The designing is still yours.</div>
+</section>
+<section class="pg" data-t="Making Limbs: Coupons, Moulds and Cure"><h3>Making Limbs: Coupons, Moulds and Cure</h3>
+<p>Limb making is a manufacturing process with many steps. Each one can be done well or badly, and the only way to know is to test.</p>
+<p><b>Start with coupons.</b> Before making a limb, make small flat <b>test coupons</b> (strips of the same layup) and test them in <b>three-point bending</b>. Standards such as ASTM D790 and ISO 14125 describe how. A coupon test gives you the <b>modulus and strength</b> of your actual process, which is the number the design needs.</p>
+<p><b>The mould.</b> A limb mould holds the unloaded (or pre-curved) shape. It can be machined aluminium or built from a heat-tolerant composite. It must be flat or smoothly curved, and sealed and treated with <b>release agent</b>.</p>
+<p><b>The layup.</b></p>
+<ol><li>Cut plies <b>accurately</b> (a cutting template helps) so the fibre direction is right. A few degrees of misalignment cuts strength noticeably.</li><li><b>Wet out</b> the fibre with resin, or use <b>prepreg</b> (fibre already impregnated), which is cleaner and more consistent.</li><li><b>Stack</b> the plies in the designed order, with core if used.</li><li><b>Debulk</b> under vacuum to squeeze out air.</li></ol>
+<p><b>Cure.</b></p>
+<ul><li>Follow the <b>resin maker's schedule</b> exactly: temperature, ramp rate and time, as the datasheet says. A cure at the wrong temperature leaves a weak, creep-prone part.</li><li>A <b>post-cure</b> at higher temperature often improves heat resistance.</li><li>Record the oven temperature with a data logger.</li></ul>
+<p><b>After cure.</b></p>
+<ul><li><b>Demould</b> carefully.</li><li><b>Trim and grind</b> the edges to the final outline. Smooth edges reduce crack starters.</li><li><b>Seal</b> the surface against moisture.</li><li><b>Inspect</b>: tap test (a dull sound means a void or delamination), visual check, weigh and measure.</li></ul>
+<p><b>Matching pairs.</b> The two limbs of a bow must match in stiffness and weight. Test each in a bending rig and pair them.</p>
+<p><b>Records.</b> Note every batch: resin lot, fibre lot, ambient temperature, cure log. When a limb fails, the record tells you why.</p>
+<div class="short">Do not make a limb at full weight until a low-weight limb from the same process has passed fatigue testing.</div>
+</section>
+<section class="pg" data-t="Tolerances, Fits and Finish"><h3>Tolerances, Fits and Finish</h3>
+<p>A bow is a precision mechanism. Where parts meet, the numbers matter.</p>
+<p><b>Tolerance</b> is the allowed variation in a dimension. <b>Fit</b> is how two parts go together, loose or tight.</p>
+<p><b>Common situations.</b></p>
+<ul><li><b>Bearing in a cam bore.</b> Bearing makers publish recommended fits. A typical approach is a precise bore with a light press fit (an H7-class hole), and a hardened ground axle. Follow the bearing catalogue for your load.</li><li><b>Axle in the limb tip.</b> A snug fit with no play, but not so tight that it binds.</li><li><b>Limb in the pocket.</b> A flat, square seat so the limb loads evenly. Play here lets the limb shift and changes draw weight.</li><li><b>Threads.</b> In aluminium, use a thread engagement of about <b>1.5 times the diameter</b> for loaded screws, or fit <b>helical thread inserts</b>. Threads in soft aluminium strip easily.</li></ul>
+<p><b>Surface finish.</b> A string track that is rough will cut the string. Polish tracks smooth (a surface roughness of around 0.8 micrometres Ra or better is a common target) and round off every edge the string touches.</p>
+<p><b>Cam lean and tolerance stack-up.</b> Small errors add up. If the limb pocket is not square to the riser by 0.05 mm over its width, and the axle bore is off by a similar amount, the cam can lean. A rough estimate of an angular error:</p>
+<div class="fm">angle = offset / length<br>0.1 mm over 30 mm is atan(0.1 / 30) = about 0.19 degrees</div>
+<p>A fraction of a degree sounds tiny. But a leaning cam pulls the string sideways at full draw, which twists the arrow's path and shows up as a tear that will not tune out.</p>
+<p><b>Measure.</b></p>
+<ul><li><b>Calipers</b> are good to about 0.02 mm; <b>micrometres</b> to 0.01 mm.</li><li>A <b>surface plate and a height gauge</b> can check flatness and squareness.</li><li>A <b>dial test indicator</b> shows run-out (wobble) of a spinning cam.</li><li>For a one-off, ask a local machine shop to put the part on a <b>coordinate measuring machine</b>.</li></ul>
+<div class="short">Specify tolerances only where they matter. Tight tolerances cost money. Loose ones cost accuracy. Know which is which.</div>
+</section>
+<section class="pg" data-t="Failure Modes: How a Bow Can Hurt You"><h3>Failure Modes: How a Bow Can Hurt You</h3>
+<p>Engineers list every way a machine can fail and decide what to do about each, a method called <b>failure modes and effects analysis (FMEA)</b>. Do this for your bow before you shoot it.</p>
+<div class="tw"><table><thead><tr><th>Failure</th><th>Effect</th><th>Likely cause</th><th>Defence</th></tr></thead><tbody><tr><td>Limb breaks</td><td>Fragments flying, loss of control</td><td>Fatigue, impact damage, delamination, over-draw</td><td>Fatigue testing, inspection, correct draw weight, no dry-fire</td></tr><tr><td>Limb slips from pocket</td><td>Limb flies out</td><td>Limb bolts backed out too far, worn pocket</td><td>Keep bolts within limits, inspect pockets</td></tr><tr><td>String or cable breaks</td><td>Violent whip, limb shock</td><td>Fraying, wear, overload, old age</td><td>Strength margin of five times, inspection, replace on schedule</td></tr><tr><td>Cam cracks or axle fails</td><td>Bow collapses, parts fly</td><td>Fatigue, poor material, stress concentrations</td><td>Material certs, generous fillets, proof test</td></tr><tr><td>Bearing seizes</td><td>Cam jams, timing off</td><td>Contamination, wrong fit</td><td>Sealed bearings, correct fit</td></tr><tr><td>Riser cracks</td><td>Bow loses alignment, possible collapse</td><td>Fatigue at holes, wrong temper (welding)</td><td>FEA, radii, no welding</td></tr><tr><td>Arrow shatters</td><td>Splinters in the bow hand</td><td>Cracked shaft, light arrow, dry-fire</td><td>Inspect arrows, use correct weights</td></tr><tr><td>Release fails</td><td>Early or no release</td><td>Dirt, wear, loose parts</td><td>Maintenance, test before use</td></tr></tbody></table></div>
+<p><b>Design the failure to be benign.</b> If a part must fail, make it fail somewhere harmless. Keep the limb tips, cams and string away from your face line, and keep a wide margin so that normal use is far from the failure load.</p>
+<p><b>The testing rule.</b> Every test of an unproven bow is done:</p>
+<ul><li><b>Remotely</b>, with a draw rig and a release you control from a distance.</li><li><b>Behind a barricade</b>, with a safe backstop in the line of fire.</li><li>With <b>eye and face protection</b> for anyone within range.</li><li>At <b>low draw weight first</b>.</li></ul>
+<p><b>Severity decides how much margin you need.</b> A failure that could blind someone demands a bigger safety factor than one that just means a ruined part. Bows can blind people.</p>
+<div class="short">Write your own FMEA table, in your own build log. The act of listing the ways the thing can fail is a surprisingly effective way to stop it failing.</div>
+</section>
+<section class="pg" data-t="The Project Plan: A Realistic Roadmap"><h3>The Project Plan: A Realistic Roadmap</h3>
+<p>A bow build is a multi-year project. Here is a sensible schedule that fits around a job and the hunting season. Adjust it to suit.</p>
+<p><b>Months 0 to 6: Learn and shoot.</b></p>
+<ul><li>Pass the deer hunting education course, get your Game Licence, and join an archery club.</li><li>Shoot a commercial bow every week. Tune it fully (Part Six).</li><li>Read this book twice. Start the build log.</li></ul>
+<p><b>Months 6 to 12: Make the small parts.</b></p>
+<ul><li>Build matched arrows (page 22) and a set of strings and cables on a jig.</li><li>Build a <b>draw board and force gauge</b>, and measure your bow's force-draw curve and speed (page 70).</li><li>Fit the numbers to the model and learn your bow's virtual mass and efficiency.</li></ul>
+<p><b>Months 12 to 18: Design and machine a riser.</b></p>
+<ul><li>Write a design brief (page 62).</li><li>Model a riser in CAD, run FEA, and machine a prototype (or have it machined).</li><li>Fit <b>commercial limbs and cams</b> and tune it.</li></ul>
+<p><b>Months 18 to 30: Cams.</b></p>
+<ul><li>Use the cam design code to design a cam for your riser and limbs.</li><li>Make cam prototypes in aluminium (or have them cut by wire EDM).</li><li>Test at low weight on the rig. Measure the real force-draw curve and compare it with the design.</li></ul>
+<p><b>Months 30 to 48: Limbs and the whole bow.</b></p>
+<ul><li>Make test coupons. Learn your layup and cure process.</li><li>Make low-weight limbs, fatigue test them, scale up in stages.</li><li>Assemble the first all-your-own bow. Test on the rig, then shoot it.</li></ul>
+<p><b>Gates.</b> Do not move to the next stage until you can answer: *Does it meet the numbers? Did it pass the test? Is the log up to date?*</p>
+<p><b>Budget.</b> Quote every stage before you commit: machine time, materials, testing and tooling. A plan you can afford to finish beats a grand plan you abandon.</p>
+<p><b>Stay connected.</b> Archery is full of people who build things. Talk to makers, clubs and local machinists. The bow you build will be better for the advice.</p>
+<div class="short">The best time to start is the day you finish this page. Step one costs nothing: go and shoot.</div>
 </section>
 <section class="pg" data-t="The Mastery Ladder"><h3>The Mastery Ladder</h3>
 <p>A map of the whole journey, as levels. Tick them off.</p>
