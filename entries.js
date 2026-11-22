@@ -615,6 +615,15 @@ window.GUIDE = {
         `I need more work on this, it's unfinished at this point, but I'm sure there is a way.`
       ],
       see:[] },
+    { id:"abandonedworthit", cat:"Things", title:"All the Things Abandoned but Were Worth It",
+      text:[
+        `Some things get left behind before they are finished. These ones were worth building anyway.`,
+        `<div class="sec">The 3D Cymatic Tool</div>`,
+        `This is the <b>earlier version</b> of Brodie's 3D cymatic tool. It has all the tools, and it came before the dance version, the one that could import tracks as well. It is black and white. <a href="https://claude.ai/artifact/8PoNButpDp1c3YngV5RveC" target="_blank" rel="noopener">Open the 3D cymatic tool.</a>`,
+        `<div class="sec">Hire Brodie's Mower</div>`,
+        `A <b>totally free service</b>. <a href="mower.html">Hire Brodie's mower.</a> See also <a href="#" data-open="hiredmower">So I've Hired Brodie's Mower. What Next?</a>`
+      ],
+      see:["hiredmower"] },
     { id:"brodie", cat:"Things", title:"Following Brodie",
       quote:["Brodie will start at the door at 6 am. People are welcome to follow me into Mind Garden, but Mind Garden is so hard to find even Brodie misses it at times."],
       text:[
