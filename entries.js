@@ -2937,7 +2937,7 @@ for g in (250, 350, 450):
         `<div class="short">Distance is just time wearing a hat. The nearer the food, the less of it was spent on the way. That is the whole secret, and it fits on a napkin.</div>`
       ],
       see:["bowbible"] },
-    { id:"levels", cat:"Things", title:"Brodie Richardson",
+    { id:"levels", cat:"Things", title:"There's Levels to This Shit",
       text:[
         `Step 1 take enough lsd to realise your a Greenie`,
         `step 2 take enough lsd and die an infinite about of times in every conceivable way imaginable, give everything you have had in a infinite number of ways and then link back to <a href="#" data-open="infinityhotel">how to understand infinity</a> then then realise your a Greenie in a system.`,
