@@ -3427,7 +3427,7 @@ print(&quot;strain %&quot;, round(100 * sigma / E, 2))</pre>
         `Step 12: exploit those who haven't yet realised they're in that system.`,
         `Step 13: hunt....`
       ],
-      see:["infinityhotel"] },
+      see:[] },
     { id:"aussiepiss", cat:"Things", title:"Why Australia Needs Your Piss",
       quote:["If an Australian is insulting you, you are in. If they are being polite, run."],
       text:[
