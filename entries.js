@@ -3411,7 +3411,7 @@ print(&quot;strain %&quot;, round(100 * sigma / E, 2))</pre>
     { id:"levels", cat:"Things", title:"There's Levels to This Shit",
       text:[
         `Step 1: take enough LSD to realise you're a Greenie.`,
-        `Step 2: take enough LSD to die an infinite amount of times in every conceivable way imaginable. Give everything you have, in an infinite number of ways, then link back to <a href="#" data-open="infinityhotel">how to understand infinity</a>. Then realise you're a Greenie in a system.`,
+        `Step 2: take enough LSD to die an infinite amount of times in every conceivable way imaginable. Give everything you have, in an infinite number of ways, <a href="#" data-open="infinityhotel">how to understand infinity</a>. Then realise you're a Greenie in a system.`,
         `Step 3: realise you are prey.`,
         `Step 4: enlightenment, with or without chemicals.`,
         `Step 5: play with reality.`,
