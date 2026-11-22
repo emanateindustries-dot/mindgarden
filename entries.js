@@ -3447,7 +3447,7 @@ print(&quot;strain %&quot;, round(100 * sigma / E, 2))</pre>
         `<div class="short">Play it once on speakers, once on headphones, and once somewhere out on the block with nothing around you. Then tell the Guide it is wrong.</div>`
       ],
       see:[] },
-    { id:"orbitalspiders", cat:"Things", title:"The Case for Orbital Spider Farms",
+    { id:"orbitalspiders", cat:"Things", title:"Mindgardens Case for Orbital Data Centres to Actually Figure Out if Spiders Can Actually Be Farmed",
       quote:["Nobody has failed to farm spiders. Nobody has had enough FLOPs to try."],
       text:[
         `<div class="short">The Question: can spiders be farmed, and is the thing stopping us a spider problem or a compute problem? Mind Garden's position, argued as hard as it can be argued: it is a compute problem, and the compute lives in orbit. Then the Guide checks the maths and tells you where it holds and where it breaks.</div>`,
