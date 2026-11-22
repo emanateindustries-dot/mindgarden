@@ -424,6 +424,25 @@ window.GUIDE = {
       see:["marketing","leave","losers"] },
 
     /* ================= THINGS ================= */
+    { id:"imitation", cat:"Things", title:"Imitation: The Track of 2026",
+      quote:["Some tracks you listen to. Some tracks you get taken apart by."],
+      text:[
+        `<div class="short">The Guide has listened to the year so far, weighed it up, and named its pick. It is called <b>Imitation</b>, it is by <b>LATENT SPACE</b>, and it is a weapon.</div>`,
+        `<div class="sec">The Verdict</div>`,
+        `Let's be straight about what this is. It is the Guide's pick, a call made by ear, not a chart position or a prize. Nobody handed it a trophy. It just keeps being the one that wins the argument. Put it on good headphones, put it on loud, and see if you disagree.`,
+        `<div class="sec">The Track</div>`,
+        `Imitation is a 2026 single, and it also sits on LATENT SPACE's 2026 album <b>EMERGENCE</b>, where it runs just under four minutes. Short enough to leave you wanting more, long enough to do real damage.`,
+        `<div class="sec">The Artist</div>`,
+        `LATENT SPACE is a Sydney-based project, described by its own Bandcamp as an immersive electronic music and visuals project built on custom-written software for live performance. So this is not a producer who makes a track and hands the visuals to someone else. The sound and the picture come out of the same machine, and the machine is homemade.`,
+        `The man behind it is a robotics engineer, and it shows. By his own account he has used Ableton Live to analyse human nerve responses, and built 3D-printed speakers to experiment with Dolby Atmos. Most producers reach for a plugin. This one builds the speaker.`,
+        `He also did something most people wouldn't. He walked away from an earlier alias that had around 30,000 monthly listeners and about 7 million streams, to start again from nothing and make the music he actually wanted to make. His own explanation is that technology only strengthens the human side of what he is exploring. That is a bet on substance over numbers, and the bet has paid off. LATENT SPACE won the Kx5 remix competition, the contest run by the deadmau5 and Kaskade project, against producers from around the world.`,
+        `The visual world he works in sits alongside the big audiovisual acts like Eric Prydz, Tale of Us, Anyma, Rezz and Max Cooper. That is the company this project keeps.`,
+        `<div class="sec">Props</div>`,
+        `Full credit where it is due. A track like this does not come from a laptop and a preset. It comes from someone who understands the physics of sound, the engineering of the room it plays in, and the feeling of the person standing in the middle of it. Making something this precise and this heavy at the same time is the hard part. He makes it look like the easy part.`,
+        `Respect to LATENT SPACE. A Sydney artist, working independently, building his own tools, and still putting out the track of the year. If you have not heard the rest of EMERGENCE, that is your next job.`,
+        `<div class="short">Play it once on speakers, once on headphones, and once somewhere out on the block with nothing around you. Then tell the Guide it is wrong.</div>`
+      ],
+      see:[] },
     { id:"brodie", cat:"Things", title:"Following Brodie",
       quote:["Brodie will start at the door at 6 am. People are welcome to follow me into Mind Garden, but Mind Garden is so hard to find even Brodie misses it at times."],
       text:[
@@ -3449,25 +3468,6 @@ print(&quot;strain %&quot;, round(100 * sigma / E, 2))</pre>
         `Step 11: Have you died like a million times? Good. Go back to Step 9, an infinite number more times. OK, good.`,
         `Step 12: Exploit those who haven't yet realised they're in that system.`,
         `Step 13: Hunt....`
-      ],
-      see:[] },
-    { id:"imitation", cat:"Things", title:"Imitation: The Track of 2026",
-      quote:["Some tracks you listen to. Some tracks you get taken apart by."],
-      text:[
-        `<div class="short">The Guide has listened to the year so far, weighed it up, and named its pick. It is called <b>Imitation</b>, it is by <b>LATENT SPACE</b>, and it is a weapon.</div>`,
-        `<div class="sec">The Verdict</div>`,
-        `Let's be straight about what this is. It is the Guide's pick, a call made by ear, not a chart position or a prize. Nobody handed it a trophy. It just keeps being the one that wins the argument. Put it on good headphones, put it on loud, and see if you disagree.`,
-        `<div class="sec">The Track</div>`,
-        `Imitation is a 2026 single, and it also sits on LATENT SPACE's 2026 album <b>EMERGENCE</b>, where it runs just under four minutes. Short enough to leave you wanting more, long enough to do real damage.`,
-        `<div class="sec">The Artist</div>`,
-        `LATENT SPACE is a Sydney-based project, described by its own Bandcamp as an immersive electronic music and visuals project built on custom-written software for live performance. So this is not a producer who makes a track and hands the visuals to someone else. The sound and the picture come out of the same machine, and the machine is homemade.`,
-        `The man behind it is a robotics engineer, and it shows. By his own account he has used Ableton Live to analyse human nerve responses, and built 3D-printed speakers to experiment with Dolby Atmos. Most producers reach for a plugin. This one builds the speaker.`,
-        `He also did something most people wouldn't. He walked away from an earlier alias that had around 30,000 monthly listeners and about 7 million streams, to start again from nothing and make the music he actually wanted to make. His own explanation is that technology only strengthens the human side of what he is exploring. That is a bet on substance over numbers, and the bet has paid off. LATENT SPACE won the Kx5 remix competition, the contest run by the deadmau5 and Kaskade project, against producers from around the world.`,
-        `The visual world he works in sits alongside the big audiovisual acts like Eric Prydz, Tale of Us, Anyma, Rezz and Max Cooper. That is the company this project keeps.`,
-        `<div class="sec">Props</div>`,
-        `Full credit where it is due. A track like this does not come from a laptop and a preset. It comes from someone who understands the physics of sound, the engineering of the room it plays in, and the feeling of the person standing in the middle of it. Making something this precise and this heavy at the same time is the hard part. He makes it look like the easy part.`,
-        `Respect to LATENT SPACE. A Sydney artist, working independently, building his own tools, and still putting out the track of the year. If you have not heard the rest of EMERGENCE, that is your next job.`,
-        `<div class="short">Play it once on speakers, once on headphones, and once somewhere out on the block with nothing around you. Then tell the Guide it is wrong.</div>`
       ],
       see:[] },
     { id:"orbitalspiders", cat:"Things", title:"Mindgardens Case for Orbital Data Centres to Actually Figure Out if Spiders Can Actually Be Farmed",
