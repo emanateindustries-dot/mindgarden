@@ -459,6 +459,11 @@ window.GUIDE = {
         `<div class="short">Play it once on speakers, once on headphones, and once somewhere out on the block with nothing around you. Then tell the Guide it is wrong.</div>`
       ],
       see:[] },
+    { id:"spiderswayforward", cat:"Things", title:"We will find a way to farm spiders, I'm sure it's just a compute problem and I've emailed Elon regarding the matter. - Brodie Richardson",
+      text:[
+        `I need more work on this, it's unfinished at this point, but I'm sure there is a way.`
+      ],
+      see:[] },
     { id:"brodie", cat:"Things", title:"Following Brodie",
       quote:["Brodie will start at the door at 6 am. People are welcome to follow me into Mind Garden, but Mind Garden is so hard to find even Brodie misses it at times."],
       text:[
