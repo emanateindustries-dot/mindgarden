@@ -2937,7 +2937,7 @@ for g in (250, 350, 450):
         `<div class="short">Distance is just time wearing a hat. The nearer the food, the less of it was spent on the way. That is the whole secret, and it fits on a napkin.</div>`
       ],
       see:["bowbible"] },
-    { id:"levels", cat:"Things", title:"There's Levels to This Shit",
+    { id:"levels", cat:"Things", title:"Brodie Richardson",
       text:[
         `<b>Step 1.</b> Take enough LSD to realise you're a Greenie.`,
         `<b>Step 2.</b> Take enough LSD and die an infinite amount of times in every conceivable way imaginable. Give everything you have had in an infinite number of ways. Then link back to <a href="#" data-open="infinityhotel">how to understand infinity</a>, then realise you're a Greenie in a system.`,
@@ -2954,12 +2954,9 @@ for g in (250, 350, 450):
         `<b>Step 10.</b> Learn to exploit the system.`,
         `<b>Step 11.</b> Have you died like a million times? Good. Go back to Step 9 an infinite more times. Ok, good.`,
         `<b>Step 12.</b> Exploit those who have not yet realised they are in that system yet.`,
-        `<b>Step 13.</b> Hunt....`,
-        `<div class="sec">A Word From the Sensible Part of the Guide</div>`,
-        `This is a joke about a staircase, not a plan. "Enough" is not a dose, and the Guide gives no dosing advice. LSD is unpredictable, it can be frightening, and it is a poor idea for anyone with a personal or family history of psychosis. If someone has had too much or is in trouble, call the Poisons Information Centre on <b>13 11 26</b>, or <b>000</b> in an emergency.`,
-        `Being at peace with death as an idea is not the same as wanting it. If the Step 9 line ever stops being a joke for you or for someone you know, call Lifeline on <b>13 11 14</b>.`
+        `<b>Step 13.</b> Hunt....`
       ],
-      see:["infinityhotel","speedlimit","sober"] },
+      see:["infinityhotel"] },
     { id:"aussiepiss", cat:"Things", title:"Why Australia Needs Your Piss",
       quote:["If an Australian is insulting you, you are in. If they are being polite, run."],
       text:[
