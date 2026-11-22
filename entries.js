@@ -1894,6 +1894,874 @@ window.GUIDE = {
         `So the next time you feel the urge to go bigger, to chase the thing, to force it, think of the universe's one famous rule. Then put the fuel down, and go for a walk.`
       ],
       see:["sober","synchronicities","kernel","closingsong","actuallysave"] },
+    { id:"bowbible", cat:"Things", title:"Fuck I Accidentally Got Into Bow Hunting and Now I'm a Greenie",
+      quote:["A bow makes you part of the land. The shot is the shortest chapter of the day."],
+      text:[
+        `<p style="margin-bottom:6px">The complete book of the compound bow, from nothing to building your own. Flick through it with the buttons at the bottom.</p>`,
+        `<div class="book" data-book="bowbible"><section class="pg" data-t="Read This First" data-ch="Part One: Foundations"><h3>Read This First</h3>
+<p>The Guide has been asked, with the confidence of a man who has just discovered he enjoys being quiet in the bush, to write the <b>complete bible of the compound bow</b>. Not a pamphlet. Not a "ten tips" listicle. Everything: the physics, the engineering, how the thing is made, how to tune it until it stops arguing with you, and, by the final chapter, how you would go about building one yourself.</p>
+<p>This is a <b>book</b>. Use the buttons at the bottom to flip the pages. The page counter tells you where you are, the little bar shows how far through you are, and the <b>Contents</b> button jumps you to any chapter. The Guide remembers the page you were on, so you can put the book down in the bush and pick it up at the pub.</p>
+<p>It starts as if you know <b>nothing</b>, because the best way to master a subject is to make sure the foundations are poured properly. It ends in a machine shop.</p>
+<div class="short">The rule of the book: every number is either worked out on the page or flagged as a rule of thumb. When the Guide is guessing, it says so.</div>
+<p><b>Safety, once, loudly:</b> a drawn compound bow holds a lot of stored energy. Never dry-fire one (page 35 explains why). Never work on limbs, cams or strings without a bow press and someone who knows how to use it. Nothing in this book replaces a pro shop, a coach or a bowhunter education course.</p>
+</section>
+<section class="pg" data-t="How Brodie Accidentally Became a Greenie"><h3>How Brodie Accidentally Became a Greenie</h3>
+<p>Nobody sets out to become a greenie by buying a weapon. That is what makes it funny.</p>
+<p>The sequence goes like this. You get 110 acres of bush in East Gippsland. Deer are using it. You decide you would like to hunt them quietly and up close, so you pick up a bow. A bow has a range of a few dozen metres, which means you cannot shoot what you have not learned to <b>get near</b>. Getting near means learning the wind, the creek lines, the game trails, which birds go off when something walks past, which plants the deer have eaten and which they have not.</p>
+<p>Six months later you cannot walk through the scrub without reading it. You know what is native and what is not. You have noticed where the introduced animals are doing damage. You have started caring about the whole system, because you can finally see it.</p>
+<p>That is the quiet secret of bowhunting. A rifle lets you stay far away from the land. A bow makes you <b>part of it</b>. The shot is the shortest chapter of the day. The rest is attention.</p>
+<div class="short">So yes, you got into bowhunting by accident and came out the other side a conservationist. The Guide thinks that is the correct order of events.</div>
+<p>The rest of this book is the machine that made it happen.</p>
+</section>
+<section class="pg" data-t="What a Bow Actually Is"><h3>What a Bow Actually Is</h3>
+<p>Strip away the carbon, the cams and the marketing and a bow does one job: it <b>stores energy slowly and releases it quickly</b>.</p>
+<p>You are not strong enough to throw a 30 gram arrow at 90 metres per second. But you are perfectly able to push gently for about a second, and a bow turns that gentle second of work into a violent few milliseconds of arrow acceleration.</p>
+<p>Work is force multiplied by distance:</p>
+<div class="fm">Work = Force x Distance<br>60 lb of average pull x 2 ft of travel = 120 ft-lb of work</div>
+<p>The limbs are springs. As you draw, you bend them, and the bending work is stored as <b>elastic strain energy</b> in the limb material. Release the string and the limbs spring back, pushing the string, which pushes the arrow.</p>
+<p>If you work with refrigeration, think of it as a compressor in reverse. You slowly compress something (the limbs), hold it, then let it expand through a tiny nozzle (the arrow's acceleration). The energy that went in is, apart from the losses, the energy that comes out.</p>
+<div class="short">Everything in this book is a way of answering one question: <b>how do you store the most energy in the least weight, deliver it to the arrow as efficiently as possible, and do it in a way a human can hold steady?</b></div>
+<p>Keep that question in your pocket. Every part of a compound bow is an answer to some piece of it.</p>
+</section>
+<section class="pg" data-t="The Units (Grains, Fps and Other Crimes)"><h3>The Units (Grains, Fps and Other Crimes)</h3>
+<p>Archery is an imperial island in a metric sea. You will need both, because Australian bowhunting rules and every American spec sheet use pounds and grains while your tape measure uses millimetres.</p>
+<div class="tw"><table><thead><tr><th>Thing</th><th>Archery unit</th><th>Metric equivalent</th></tr></thead><tbody><tr><td>Draw weight</td><td>pound (lb)</td><td>1 lb = 0.4536 kg (force: 4.448 N)</td></tr><tr><td>Length</td><td>inch (in)</td><td>1 in = 25.4 mm</td></tr><tr><td>Arrow mass</td><td>grain (gr)</td><td>1 gr = 0.0648 g (437.5 gr = 1 oz)</td></tr><tr><td>Speed</td><td>feet per second (fps)</td><td>1 fps = 0.3048 m/s</td></tr><tr><td>Energy</td><td>foot-pound (ft-lb)</td><td>1 ft-lb = 1.356 J</td></tr><tr><td>Distance</td><td>yard (yd)</td><td>1 yd = 0.9144 m</td></tr></tbody></table></div>
+<p>Quick conversions you will use constantly:</p>
+<ul><li>70 lb is 31.8 kg. 50 lb is 22.7 kg.</li><li>A 350 grain arrow is 22.7 g.</li><li>300 fps is 91.4 m/s, or about 329 km/h.</li><li>100 ft-lb is 136 J.</li></ul>
+<p>Two constants hide inside the arrow maths, and you will meet them again:</p>
+<div class="fm">Kinetic energy (ft-lb) = arrow weight (gr) x speed (fps)^2 / 450,240<br>Momentum (slug-ft/s) = arrow weight (gr) x speed (fps) / 225,400</div>
+<p>Those big numbers are just the unit conversions (grains to pounds, then pounds to slugs, with a factor of two for energy) rolled into one. Nothing magical.</p>
+</section>
+<section class="pg" data-t="Anatomy of a Compound Bow"><h3>Anatomy of a Compound Bow</h3>
+<svg viewBox="0 0 340 330" width="100%" role="img" aria-label="Side view of a compound bow with parts labelled" style="max-width:420px;display:block;margin:8px auto 14px"><path d="M150 118 L150 224" stroke="currentColor" fill="none" stroke-width="7"/><rect x="144" y="152" width="12" height="38" rx="4" fill="currentColor" opacity=".55"/><path d="M150 118 Q146 80 138 52" stroke="currentColor" fill="none" stroke-width="5"/><path d="M150 224 Q146 262 138 290" stroke="currentColor" fill="none" stroke-width="5"/><rect x="146" y="112" width="8" height="8" fill="currentColor"/><rect x="146" y="222" width="8" height="8" fill="currentColor"/><circle cx="138" cy="46" r="13" stroke="currentColor" fill="none" stroke-width="2"/><circle cx="138" cy="296" r="13" stroke="currentColor" fill="none" stroke-width="2"/><circle cx="138" cy="46" r="2.5" fill="currentColor"/><circle cx="138" cy="296" r="2.5" fill="currentColor"/><path d="M148 45 L212 170 L148 297" stroke="currentColor" fill="none" stroke-width="1.5"/><path d="M128 50 Q210 171 128 292" stroke="currentColor" fill="none" stroke-width="1.5" stroke-dasharray="4 3"/><line x1="150" y1="171" x2="170" y2="171" stroke="currentColor" stroke-width="3"/><circle cx="171" cy="171" r="3" fill="currentColor"/><line x1="212" y1="168" x2="44" y2="168" stroke="currentColor" stroke-width="2"/><polygon points="44,168 54,164 54,172" fill="currentColor"/><path d="M204 168 l-8 -6 M204 168 l-8 6 M196 168 l-8 -6 M196 168 l-8 6" stroke="currentColor" fill="none" stroke-width="1.2"/><line x1="144" y1="203" x2="76" y2="203" stroke="currentColor" stroke-width="3"/><circle cx="74" cy="203" r="4" fill="currentColor"/><rect x="124" y="128" width="18" height="22" rx="2" stroke="currentColor" fill="none" stroke-width="1.5"/><circle cx="133" cy="139" r="2" fill="currentColor"/><path d="M146 164 L152 164 L152 160" stroke="currentColor" fill="none" stroke-width="2"/><text x="236" y="112" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="start">Limb pocket</text><line x1="232" y1="109" x2="156" y2="116" stroke="currentColor" stroke-width="0.7" opacity=".55"/><text x="236" y="88" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="start">String</text><line x1="232" y1="85" x2="168" y2="85" stroke="currentColor" stroke-width="0.7" opacity=".55"/><text x="236" y="174" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="start">D-loop and nock</text><line x1="232" y1="171" x2="214" y2="170" stroke="currentColor" stroke-width="0.7" opacity=".55"/><text x="236" y="210" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="start">Cable guard</text><line x1="232" y1="207" x2="172" y2="173" stroke="currentColor" stroke-width="0.7" opacity=".55"/><text x="236" y="250" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="start">Cable</text><line x1="232" y1="247" x2="158" y2="242" stroke="currentColor" stroke-width="0.7" opacity=".55"/><text x="236" y="60" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="start">Limb</text><line x1="232" y1="57" x2="143" y2="64" stroke="currentColor" stroke-width="0.7" opacity=".55"/><text x="6" y="30" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="start">Cam and axle</text><line x1="73.19999999999999" y1="27" x2="125" y2="40" stroke="currentColor" stroke-width="0.7" opacity=".55"/><text x="6" y="124" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="start">Sight</text><line x1="34.0" y1="121" x2="124" y2="136" stroke="currentColor" stroke-width="0.7" opacity=".55"/><text x="6" y="146" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="start">Arrow rest</text><line x1="62.0" y1="143" x2="146" y2="160" stroke="currentColor" stroke-width="0.7" opacity=".55"/><text x="6" y="188" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="start">Grip</text><line x1="28.4" y1="185" x2="144" y2="178" stroke="currentColor" stroke-width="0.7" opacity=".55"/><text x="6" y="232" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="start">Stabiliser</text><line x1="62.0" y1="229" x2="74" y2="208" stroke="currentColor" stroke-width="0.7" opacity=".55"/><text x="6" y="262" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="start">Riser</text><line x1="34.0" y1="259" x2="148" y2="218" stroke="currentColor" stroke-width="0.7" opacity=".55"/><text x="6" y="190" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="start"></text><text x="6" y="172" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="start">Arrow</text></svg>
+<p>Learn the names now and the rest of the book becomes readable.</p>
+<ul><li><b>Riser:</b> the rigid central body. Everything bolts to it. It must not flex.</li><li><b>Grip:</b> where your hand goes. Small part, enormous consequences.</li><li><b>Limbs:</b> the springs. Usually two, attached to the top and bottom of the riser through the <b>limb pockets</b>.</li><li><b>Cams:</b> the oval pulleys at the limb tips that make a compound a compound. They rotate on <b>axles</b>.</li><li><b>String:</b> the loop of cord you pull. It rolls on and off the cams.</li><li><b>Cables:</b> the cords that run from cam to cam (or cam to limb), forming the other half of the pulley system. They are held away from the arrow by the <b>cable guard</b>.</li><li><b>D-loop and nock:</b> a small rope loop tied to the string; the release clips to it and the arrow nock sits above it.</li><li><b>Arrow rest:</b> holds the arrow at the correct height and centre.</li><li><b>Sight, peep, stabiliser, quiver:</b> accessories. They matter more than the beginner thinks.</li></ul>
+<p>The two cords are the secret: the <b>string</b> is what you draw. The <b>cable</b> is what makes the cam work. You will see why on page 27.</p>
+</section>
+<section class="pg" data-t="A Brief History: Mr Allen's Wheels"><h3>A Brief History: Mr Allen's Wheels</h3>
+<p>For thousands of years a bow was a piece of wood (later wood, horn and sinew) bent by a string. Then, in the 1960s, a Missouri man named <b>Holless Wilbur Allen</b> did something that looked like vandalism. He sawed the ends off a recurve bow and bolted pulleys on.</p>
+<p>Allen applied for a patent on <b>23 June 1966</b>, and U.S. Patent <b>3,486,495</b>, titled "Archery bow with draw force multiplying attachments", was granted to him in <b>December 1969</b>. He began selling the Allen Compound Bow in 1967.</p>
+<p>His early four-wheel bow did not do well commercially. It took bowyer <b>Tom Jennings</b>, who got hold of an Allen prototype, to simplify the idea; his two-wheel <b>Model T</b>, released in 1974, was lighter and easier to shoot and became hugely popular.</p>
+<p>The story goes that Allen was a bowhunter fed up with deer ducking his arrows from a conventional bow. He wanted a faster arrow with a flatter flight. Physics gave it to him: the pulleys let him store more energy for less holding weight.</p>
+<div class="short">The compound bow is younger than the Boeing 747. Everything on your bow, from the cams to the carbon, has been designed in about fifty years. There is still plenty of room for a determined person with a CNC machine to find something nobody has.</div>
+</section>
+<section class="pg" data-t="Why a Straight Bow Fights You"><h3>Why a Straight Bow Fights You</h3>
+<p>Draw a traditional bow and the force climbs steadily the further you pull. A simple limb behaves like a spring, and a spring's force is proportional to how far you bend it:</p>
+<div class="fm">F = k x<br>k = stiffness (lb per inch), x = distance drawn</div>
+<p>For a 70 lb bow drawn 24 inches, the force climbs in a straight line from 0 to 70 lb. The energy stored is the area of the triangle under that line:</p>
+<div class="fm">E = 1/2 x 70 lb x 24 in = 840 in-lb = 70 ft-lb</div>
+<p>Notice the problem. You must hold the <b>full 70 lb at full draw</b>, which is exactly when your muscles are shaking and you are trying to aim. Worse, a straight bow can only ever fill half the rectangle of 70 lb by 24 in. Half the potential is wasted.</p>
+<p>Archers call the steep rise near full draw <b>stacking</b>. If you want a heavier, faster bow, you pay for it twice: a heavier hold, and a harder-to-control last inch.</p>
+<p>The compound's whole trick is to bend that curve. Get the force to rise quickly, hold near the peak for most of the stroke (so the area under the curve is large), and then <b>drop</b> just before full draw so you hold only a fraction of the peak.</p>
+<p>Big area for the arrow. Small hold for the archer.</p>
+</section>
+<section class="pg" data-t="The Force-Draw Curve"><h3>The Force-Draw Curve</h3>
+<p>The force-draw curve is the most important graph in archery. It plots the force you feel against how far you have drawn the string. Here is a model compound bow (70 lb peak, about 24 inches of draw from brace) against a recurve of the same peak weight.</p>
+<svg viewBox="0 0 340 250" width="100%" role="img" aria-label="Force-draw curves for a recurve and a compound bow" style="max-width:440px;display:block;margin:8px auto 14px"><polygon points="44.0,200.0 44.0,200.0 45.0,197.8 46.1,195.1 47.1,192.0 48.2,188.4 49.2,184.6 50.2,180.4 51.3,176.0 52.3,171.4 53.4,166.7 54.4,162.0 55.5,157.3 56.5,152.6 57.5,148.0 58.6,143.6 59.6,139.4 60.7,135.6 61.7,132.0 62.8,128.9 63.8,126.2 64.8,124.0 65.9,123.3 66.9,122.6 68.0,121.7 69.0,120.9 70.0,119.9 71.1,118.9 72.1,117.8 73.2,116.7 74.2,115.5 75.2,114.3 76.3,113.0 77.3,111.7 78.4,110.3 79.4,108.9 80.5,107.5 81.5,106.0 82.5,104.5 83.6,103.0 84.6,101.5 85.7,99.9 86.7,98.4 87.8,96.8 88.8,95.2 89.8,93.6 90.9,92.0 91.9,90.4 93.0,88.8 94.0,87.2 95.0,85.6 96.1,84.1 97.1,82.5 98.2,81.0 99.2,79.5 100.2,78.0 101.3,76.5 102.3,75.1 103.4,73.7 104.4,72.3 105.5,71.0 106.5,69.7 107.5,68.5 108.6,67.3 109.6,66.2 110.7,65.1 111.7,64.1 112.8,63.1 113.8,62.3 114.8,61.4 115.9,60.7 116.9,60.0 118.0,60.0 119.0,60.0 120.0,60.1 121.1,60.1 122.1,60.1 123.2,60.2 124.2,60.2 125.2,60.2 126.3,60.3 127.3,60.3 128.4,60.3 129.4,60.4 130.5,60.4 131.5,60.5 132.5,60.5 133.6,60.6 134.6,60.6 135.7,60.7 136.7,60.7 137.8,60.8 138.8,60.8 139.8,60.9 140.9,60.9 141.9,61.0 143.0,61.0 144.0,61.0 145.0,61.1 146.1,61.1 147.1,61.2 148.2,61.2 149.2,61.3 150.2,61.3 151.3,61.4 152.3,61.4 153.4,61.5 154.4,61.5 155.5,61.6 156.5,61.6 157.5,61.7 158.6,61.7 159.6,61.7 160.7,61.8 161.7,61.8 162.8,61.8 163.8,61.9 164.8,61.9 165.9,61.9 166.9,62.0 168.0,62.0 169.0,62.0 170.0,62.1 171.1,62.2 172.1,62.4 173.2,62.5 174.2,62.6 175.2,62.8 176.3,63.0 177.3,63.1 178.4,63.3 179.4,63.5 180.5,63.7 181.5,63.9 182.5,64.1 183.6,64.4 184.6,64.6 185.7,64.8 186.7,65.0 187.8,65.3 188.8,65.5 189.8,65.8 190.9,66.0 191.9,66.3 193.0,66.5 194.0,66.8 195.0,67.0 196.1,67.2 197.1,67.5 198.2,67.7 199.2,68.0 200.2,68.2 201.3,68.5 202.3,68.7 203.4,69.0 204.4,69.2 205.5,69.4 206.5,69.6 207.5,69.9 208.6,70.1 209.6,70.3 210.7,70.5 211.7,70.7 212.7,70.9 213.8,71.0 214.8,71.2 215.9,71.4 216.9,71.5 218.0,71.6 219.0,71.8 220.0,71.9 221.1,72.0 222.1,72.9 223.2,74.0 224.2,75.4 225.3,76.9 226.3,78.5 227.3,80.3 228.4,82.1 229.4,84.0 230.5,86.0 231.5,88.0 232.5,90.0 233.6,92.0 234.6,93.9 235.7,95.7 236.7,97.5 237.8,99.1 238.8,100.6 239.8,102.0 240.9,103.1 241.9,104.0 243.0,105.4 244.0,107.1 245.0,109.1 246.1,111.3 247.1,113.8 248.2,116.4 249.2,119.2 250.3,122.0 251.3,125.0 252.3,128.0 253.4,131.0 254.4,134.0 255.5,136.8 256.5,139.6 257.5,142.2 258.6,144.7 259.6,146.9 260.7,148.9 261.7,150.6 262.8,152.0 263.8,152.7 264.8,153.6 265.9,154.7 266.9,156.0 268.0,157.3 269.0,158.8 270.0,160.3 271.1,161.7 272.1,163.2 273.2,164.7 274.2,166.0 275.2,167.3 276.3,168.4 277.3,169.3 278.4,170.0 279.4,170.1 280.5,170.2 281.5,170.3 282.5,170.4 283.6,170.6 284.6,170.8 285.7,170.9 286.7,171.1 287.8,171.2 288.8,171.4 289.8,171.6 290.9,171.7 291.9,171.8 293.0,171.9 294.0,172.0 294.0,200.0" fill="currentColor" opacity=".13"/><line x1="44" y1="200" x2="300" y2="200" stroke="currentColor"/><line x1="44" y1="200" x2="44" y2="32" stroke="currentColor"/><line x1="44" y1="200.0" x2="294" y2="200.0" stroke="currentColor" opacity=".18"/><text x="39" y="204.0" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="end">0</text><line x1="44" y1="160.0" x2="294" y2="160.0" stroke="currentColor" opacity=".18"/><text x="39" y="164.0" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="end">20</text><line x1="44" y1="120.0" x2="294" y2="120.0" stroke="currentColor" opacity=".18"/><text x="39" y="124.0" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="end">40</text><line x1="44" y1="80.0" x2="294" y2="80.0" stroke="currentColor" opacity=".18"/><text x="39" y="84.0" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="end">60</text><line x1="44" y1="40.0" x2="294" y2="40.0" stroke="currentColor" opacity=".18"/><text x="39" y="44.0" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="end">80</text><text x="44.0" y="215" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">0</text><text x="106.5" y="215" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">6</text><text x="169.0" y="215" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">12</text><text x="231.5" y="215" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">18</text><text x="294.0" y="215" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">24</text><polyline points="44.0,200.0 294.0,60.0" stroke="currentColor" fill="none" stroke-width="2" stroke-dasharray="5 4"/><polyline points="44.0,200.0 45.0,197.8 46.1,195.1 47.1,192.0 48.2,188.4 49.2,184.6 50.2,180.4 51.3,176.0 52.3,171.4 53.4,166.7 54.4,162.0 55.5,157.3 56.5,152.6 57.5,148.0 58.6,143.6 59.6,139.4 60.7,135.6 61.7,132.0 62.8,128.9 63.8,126.2 64.8,124.0 65.9,123.3 66.9,122.6 68.0,121.7 69.0,120.9 70.0,119.9 71.1,118.9 72.1,117.8 73.2,116.7 74.2,115.5 75.2,114.3 76.3,113.0 77.3,111.7 78.4,110.3 79.4,108.9 80.5,107.5 81.5,106.0 82.5,104.5 83.6,103.0 84.6,101.5 85.7,99.9 86.7,98.4 87.8,96.8 88.8,95.2 89.8,93.6 90.9,92.0 91.9,90.4 93.0,88.8 94.0,87.2 95.0,85.6 96.1,84.1 97.1,82.5 98.2,81.0 99.2,79.5 100.2,78.0 101.3,76.5 102.3,75.1 103.4,73.7 104.4,72.3 105.5,71.0 106.5,69.7 107.5,68.5 108.6,67.3 109.6,66.2 110.7,65.1 111.7,64.1 112.8,63.1 113.8,62.3 114.8,61.4 115.9,60.7 116.9,60.0 118.0,60.0 119.0,60.0 120.0,60.1 121.1,60.1 122.1,60.1 123.2,60.2 124.2,60.2 125.2,60.2 126.3,60.3 127.3,60.3 128.4,60.3 129.4,60.4 130.5,60.4 131.5,60.5 132.5,60.5 133.6,60.6 134.6,60.6 135.7,60.7 136.7,60.7 137.8,60.8 138.8,60.8 139.8,60.9 140.9,60.9 141.9,61.0 143.0,61.0 144.0,61.0 145.0,61.1 146.1,61.1 147.1,61.2 148.2,61.2 149.2,61.3 150.2,61.3 151.3,61.4 152.3,61.4 153.4,61.5 154.4,61.5 155.5,61.6 156.5,61.6 157.5,61.7 158.6,61.7 159.6,61.7 160.7,61.8 161.7,61.8 162.8,61.8 163.8,61.9 164.8,61.9 165.9,61.9 166.9,62.0 168.0,62.0 169.0,62.0 170.0,62.1 171.1,62.2 172.1,62.4 173.2,62.5 174.2,62.6 175.2,62.8 176.3,63.0 177.3,63.1 178.4,63.3 179.4,63.5 180.5,63.7 181.5,63.9 182.5,64.1 183.6,64.4 184.6,64.6 185.7,64.8 186.7,65.0 187.8,65.3 188.8,65.5 189.8,65.8 190.9,66.0 191.9,66.3 193.0,66.5 194.0,66.8 195.0,67.0 196.1,67.2 197.1,67.5 198.2,67.7 199.2,68.0 200.2,68.2 201.3,68.5 202.3,68.7 203.4,69.0 204.4,69.2 205.5,69.4 206.5,69.6 207.5,69.9 208.6,70.1 209.6,70.3 210.7,70.5 211.7,70.7 212.7,70.9 213.8,71.0 214.8,71.2 215.9,71.4 216.9,71.5 218.0,71.6 219.0,71.8 220.0,71.9 221.1,72.0 222.1,72.9 223.2,74.0 224.2,75.4 225.3,76.9 226.3,78.5 227.3,80.3 228.4,82.1 229.4,84.0 230.5,86.0 231.5,88.0 232.5,90.0 233.6,92.0 234.6,93.9 235.7,95.7 236.7,97.5 237.8,99.1 238.8,100.6 239.8,102.0 240.9,103.1 241.9,104.0 243.0,105.4 244.0,107.1 245.0,109.1 246.1,111.3 247.1,113.8 248.2,116.4 249.2,119.2 250.3,122.0 251.3,125.0 252.3,128.0 253.4,131.0 254.4,134.0 255.5,136.8 256.5,139.6 257.5,142.2 258.6,144.7 259.6,146.9 260.7,148.9 261.7,150.6 262.8,152.0 263.8,152.7 264.8,153.6 265.9,154.7 266.9,156.0 268.0,157.3 269.0,158.8 270.0,160.3 271.1,161.7 272.1,163.2 273.2,164.7 274.2,166.0 275.2,167.3 276.3,168.4 277.3,169.3 278.4,170.0 279.4,170.1 280.5,170.2 281.5,170.3 282.5,170.4 283.6,170.6 284.6,170.8 285.7,170.9 286.7,171.1 287.8,171.2 288.8,171.4 289.8,171.6 290.9,171.7 291.9,171.8 293.0,171.9 294.0,172.0" stroke="currentColor" fill="none" stroke-width="2.6"/><text x="4" y="14" font-family="Inter,sans-serif" font-size="11" fill="currentColor">Draw force (lb)</text><text x="169.0" y="232" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">Distance drawn from brace (in)</text><text x="101.3" y="48.0" font-family="Inter,sans-serif" font-size="11" fill="currentColor">Compound (shaded area = energy)</text><text x="153.4" y="140.0" font-family="Inter,sans-serif" font-size="11" fill="currentColor">Recurve (straight line)</text><text x="175.2" y="186.0" font-family="Inter,sans-serif" font-size="11" fill="currentColor">Holding weight 14 lb</text></svg>
+<p>The dashed straight line is the recurve. The shaded shape is the compound. Because stored energy is the <b>area under the curve</b>:</p>
+<div class="fm">Recurve: area = 70 ft-lb<br>Compound (this model): area is about 102 ft-lb</div>
+<p>Same peak weight. About <b>45% more stored energy</b>. And at full draw the compound archer is holding <b>14 lb</b>, not 70.</p>
+<p>A useful number is the <b>area factor</b>: the energy divided by (peak force x draw stroke).</p>
+<div class="fm">Recurve: 0.50<br>This compound model: 0.73 (about 1,223 in-lb out of 1,680 possible)</div>
+<p>Real hunting compounds sit around 0.65 to 0.80 depending on how aggressive the cam is. Make the curve more rectangular and you raise the factor, which makes a faster bow, but a harsher draw cycle. The next dozen pages are about how a designer shapes that line.</p>
+</section>
+<section class="pg" data-t="Let-Off: The Trick That Makes It Humane"><h3>Let-Off: The Trick That Makes It Humane</h3>
+<p><b>Let-off</b> is the percentage by which the holding weight at full draw is less than the peak draw weight.</p>
+<div class="fm">Let-off % = (1 - holding weight / peak weight) x 100</div>
+<p>Worked examples for a 70 lb bow:</p>
+<div class="tw"><table><thead><tr><th>Let-off</th><th>Holding weight at full draw</th></tr></thead><tbody><tr><td>65%</td><td>24.5 lb</td></tr><tr><td>75%</td><td>17.5 lb</td></tr><tr><td>80%</td><td>14 lb</td></tr><tr><td>85%</td><td>10.5 lb</td></tr><tr><td>90%</td><td>7 lb</td></tr></tbody></table></div>
+<p>At 80% let-off you are holding 14 lb. That is the weight of a good-sized bag of sugar, which most people can hold steady for the ten seconds a hunter sometimes needs while a deer decides what to do.</p>
+<p>Why not have 99% let-off? Because the release of a bow at very high let-off depends on you resisting a tiny force. Too little holding weight and the bow feels "mushy": no back wall, nothing to pull against, and the anchor and release become harder to repeat. Hunters often run 75 to 85%. Target shooters often run 80 to 90% with a firm <b>back wall</b> (page 30).</p>
+<div class="short">Peak draw weight is the weight on the label. Holding weight is the weight you live with. A beginner often focuses on the first and forgets the second.</div>
+</section>
+<section class="pg" data-t="Reading the Spec Sheet"><h3>Reading the Spec Sheet</h3>
+<p>Every bow comes with a list of numbers. Here is what they actually mean.</p>
+<ul><li><b>Axle-to-axle length (ATA):</b> distance between the two cam axles. Shorter is handier in the scrub; longer is more stable.</li><li><b>Brace height:</b> distance from the grip pivot to the string at rest. Higher is more forgiving; lower is faster.</li><li><b>Draw length:</b> adjustable on most bows by cam module. Page 11.</li><li><b>Peak draw weight:</b> adjustable by limb bolts, usually within about 10 lb.</li><li><b>Let-off:</b> page 9.</li><li><b>Mass weight:</b> bare bow weight. Lighter is nicer to carry; heavier is steadier to hold.</li><li><b>IBO speed:</b> the headline number, defined as speed at <b>70 lb peak, 30 inch draw, 350 grain arrow</b> (5 grains per pound of draw weight).</li></ul>
+<p>IBO speed is measured under a standard that flatters the bow. Your reality will differ:</p>
+<ul><li>Each inch <b>shorter</b> than 30 in costs roughly <b>10 fps</b> (rule of thumb).</li><li>Each <b>50 grains</b> of extra arrow mass costs roughly <b>15 fps</b> (rule of thumb).</li><li>Accessories (peep, D-loop, silencers) cost a few fps more.</li></ul>
+<p>A bow advertised at 350 fps IBO commonly shoots a hunting setup at around 290 to 320 fps. That is fine. Speed is one of several things that matter. The Guide spends many pages explaining the others.</p>
+</section>
+<section class="pg" data-t="Draw Length: Getting the Fit Right" data-ch="Part Two: Fitting the Bow to the Human"><h3>Draw Length: Getting the Fit Right</h3>
+<p>Draw length is the single most important fitting measurement, and the one beginners get wrong most often. Too long and you overreach, collapse your posture and lose consistency. Too short and you crowd the string and lose speed.</p>
+<p><b>How it is defined.</b> The archery standard (AMO) measures draw length from the <b>nock groove at full draw to the pivot point of the grip, plus 1 3/4 inches</b>. It is not how far back your hand goes. It is a fixed measuring convention so that every maker uses the same ruler.</p>
+<p><b>A starting estimate.</b> Measure your wingspan (fingertip to fingertip, arms out) in inches and divide by <b>2.5</b>.</p>
+<div class="fm">Example: wingspan 73 in / 2.5 = 29.2 in draw length</div>
+<p>This gets you close. Then confirm with a shop's draw board or a bow set to your estimate, because anchor style (corner of the mouth versus under the chin) shifts the true figure.</p>
+<p><b>What it does to the bow.</b></p>
+<ul><li>Every inch of extra draw length adds stored energy because you move the string further. A rule of thumb is about <b>10 fps per inch</b>.</li><li>But a bow set longer than you can handle comfortably will not shoot faster in practice, only worse.</li><li>Most compounds change draw length with a <b>cam module</b> or by moving the string stops. A few turns of a screw do not change it; a module swap does.</li></ul>
+<div class="short">Rule of thumb for a good fit: at full draw your <b>string hand sits comfortably under your jaw</b>, your bow arm is straight but not locked, and your head stays upright. If your eye wants to look at the sight sideways or you are leaning back, the bow is too long for you.</div>
+<p>Never buy a bow before someone has measured your draw length properly.</p>
+</section>
+<section class="pg" data-t="Draw Weight: How Much Is Enough"><h3>Draw Weight: How Much Is Enough</h3>
+<p>Draw weight is the peak force on the curve. It is adjustable by turning the <b>limb bolts</b> (page 48) over a range of about 10 lb on most bows.</p>
+<p><b>Why heavier is not always better.</b> Doubling the weight does not double the arrow speed. Speed goes with the <b>square root</b> of the energy, and the energy goes up roughly in proportion to draw weight, so a 20% heavier bow is only about 9% faster (if everything else stays equal). Meanwhile it is 20% harder to draw and hold while the animal is staring at you, in the cold, at the end of a long sit.</p>
+<p><b>The rule that matters:</b> pick the weight you can draw <b>smoothly, without shaking and without any change of posture</b>, while you are slightly off balance, cold, and under pressure. Then pick a bit lower than that.</p>
+<p><b>The legal floor (Victoria, Australia).</b> For hunting deer in Victoria the Game Management Authority sets minimums for bows (long, recurve and compound):</p>
+<div class="tw"><table><thead><tr><th>Deer</th><th>Minimum draw weight</th><th>Broadhead / arrow</th></tr></thead><tbody><tr><td>Sambar, Rusa, Red</td><td>50 lb (22.5 kg)</td><td>combined minimum weight 400 grains, at least two cutting blades</td></tr><tr><td>Hog, Fallow, Chital</td><td>45 lb (20 kg)</td><td>combined minimum weight 350 grains, at least two blades</td></tr></tbody></table></div>
+<p>You also need a Game Licence endorsed for deer. The Guide read this on 22 November 2026 on the GMA website. Rules change, so read the current page and the "Game Hunting in Victoria" manual before you head out.</p>
+<div class="short">A 50 lb bow that you shoot beautifully is better than a 70 lb bow you can barely control. The animal does not care about your number. It cares about where the arrow goes.</div>
+</section>
+<section class="pg" data-t="The Shot Cycle"><h3>The Shot Cycle</h3>
+<p>A good shot is a sequence, repeated until it is boring. Coaches call it the <b>shot cycle</b>. Here it is in nine steps.</p>
+<ol><li><b>Stance.</b> Feet shoulder-width, square or slightly open to the target. Weight even. Knees soft.</li><li><b>Nock and clip on.</b> Arrow on the rest, nock on the string, release clipped to the D-loop. Check your fletching is clear of the rest.</li><li><b>Grip.</b> Relaxed, with the pressure on the base of the thumb pad. A tight grip twists the bow (page 38).</li><li><b>Set.</b> Raise the bow with the bow arm. Do not hunch the shoulder.</li><li><b>Draw.</b> Use your <b>back</b>, not your arm. Pull the elbow around and back in one continuous motion.</li><li><b>Anchor.</b> The same place on your face, every shot. Under the jaw, the string touching the same spot on the nose, the peep lined up.</li><li><b>Aim.</b> Pin on the target and hold it quietly. Your breath should be mostly out.</li><li><b>Release.</b> Smooth increase in back tension until the shot "surprises" you. No punching the trigger.</li><li><b>Follow through.</b> Hold the bow arm up and keep still until the arrow hits. Many shots are lost in the half-second after the release.</li></ol>
+<p>The two beliefs that fix most beginners:</p>
+<ul><li><b>The bow does the work.</b> Your job is to not interfere.</li><li><b>Consistency beats power.</b> Ten arrows into a small group, week after week, beats one lucky bullseye.</li></ul>
+<p>A coach (Archery Australia runs coaching courses) will see things in your form that you never will. The best equipment tuning in the world is wasted if your anchor moves an inch every shot.</p>
+</section>
+<section class="pg" data-t="Release Aids, Back Tension and the Flinch"><h3>Release Aids, Back Tension and the Flinch</h3>
+<p>Almost all compound shooters use a <b>release aid</b>, a mechanical handle that clips to the D-loop, rather than their fingers. It makes the string leave the same way every time and lets the string go without side force.</p>
+<p><b>Wrist-strap trigger release.</b> The most common for hunters. You press a trigger with your index finger. Easy to learn, and the downside is the temptation to <b>punch</b> the trigger or to flinch at the moment of release. Too light a trigger can cause accidental releases, so set it deliberately.</p>
+<p><b>Hinge (back-tension) release.</b> No trigger at all. You rotate your hand slightly, using back muscles, until the release hinges open. The shot happens as a surprise. It is the cure for the dreaded <b>target panic</b>.</p>
+<p><b>What is target panic?</b> The brain, seeing the dot, wants to release the instant the pin touches it. Some people can no longer hold the aim, some cannot make themselves release, some "freeze" at the target. It affects top archers and complete beginners.</p>
+<p>How to avoid it:</p>
+<ul><li>Shoot at short range with your eyes closed (blind bale) to practise form without a target.</li><li>Do not rush the shot. Aim is allowed to drift, and the release is built from back tension, not decision.</li><li>Use a hinge or an extremely light-handed trigger.</li><li>Never pull the bow back to a distant animal and put your first conscious thought on the dot.</li></ul>
+<div class="short">The release aid is the last mechanical link between you and the arrow. Look after it, clean it and check it for wear. A sloppy release makes every other tuning step meaningless.</div>
+</section>
+<section class="pg" data-t="Anatomy of an Arrow" data-ch="Part Three: The Arrow"><h3>Anatomy of an Arrow</h3>
+<p>The arrow is <b>half</b> of a bow-and-arrow system, and most beginners spend far too little time on it. A great bow shooting a poor arrow is a poor bow.</p>
+<svg viewBox="0 0 360 190" width="100%" role="img" aria-label="Arrow anatomy and front of centre" style="max-width:460px;display:block;margin:8px auto 14px"><line x1="34" y1="80" x2="300" y2="80" stroke="currentColor" stroke-width="4"/><path d="M20 74 L34 74 L34 86 L20 86 Z" fill="currentColor"/><path d="M44 80 L66 66 L98 66 L76 80 Z M44 80 L66 94 L98 94 L76 80 Z" fill="currentColor" opacity=".35" stroke="currentColor"/><rect x="290" y="75" width="16" height="10" fill="currentColor" opacity=".7"/><path d="M306 80 L336 80 L306 66 Z M306 80 L336 80 L306 94 Z" fill="currentColor"/><text x="24" y="108" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">Nock</text><line x1="26" y1="92" x2="26" y2="98" stroke="currentColor" stroke-width=".7"/><text x="86" y="50" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">Fletching (vanes)</text><line x1="80" y1="54" x2="76" y2="66" stroke="currentColor" stroke-width=".7"/><text x="180" y="62" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">Shaft</text><text x="298" y="56" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">Insert</text><line x1="298" y1="60" x2="298" y2="74" stroke="currentColor" stroke-width=".7"/><text x="322" y="112" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">Point</text><line x1="322" y1="98" x2="322" y2="90" stroke="currentColor" stroke-width=".7"/><line x1="34" y1="132" x2="306" y2="132" stroke="currentColor" stroke-width="1"/><line x1="34" y1="126" x2="34" y2="138" stroke="currentColor"/><line x1="306" y1="126" x2="306" y2="138" stroke="currentColor"/><text x="170" y="126" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">L = arrow length</text><line x1="170" y1="128" x2="170" y2="136" stroke="currentColor"/><text x="170" y="150" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">centre (L / 2)</text><circle cx="206" cy="80" r="5" fill="currentColor"/><line x1="206" y1="86" x2="206" y2="168" stroke="currentColor" stroke-dasharray="3 3"/><text x="210" y="165" font-family="Inter,sans-serif" font-size="11" fill="currentColor">balance point (A)</text><text x="34" y="182" font-family="Inter,sans-serif" font-size="11" fill="currentColor">FOC % = 100 x (A - L/2) / L</text></svg>
+<ul><li><b>Shaft:</b> the tube. Carbon, aluminium, or a carbon-aluminium composite. Carbon is the modern default: stiff, light, straight and strong.</li><li><b>Nock:</b> a small plastic fitting at the back that clips onto the string.</li><li><b>Fletching:</b> the vanes or feathers near the nock. They steer the arrow and make it spin.</li><li><b>Insert:</b> a small threaded tube glued into the front of the shaft, so the point can screw in.</li><li><b>Point:</b> a field tip for practice, or a <b>broadhead</b> for hunting.</li></ul>
+<p>The arrow has to do something extraordinary. In about 15 milliseconds it accelerates from rest to about 90 metres per second, bending like a snake as it goes, then it straightens itself out and flies as a stable spear. If any of the following is wrong, it will not:</p>
+<ul><li>the spine (stiffness) does not match your bow,</li><li>the weight is too light or the front too light,</li><li>the fletching does not match the arrow,</li><li>the shaft is bent or the nock misaligned.</li></ul>
+<p>The next several pages are the maths and engineering behind getting those right.</p>
+</section>
+<section class="pg" data-t="Spine and the Archer's Paradox"><h3>Spine and the Archer's Paradox</h3>
+<p>When the string pushes on the back of the arrow, the arrow is not aimed straight along the string line. It starts slightly off-axis because it sits beside the riser. The sudden push also <b>compresses</b> it. The result is that the arrow <b>bends sideways, then back, several times</b> as it leaves the bow, like a plucked ruler. This is the <b>archer's paradox</b>: an arrow aimed to the left of where it ends up, curving around the bow and then flying straight.</p>
+<p>The property that controls this bending is <b>spine</b>, the arrow's stiffness.</p>
+<p><b>How spine is measured (static spine).</b> A standard test hangs a <b>1.94 lb</b> weight from the middle of a shaft supported at two points <b>26 inches</b> apart (shaft length 28 in). The distance the shaft sags, in thousandths of an inch, is the spine:</p>
+<div class="fm">Spine 500 means the shaft sags 0.500 in<br>Lower number = stiffer shaft. Higher number = weaker (more flexible) shaft.</div>
+<p>A 300 spine shaft is very stiff. A 600 is flexible.</p>
+<p><b>Dynamic spine</b> is how the arrow behaves when you shoot it. It depends on:</p>
+<ul><li><b>Draw weight:</b> more force bends the arrow more, so a heavier bow needs a stiffer shaft.</li><li><b>Draw length / shaft length:</b> a longer shaft is weaker, a shorter one is stiffer.</li><li><b>Point weight:</b> more weight on the front makes it behave weaker.</li><li><b>Cam aggressiveness:</b> a harsh cam hits the arrow harder.</li><li><b>Fletching and nock weight at the back:</b> adds a little stiffness effect.</li></ul>
+<div class="short">A spine chart from the arrow maker gets you to a starting point. <b>Tuning</b> (Part Six) tells you if it is correct. A slightly weak arrow is more forgiving than one that is too stiff.</div>
+</section>
+<section class="pg" data-t="Arrow Weight: Grains Per Pound"><h3>Arrow Weight: Grains Per Pound</h3>
+<p>Total arrow weight is measured in <b>grains</b>. It is one of the most important numbers in bowhunting.</p>
+<p>A common way to size an arrow to a bow is <b>grains per pound (GPP)</b> of draw weight, using the finished arrow weight (shaft, insert, point, fletching, nock):</p>
+<div class="tw"><table><thead><tr><th>Class</th><th>Grains per pound</th><th>Example at 60 lb</th></tr></thead><tbody><tr><td>Light</td><td>5 to 6.5</td><td>300 to 390 gr</td></tr><tr><td>Medium</td><td>6.5 to 8</td><td>390 to 480 gr</td></tr><tr><td>Heavy</td><td>over 8</td><td>over 480 gr</td></tr></tbody></table></div>
+<p><b>Why do hunters pick heavy arrows?</b></p>
+<ul><li><b>Efficiency.</b> A heavier arrow takes a bigger share of the bow's stored energy (page 31).</li><li><b>Quiet.</b> Less energy is left in the bow as vibration and noise.</li><li><b>Momentum and penetration.</b> A heavier arrow carries more momentum for the same speed (next pages).</li><li><b>Safety margin.</b> An arrow lighter than the maker's minimum can damage the bow. Many makers specify a minimum of about <b>5 grains per pound</b>, so check your bow's manual.</li></ul>
+<p><b>Why do target shooters pick light arrows?</b> They want a flat trajectory, so a pin gap that is forgiving at long range.</p>
+<p>The compromise: speed is nice, but a hunter at 20 to 30 metres cares much more about a quiet bow and an arrow that <b>gets through</b>.</p>
+<div class="short">In Victoria, the legal minimum is expressed as a <b>combined weight</b> (400 grains for sambar). Ask yourself whether your finished arrow with broadhead meets it, rather than assuming.</div>
+</section>
+<section class="pg" data-t="Front of Centre (FOC)"><h3>Front of Centre (FOC)</h3>
+<p><b>FOC</b> describes where an arrow's <b>balance point</b> sits relative to its geometric centre. A higher FOC means more weight forward.</p>
+<p>The standard (AMO) formula:</p>
+<div class="fm">%FOC = 100 x (A - L/2) / L<br>L = arrow length (nock throat to end of the shaft, point excluded)<br>A = distance from the nock throat to the balance point</div>
+<p><b>How to find the balance point.</b> Rest the finished arrow on a knife edge or a pencil and slide it until it balances. Measure from the throat of the nock to that spot. (Different calculators measure L slightly differently, so use the convention of the one you choose and stay consistent.)</p>
+<p><b>Worked example.</b> A 29 in arrow balances 18.0 in from the nock throat.</p>
+<div class="fm">Centre = 29 / 2 = 14.5 in<br>FOC = 100 x (18.0 - 14.5) / 29 = <b>12.1%</b></div>
+<p>Typical figures:</p>
+<ul><li>Target arrows: 7 to 11% (low, flat flight).</li><li>Bowhunting arrows: <b>10 to 15%</b>, and some "extreme FOC" builds go 18% or above.</li></ul>
+<p><b>Why more FOC?</b></p>
+<ul><li>The arrow's centre of pressure (where air pushes) is behind its balance point, like the feathers on a dart. More weight forward means more <b>self-correcting</b> flight, so broadheads, which catch the wind, steer straighter.</li><li>Weight at the front also helps penetration, because the tip is driving the mass.</li></ul>
+<p><b>Costs:</b> more FOC means a weaker dynamic spine (you may need a stiffer shaft) and a more curved trajectory (a lower arrow speed), so you rebalance, re-spine and re-tune.</p>
+<div class="short">You tune FOC by changing point weight, insert weight, or adding weight at the front of the shaft. Weigh and balance every new arrow build. Do not guess.</div>
+</section>
+<section class="pg" data-t="Kinetic Energy, Momentum and the Penetration Argument"><h3>Kinetic Energy, Momentum and the Penetration Argument</h3>
+<p>Two numbers describe an arrow's punch. They sound alike and mean different things.</p>
+<div class="fm">Kinetic energy (ft-lb) = weight (gr) x speed (fps)^2 / 450,240<br>Momentum (slug-ft/s) = weight (gr) x speed (fps) / 225,400</div>
+<p>Energy scales with <b>speed squared</b>. Momentum scales with <b>speed</b>. So a light fast arrow looks good on energy. A heavy slow arrow does better on momentum.</p>
+<div class="tw"><table><thead><tr><th>Arrow</th><th>Speed</th><th>Energy</th><th>Momentum</th></tr></thead><tbody><tr><td>420 gr</td><td>300 fps</td><td>84.0 ft-lb</td><td>0.559</td></tr><tr><td>550 gr</td><td>270 fps</td><td>89.1 ft-lb</td><td>0.659</td></tr></tbody></table></div>
+<p>The heavier arrow is 30 fps slower, <b>yet carries more energy and 18% more momentum</b>. That is why a lot of hunters pick heavy arrows.</p>
+<p><b>Does energy or momentum predict penetration?</b> The Guide does not pretend it is settled. There are two camps:</p>
+<ul><li>Energy fans say energy is the work available to push through resistance.</li><li>Momentum fans say a heavy arrow keeps going because it loses less speed to resistance.</li></ul>
+<p>The real answer includes <b>broadhead design, sharpness, FOC, shaft diameter, and the animal</b>. Well-known penetration testing by Ed Ashby is the origin of many bowhunters' beliefs in heavy arrows, high FOC and simple single-bevel heads. Read it critically and make up your own mind.</p>
+<div class="short">Practical use: when you pick a setup, calculate <b>both numbers</b> for the arrow you will actually hunt with, using a measured speed from a chronograph (a pro shop will measure it). Then pick the quietest, best-tuned arrow that sits in the sensible range, rather than the fastest one.</div>
+</section>
+<section class="pg" data-t="Broadheads"><h3>Broadheads</h3>
+<p>A broadhead is a sharp blade assembly on the front of the arrow. It does not kill by energy the way a bullet does. It kills by <b>cutting</b>: severing blood vessels so the animal loses blood pressure quickly. That is why sharpness matters more than anything.</p>
+<p><b>Fixed-blade.</b> Blades are rigid and always open. Strong, simple and reliable. They catch the wind more, so they tune differently to field points.</p>
+<p><b>Mechanical (expandable).</b> Blades fold flat in flight and open on impact. They fly like field points and create a large wound channel, but have more moving parts that can fail, and they use up some energy to open.</p>
+<p><b>Cut-on-contact.</b> The tip itself is a sharpened blade, rather than a conical point that must be pushed through first. Many people believe this improves penetration.</p>
+<p><b>Bevel.</b> A single bevel head spins as it goes through tissue, so a lot of people say it penetrates deeper. A double bevel cuts straighter.</p>
+<p>Legal minimum in Victoria for deer: <b>at least two cutting blades</b> and the combined weight in page 12's table.</p>
+<p>How to think about choosing one:</p>
+<ul><li><b>Reliable penetration</b> and <b>consistent flight</b> beat any marketing claim.</li><li>Keep it <b>razor sharp</b>. Replaceable blades make this easy.</li><li><b>Tune it</b> (page 53). A broadhead that flies differently from your field points will land a hand-span off.</li><li><b>Never</b> test sharpness on skin. Respect them.</li></ul>
+<p>Handle broadheads like any knife blade: carry them capped, use a quiver hood, and never walk with an arrow nocked.</p>
+</section>
+<section class="pg" data-t="Fletching and Flight"><h3>Fletching and Flight</h3>
+<p>Fletching has two jobs: <b>stabilise</b> the arrow (like the tail of a dart) and <b>spin</b> it, so any small flaws average out.</p>
+<p><b>Vane or feather.</b> Plastic vanes are durable and waterproof. Feathers are lighter and more forgiving. Most hunters use vanes.</p>
+<p><b>Size.</b> Bigger vanes (3 in or more) steer a broadhead strongly. Smaller (2 in) are quieter and faster. Broadhead hunters generally go bigger, or add helical twist.</p>
+<p><b>Orientation.</b></p>
+<ul><li><b>Straight:</b> least drag, least stabilising.</li><li><b>Offset:</b> angled slightly so the arrow spins gently.</li><li><b>Helical:</b> twisted around the shaft. The most spin and stability. Preferred for broadhead flight.</li></ul>
+<p><b>Cock feather / index vane.</b> One vane is a different colour. It sits <b>away from the riser</b> so the two other vanes pass the rest cleanly.</p>
+<p><b>What goes wrong.</b></p>
+<ul><li>A vane that clips the rest or cable guard on launch kicks the arrow off line.</li><li>Fletching that is glued crooked wobbles.</li><li>A bare shaft with no fletching flies tail-first like a stick, and it is the foundation of bare-shaft tuning (page 52).</li></ul>
+<p><b>The spin rate.</b> A well-fletched arrow turns about once every few metres. Drag from the fletching also slows the arrow, which is why a fletched arrow is a bit slower than a bare one.</p>
+<div class="short">Choose fletching to suit your broadhead, then keep it the same through all your tuning. A change in vane size or helical angle changes everything downstream.</div>
+</section>
+<section class="pg" data-t="Building an Arrow (and Why You Should)"><h3>Building an Arrow (and Why You Should)</h3>
+<p>Building your own arrows teaches you more about archery than any other single activity. It costs less, and it lets you control every variable.</p>
+<p><b>What you need:</b> shafts, inserts, nocks, vanes, points, a saw designed for carbon, a fletching jig, adhesive, a scale in grains, and a straightness checker.</p>
+<p><b>The build sequence.</b></p>
+<ol><li><b>Choose shaft and length</b> from the spine chart and your draw length (shaft ends about an inch past the rest).</li><li><b>Cut to length</b> with a carbon-cutting blade. Never use a hacksaw. Wear a mask: carbon dust is a respiratory hazard.</li><li><b>Square the ends</b> on a squaring tool. The point and nock must meet a flat, perpendicular face.</li><li><b>Fit inserts</b> with a slow-set epoxy or hot-melt, aligned and flush.</li><li><b>Fit the nocks</b> and check they line up so the cock vane will sit correctly.</li><li><b>Fletch</b> with the jig, using adhesive, then check each vane is straight.</li><li><b>Check straightness.</b> Spin the arrow on a dial gauge: quality shafts are within about <b>0.003 in</b> or better.</li><li><b>Weigh every arrow.</b> Keep them within a few grains of each other.</li><li><b>Screw in points</b> and balance-check the FOC.</li><li><b>Number the arrows</b> so you can trace a bad one.</li></ol>
+<p><b>What matters most:</b></p>
+<ul><li><b>Square ends</b> and <b>alignment</b>. Most wobbling arrows are crooked at the insert.</li><li><b>Matched weight.</b> A 10 grain variation between arrows costs you accuracy at distance.</li><li><b>Consistency.</b> The aim of building your own is to make 12 identical arrows.</li></ul>
+<div class="short">Keep a build log: shaft model, spine, cut length, insert type, point weight, finished weight, FOC. When you tune, this record is your best friend.</div>
+</section>
+<section class="pg" data-t="Limbs: The Springs" data-ch="Part Four: The Engine"><h3>Limbs: The Springs</h3>
+<p>The limbs are where the energy lives. Everything else on a bow routes force to them or away from them.</p>
+<p><b>Construction.</b> Modern limbs are <b>laminates</b>: layers of unidirectional glass fibre (and sometimes carbon fibre) in an epoxy matrix, pressed in a heated mould. The fibres run along the limb, because fibre is enormously strong in tension and compression along its length and the epoxy just holds it all together and shares the load. Some limbs have a foam or wood core between the fibre skins to make them thicker and stiffer without much more weight.</p>
+<p><b>Why glass?</b> The best spring material is the one that stores the most energy per kilogram before it fails. That is a combination of <b>strength</b> and <b>springiness</b>, and glass fibre composite has it. It can bend a long way without permanent set.</p>
+<p><b>Split limbs vs solid limbs.</b></p>
+<ul><li><b>Solid limbs</b> are a single blade from pocket to tip. Simple, strong, a bit heavier.</li><li><b>Split limbs</b> are two parallel blades with a gap between them for the cam to sit in. Lighter and the cam sits between the arms (so less side loading), but twist-sensitive.</li></ul>
+<p><b>Parallel limbs.</b> Modern "parallel" bows point the limbs almost straight out from the riser and the tips move in near-parallel straight lines as you draw. When fired, the limbs move forward and then stop with less recoil and noise, because the upper and lower motions cancel more cleanly.</p>
+<p><b>What a limb must survive.</b> It flexes tens of thousands of times in its life, is stored hot in cars, cold in the bush, wet and dry, and gets knocked. It has to hold its draw weight the whole time. Limb <b>fatigue and creep</b> (slow permanent deformation) are the central engineering problems.</p>
+<div class="short">A matched pair of limbs is weighed and tested together at the factory. Never mix limbs from different bows or batches.</div>
+</section>
+<section class="pg" data-t="Limb Maths: A Leaf Spring Under Load"><h3>Limb Maths: A Leaf Spring Under Load</h3>
+<p>You can understand a limb with first-year beam theory. Treat it as a <b>cantilever</b> (fixed at the pocket, loaded at the tip).</p>
+<div class="fm">Stiffness (tip load / deflection): k = 3 E I / L^3<br>Second moment of area for a rectangle: I = b h^3 / 12<br>Root stress: sigma = F L (h/2) / I</div>
+<p>Where E is the material's stiffness (modulus), L the limb length, b the width and h the thickness.</p>
+<p>Read what that says:</p>
+<ul><li>Thickness is cubed in I, so <b>doubling the thickness makes the limb eight times stiffer</b>. Thickness is the lever the designer pulls.</li><li>Length is cubed in the denominator, so a <b>longer limb is far softer</b> for the same section. That is why long-limbed bows are smooth and short-limbed bows are harsh.</li><li>Stress at the root grows with load and length, so the root is where limbs fail.</li></ul>
+<p><b>Energy stored.</b> The strain energy in a cantilever depends on its shape, and this matters because it means shape can double or triple the energy stored for the same material:</p>
+<div class="fm">Uniform-section cantilever: U = sigma^2 x V / (18 E)<br>Constant-strength (tapered) cantilever: U = sigma^2 x V / (6 E)</div>
+<p>(V is the limb's volume, sigma the maximum allowed stress, E the modulus.)</p>
+<p>The tapered limb stores <b>three times</b> as much energy per unit volume, because every part of it is working at full stress instead of only the root. That is why real limbs taper in width or thickness along their length.</p>
+<div class="short">The design question for the limb builder is always the same: how much energy do I need, what stress can the material safely take, and therefore how much material do I need?</div>
+</section>
+<section class="pg" data-t="The Limb Mass Budget (Worked Example)"><h3>The Limb Mass Budget (Worked Example)</h3>
+<p>Let us do an actual design calculation. This is the first piece of real engineering you will need to build your own bow.</p>
+<p><b>Given:</b> the model bow from page 8 stores about <b>102 ft-lb</b>, which is <b>138 J</b>. Two limbs share it, so each stores about <b>69 J</b>.</p>
+<p><b>Material:</b> unidirectional glass-epoxy with E about 40 GPa (a typical order of magnitude for the composite). Density about 1,900 kg/m3.</p>
+<p><b>Allowable stress.</b> Static strength is much higher than you can use. Fatigue (repeated loading) forces a low design stress. Try 450 MPa and 600 MPa.</p>
+<p>Solve the formulas for volume:</p>
+<div class="fm">V = 18 E U / sigma^2 (uniform)<br>V = 6 E U / sigma^2 (tapered)</div>
+<div class="tw"><table><thead><tr><th>Case</th><th>Volume per limb</th><th>Mass per limb</th></tr></thead><tbody><tr><td>Uniform, 450 MPa</td><td>246 cm3</td><td>about 467 g</td></tr><tr><td>Uniform, 600 MPa</td><td>138 cm3</td><td>about 263 g</td></tr><tr><td>Tapered, 450 MPa</td><td>82 cm3</td><td>about 156 g</td></tr><tr><td>Tapered, 600 MPa</td><td>46 cm3</td><td>about 88 g</td></tr></tbody></table></div>
+<p>Real limbs for a bow like this weigh roughly 100 to 250 g each. The calculation lands in the right region. It tells you:</p>
+<ul><li>A <b>tapered, highly stressed</b> limb is more than five times lighter than a <b>uniform, conservatively stressed</b> one.</li><li>The design stress you accept is the biggest lever. Pushing from 450 to 600 MPa saves 44% of the mass, and costs you fatigue life.</li><li>Real limbs are not simple beams: they have pre-stress, curvature and a changing load direction (the cam rotates). This is a <b>first estimate</b>, not a final design.</li></ul>
+<div class="short">A professional uses finite-element analysis (FEA) for the final shape, then builds prototypes and tests them to destruction. You will do the same, in that order, in Part Eight.</div>
+</section>
+<section class="pg" data-t="The String and Cables"><h3>The String and Cables</h3>
+<p>The string and cables carry the entire load of the bow. They are the most heavily stressed components for their size, and the only parts you replace routinely.</p>
+<p><b>Materials.</b> Modern strings use <b>high-modulus polyethylene</b> (UHMWPE, sold as Dyneema or Spectra), <b>liquid-crystal polymer</b> (Vectran) or blends. They are extremely strong for their diameter, with very little stretch, so the bow's timing and tune stay stable.</p>
+<p><b>Creep.</b> Even the best string slowly lengthens under load, especially when new. That alters the bow's timing and brace height. A new string is "pre-stretched" and, in use, still creeps a little, so check the bow after the first few hundred shots.</p>
+<p><b>Construction.</b></p>
+<ul><li>Strands are wound in a loop around a <b>jig</b> to a precise length.</li><li>The loop is divided into two bundles at each end (the "end loops") that go over the cam posts.</li><li>The <b>serving</b> is a thread wrapped tightly around the string where the arrow nock, the release and the cams touch it, protecting it from abrasion.</li><li>A <b>D-loop</b> is added after the string is made.</li></ul>
+<p><b>Twists.</b> A string and cable system has <b>twist</b> put into it, and the number of twists changes the length. Adding twists shortens the string. A bow press is used to add or remove twists, which is the standard way to adjust draw length and timing on bows without modules.</p>
+<p><b>Wear.</b> Look for frayed servings and fuzzed strands. Wax the string regularly. Replace strings on a schedule (a couple of years is typical for a busy bow, sooner if damaged).</p>
+<div class="short">Two cords in a compound bow do different jobs. <b>String:</b> the one you pull. <b>Cable:</b> the one that makes the cams rotate in the right direction. Remember this for the next two pages.</div>
+</section>
+<section class="pg" data-t="Cams I: The Cam Is a Lever"><h3>Cams I: The Cam Is a Lever</h3>
+<p>The cam is the heart of the compound bow. It is a rotating, non-circular pulley, and its non-circularity is the whole invention.</p>
+<svg viewBox="0 0 340 230" width="100%" role="img" aria-label="A cam as a lever: string and cable torques balance about the axle" style="max-width:440px;display:block;margin:8px auto 14px"><ellipse cx="170" cy="100" rx="86" ry="62" stroke="currentColor" fill="none" stroke-width="2"/><circle cx="148" cy="100" r="4" fill="currentColor"/><text x="148" y="90" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">axle</text><line x1="256" y1="40" x2="256" y2="214" stroke="currentColor" stroke-width="2"/><polygon points="256,214 251,202 261,202" fill="currentColor"/><line x1="112" y1="40" x2="112" y2="214" stroke="currentColor" stroke-width="2" stroke-dasharray="5 4"/><polygon points="112,214 107,202 117,202" fill="currentColor"/><line x1="148" y1="100" x2="256" y2="100" stroke="currentColor" stroke-width="1.2"/><line x1="148" y1="100" x2="112" y2="100" stroke="currentColor" stroke-width="1.2"/><text x="204" y="116" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">r_string (big)</text><text x="134" y="124" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">r_cable</text><text x="256" y="30" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">string tension T_s</text><text x="112" y="30" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">cable tension T_c</text><text x="170" y="226" font-family="Inter,sans-serif" font-size="11" fill="currentColor" text-anchor="middle">Balance of torques: T_s x r_string = T_c x r_cable</text></svg>
+<p>Look at the picture. The cam rotates about its <b>axle</b>. The <b>string</b> leaves the cam at a large distance from the axle (r_string). The <b>cable</b> leaves at a smaller distance (r_cable). For the cam to be in equilibrium, the turning effects (torques) must balance:</p>
+<div class="fm">T_s x r_string = T_c x r_cable</div>
+<p>If the string leaves at a bigger radius than the cable, a <b>small cable tension</b> balances a <b>large string tension</b>. If the string leaves at a *smaller* radius, the opposite happens. And because the cam is not round, those two radii <b>change continuously as it rotates</b>, which changes the draw force with every inch of draw.</p>
+<p><b>The effect on you.</b> Early in the draw, the string radius is small and the cable radius is large. The cam is a low gear: you need a lot of force to turn it, so draw weight rises quickly. Near full draw, the string radius is large and the cable radius is small. The cam has shifted into a high gear and the string tension needed to hold the cable falls away. That is <b>let-off</b>.</p>
+<div class="short">A cam is a variable gearbox with the limbs as the engine. Choose the shape of the cam and you choose the shape of the force-draw curve.</div>
+</section>
+<section class="pg" data-t="Cams II: Virtual Work and the Shape of the Curve"><h3>Cams II: Virtual Work and the Shape of the Curve</h3>
+<p>The torque picture explains the <b>why</b>. The energy picture lets you <b>calculate</b>.</p>
+<p>The principle of <b>virtual work</b> says that the work you put in at the string equals the work taken up by the limbs through the cable, with nothing lost in an ideal pulley:</p>
+<div class="fm">F_draw x dx = T_cable x dc<br>so F_draw = T_cable x (dc / dx)</div>
+<p>Here dx is a small movement of the nock and dc the matching movement of cable on the cam. The ratio dc/dx is the <b>mechanical advantage</b> of the cam, and it is the ratio of the radii: r_cable / r_string.</p>
+<p><b>Putting numbers on let-off.</b> For a 70 lb bow with string legs at 28 degrees to the centreline:</p>
+<div class="fm">String tension T_s = F / (2 cos 28) = F / 1.766<br>At peak: F = 70 lb, so T_s = 39.6 lb<br>At full draw: F = 14 lb, so T_s = 7.9 lb</div>
+<p>Suppose the limbs, fully bent, pull the cable with about 80 lb. Then at full draw the radius ratio the cam must provide is:</p>
+<div class="fm">r_cable / r_string = 7.9 / 80 = 0.10</div>
+<p>The cam has to leave the cable on a radius <b>about one tenth</b> of the string radius at the valley. That is a very small radius, which is why the let-off section of a cam looks like a tiny pocket cut into the track.</p>
+<p><b>The designer's recipe</b> for drawing a cam on paper:</p>
+<ol><li>Choose the target force curve F(x).</li><li>Choose the string track so the string pays out the right amount per degree of rotation.</li><li>Model the limb as a spring so cable tension depends on how far the limb tip has moved.</li><li>Solve for the cable radius at each angle: r_cable = F x r_string / (2 x T_cable).</li><li>Check the shape is physically possible, smooth and doesn't violate the minimum radius.</li><li>Machine it, test it, and measure the real curve.</li></ol>
+<p>Real cam design uses software and iterates dozens of times. But the equation above is the entire idea.</p>
+</section>
+<section class="pg" data-t="The Cam Families"><h3>The Cam Families</h3>
+<p>Everything on this page is a different answer to one question: how do you make <b>two cams</b> (top and bottom) rotate in sync, so the nock travels in a straight line and the arrow leaves the string level?</p>
+<p><b>Single cam (solo cam).</b> One powered cam at the bottom, and an <b>idler wheel</b> (a simple round wheel) at the top. Simple, quiet, easy to tune. But the two ends behave differently, so the nock can travel up and down. Less common today.</p>
+<p><b>Dual cam.</b> Two matching cams, independent. Powerful in theory, but if one rotates slightly ahead of the other the nock path is off. Timing is touchy.</p>
+<p><b>Hybrid cam.</b> One main cam plus a smaller "control" cam on the other limb that governs the cable. Good smoothness and speed. Very common in the 2000s and 2010s.</p>
+<p><b>Binary cam.</b> Two matching cams linked by cables so that <b>each cam drives the other</b>. If one tries to get ahead, the cable pulls it back. They are self-synchronising. This is the heart of most modern high-performance hunting bows. It can be harder to time correctly, because you now need two cams and two cables working together.</p>
+<p>How to judge a cam system:</p>
+<div class="tw"><table><thead><tr><th>Quality</th><th>What it means</th></tr></thead><tbody><tr><td>Draw cycle</td><td>Smooth or aggressive? How hard is the transition to let-off?</td></tr><tr><td>Valley</td><td>How wide is the low-force region at full draw?</td></tr><tr><td>Back wall</td><td>How firm is the stop at full draw?</td></tr><tr><td>Speed</td><td>How full is the force curve?</td></tr><tr><td>Tuneability</td><td>How easily can you keep it in time?</td></tr><tr><td>Noise</td><td>How much vibration at the shot?</td></tr></tbody></table></div>
+<div class="short">There is no best cam. There is the best cam <b>for your shooting style</b>: a hunter who wants to sit at full draw for several seconds wants a wide valley and a mellow cam; a target shooter wants a firm wall and speed.</div>
+</section>
+<section class="pg" data-t="Draw Stops, the Valley and the Wall"><h3>Draw Stops, the Valley and the Wall</h3>
+<p>The final part of the draw is where the cam earns its keep.</p>
+<p><b>The valley.</b> Past the peak, the force falls steeply (let-off) and then <b>bottoms out</b> in a low, flat region at full draw. That is the <b>valley</b>. A wide valley lets you creep slightly further without the force rising, which is forgiving. A narrow valley is more precise but less forgiving.</p>
+<p><b>The wall.</b> After the valley, the force shoots up very steeply as you draw any further. A good bow has a <b>firm back wall</b>: a clear stop you pull into. It makes draw length perfectly repeatable, since the bow stops you at the same point every time.</p>
+<p><b>The draw stop.</b> The wall is created by a physical stop that prevents the cam rotating any further. There are two common types:</p>
+<ul><li><b>Peg or post stops</b> on the cam itself. The string or cable runs into a post.</li><li><b>Cable-driven stops:</b> a rod on the cable guard that the cable hits at full draw.</li></ul>
+<p><b>The cam module.</b> Many cams use interchangeable <b>modules</b> (small plates that attach to the cam). Swapping the module changes the draw length. Another module (the <b>let-off module</b>) changes the let-off. The stop position tells the cam where to stop, and that determines draw length.</p>
+<p><b>Cam timing at the wall.</b> Both cams must reach the stop at the <b>same instant</b>. If one reaches it first, the bow feels like it has two walls and the nock rides unevenly. That is why cam timing (page 47) is the first step in any tune.</p>
+<div class="short">The valley and wall are about feel. A hunter who has to hold at full draw in the cold wants a forgiving valley. A back wall that moves around means a draw length that moves around, and that breaks consistency.</div>
+</section>
+<section class="pg" data-t="Where the Energy Goes: Efficiency"><h3>Where the Energy Goes: Efficiency</h3>
+<p>Stored energy is not the same as arrow energy. Some of it is lost.</p>
+<p><b>The losses.</b></p>
+<ul><li><b>Moving mass in the bow:</b> the limbs, the string, the cams and the cables all have to be accelerated too. Together they behave like extra weight attached to the arrow, called <b>virtual mass</b>.</li><li><b>Limb hysteresis:</b> the composite is not perfectly springy. A little energy turns into heat each cycle.</li><li><b>Friction</b> in the cam bearings and where cables rub.</li><li><b>Noise and vibration:</b> energy that rattles the riser, the sight and your hand.</li></ul>
+<p><b>A simple model.</b> Treat the bow as if it has a fixed static efficiency (eta_s) and a virtual mass (m_v) that adds to the arrow mass (m):</p>
+<div class="fm">Efficiency = eta_s x m / (m + m_v)<br>Arrow kinetic energy = efficiency x stored energy</div>
+<p>The key insight: <b>a heavier arrow has higher efficiency</b>, because the bow's own moving parts are a smaller fraction of the total mass being accelerated.</p>
+<p><b>With the model bow</b> (102 ft-lb stored, eta_s = 0.95, virtual mass 60 grains):</p>
+<div class="tw"><table><thead><tr><th>Arrow mass</th><th>Efficiency</th><th>Arrow energy</th></tr></thead><tbody><tr><td>250 gr</td><td>76.6%</td><td>78.1 ft-lb</td></tr><tr><td>350 gr</td><td>81.1%</td><td>82.7 ft-lb</td></tr><tr><td>450 gr</td><td>83.8%</td><td>85.4 ft-lb</td></tr><tr><td>600 gr</td><td>86.4%</td><td>88.0 ft-lb</td></tr></tbody></table></div>
+<p>(Real bows run roughly 70 to 85%, depending on design. These figures are from a simple model, not a measurement.)</p>
+<div class="short">Designers chase efficiency by making limbs and cams light, so the virtual mass shrinks. That is why carbon risers and light cams show up in the fastest bows.</div>
+</section>
+<section class="pg" data-t="Speed Versus Arrow Weight (the Model)"><h3>Speed Versus Arrow Weight (the Model)</h3>
+<p>With the efficiency model from the last page, you can predict speed:</p>
+<div class="fm">KE = efficiency x stored energy<br>speed (fps) = square root of ( KE x 450,240 / arrow weight )</div>
+<p>Results for the model bow (70 lb, 30 in, 102 ft-lb stored):</p>
+<div class="tw"><table><thead><tr><th>Arrow</th><th>Speed</th><th>Energy</th><th>Momentum</th></tr></thead><tbody><tr><td>250 gr</td><td>375 fps</td><td>78.1 ft-lb</td><td>0.416</td></tr><tr><td>300 gr</td><td>348 fps</td><td>80.7 ft-lb</td><td>0.463</td></tr><tr><td>350 gr</td><td>326 fps</td><td>82.7 ft-lb</td><td>0.506</td></tr><tr><td>400 gr</td><td>308 fps</td><td>84.2 ft-lb</td><td>0.546</td></tr><tr><td>450 gr</td><td>292 fps</td><td>85.4 ft-lb</td><td>0.584</td></tr><tr><td>500 gr</td><td>279 fps</td><td>86.4 ft-lb</td><td>0.619</td></tr><tr><td>600 gr</td><td>257 fps</td><td>88.0 ft-lb</td><td>0.684</td></tr></tbody></table></div>
+<p>Look at what the table is telling you:</p>
+<ul><li>Going from 350 to 500 gr (about 43% heavier) costs about <b>47 fps</b>, a 14% speed loss.</li><li>Over the same change, energy goes <b>up 4.5%</b> and momentum goes <b>up 22%</b>.</li><li>Going lighter from 350 to 250 gr buys you 49 fps and <b>loses</b> 5.6% of the energy.</li></ul>
+<p>These are model values, so the trend matters more than any single number. The rule of thumb that real bows lose about 15 fps per 50 grains lines up well with the model.</p>
+<p><b>What speed is really for.</b> Speed shrinks the time of flight, so there is less time for an animal to move and less drop to compensate for. For a hunter shooting at 20 to 30 metres, a slow, heavy, quiet arrow that you shoot perfectly is hard to beat.</p>
+<div class="short">Never shoot an arrow lighter than the bow maker allows. If the arrow is too light, the bow cannot dump its energy into it, and the leftover energy goes into the limbs and cams as shock. That damages the bow.</div>
+</section>
+<section class="pg" data-t="Noise, Vibration and Hysteresis"><h3>Noise, Vibration and Hysteresis</h3>
+<p>A bow that is quiet and still after the shot is a better bow. Noise and vibration are wasted energy, and they also spook animals.</p>
+<p><b>Where the noise comes from.</b> At the instant the arrow leaves, the stored energy that did not go into the arrow dumps into the bow, which shudders. The loudest part is the <b>string and cables snapping</b> to a stop, and the <b>limbs reaching the end of their travel</b>.</p>
+<p><b>Damping options.</b></p>
+<ul><li><b>Limb dampers and string suppressors:</b> rubber or gel pads placed to absorb the shock.</li><li><b>Stabilisers:</b> a long rod with a weight on the end makes the bow resist rotating, and rubber dampers on the rod absorb vibration.</li><li><b>String silencers:</b> small strands of material tied into the string. They reduce the string's ringing. Be cautious: they add weight to the string, which costs a little speed.</li><li><b>Heavier arrows:</b> they take more energy from the bow, leaving less to shake it.</li><li><b>Parallel limbs</b> and well-tuned cams reduce the shock to begin with.</li></ul>
+<p><b>Hysteresis.</b> A limb is not a perfect spring. When it flexes, a bit of energy is lost as heat, and the limb does not give back all that you put in. Better limb materials and better layup lower this loss. It is why a limb that has been over-stressed or over-heated gradually loses draw weight.</p>
+<p><b>A hunter's rule.</b> Quiet is a tuning outcome. A bow that is <b>in time</b>, with a correctly set arrow rest and well-matched arrows, is quieter than any amount of sticky-on accessories.</p>
+<div class="short">Listen to your bow. A new rattle, a buzz or a clack after the shot is information. Find it and fix it before you hunt.</div>
+</section>
+<section class="pg" data-t="Geometry: Axle-to-Axle, Brace Height and Power Stroke"><h3>Geometry: Axle-to-Axle, Brace Height and Power Stroke</h3>
+<p>The overall shape of the bow sets how it shoots.</p>
+<p><b>Brace height</b> is the distance from the string to the grip pivot at rest. <b>Power stroke</b> is the distance the string travels while pushing the arrow, roughly draw length minus brace height.</p>
+<div class="fm">Power stroke is approximately draw length - brace height</div>
+<p>A lower brace height gives a longer power stroke, so the bow stores more energy at the same peak weight. It is faster. But it is less forgiving: the string stays in contact with the arrow longer, so any flaw in your release or form is passed on to the arrow for longer. A higher brace height is more forgiving and slower.</p>
+<p><b>Worked example.</b> Draw 30 in. Brace 6.0 in versus 7.5 in, same peak weight and curve shape. The power strokes are about 24 and 22.5 inches. The energy is proportional to power stroke, so the higher brace costs about <b>6% of the stored energy</b>. That is the price of forgiveness.</p>
+<p><b>Axle-to-axle (ATA).</b> Short bows are handy in the bush. Long bows are more stable and have a gentler string angle. The string angle at full draw is the angle between the two string legs, and it grows as the bow gets shorter.</p>
+<p>For a 30 in draw, the half-angle from the nock to each axle, and the string tension needed per pound of draw force:</p>
+<div class="tw"><table><thead><tr><th>ATA</th><th>Half-angle</th><th>cos</th><th>String tension for 14 lb hold</th></tr></thead><tbody><tr><td>28 in</td><td>25.0 deg</td><td>0.906</td><td>7.7 lb</td></tr><tr><td>32 in</td><td>28.1 deg</td><td>0.882</td><td>7.9 lb</td></tr><tr><td>36 in</td><td>31.0 deg</td><td>0.857</td><td>8.2 lb</td></tr><tr><td>40 in</td><td>33.7 deg</td><td>0.832</td><td>8.4 lb</td></tr></tbody></table></div>
+<p>(Half-angle = arctan(half the ATA / 30 in), a simplification.)</p>
+<p>The differences are small, but the tight string angle on a short bow also pinches fingers (for finger shooters), and affects the nock travel path. Modern hunting bows sit in the 30 to 34 in ATA range, a compromise between handling and stability.</p>
+<div class="short">Every number on the spec sheet is a trade-off. A bow designer's job is to make the right set of compromises for one kind of shooter.</div>
+</section>
+<section class="pg" data-t="Dry-Firing: Why It Destroys a Bow"><h3>Dry-Firing: Why It Destroys a Bow</h3>
+<p><b>Never release a compound bow without an arrow on the string.</b></p>
+<p>The arrow is the thing that absorbs the energy. Without it, the full stored energy of the bow (around 100 ft-lb, 138 J) has nowhere to go except into the bow itself. In an instant the limbs, cams and string slam to the end of their travel. The result can be:</p>
+<ul><li><b>Cracked or shattered limbs.</b> Pieces of composite can fly out at high speed.</li><li><b>A broken cam or axle.</b></li><li><b>A string or cable failing</b>, whipping out.</li><li><b>A bow that looks fine</b> but has invisible damage that fails later during a shot.</li></ul>
+<p>Every bow's manual says the same: do not dry fire.</p>
+<p>Also keep these safe habits:</p>
+<ul><li><b>If you draw and decide not to shoot, let the bow down slowly</b>, with the string under control the whole way. Never let go of a drawn string to "let down".</li><li><b>Never shoot an arrow lighter than the maker's minimum.</b></li><li><b>Never use a damaged arrow.</b> A cracked carbon shaft can splinter in your bow hand.</li><li><b>Inspect the string, cables, limbs and cams</b> every time you shoot. Look for fraying, cracks, delamination and loose bolts.</li><li><b>Do not wind limb bolts out more than the manual allows.</b> Past a few turns, the limb can pop out of its pocket.</li><li><b>Press the bow for any limb, cam or string work.</b> A press holds the limbs compressed so the string can be taken off safely. Do not try this with improvised gear.</li></ul>
+<div class="short">A drawn bow is a loaded spring. Treat it like a loaded firearm: it is always your responsibility where it points.</div>
+</section>
+<section class="pg" data-t="The Riser: The Backbone" data-ch="Part Five: The Riser and the Accessories"><h3>The Riser: The Backbone</h3>
+<p>The riser is the part that does not move. Its job is to hold the limb pockets rigidly apart, hold the grip, hold the rest and sight, and take the shock of the shot without twisting. A flexible riser wastes energy and makes tuning impossible.</p>
+<p><b>The design problem.</b> Under full load, the limbs push on the riser with several hundred pounds of force, trying to bend it into a banana (the top and bottom limb pockets are pulled toward the string). The riser is a <b>beam</b> loaded at both ends, so the same beam formulas from page 24 apply. Stiffness depends on the cube of the depth, so risers are deep, with large cut-outs (the <b>sight window</b>) to save weight while keeping stiffness.</p>
+<p><b>Deflex, neutral and reflex.</b> Look at the bow from the side:</p>
+<ul><li><b>Deflex:</b> the grip sits behind (toward the archer) the line joining the limb pockets. The bow is more forgiving and smoother, with a slower, longer string path. Good for hunters.</li><li><b>Reflex:</b> the grip sits ahead of that line. The string is closer to the riser at brace, so there is a longer power stroke and more speed, with a less forgiving bow.</li><li><b>Neutral:</b> somewhere between.</li></ul>
+<p><b>What a good riser provides.</b></p>
+<ul><li><b>Mass</b> that is balanced and not too heavy.</li><li><b>Rigidity</b> against torque.</li><li><b>A grip pivot</b> at a sensible point.</li><li><b>Mounting points</b> with accurate, threaded holes for rest, sight, stabiliser and quiver.</li><li><b>Pockets</b> that seat the limbs without play.</li></ul>
+<p>The riser is also the part you could plausibly make yourself on a CNC mill, which is why it is the first thing a home builder tries. Part Eight returns to it.</p>
+</section>
+<section class="pg" data-t="Riser Materials and How Risers Are Made"><h3>Riser Materials and How Risers Are Made</h3>
+<p><b>Aluminium alloys.</b> The mainstay. <b>6061-T6</b> is common and easy to machine. <b>7075-T6</b> is stronger and used in high-end risers. The "T6" means the alloy has been heat-treated (solution heat-treated and artificially aged) to reach its full strength.</p>
+<p><b>Magnesium alloys.</b> About two thirds the weight of aluminium for the same volume. Riser blanks are usually cast, because magnesium is difficult to machine safely (the swarf is flammable).</p>
+<p><b>Carbon fibre composite.</b> The lightest option and very good at damping vibration. Moulded rather than cut.</p>
+<p><b>Three ways to make a metal riser.</b></p>
+<div class="tw"><table><thead><tr><th>Method</th><th>How</th><th>Good for</th></tr></thead><tbody><tr><td>Billet (CNC machined)</td><td>Carve from a solid block</td><td>Strong, precise, expensive. Great for prototypes and small runs</td></tr><tr><td>Casting</td><td>Pour molten metal into a mould</td><td>Low cost per unit in volume, but with a mould investment and internal porosity risks</td></tr><tr><td>Forging</td><td>Hammer or press a hot billet into shape</td><td>Excellent strength, needs heavy tooling</td></tr></tbody></table></div>
+<p>Most premium risers are <b>machined from forged or extruded bar</b> and then finished.</p>
+<p><b>Finishing.</b> Parts are anodised (a hard oxide layer on aluminium), cerakoted, or painted. Threaded holes get thread inserts. Pocket faces are machined flat to very tight tolerances.</p>
+<p><b>Tolerances.</b> The limb pocket seats and the axle holes need to be accurate to about a few hundredths of a millimetre. If they are not, the bow will not be square, the cams will not run true and the bow will never tune.</p>
+<div class="short">A home builder with a CNC machine can make a riser from 7075-T6 plate. A heat-treated plate is already in the right temper. You machine it and leave it alone. Do not weld heat-treated aluminium: you destroy the temper.</div>
+</section>
+<section class="pg" data-t="The Grip and Why It Matters More Than You Think"><h3>The Grip and Why It Matters More Than You Think</h3>
+<p>The grip is the one place the bow meets a human who is moving, breathing, shaking and tired. Its shape controls <b>torque</b>.</p>
+<p><b>What torque does.</b> If your hand pushes the grip off the centre-line, or your wrist rotates the bow even slightly during the shot, the bow twists. A small twist at full draw changes where the arrow points. The error is amplified by distance.</p>
+<div class="fm">If twisting the bow turned the arrow's launch direction by 1 degree,<br>the miss would be tan(1 deg) x 20 m = about 0.35 m at 20 m</div>
+<p>Real bows turn the arrow by much less than the bow twists, but the lesson stands: the angles involved are tiny and the errors grow with distance.</p>
+<p><b>Good grip principles.</b></p>
+<ul><li>Pressure through the <b>base of the thumb pad</b>, not the palm or fingers.</li><li>A <b>loose</b> hand. Many archers use a wrist sling so they can let the bow go at the shot without gripping it.</li><li>Keep the <b>same hand position</b> every shot. Tape or a moulded grip helps.</li><li><b>Low-wrist grips:</b> a low pivot point keeps the pressure line close to the centre, so there is less leverage to turn the bow.</li></ul>
+<p><b>Grip as engineering.</b> The grip pivot is where the bow's weight sits in your hand, and where the riser tilts. Where the pivot sits relative to the arrow and relative to the limb pockets determines how the bow wants to rotate at the shot. Good designers shape the grip so that the bow <b>rotates gently forward</b> after the shot and stays on target.</p>
+<div class="short">Most bows are tuned with the shooter's own grip. A different grip changes the tune. Always shoot your tuning shots with your hunting grip.</div>
+</section>
+<section class="pg" data-t="The Arrow Rest"><h3>The Arrow Rest</h3>
+<p>The rest supports the arrow and holds it at the correct height and centre. It is the first thing the arrow touches, and the last thing that guides it.</p>
+<p><b>Types.</b></p>
+<ul><li><b>Drop-away rest.</b> Supports the arrow while you draw, then <b>falls out of the way</b> at the shot so nothing touches the fletching. It is triggered by a cord linked to the cable or the cam. The standard for modern hunting bows.</li><li><b>Whisker biscuit / containment rest.</b> A ring of stiff bristles the arrow sits in. Fully enclosed, so it is quiet and secure, but the arrow's fletching brushes the bristles, which costs a little accuracy.</li><li><b>Blade rest.</b> A spring blade supports the shaft, and the arrow pushes it out of the way. Simple, reliable, a bit noisier.</li></ul>
+<p><b>Timing a drop-away.</b> The rest must <b>fall late enough</b> that it still supports the arrow while the string drives it, and <b>early enough</b> that it is clear before the fletching passes. Many rests use a sight line marker that lets you check that the rest has fallen as the bow "breaks over".</p>
+<p><b>Adjustments on every rest.</b></p>
+<ol><li><b>Height.</b> Moves the arrow up and down. Related to the nock point height.</li><li><b>Centre shot.</b> Moves the arrow left and right, and this is the most important setting.</li><li><b>Timing.</b> On a drop-away, the point at which it falls.</li></ol>
+<p><b>Setting centre shot.</b> The arrow needs to line up with the string plane. A start point: with the bow standing, nock an arrow and look from above. The arrow should look as if it points through the centre of the riser. The final centre shot is found by tuning (page 50).</p>
+<div class="short">The rest is the one accessory where cheap is costly. A rest with play in it makes every adjustment a lie.</div>
+</section>
+<section class="pg" data-t="Sights and the Maths of a Trajectory"><h3>Sights and the Maths of a Trajectory</h3>
+<p>A sight lets you point the arrow at an angle above the line of sight so that gravity pulls it back down onto the target. That is all. The <b>pins</b> are different angles for different distances.</p>
+<p><b>Types.</b></p>
+<ul><li><b>Fixed multi-pin:</b> three to five pins, each set for a distance (for example 20, 30, 40, 50 yards). Quick and simple for hunting.</li><li><b>Single-pin slider:</b> one pin on a rail you slide to a marked distance. More precise, needs the distance judged or ranged.</li><li><b>Sight light and level.</b> A bubble level on the sight helps you hold the bow upright. A tilted bow shifts the point of impact.</li></ul>
+<p><b>The maths.</b> Ignoring air drag, an arrow launched at speed v falls below its starting line by:</p>
+<div class="fm">drop = 1/2 g t^2, where t = distance / speed</div>
+<p>For a 300 fps arrow (g = 32.2 ft/s2):</p>
+<div class="tw"><table><thead><tr><th>Distance</th><th>Flight time</th><th>Drop below launch line</th></tr></thead><tbody><tr><td>20 yd</td><td>0.20 s</td><td>7.7 in</td></tr><tr><td>30 yd</td><td>0.30 s</td><td>17.4 in</td></tr><tr><td>40 yd</td><td>0.40 s</td><td>30.9 in</td></tr><tr><td>50 yd</td><td>0.50 s</td><td>48.3 in</td></tr><tr><td>60 yd</td><td>0.60 s</td><td>69.5 in</td></tr></tbody></table></div>
+<p>Drop grows with the <b>square</b> of distance. So the gap between pins <b>grows</b>: between 20 and 30 yd the drop changes by 9.7 in, between 30 and 40 by 13.5 in, between 40 and 50 by 17.4 in, and between 50 and 60 by 21.2 in. This is why pin gaps spread out toward the bottom of the sight. (Air drag makes the real drop a little larger at long range.)</p>
+<p><b>What it means for hunting.</b> A mistake in judging distance is magnified at range. A 5-yard error at 20 yards is a small vertical error. At 50 yards, the same 5-yard error is almost a foot.</p>
+<div class="short">Know your distance. A cheap laser rangefinder is worth more to a bowhunter than any speed upgrade. And set your own maximum distance shorter than your gear can reach.</div>
+</section>
+<section class="pg" data-t="The Peep, the D-Loop and the Kisser"><h3>The Peep, the D-Loop and the Kisser</h3>
+<p>These small bits of string are what make your anchor repeatable. They are cheap, and they decide whether you shoot well.</p>
+<p><b>The peep sight.</b> A small hole in the string at eye level. When you draw, you look through it at the front sight. Because the peep is in a fixed place on the string, your eye ends up in the same place each draw, which is the aiming equivalent of a rifle's rear sight.</p>
+<ul><li>It must line up with your eye at your anchor <b>without you tilting your head</b>. Its height on the string is set by moving it up or down.</li><li>Too small a hole gives a dark, clear sight picture but is hard to use in low light. A larger hole lets in more light, a useful trade for dawn and dusk hunting.</li></ul>
+<p><b>The D-loop.</b> A short loop of cord tied around the string at the nocking point. The release aid clips to it. It does two things: it keeps the release off the string (so the string is not pulled sideways) and it sets the nocking point <b>height</b>.</p>
+<p><b>The nock point.</b> The arrow nock sits just above the D-loop's top knot. A tiny change in nock height changes arrow flight (paper tuning shows this).</p>
+<p><b>The kisser button.</b> A small button on the string that touches the corner of your lips at full draw, which is a <b>second anchor point</b> to confirm that your hand and head are in the same place.</p>
+<p><b>Why they matter.</b> Anchor consistency is worth more than any other single improvement. A bow's draw length is only meaningful if you reach the same point every time. The peep, loop and kisser are your landmarks.</p>
+<div class="short">Tie the loop on while the bow is in a press, using a loop of the correct length and thickness, and measure the same each time. A loop that is a few millimetres longer changes the arrow's launch angle and your draw length.</div>
+</section>
+<section class="pg" data-t="Stabilisers and Balance"><h3>Stabilisers and Balance</h3>
+<p>A stabiliser is a rod with a weight on the end that screws into the front of the riser. For a hunter it has two roles: reduce vibration and keep the bow steady.</p>
+<p><b>The physics.</b> A rod with a weight at its end gives the bow a larger <b>moment of inertia</b> about its centre. A larger moment of inertia means the bow resists being rotated, so small movements of your hand produce a smaller rotation of the bow.</p>
+<div class="fm">Moment of inertia I = m x r^2</div>
+<p>A 4 oz weight 10 inches out contributes the same as a 16 oz weight 5 inches out (4 x 100 = 16 x 25). Distance counts for a lot, because it is squared.</p>
+<p><b>The balance.</b> The bow should hang level or tip slightly forward in your hand. A bow that tips back makes you push the grip harder. Hunters use short stabilisers (6 to 8 inches) so the bow stays quick through the bush, and they add weight to the rod's end to tune the balance.</p>
+<p><b>Vibration.</b> A damper on the end of the stabiliser (usually rubber) soaks up the vibration of the shot. A bow that does not buzz in the hand is quieter and gives a more stable follow through.</p>
+<p><b>Hunting trade-off.</b> In a tree stand or ground blind, a long stabiliser will hit things. In open bush a short one is best.</p>
+<div class="short">A good stabiliser setup does not make you steadier. It makes you <b>less able to wobble</b>, so the shot comes down to you doing the process right.</div>
+</section>
+<section class="pg" data-t="Sound, Reaction Time and Why Animals Jump the String"><h3>Sound, Reaction Time and Why Animals Jump the String</h3>
+<p>A hunter who has never thought about sound will lose animals to it.</p>
+<p><b>The numbers.</b> Sound travels at roughly 343 m/s (about 1,125 fps). An arrow at 300 fps is much slower than that.</p>
+<div class="tw"><table><thead><tr><th>Distance</th><th>Sound arrives</th><th>Arrow arrives (300 fps)</th></tr></thead><tbody><tr><td>20 yd (18.3 m)</td><td>0.053 s</td><td>0.20 s</td></tr><tr><td>30 yd (27.4 m)</td><td>0.080 s</td><td>0.30 s</td></tr></tbody></table></div>
+<p>So the animal <b>hears the shot before the arrow arrives</b>, by about 0.15 s at 20 yards and 0.22 s at 30. A startled deer can begin to move, drop, or turn in that time. This is called <b>jumping the string</b>.</p>
+<p><b>What to do about it.</b></p>
+<ul><li><b>A quiet bow.</b> Less sound, less reaction. A bow that is in time, with silenced string and cables, is much quieter than one which is not.</li><li><b>Faster arrows</b> reduce the window, but only a little. Going from 280 to 330 fps at 20 yd saves about 0.03 s.</li><li><b>Shot placement and distance.</b> Aim for the vital zone knowing the animal may move, and keep your shots <b>close</b>. Short distances leave little time.</li><li><b>Wait for the animal to be relaxed.</b> An animal that is feeding and calm responds less sharply than one that is alert.</li><li><b>Know the wind and your scent.</b> The quietest bow in the world will not help if the animal smells you.</li></ul>
+<p><b>The Greenie lesson.</b> The sound of your own shot is a small human intrusion on a place full of quiet. The whole craft of bowhunting is learning to be part of the background, and the bow is just the last step.</p>
+<div class="short">A good hunter does not trust speed. A good hunter trusts <b>stalking, patience and a clean first shot</b> at a short distance.</div>
+</section>
+<section class="pg" data-t="Tuning: The Order of Operations" data-ch="Part Six: Tuning"><h3>Tuning: The Order of Operations</h3>
+<p>Tuning is the process of making the bow, the arrow and the archer agree with each other. An untuned bow is not broken. It is simply arguing with its own arrows.</p>
+<p>The most important rule of tuning: <b>change one thing at a time, in the right order.</b> If you adjust the rest, then the nock, then the cams, you will never know which change did what.</p>
+<p><b>The order.</b></p>
+<ol><li><b>Safety inspection.</b> Is anything cracked, frayed, loose or worn?</li><li><b>Fit.</b> Draw length and peak draw weight set for you.</li><li><b>Cam timing and synchronisation.</b> The cams must be in time, or nothing else can be right.</li><li><b>Brace height and limb balance.</b> Check the limbs are equal.</li><li><b>Arrow rest, nock height and centre shot.</b> First setup.</li><li><b>Arrow spine check</b> (bare shaft).</li><li><b>Paper tune.</b> Fix big errors in vertical and horizontal.</li><li><b>Walk-back tune.</b> Fine centre shot.</li><li><b>Broadhead tune.</b> The hunter's final test.</li><li><b>Sight in.</b> Set pins last, because everything above moves them.</li><li><b>Log it.</b> Write the settings down.</li></ol>
+<p><b>What a good tune delivers.</b></p>
+<ul><li>Arrows that leave straight, so they fly accurately.</li><li>A bow that is <b>quiet</b> and not harsh.</li><li><b>Consistent</b> performance day to day.</li><li>Field points and broadheads that <b>hit together</b>.</li></ul>
+<p><b>What tuning cannot fix.</b> Poor form. If your anchor wanders, no amount of tuning will make you shoot well. Tuning removes the <b>bow's</b> contribution to errors so that what is left is yours.</p>
+<div class="short">Shoot a few arrows to warm up before any tuning session. A cold shooter shoots differently from a warmed-up one, and tuning against a changing archer is chasing your own tail.</div>
+</section>
+<section class="pg" data-t="The Tuner's Toolkit"><h3>The Tuner's Toolkit</h3>
+<p>Most of the tools are cheap. One is not optional: the press.</p>
+<p><b>For measurement.</b></p>
+<ul><li><b>Bow square (T-square)</b>, to check nock point height and centre shot.</li><li><b>Digital calipers</b>, to measure brace height and small lengths.</li><li><b>Bow scale</b>, to measure peak draw weight. A hanging digital scale does the job.</li><li><b>Grain scale</b> (weights to 0.1 grain) for arrows and points.</li><li><b>Draw board</b>, a rail on which you draw the bow with a fixed-length string.</li><li><b>Laser level</b>, for checking cam lean and centre shot.</li><li><b>Chronograph</b>, to measure arrow speed.</li></ul>
+<p><b>For adjustment.</b></p>
+<ul><li><b>Allen key set</b> (metric and imperial).</li><li><b>Serving thread and a serving tool</b>, for repairs.</li><li><b>String wax.</b></li><li><b>D-loop tools</b> and a good, sharp knife.</li><li><b>A bow press.</b> This is the essential tool. It compresses the limbs so the strings can be taken off. A good one costs a few hundred dollars and pays for itself in avoided accidents.</li></ul>
+<p><b>For testing.</b></p>
+<ul><li><b>Paper tuning frame</b>, a hoop of cardboard with a sheet of paper stretched over it.</li><li><b>Target and a backstop</b> that stops arrows safely.</li><li><b>Painter's tape or a plumb line</b> for walk-back tuning.</li><li><b>Spare arrows</b> identical to your hunting set, one or two without fletching (bare shafts).</li></ul>
+<p><b>A notebook.</b> Record the date, settings and results. The notebook becomes your history of the bow.</p>
+<div class="short">You can get most of this equipment at a pro archery shop. It is worth visiting one for a first session. Watching someone with experience set up a bow press is worth more than a dozen videos.</div>
+</section>
+<section class="pg" data-t="Step One: Inspect Everything"><h3>Step One: Inspect Everything</h3>
+<p>Every tuning session begins with a check. A tuned bow that is broken is not much use. Go through this list slowly.</p>
+<p><b>String and cables.</b></p>
+<ul><li>Look for <b>fraying</b> on the strands, especially at the end loops and under the servings.</li><li>Check the <b>serving</b> is tight with no gaps, and not worn through.</li><li>Look for <b>fuzzing</b> where cables run through the cable slide.</li><li>Check the <b>D-loop</b> knots are tight and the loop is not frayed.</li></ul>
+<p><b>Limbs.</b></p>
+<ul><li>Look for <b>cracks, splits or delamination</b> along the edges and near the tips.</li><li>Check the <b>limb bolts</b> are tight and equal on both limbs (see the next pages).</li><li>Check the limbs sit squarely in the pockets.</li></ul>
+<p><b>Cams.</b></p>
+<ul><li>Check the cams spin <b>freely</b> and the axles have no play.</li><li>Look for <b>wear in the string track</b> (grooves, burrs).</li><li>Make sure module screws and stop screws are <b>tight</b>.</li></ul>
+<p><b>Riser and accessories.</b></p>
+<ul><li>Check every screw on the sight, rest and stabiliser. Vibration loosens them. A drop of thread-locking fluid on any screw that keeps loosening is a good idea.</li><li>Check the <b>rest</b> moves freely and its cord is intact.</li></ul>
+<p><b>Arrows.</b></p>
+<ul><li>Check for <b>cracks</b> by flexing each arrow gently and listening for a crackle. Carbon with a crack must be thrown away.</li><li>Check <b>nocks</b> are tight and not split.</li><li>Check <b>inserts</b> are tight.</li></ul>
+<p>If anything looks wrong, stop. A broken bow is a job for a pro shop.</p>
+<div class="short">A simple habit: before each shoot, run your hand along the string and cables (with the bow unstrung or not drawn). Anything rough or snagged means a problem.</div>
+</section>
+<section class="pg" data-t="Step Two: Cam Timing and Synchronisation"><h3>Step Two: Cam Timing and Synchronisation</h3>
+<p>Both cams must rotate the same amount at the same time. If they do not, the nock travels up or down as it moves and the arrow leaves the string at an angle, and nothing else can fix it.</p>
+<p><b>What "in time" means.</b> At full draw, the cams should reach their stops (or the same position on their rotation) together. At rest, the cams should sit at the right orientation, which many cam makers mark with <b>timing marks</b> you can see from the side.</p>
+<p><b>How to check.</b></p>
+<ol><li>With the bow at rest, look at the timing marks on the cams. Compare them to the maker's specification.</li><li>Draw the bow on a <b>draw board</b> and see whether both cams hit their stops together.</li><li>If the cams are not synchronised, one stop (usually the bottom) hits first, and the other cam still has a bit to go.</li></ol>
+<p><b>How to fix it.</b> On most bows with a <b>yoke</b> (the cable that splits into a Y at one end), you adjust by <b>adding or removing twists</b> in the cable or yoke, and this requires a bow press. For a bow with cable stops, the timing marks give the target.</p>
+<p>A common guide for a bow with a split yoke: if the arrow tears nock-high, add twists to the top cable or take twists out of the bottom cable, and do the opposite for nock-low. Always follow your bow maker's timing instructions first, because cam systems differ. Each half twist makes a measurable difference, so work in small steps and re-check after every change.</p>
+<p><b>Symptoms of poor timing.</b></p>
+<ul><li>Arrows that <b>tear high or low</b> in paper tuning that cannot be fixed with the rest.</li><li>A harsh feeling in the draw cycle or a "double wall".</li><li>Noise and vibration at the shot.</li><li><b>Nock travel:</b> the nock rising or dropping during the draw.</li></ul>
+<div class="short">Many people give up on tuning a bow because they skipped cam timing. Always check it first. And if you are new, have a pro shop set it up and show you what they do.</div>
+</section>
+<section class="pg" data-t="Step Three: Draw Weight, Brace Height and the Limbs"><h3>Step Three: Draw Weight, Brace Height and the Limbs</h3>
+<p><b>Limb bolts</b> set both the draw weight and (with the string length) the brace height. They are screws that move the limb pocket position and thereby how much the limb is pre-loaded.</p>
+<p><b>Turning them.</b> Turning the bolts <b>in</b> (clockwise) increases draw weight. Turning them <b>out</b> lowers it. A typical bow changes about <b>1 to 3 lb per full turn</b>. The bolts must always be turned <b>equal amounts on the top and bottom limb</b>, so the limbs stay balanced.</p>
+<p><b>The limits.</b></p>
+<ul><li><b>Never</b> back the bolts out more than the maker's limit (often only a couple of turns from fully tight). Past that, the limb can come out of its pocket under load.</li><li><b>Never</b> turn the bolts in beyond their stop.</li><li><b>Always</b> have the bow unloaded, or at least not at full draw, when you adjust them.</li></ul>
+<p><b>Checking the weight.</b> Hang the bow from a bow scale and draw it, noting the peak weight. Compare it with the specification. A bow whose draw weight differs between limbs has a limb balance problem.</p>
+<p><b>Brace height.</b> Measure from the grip pivot (the deepest part of the grip) perpendicular to the string. Compare it with the maker's number (often a range). A bow whose brace height is too low is faster but less forgiving, and one that is too high is slower.</p>
+<p><b>Why the string length matters.</b> The brace height is set by the string and cable lengths, not just the limb bolts. If the strings stretch with use, the brace height drops.</p>
+<p><b>Draw length.</b> Set it with the module or twists, as covered on page 11. Then re-check the cam timing, because many adjustments affect it.</p>
+<div class="short">If you change anything here, go back and re-check the cam timing. These adjustments are connected.</div>
+</section>
+<section class="pg" data-t="Step Four: Centre Shot, Nock Height and Rest Timing"><h3>Step Four: Centre Shot, Nock Height and Rest Timing</h3>
+<p>Now you set the arrow's starting position.</p>
+<p><b>Centre shot (left and right).</b> The arrow should line up with the plane of the string. A start: nock an arrow, put the bow flat on the bench, and look straight down from above. Adjust the rest left or right until the arrow looks as if it points through the centre of the riser. Another approach is to measure from the arrow to the side of the riser with a ruler at both the front and the back, and move the rest until the two numbers match. The most common starting range is <b>the centre of the arrow shelf to about 3/16 inch left of centre for a right-handed shooter</b>, then tune from there.</p>
+<p><b>Nock height (up and down).</b> Use the bow square on the string: put the square's arm on the rest, level with the arrow shaft, and see where the 90 degree mark falls on the string. Set the nock point (the top of the D-loop knot) <b>a little above square</b>, perhaps 1/16 inch, as a starting point. Paper tuning then refines it.</p>
+<p><b>Rest timing (drop-away).</b> Check the rest <b>starts to fall late</b> in the shot and is <b>clear before the fletching arrives</b>. Most rests have tuning marks that line up when the bow "breaks over". Some makers say shoot a few arrows with talc powder on the rest and see where the fletching leaves marks.</p>
+<p><b>Fletching clearance.</b> Draw the bow and check that the vanes <b>clear the rest and cable guard</b>. If a vane scrapes, rotate the nock a little so the cock vane sits at a different angle, or change the rest.</p>
+<p><b>Foot powder test.</b> Spray foot powder or talc on the rest, riser shelf and vanes, shoot an arrow and look for marks. Any mark means something touched. Fix it.</p>
+<div class="short">These are <b>starting points</b> only. They put you close enough that paper tuning can finish the job. A bow that starts far off will mislead you.</div>
+</section>
+<section class="pg" data-t="Step Five: Paper Tuning"><h3>Step Five: Paper Tuning</h3>
+<p>Paper tuning shows what the arrow is doing as it leaves the bow. You shoot an arrow through a sheet of paper, then read the tear.</p>
+<p><b>Setup.</b></p>
+<ol><li>Stretch a sheet of paper (newspaper or butcher paper) tightly over a frame.</li><li>Stand about <b>6 feet</b> (2 m) from the paper (follow your coach's guidance), with a target behind it.</li><li>Shoot a <b>fletched</b> arrow at the centre of the paper from your normal form and grip. Use only your hunting arrow and your usual shot.</li><li>Look at the hole. The <b>point</b> makes a round hole, and the <b>fletching</b> makes slits. Compare where the nock end went to where the point went.</li></ol>
+<p><b>Reading the tear (right-handed shooter; reverse left and right for a lefty).</b></p>
+<div class="tw"><table><thead><tr><th>What you see</th><th>What it means</th><th>Adjust</th></tr></thead><tbody><tr><td>Bullet hole</td><td>Arrow leaves straight</td><td>Nothing. Stop.</td></tr><tr><td>Tail high</td><td>Nock end rising</td><td>Move the rest up, or the nock point down</td></tr><tr><td>Tail low</td><td>Nock end dropping</td><td>Move the rest down, or the nock point up</td></tr><tr><td>Tail left</td><td>Nock end pointing left</td><td>Move the rest right (toward the riser)</td></tr><tr><td>Tail right</td><td>Nock end pointing right</td><td>Move the rest left (away from the riser)</td></tr></tbody></table></div>
+<p>The left-right rule feels backwards. If the tail is left, you move the rest right. The reason: if the rest is too far left, the arrow's front end kicks right as it leaves the rest and follows the string, so the tail ends up left.</p>
+<p><b>Other causes of tears.</b></p>
+<ul><li><b>Spine.</b> A tail-left tear can also mean the spine is too weak, and a tail-right tear too stiff (for a right-handed shooter).</li><li><b>Cams out of time.</b> High or low tears that will not go away.</li><li><b>Your form.</b> Gripping the bow, a different anchor and a punched trigger all show up as tears. Shoot several arrows to see the pattern.</li></ul>
+<p><b>Rules.</b></p>
+<ul><li><b>Fix up and down first,</b> then left and right.</li><li><b>Small steps.</b> About 1/16 inch of rest movement at a time.</li><li><b>Confirm</b> by shooting at least three arrows.</li></ul>
+<div class="short">A bullet hole is the goal but not a guarantee. Paper tuning is a good start, so finish with walk-back and broadhead tuning.</div>
+</section>
+<section class="pg" data-t="Step Six: Walk-Back Tuning"><h3>Step Six: Walk-Back Tuning</h3>
+<p>Paper tuning checks the arrow at a short, fixed distance. <b>Walk-back tuning</b> checks that the arrow's <b>line</b> stays true as the distance grows, and it fine-tunes <b>centre shot</b>.</p>
+<p><b>What you need.</b> A target with a <b>vertical line</b> (a plumb line hung from the top or a strip of tape), and room to shoot at 10, 20, 30, 40 and 50 yards.</p>
+<p><b>The method.</b></p>
+<ol><li>Set your sight pins accurately for 20 yards (or whichever distances you will use).</li><li>Stand at 20 yards and shoot at the <b>line</b> with your 20-yard pin. The arrow should land on the line.</li><li>Move back to 30 yards and shoot at the same line <b>using the 30-yard pin</b>.</li><li>Repeat at 40 and 50 yards.</li><li>Look at where the arrows land. If your rest is perfectly centred, the arrows form a <b>vertical column</b> along the line, each lower than the last.</li></ol>
+<p><b>Reading it (right-handed shooter).</b></p>
+<ul><li>If the arrows <b>drift to the right</b> as you move back, move the rest <b>left</b>.</li><li>If the arrows <b>drift to the left</b>, move the rest <b>right</b>.</li></ul>
+<p>The rule: <b>move the rest the opposite way from the drift.</b> (That is the opposite of what a sight adjustment does, which is why it feels backwards.)</p>
+<p><b>Rules of thumb.</b></p>
+<ul><li>Use <b>tiny</b> adjustments. A 1/32 inch shift can matter.</li><li><b>Shoot several arrows</b> at each distance, since one arrow might be your form.</li><li>Adjust the <b>rest</b>, not the sight.</li><li>Only tune walk-back after paper tuning, because paper tuning fixes the large errors first.</li></ul>
+<p><b>Why it matters.</b> At long distance the tiniest launch error is magnified. For a hunter shooting at 20 to 30 yards, walk-back tuning makes sure your point of aim is true.</p>
+<div class="short">If the arrows form a perfect vertical line down the target, you can stop. Tuning has a point of diminishing returns, and you can chase tiny differences forever.</div>
+</section>
+<section class="pg" data-t="Step Seven: Bare-Shaft Tuning"><h3>Step Seven: Bare-Shaft Tuning</h3>
+<p>Bare-shaft tuning checks whether your arrow's <b>spine</b> suits your bow. You shoot a bare (unfletched) arrow next to fletched ones and compare where they land.</p>
+<p><b>Why it works.</b> Without fletching, the arrow's flight shows its true behaviour: how it flexes, and whether it leaves the string straight. The fletching of a normal arrow hides small errors by stabilising it.</p>
+<p><b>The method.</b></p>
+<ol><li>Set up a target at about <b>15 to 20 yards</b> with a good backstop.</li><li>Shoot <b>three fletched arrows</b> at the same aiming point. This is your reference group.</li><li>Shoot one or two <b>bare shafts</b> at the same point with the same form.</li><li>Compare where the bare shaft lands relative to the group.</li></ol>
+<p><b>Reading it (right-handed shooter; reverse for a lefty).</b></p>
+<div class="tw"><table><thead><tr><th>Where the bare shaft lands</th><th>What it means</th><th>Fix</th></tr></thead><tbody><tr><td>Left of the fletched group</td><td>Spine too stiff</td><td>Behave weaker: a heavier point, a longer arrow, or more draw weight</td></tr><tr><td>Right of the fletched group</td><td>Spine too weak</td><td>Behave stiffer: a lighter point, a shorter arrow, or less draw weight</td></tr><tr><td>Low</td><td>Nock point too high</td><td>Lower the nock point</td></tr><tr><td>High</td><td>Nock point too low</td><td>Raise the nock point</td></tr></tbody></table></div>
+<p><b>Notes.</b></p>
+<ul><li>A bare shaft that hits <b>slightly weak</b> (a little to the right) is fine, because the fletching adds stiffness and corrects it.</li><li>Fix <b>vertical first</b> (nock height), then horizontal.</li><li>Point weight is the easiest spine adjustment. A change of 25 grains makes a noticeable difference.</li><li>Do not tune a bare shaft <b>instead of</b> paper tuning. Use both.</li></ul>
+<div class="short">Bare shaft tuning started to be popular decades ago when cams were often out of time. The real fix is to time the cams, then use bare shafts to confirm the spine. If the shaft is badly off, check the cams first.</div>
+</section>
+<section class="pg" data-t="Step Eight: Broadhead Tuning"><h3>Step Eight: Broadhead Tuning</h3>
+<p>A broadhead does not fly like a field point. Its blades act like wings and steer the arrow. If your field points group and your broadheads land a hand-span off, you have a problem that matters most in the one shot that counts.</p>
+<p><b>The method.</b></p>
+<ol><li>Shoot <b>three field-tipped arrows</b> at 20 yards with your normal sight setting. Note the group.</li><li>Shoot <b>three arrows with broadheads</b> of the same weight, at the same aiming point, using practice or blunt heads (or your real ones on a safe target).</li><li>Compare the groups. They should overlap.</li></ol>
+<p><b>Reading it.</b></p>
+<ul><li>If the broadheads land <b>right</b> of the field points, move the rest <b>left</b>. If they land <b>left</b>, move the rest <b>right</b>.</li><li>If they land <b>high or low</b>, adjust the nock point.</li></ul>
+<p>(Move the rest the opposite way from where the broadheads are landing.)</p>
+<p><b>If they will not match.</b></p>
+<ul><li>Check the broadhead is <b>straight</b> on the shaft. Spin the arrow on a flat surface and watch for wobble. A bent ferrule or a head not seated properly causes a lot of trouble.</li><li>Try a <b>larger fletching</b> or a <b>helical offset</b> to give more steering.</li><li>Check your <b>FOC</b> and your <b>spine</b>. More weight in front and a slightly stiffer arrow often help.</li><li>Try a <b>different broadhead</b>. Some designs fly closer to field points than others.</li></ul>
+<p><b>Practice with the real thing.</b> Practice heads with the same weight and blade profile are available. Shoot a few real broadheads at a safe target to be sure, then sharpen or replace them.</p>
+<div class="short">Tuning for broadheads is the finishing step of tuning. If you cannot make your broadheads fly where your field points do, you are not ready to hunt with them.</div>
+</section>
+<section class="pg" data-t="Step Nine: Sighting In and the Shot Log"><h3>Step Nine: Sighting In and the Shot Log</h3>
+<p>Only now do you set your sight pins. Everything before changes where the arrow goes, so sighting-in too early means doing it twice.</p>
+<p><b>Sight in at 20 yards first.</b></p>
+<ol><li>Shoot a group at 20 yards. Move the sight <b>in the direction you want the arrow to go</b> (the pin follows the arrow).</li><li>Adjust until the arrows hit the centre. Then set the <b>30-yard pin</b>, then 40, and so on.</li><li>Use a <b>rangefinder</b> or measured distances. Guessing makes everything worse.</li></ol>
+<p><b>Check the gaps.</b> Using the drop numbers on page 40, the gap between the 20 and 30 yard pins should be smaller than the gap between 40 and 50. If they look wrong, check your arrow speed and your sight reading.</p>
+<p><b>Shoot the bow in all conditions.</b> Cold hands, a different light, wearing hunting clothes. Your point of impact may shift, and you want to know before the season.</p>
+<p><b>The shot log.</b> A notebook page, a spreadsheet or a note on your phone. Record:</p>
+<div class="tw"><table><thead><tr><th>Item</th><th>Setting</th></tr></thead><tbody><tr><td>Date</td><td></td></tr><tr><td>Draw weight / length</td><td></td></tr><tr><td>Brace height</td><td></td></tr><tr><td>Peep height / D-loop length</td><td></td></tr><tr><td>Nock height / centre shot</td><td></td></tr><tr><td>Rest timing</td><td></td></tr><tr><td>Arrow: shaft, spine, length, point weight, total weight, FOC</td><td></td></tr><tr><td>Speed (chronograph)</td><td></td></tr><tr><td>Sight pins: 20 / 30 / 40 / 50</td><td></td></tr><tr><td>Weather and notes</td><td></td></tr></tbody></table></div>
+<p><b>Why bother?</b> The log lets you return to a known good tune after changing a string or a rest, and notice slow changes (like string creep) before they cost you accuracy.</p>
+<div class="short">A tuned bow that you cannot reproduce is a lucky bow. Write it down.</div>
+</section>
+<section class="pg" data-t="Troubleshooting: Symptoms and Causes"><h3>Troubleshooting: Symptoms and Causes</h3>
+<p>A quick reference for when something is wrong. Always check the <b>simple</b> causes first: loose screws, a tired string, a tired archer.</p>
+<div class="tw"><table><thead><tr><th>Symptom</th><th>Likely causes</th></tr></thead><tbody><tr><td>Arrows fly erratically</td><td>Bent or damaged arrows, loose nock, loose rest, inconsistent anchor</td></tr><tr><td>Tail-high or tail-low tears that will not clear</td><td>Nock height wrong, rest height wrong, cams out of time, fletching clipping the rest</td></tr><tr><td>Tail-left or tail-right tears that will not clear</td><td>Centre shot wrong, spine wrong, grip torque, cam lean</td></tr><tr><td>Broadheads hit away from field points</td><td>Centre shot, spine, FOC, loose broadhead, small vanes</td></tr><tr><td>Bow is loud</td><td>Cams out of time, loose accessory, string or cables rubbing, arrow too light</td></tr><tr><td>Bow shakes in the hand</td><td>Limb or stabiliser dampers needed, riser torque</td></tr><tr><td>Draw feels harsh or has a double wall</td><td>Cams out of time, wrong module, draw length wrong for you</td></tr><tr><td>Peep tilts or spins</td><td>String twist, peep tie wrong, serving loose</td></tr><tr><td>Draw weight changed on its own</td><td>Limbs shifted, limb bolt loose, limb fatigue</td></tr><tr><td>Brace height drops</td><td>String or cables stretching</td></tr><tr><td>Group opens up at distance</td><td>Arrow spine, form, FOC, fletching</td></tr><tr><td>One group good, another bad</td><td>Form: try a different anchor, grip, release</td></tr><tr><td>Nock is popping off the string</td><td>Nock fit too tight or loose, D-loop height</td></tr><tr><td>Sight picture floats</td><td>Fatigue, anchor, too much draw weight, release panic</td></tr></tbody></table></div>
+<p><b>A strategy for every problem.</b></p>
+<ol><li><b>Stop shooting</b> if anything is broken or loose.</li><li><b>Change one thing.</b> Fix it. Test it.</li><li><b>Check form.</b> Most problems are about the archer.</li><li><b>If you are stuck,</b> take the bow to a pro shop and let someone watch you shoot.</li></ol>
+<div class="short">A tuned bow with a bad archer is a poor bow. A mediocre bow with a good archer will be a good bow. When in doubt, practise.</div>
+</section>
+<section class="pg" data-t="Maintenance: Keeping It Alive"><h3>Maintenance: Keeping It Alive</h3>
+<p>A bow lasts decades if you look after it. Neglect is the common killer.</p>
+<p><b>Every shoot.</b></p>
+<ul><li>Quick inspect: string, cables, limbs, cams, screws, arrows.</li><li>Wipe dust and grit off the strings and cams.</li></ul>
+<p><b>Every month, or every few hundred arrows.</b></p>
+<ul><li><b>Wax the string and cables</b> lightly, then rub it in with your fingers. This protects the fibres from abrasion and moisture.</li><li>Check <b>servings</b> and the D-loop.</li><li>Look at <b>brace height and draw weight</b>.</li><li>Lubricate cam axles only if the maker recommends it, and use the right lubricant.</li></ul>
+<p><b>Every season.</b></p>
+<ul><li>Check the <b>limb bolts</b> are tight and equal.</li><li>Check the <b>cam timing</b>.</li><li><b>Replace</b> worn servings, strings or cables.</li><li>Have a pro shop check the bow over, especially if it is old.</li></ul>
+<p><b>Every two to three years</b> (or sooner), <b>replace the string and cables</b> as a set. Fibre fatigues and cables creep. A fresh set makes the bow quieter, more accurate and safer.</p>
+<p><b>Storage.</b></p>
+<ul><li>Store the bow <b>cool and dry</b>, out of direct sun and not in a hot car. Heat damages limbs and softens adhesives.</li><li>Let the bow <b>down</b> gently. Never leave it drawn.</li><li>Hang or stand it so the limbs are not stressed. Keep it in a case for transport.</li></ul>
+<p><b>Transport in Australia.</b> The Australian sun and heat are hard on composite and glue. Do not leave the bow on a back seat in summer. If it has been very hot, check the limbs and the string before shooting.</p>
+<div class="short">A bow is a precision machine under high load. Look after it as you would any other machine you trust your safety to.</div>
+</section>
+<section class="pg" data-t="The Hunter's Ethic: Why the Bow Makes You Better" data-ch="Part Seven: The Hunt"><h3>The Hunter's Ethic: Why the Bow Makes You Better</h3>
+<p>A bow asks more of a hunter than a rifle does, and that is the point. Every decision that a long-range rifle forgives, a bow punishes. The result is a hunter who is more patient, closer, quieter and more honest about what they can do.</p>
+<p><b>The rules of the craft.</b></p>
+<ul><li><b>Know your limit.</b> Your maximum shot distance is the distance at which you can put <b>every</b> arrow into a small vital zone, in the worst conditions you will hunt in, not the best. For most hunters that is 20 to 30 yards, and many good ones are happy with less.</li><li><b>Never take a marginal shot.</b> If you have doubts, you let down. There will be another animal. There may not be another chance to find a wounded one.</li><li><b>Practise more than you hunt.</b> The woods are the exam, not the classroom.</li><li><b>Know the animal.</b> Learn how it behaves, where its vitals are, how it reacts to sound and scent.</li><li><b>Be willing to fail.</b> Most hunts end with no shot. That is part of the deal.</li></ul>
+<p><b>Australian rules to know (Victoria).</b> The Game Management Authority sets the framework:</p>
+<ul><li>You need a current <b>Game Licence endorsed for deer</b> to hunt deer recreationally.</li><li>Deer hunting is allowed from <b>30 minutes before sunrise to 30 minutes after sunset</b>. Night hunting and spotlighting are prohibited.</li><li>Bows must meet the <b>minimum draw weights and broadhead specifications</b> (page 12).</li><li>If a struck deer is still alive, the hunter must make <b>all reasonable efforts to dispatch it immediately</b>.</li><li>The Australian Deer Association and the GMA run a <b>deer hunting education course</b> that is a good place to start.</li></ul>
+<p>The Guide read these on the GMA website on 22 November 2026. Laws change. Read the current rules before every season and, if you ever hunt on land other than your own, get permission and know the boundaries.</p>
+<div class="short">The hunter's real skill is not the shot. It is the decision not to shoot.</div>
+</section>
+<section class="pg" data-t="Shot Placement and Reading the Animal"><h3>Shot Placement and Reading the Animal</h3>
+<p>A bow kills by <b>haemorrhage</b>, which is loss of blood, not by shock. That means a hit has to open the big vessels, and that means <b>the chest cavity</b>: the heart and lungs.</p>
+<p><b>The vital zone.</b> On a deer, the heart and lungs sit behind the front shoulder, low in the chest. The ideal target is a point <b>just behind the shoulder, about a third of the way up from the belly</b> (roughly the middle of the chest, a hand-width behind the front leg).</p>
+<p><b>The angle matters more than the aim.</b></p>
+<ul><li><b>Broadside:</b> the best presentation. The animal stands at right angles to you. A clear, simple shot.</li><li><b>Quartering away:</b> the animal angles away. A good shot if you aim a little further back and keep the arrow on a line toward the opposite shoulder.</li><li><b>Quartering toward and head-on:</b> avoid. The shoulder bone and a small target make these poor, risky shots for a bow.</li><li><b>Straight down from a tree stand:</b> the aiming point changes (the arrow passes through high, exits low). Practise from height.</li></ul>
+<p><b>Reading the animal.</b></p>
+<ul><li><b>Relaxed:</b> feeding, chewing, ears forward and at rest. The best time to shoot.</li><li><b>Alert:</b> head up, ears turning, tail flicking. Wait. Do not draw. Many animals will go back to feeding if you stay still.</li><li><b>Alarmed:</b> a stamping or bounding animal. Let it go.</li></ul>
+<p><b>The wind.</b> Deer live by their noses. Always hunt <b>into the wind or across it</b>, and watch for your scent being carried to where the animal will come from. Many hunters carry a small bag of powder or a thread to see air movement.</p>
+<p><b>Timing the shot.</b> Draw only when the animal is <b>not looking</b> at you, is <b>moving behind cover</b>, or is <b>fully relaxed</b>. A drawn bow is a lot of movement. Draw while the animal's head is down or behind a tree.</p>
+<p><b>After the shot, watch.</b> Where did the animal run? How did it react? Mark the spot where the arrow struck, and where the animal was when it fled.</p>
+<div class="short">Learn animal anatomy from a trusted source (the Victorian deer hunting course teaches it). The diagram in your head decides the outcome.</div>
+</section>
+<section class="pg" data-t="After the Shot: Tracking and Recovery"><h3>After the Shot: Tracking and Recovery</h3>
+<p>The shot is only part of the hunt. The hunter's ethical duty continues until the animal is found.</p>
+<p><b>The first minutes.</b></p>
+<ul><li><b>Stay still and quiet</b> after the shot. Note the animal's direction and any sounds (crashing, a fall).</li><li><b>Mark your location</b> and the place the animal stood, using a bright tape, a GPS or a phone marker.</li><li><b>Wait before following up</b> (many hunters wait about 30 minutes for a lung or heart hit, longer if unsure). A hasty follow up can push a wounded animal a long way. If you saw it fall or it is clearly dying, you can move sooner. This is general guidance. Use your judgement and the advice of an experienced hunter.</li></ul>
+<p><b>The blood trail.</b></p>
+<ul><li>Start at the <b>spot where the animal stood</b> and look for the <b>arrow</b> (it often lies nearby, covered in blood), hair and blood.</li><li>Blood colour and pattern tell a story. Bright, frothy blood suggests lungs. Dark blood suggests liver or muscle. Bright red and spurting suggests an artery.</li><li><b>Mark every spot</b> with tape so you can see the line the animal took.</li><li><b>Go slowly, in a group</b> if possible. One person stays on the last blood while the others look ahead.</li></ul>
+<p><b>If you cannot find it.</b> Keep looking. Search in widening circles. Many animals go downhill or toward water. Most are found when the hunter does not give up. Report to the proper authority if required, and learn from it.</p>
+<p><b>Dispatch.</b> If the animal is alive when you find it, you must finish it <b>quickly and humanely</b>. The law in Victoria requires all reasonable efforts to dispatch a struck deer immediately. Know in advance how you will do this legally and safely.</p>
+<p><b>Field care.</b> Once the animal is dead, handle it cleanly and cool it down quickly, especially in Australia's heat. A hunter who takes an animal takes responsibility for its use.</p>
+<p><b>The Greenie lesson.</b> Every animal taken is one you are accountable for. It is why careful bowhunters often end up the most protective of the land. They know exactly what it costs.</p>
+<div class="short">A bowhunter who cares about the land and the animal is doing conservation work with a very old tool.</div>
+</section>
+<section class="pg" data-t="The Road to Building Your Own" data-ch="Part Eight: Building a Compound Bow in Australia"><h3>The Road to Building Your Own</h3>
+<p>Now the real goal. You want to design, build and shoot your own compound bow, made in Australia. It is a serious project. It is also a possible one, because every part of a compound bow is made with processes that exist in ordinary workshops.</p>
+<p><b>The honest picture.</b> A bow has five groups of parts, in rising order of difficulty:</p>
+<div class="tw"><table><thead><tr><th>Part</th><th>Difficulty</th><th>Why</th></tr></thead><tbody><tr><td>Strings and cables</td><td>Easy</td><td>A jig, fibre and patience</td></tr><tr><td>Arrows and accessories</td><td>Easy to moderate</td><td>Mostly assembly</td></tr><tr><td>Riser</td><td>Moderate</td><td>A CNC mill and good drawings</td></tr><tr><td>Cams and axles</td><td>Hard</td><td>Precise profiles, bearings, and a lot of iteration</td></tr><tr><td>Limbs</td><td>Hardest</td><td>Composite layup, tooling, fatigue</td></tr></tbody></table></div>
+<p>The sensible path is to learn the bow in layers, and to <b>buy the hardest parts at first</b>:</p>
+<ol><li><b>Shoot and tune</b> a commercial bow until you know it intimately (Parts One to Six).</li><li><b>Build</b> your own strings, cables and arrows.</li><li><b>Measure</b> your bow: the force-draw curve, speed, efficiency (page 70).</li><li><b>Design and machine a riser</b> that takes <b>commercial limbs and cams</b> (this is the classic first step for a home builder).</li><li><b>Design and make cams</b> to your own profiles, tested on a rig.</li><li><b>Design and make limbs.</b> The last frontier.</li></ol>
+<p><b>Time and cost.</b> The first working bow is a year of evenings, not a weekend. Expect broken prototypes. Plan a budget for materials, machining and testing, and treat the failures as tuition.</p>
+<p><b>What you already have.</b> You work with pressure, temperature, mechanical systems and tight tolerances in your day job. The thermodynamic intuition and the mechanical sense carry over. What you need to add is <b>structural mechanics</b> (beams and fatigue), <b>materials</b> (composites and aluminium), and <b>measurement</b> (force, displacement and speed).</p>
+<div class="short">The Guide's rule for a builder: never skip a test. Every shortcut you take in building a bow is a shortcut you take with a loaded spring near your face.</div>
+</section>
+<section class="pg" data-t="Made in Australia: The Landscape"><h3>Made in Australia: The Landscape</h3>
+<p>You can plausibly make almost everything in Australia. Here is how to think about the supply chain, without naming businesses (the Guide cannot verify them and they change).</p>
+<p><b>Metal.</b></p>
+<ul><li><b>Aluminium plate and bar</b> in 6061 and 7075 tempers are standard stock at metal suppliers in every capital city. Ask for the <b>temper (T6 or T651)</b> and a mill certificate.</li><li><b>Steel</b> for axles and fasteners: alloy steels such as 4140 or stainless grades are readily available.</li></ul>
+<p><b>Machining.</b></p>
+<ul><li><b>CNC job shops</b> that can mill aluminium to tight tolerances exist in most regional centres and cities. For a riser you want a <b>3-axis or 5-axis machining centre</b>; for cam profiles, a <b>wire EDM</b> or a precise CNC mill.</li><li><b>Your own machine.</b> A hobby or small desktop CNC can do a first riser from plate, though large aluminium pieces are demanding on small machines.</li><li><b>Anodising and heat treatment</b> services are available in the major cities, often from the same shops that serve aerospace and marine work.</li></ul>
+<p><b>Composites.</b></p>
+<ul><li><b>Glass fibre, carbon fibre, epoxy resin and prepreg</b> are sold through Australian composites suppliers, mainly aimed at boat building, surfboards and motorsport. Hobby quantities are available.</li><li>You will need an <b>oven or heated press</b> for curing, and a <b>vacuum pump</b> for bagging.</li><li><b>Fibre grades matter.</b> Ask for the datasheet of any product you use: modulus, strength and cure schedule.</li></ul>
+<p><b>Strings and bearings.</b></p>
+<ul><li><b>String fibre</b> (UHMWPE and blends) and <b>serving thread</b> are sold by archery suppliers and online.</li><li><b>Sealed ball bearings</b> for cams are standard industrial parts.</li></ul>
+<p><b>Testing.</b></p>
+<ul><li><b>Materials testing laboratories</b> in Australia can test tensile and flexural properties of your composite and your aluminium to standards. This is how you turn a guess into data.</li></ul>
+<p><b>Law and liability (read, then ask a professional).</b></p>
+<ul><li>Making a bow for your own use is one thing. <b>Selling</b> one is another: the Australian Consumer Law applies to products you sell, and a product that fails and injures someone creates serious liability. Get proper advice and insurance before you sell anything.</li><li>Hunting rules still apply to anything you hunt with (page 12).</li><li>Check whether any state rules affect owning, carrying or transporting bows where you live.</li></ul>
+<div class="short">Australia is a small market but a big country of makers. The skills, machines and materials are here.</div>
+</section>
+<section class="pg" data-t="Step 1: The Design Brief and the Energy Budget"><h3>Step 1: The Design Brief and the Energy Budget</h3>
+<p>Every engineering project starts with a brief. Write yours before you draw anything. Here is a worked example, with numbers.</p>
+<p><b>The brief.</b></p>
+<ul><li>Hunting compound for deer (meets Victorian minimums: <b>50 lb or more</b>, <b>400 gr arrow</b>).</li><li>Draw length: <b>your</b> draw length (say 30 in).</li><li>Target arrow: <b>420 gr at 300 fps</b>.</li><li>Quiet, reliable, and with a back wall.</li></ul>
+<p><b>Step A: How much arrow energy is needed?</b></p>
+<div class="fm">KE = 420 x 300^2 / 450,240 = 84.0 ft-lb</div>
+<p><b>Step B: How much energy must the bow store?</b> Assume an efficiency of 80%.</p>
+<div class="fm">Stored energy = 84.0 / 0.80 = 105 ft-lb = 1,260 in-lb = 142 J</div>
+<p><b>Step C: What average force over the power stroke?</b> Assume a power stroke of 24 in.</p>
+<div class="fm">Average force = 1,260 / 24 = 52.5 lb</div>
+<p><b>Step D: What peak weight?</b> Choose an area factor (page 8). A good compound is about 0.75.</p>
+<div class="fm">Peak draw weight = 52.5 / 0.75 = <b>70 lb</b></div>
+<p>So the brief says: <b>a 70 lb bow with a 24 in power stroke and a force curve with area factor about 0.75, at 80% efficiency</b>.</p>
+<p><b>Step E: How is the energy shared between the limbs?</b> Two limbs: about <b>71 J each</b>. Use the limb formulas (page 24) to size them.</p>
+<p><b>Step F: How far must the limb tips travel?</b> If the string travels 24 in (610 mm) and each limb tip travels about 70 mm, the cam ratio is roughly 8.7 to 1. The average tip load per limb is about:</p>
+<div class="fm">Force = Energy / Distance = 71 J / 0.070 m = about 1,010 N (230 lbf)</div>
+<p>and the peak is larger, perhaps 1,300 N or more.</p>
+<p><b>Where to go from here.</b> If you want a lower draw weight (for example 55 lb), repeat the calculation. The arithmetic scales.</p>
+<div class="short">The brief is a set of numbers you can test. A bow that misses them is not a failure. It is information.</div>
+</section>
+<section class="pg" data-t="Step 2: Choosing the Architecture"><h3>Step 2: Choosing the Architecture</h3>
+<p>Before you design parts, choose the type of bow. Each option trades simplicity against performance.</p>
+<p><b>For a first scratch-built bow.</b></p>
+<ul><li><b>Single cam with idler wheel (solo cam).</b> Fewest parts, simplest geometry, forgiving to tune. A sensible first design.</li><li><b>Hybrid or binary cams.</b> Higher performance, but you must design two cams that work together, and the timing matters.</li><li><b>Split limbs, parallel limbs.</b> Parallel limbs give a very quiet shot but need a taller, stiffer riser and careful geometry.</li></ul>
+<p><b>Decisions to make.</b></p>
+<div class="tw"><table><thead><tr><th>Decision</th><th>Options</th><th>Guide's lean for a first build</th></tr></thead><tbody><tr><td>Cam system</td><td>Solo, hybrid, binary</td><td>Solo or hybrid</td></tr><tr><td>Limbs</td><td>Solid, split</td><td>Split or solid, whichever you can make</td></tr><tr><td>Riser</td><td>Deflex, reflex</td><td>Deflex (forgiving)</td></tr><tr><td>ATA</td><td>30 to 34 in</td><td>32 in</td></tr><tr><td>Brace height</td><td>6.5 to 7.5 in</td><td>7 in</td></tr><tr><td>Let-off</td><td>75 to 85%</td><td>80%</td></tr><tr><td>Draw weight (prototype)</td><td>Start low</td><td><b>35 to 40 lb</b> for the first prototype</td></tr></tbody></table></div>
+<p><b>Start low.</b> The first version should be a <b>half-power bow</b>. The forces are proportional to draw weight, so a 35 lb prototype stores about half the energy and has a much bigger margin if something breaks. You prove the geometry, the cam action and the tuning at low risk. Then you scale up.</p>
+<p><b>Design by stages.</b> Do not design the entire bow in one go. A sensible order:</p>
+<ol><li>Choose the <b>geometry</b> (ATA, brace, power stroke, string angle).</li><li>Choose the <b>limb stiffness and travel</b>.</li><li>Design the <b>cam</b> to give the target force curve.</li><li>Design the <b>riser</b> to hold it all.</li><li>Do a <b>paper simulation</b> of the full draw.</li><li><b>Prototype</b> and test.</li></ol>
+<div class="short">Copying a successful geometry from published patents or a commercial bow's published specs is an excellent way to start. Change one variable at a time as you learn.</div>
+</section>
+<section class="pg" data-t="Step 3: Designing the Riser"><h3>Step 3: Designing the Riser</h3>
+<p>The riser is a structure. Design it like one.</p>
+<p><b>What the riser sees.</b> The limbs push on the pockets along their length with forces of the order of <b>1,000 to 1,500 N each</b>, and the hand resists the draw force at the grip. The result is mainly <b>compression along the riser</b> with some bending from the offsets between the force lines.</p>
+<p><b>A first-order stress check.</b> Suppose each pocket is loaded with 1,500 N along the riser, offset 25 mm from the centreline of a 20 mm by 30 mm aluminium section:</p>
+<div class="fm">Bending moment M = 1,500 N x 0.025 m = 37.5 N.m<br>Section modulus Z = b h^2 / 6 = 0.02 x 0.03^2 / 6 = 3.0 x 10^-6 m^3<br>Bending stress = M / Z = 12.5 MPa<br>Axial stress = 1,500 / (0.02 x 0.03) = 2.5 MPa</div>
+<p>Those are <b>tiny</b> compared with the yield strength of 7075-T6 (several hundred MPa). So the <b>average</b> stress in the section is not the problem.</p>
+<p><b>What actually governs.</b></p>
+<ol><li><b>Stiffness.</b> The riser must not flex, or energy is wasted and the tune drifts. The deflection of the pockets under load is the design limit.</li><li><b>Stress concentrations.</b> Around holes, pocket corners and thin webs, stress can be <b>two to three times</b> the average. Use generous radii and avoid sharp internal corners.</li><li><b>Fatigue.</b> The load is cyclic. Aluminium fatigue strength is far below its static strength (of the order of 150 MPa for 7075-T6 at high cycle counts). Local stress at notches must stay well below that.</li><li><b>Mass.</b> Material is removed to save weight, so the design is a compromise between stiffness and weight.</li></ol>
+<p><b>The design workflow.</b></p>
+<ol><li>Sketch the profile (side view) to hold the geometry.</li><li>Make a <b>3D CAD model.</b></li><li>Run a <b>finite element analysis</b> (FEA) with the real loads and fixtures. Free and low-cost software is capable of this.</li><li>Look at <b>deflection</b> and <b>peak local stress</b>. Add material where stress is high, remove where it is low.</li><li>Add <b>mounting holes</b> with standard threads (accessory standards are the same worldwide) and fit the pocket and grip designs.</li><li>Check <b>machining feasibility</b>. A shape that cannot be cut is no use.</li></ol>
+<p><b>Safety factor.</b> Aim for a factor of safety of <b>at least 2</b> on yield and a fatigue margin of 2 or more, then validate by test.</p>
+<div class="short">Do not weaken a riser by adding holes near the limb pockets or at the grip. Every hole is a stress concentration.</div>
+</section>
+<section class="pg" data-t="Step 4: Machining the Riser"><h3>Step 4: Machining the Riser</h3>
+<p>A riser can be cut from a single plate of aluminium on a CNC mill.</p>
+<p><b>Material.</b> 7075-T651 plate (T651 means stress-relieved, so it holds its shape while cutting) in a thickness that suits the design, or 6061-T651 if you want easier machining.</p>
+<p><b>The process.</b></p>
+<ol><li><b>Cut the blank</b> oversize from plate.</li><li><b>Machine the datum faces</b> flat and square, which are the reference for everything else.</li><li><b>Rough the profile</b> and the sight window, leaving material to finish.</li><li><b>Finish</b> the pocket seats, the axle holes, the grip and the mounting holes.</li><li><b>Flip and machine the second side</b> with a precise fixture so the two sides line up.</li><li><b>Deburr</b> and break the edges. A sharp edge is a crack starter.</li><li><b>Tap the threads</b> (or fit thread inserts).</li><li><b>Anodise or coat</b> for corrosion protection.</li></ol>
+<p><b>Tolerances to hold.</b></p>
+<ul><li><b>Pocket faces:</b> flat and square within about 0.05 mm.</li><li><b>Axle and pivot holes:</b> accurate to about 0.02 mm of location and a good fit.</li><li><b>Pocket-to-pocket distance and alignment:</b> both pockets must be in the same plane. Any twist shows up as cam lean.</li></ul>
+<p><b>Quality control.</b></p>
+<ul><li>Measure with <b>calipers and micrometers</b>, a surface plate and height gauge, or have the part checked on a <b>coordinate measuring machine</b> (CMM).</li><li>Make a <b>go/no-go gauge</b> for the pocket if you are making more than one.</li></ul>
+<p><b>Mistakes to avoid.</b></p>
+<ul><li><b>Chatter</b> (vibration marks) from poor tool choice leaves surface defects that become fatigue cracks.</li><li><b>Heat</b> from welding or heavy fabrication destroys the T6 temper. Do not weld a heat-treated riser.</li><li><b>Cutting a pocket slightly too tight</b> is a lot harder to fix than too loose.</li></ul>
+<div class="short">If you do not have a mill, a CNC job shop can machine your design. Hand them a clean drawing with tolerances and the material and temper. That is a legitimate way to build.</div>
+</section>
+<section class="pg" data-t="Step 5: Designing the Limbs"><h3>Step 5: Designing the Limbs</h3>
+<p>Limbs are the hardest part of a bow to make. Many home builders buy them. If you do design your own, here is the process.</p>
+<p><b>Inputs from the brief.</b> Energy per limb (about 71 J for the 70 lb example), the tip travel (about 70 mm), and the peak tip load (over 1,000 N).</p>
+<p><b>Geometry.</b> A limb is a tapered beam. Choose:</p>
+<ul><li><b>Length</b> (longer is smoother and lighter-stressed; shorter is more compact).</li><li><b>Width and thickness profile</b> (taper so the whole limb works at near the same stress).</li><li><b>Pre-load:</b> how much the limb is flexed at brace (set by the pocket angle).</li></ul>
+<p><b>Material system.</b> Unidirectional glass-epoxy is the usual starting point. For a given design the numbers (page 24) tell you the volume. Then refine with FEA, including the changing load direction as the cam rotates.</p>
+<p><b>Layup.</b></p>
+<ul><li><b>Unidirectional layers</b> along the limb carry bending.</li><li><b>A few off-axis layers</b> (plus or minus 45 degrees) resist twisting and splitting.</li><li><b>A core</b> (foam or wood) can thicken the section for stiffness.</li><li><b>A surface veil</b> protects the fibre and gives a good finish.</li></ul>
+<p><b>Manufacturing.</b></p>
+<ol><li><b>Make a mould</b> (machined aluminium or a high-temperature composite tool) in the limb's unloaded shape.</li><li><b>Lay up</b> the plies, wetted with resin or pre-impregnated.</li><li><b>Cure</b> under pressure and heat (a heated press or a vacuum bag in an oven) following the <b>resin maker's cure schedule exactly</b>.</li><li><b>Trim and grind</b> to the final outline, then finish the surface and ends.</li><li><b>Fit the tip hardware</b> (the axle mount) and the root (pocket fit).</li></ol>
+<p><b>What goes wrong.</b></p>
+<ul><li><b>Voids and dry spots</b> from poor wetting.</li><li><b>Fibre waviness</b> that cuts strength.</li><li><b>Delamination</b> at the tips and root from stress concentrations.</li><li><b>Creep</b> if the resin cure is poor or the temperature too high in use.</li></ul>
+<p><b>Testing every limb</b> (next pages) is not optional.</p>
+<div class="short">A limb is a safety-critical part: a failing limb throws shards. Build the first limbs at low draw weight, test them in a barricaded rig, and treat each as unproven until it has passed a long fatigue test.</div>
+</section>
+<section class="pg" data-t="Step 6: Designing and Making Cams"><h3>Step 6: Designing and Making Cams</h3>
+<p>Now the part that makes it a compound bow.</p>
+<p><b>Design.</b> Use the principle from page 28: the cam's radii define the force curve. Software helps: write a short script, in any language, that steps through cam rotation, computes string payout and cable take-up from the profile, runs the limb spring model, and outputs the draw force at each inch. Then adjust the profile until the curve matches your target (for example, the 70 lb peak, 80% let-off shape in the brief).</p>
+<p><b>Practical constraints.</b></p>
+<ul><li><b>Minimum cable radius</b> (the let-off pocket) must be physically possible.</li><li><b>Smooth curvature.</b> Sudden changes in radius cause a jerky draw and wear the string.</li><li><b>Cable and string tracks</b> need grooves of the right depth and width for the fibre.</li><li><b>Mass and moment of inertia.</b> A light cam accelerates faster at the shot and adds less virtual mass.</li><li><b>Draw stop</b> position, and <b>modules</b> if you want adjustable draw length.</li></ul>
+<p><b>Material.</b> 6061 or 7075 aluminium is typical. Hard-anodise the string track for wear resistance.</p>
+<p><b>Making it.</b></p>
+<ul><li><b>Wire EDM</b> cuts a precise outline from plate, with a clean edge.</li><li><b>CNC milling</b> gives the same, plus grooves and pockets, in one setup.</li><li><b>Tolerance on the profile:</b> about 0.05 mm. The cam's shape <b>is</b> the force curve, so an error shows up in the draw.</li></ul>
+<p><b>Axles and bearings.</b></p>
+<ul><li><b>Axle:</b> hardened alloy steel, ground, with a precise fit to the bearings.</li><li><b>Bearings:</b> sealed ball bearings sized for the load. Compute the load from the string and cable tensions at the axle.</li><li><b>Mount:</b> the limb tip must hold the axle without play and with the cam centred.</li></ul>
+<p><b>Checking.</b></p>
+<ul><li><b>Spin the cam by hand.</b> It must turn freely.</li><li><b>Check cam lean:</b> the cam must sit square. Any tilt twists the arrow's path.</li><li><b>Test with a weak string</b> at low draw weight on a rig, before using a full load.</li></ul>
+<div class="short">Cams are where the invention lives. Spend the time here, test many variations at low draw weight, and keep every profile you try. You will be surprised by what the data teaches you.</div>
+</section>
+<section class="pg" data-t="Step 7: Building Strings and Cables"><h3>Step 7: Building Strings and Cables</h3>
+<p>You can make a set of strings and cables on the first day, so do it early. It teaches you more than any reading.</p>
+<p><b>The jig.</b> A string jig is a pair of adjustable posts on a rigid base, set to the length of the string. Many are home-made from steel or aluminium. A cable jig is the same idea, with extra posts for the yoke.</p>
+<p><b>The materials.</b></p>
+<ul><li><b>String fibre:</b> a high-modulus fibre, with the <b>breaking strength</b> on the datasheet. Choose the number of strands so the loop's breaking strength is at least <b>five times</b> the highest working tension. The string leg tension at peak draw is about 40 lb in the example (F / (2 cos alpha)), and cables and cams carry more.</li><li><b>Serving thread:</b> a stronger, slick thread for the serving areas.</li><li><b>Wax:</b> string wax for finishing.</li></ul>
+<p><b>The process.</b></p>
+<ol><li><b>Measure</b> the length required, from the design or an existing string.</li><li><b>Wind the strands</b> around the posts with even tension and count the turns.</li><li><b>Add the end serving</b> where the string wraps around the cam, and the <b>centre serving</b> where the arrow and release will touch.</li><li><b>Pre-stretch</b> the string under load for a time, or the finished string will creep in use.</li><li><b>Add twists</b> to adjust length, then tie in the D-loop.</li><li><b>Check the length</b> on the bow in a press.</li></ol>
+<p><b>Length precision.</b> A change of a few millimetres in string length changes brace height and cam timing. Make strings with a <b>length tolerance of about 1 mm</b>.</p>
+<p><b>What matters most.</b></p>
+<ul><li><b>Even tension</b> in all the strands. One loose strand carries nothing, and the others are overloaded.</li><li><b>Neat serving.</b> Gaps and loose wraps wear quickly.</li><li><b>Consistency.</b> A string you can repeat is a string you can tune.</li></ul>
+<div class="short">A string failure at full draw can be violent. Always test a new string at <b>low draw weight first</b>, and wear eye protection.</div>
+</section>
+<section class="pg" data-t="Step 8: Assembly, First Draw and Proof Testing"><h3>Step 8: Assembly, First Draw and Proof Testing</h3>
+<p>This is the dangerous part. Do it slowly and in order.</p>
+<p><b>The test rig.</b></p>
+<ul><li>A <b>rigid frame</b> that holds the bow, with a <b>winch or mechanical draw</b> that pulls the string back without you being in the line of fire.</li><li>A <b>load cell or scale</b> in line, and a <b>ruler or displacement sensor</b>, to record force versus distance.</li><li><b>Barricades and eye protection.</b> Nobody stands in the plane of the limbs.</li></ul>
+<p><b>Test sequence.</b></p>
+<ol><li><b>Assemble</b> the bow and check every fit and fastener.</li><li><b>Static check:</b> string it with the bow in a press (it is safer), check brace height and cam position.</li><li><b>Low-weight draw:</b> with the limbs set to a low draw weight, draw about a quarter of the stroke on the rig. Look and listen. Let down.</li><li><b>Increase in steps:</b> half, three quarters, full draw. Stop after each step and <b>inspect</b>.</li><li><b>Record the force-draw curve</b> every half inch. Compare with the design.</li><li><b>Hold at full draw</b> for a minute with the rig, watching for creep or noise.</li><li><b>Shoot a test arrow</b> from a <b>fixed, remote-fired rig</b> behind a barricade, <b>never from your hand</b> on a first test. The arrow must be heavy and straight, within the bow's minimum.</li><li><b>Repeat</b> after any adjustment.</li></ol>
+<p><b>Proof load.</b> Many designers test to a load <b>above</b> the working load (for example 110 to 125% of peak draw weight) to confirm there is margin. Do it only on the rig.</p>
+<p><b>Fatigue.</b> Cycle the draw thousands of times on the rig. Check draw weight, brace height and cracks every thousand cycles. A limb that loses weight or shows new marks is failing.</p>
+<p><b>Heat and cold.</b> Test at the temperatures the bow will meet. Australian cars reach very high temperatures. Check whether a hot-soaked limb creeps or changes draw weight.</p>
+<p><b>Stop criteria.</b> Stop immediately for any cracking, creaking, delamination, movement of a limb in the pocket, string damage or cam wobble.</p>
+<div class="short">The first test shot from your bow should happen when nobody is in danger if the bow fails. The Guide would rather you built a rig twice than a hospital bill once.</div>
+</section>
+<section class="pg" data-t="Step 9: Measure Your Own Bow"><h3>Step 9: Measure Your Own Bow</h3>
+<p>Building is half of engineering. Measuring is the other half.</p>
+<p><b>The force-draw curve.</b> Mount the bow on a draw board with a scale. At each half inch of draw, record the force. Plot it. Then:</p>
+<div class="fm">Stored energy = area under the curve (use the trapezoid rule)<br>Area factor = energy / (peak force x power stroke)<br>Let-off = 1 - (holding force / peak force)</div>
+<p><b>Arrow speed.</b> Use a chronograph. Shoot several arrows of <b>different weights</b> (for example 250, 350 and 450 grains) and record speeds.</p>
+<p><b>Efficiency and virtual mass, from data.</b> The simple model says:</p>
+<div class="fm">v^2 = 2 x eta_s x E / (m + m_v)<br>so 1 / v^2 = (m + m_v) / (2 x eta_s x E)</div>
+<p>That is a <b>straight line</b> when you plot 1 / v^2 against the arrow mass m. Take the model bow from earlier, which gives speeds of 375, 326 and 292 fps for 250, 350 and 450 grains:</p>
+<div class="fm">1 / v^2 = 7.11e-6, 9.41e-6, 11.73e-6<br>Slope = 2.31e-8 per grain, intercept = 1.336e-6<br>m_v = intercept / slope = about <b>58 grains</b></div>
+<p>That recovers the virtual mass used to create the numbers (60 grains). With a real bow and real chronograph data, you get your bow's <b>virtual mass</b> and, from the slope, its <b>static efficiency</b>.</p>
+<p><b>What to do with it.</b></p>
+<ul><li><b>Compare designs.</b> A new cam or lighter limb should lower m_v or raise efficiency.</li><li><b>Find waste.</b> If measured speed is far below the energy calculation, the bow has losses to hunt down.</li><li><b>Predict.</b> Once you know m_v, you can predict the speed for any arrow weight.</li></ul>
+<p><b>More measurements.</b></p>
+<ul><li><b>Noise</b> (a phone sound meter is a rough start).</li><li><b>Vibration</b> (a phone accelerometer on the riser).</li><li><b>Draw weight drift</b> over time and temperature.</li><li><b>Brace height drift</b> (string creep).</li></ul>
+<div class="short">Anything you can measure, you can improve. The force-draw curve and the chronograph are the two instruments that turn a bow-maker into an engineer.</div>
+</section>
+<section class="pg" data-t="Step 10: Iterate, Log and Improve"><h3>Step 10: Iterate, Log and Improve</h3>
+<p>No first bow is the final bow. The way to a great one is a disciplined loop.</p>
+<p><b>The loop.</b></p>
+<ol><li><b>Hypothesis:</b> "If I make the let-off pocket 1 mm wider, the valley widens."</li><li><b>Change one thing.</b></li><li><b>Measure</b> the same things as before.</li><li><b>Record</b> the result.</li><li><b>Decide:</b> keep, undo or refine.</li></ol>
+<p><b>Keep a build log.</b> For every prototype, record:</p>
+<ul><li>Version number and date.</li><li>Design changes since the last version.</li><li>Materials and process (including the resin batch and cure schedule).</li><li>Test results: force-draw curve, speed, noise, weight, fatigue cycles.</li><li>Photos.</li><li>What failed, and why.</li></ul>
+<p><b>Expect failures.</b> A first limb might delaminate. A first cam might be rough. A first riser might flex too much. Each failure is an experiment with a result.</p>
+<p><b>Design of experiments.</b> Change one parameter at a time, or use a planned grid of changes (for example, two cam profiles at two limb stiffnesses). A table of results will show interactions you would otherwise miss.</p>
+<p><b>Scaling up.</b> Once a low-weight prototype performs to design, increase the draw weight in stages (35, 45, 55 lb) with a full test at each stage. Do not jump to the full weight.</p>
+<p><b>Know when to stop.</b> At some point the bow is good enough to hunt with. Tune it, practise with it and trust it only after it has passed fatigue testing and many hundreds of shots on the range.</p>
+<div class="short">The difference between a hobby build and engineering is the <b>log</b>. Keep it.</div>
+</section>
+<section class="pg" data-t="The Mastery Ladder"><h3>The Mastery Ladder</h3>
+<p>A map of the whole journey, as levels. Tick them off.</p>
+<p><b>Level 1: Shooter.</b> You can draw, anchor, aim and release consistently. You know the parts and the safety rules.</p>
+<p><b>Level 2: Fitter.</b> You know your draw length and weight, and you can select arrows by spine and weight.</p>
+<p><b>Level 3: Tuner.</b> You can time the cams, set the rest and nock, paper tune, walk-back tune, bare-shaft tune and broadhead tune a bow, and keep a log.</p>
+<p><b>Level 4: Arrow maker.</b> You build matched arrows, weigh them, balance them and know your FOC.</p>
+<p><b>Level 5: String maker.</b> You make strings and cables to length, serve them and tie D-loops.</p>
+<p><b>Level 6: Analyst.</b> You measure force-draw curves, speeds and efficiency, and you can calculate stored energy, area factor and virtual mass.</p>
+<p><b>Level 7: Riser maker.</b> You can design and machine a riser that takes commercial limbs and cams, and tune a bow built on it.</p>
+<p><b>Level 8: Cam designer.</b> You can design, make and test cams with a target force curve.</p>
+<p><b>Level 9: Limb maker.</b> You can design, lay up, cure and fatigue-test limbs.</p>
+<p><b>Level 10: Bow maker.</b> You can design, build, test and shoot a complete compound bow made in Australia, and know every number on it.</p>
+<p><b>A realistic timeline.</b> Levels 1 to 3 take a season or two. Levels 4 to 6 another season. Levels 7 to 10 are a multi-year project that can run alongside hunting and work.</p>
+<div class="short">You do not have to get to level 10 to benefit. Every level makes you better and safer. The Guide believes you will enjoy the climb, which is the point of the thing.</div>
+</section>
+<section class="pg" data-t="Formula Sheet"><h3>Formula Sheet</h3>
+<p>All the maths from this book on one page.</p>
+<p><b>Units</b></p>
+<div class="fm">1 grain = 0.0648 g, 1 fps = 0.3048 m/s, 1 ft-lb = 1.356 J, 1 lb = 4.448 N</div>
+<p><b>Energy and momentum</b></p>
+<div class="fm">Kinetic energy (ft-lb) = m(gr) x v(fps)^2 / 450,240<br>Momentum (slug-ft/s) = m(gr) x v(fps) / 225,400<br>Speed (fps) = sqrt( KE x 450,240 / m )</div>
+<p><b>Bow</b></p>
+<div class="fm">Energy stored = area under the force-draw curve<br>Area factor = energy / (peak force x power stroke)<br>Let-off % = (1 - holding / peak) x 100<br>Power stroke is about draw length - brace height<br>Arrow efficiency = eta_s x m / (m + m_v)</div>
+<p><b>Cam</b></p>
+<div class="fm">T_s x r_string = T_c x r_cable<br>F_draw = T_cable x (r_cable / r_string)<br>String leg tension T_s = F / (2 cos alpha)</div>
+<p><b>Limb (cantilever)</b></p>
+<div class="fm">Stiffness k = 3 E I / L^3, I = b h^3 / 12<br>Root stress = F L (h/2) / I<br>Strain energy, uniform: U = sigma^2 V / (18 E)<br>Strain energy, constant strength: U = sigma^2 V / (6 E)</div>
+<p><b>Arrow</b></p>
+<div class="fm">%FOC = 100 x (A - L/2) / L<br>Spine = deflection in thousandths of an inch (1.94 lb weight, 26 in span)</div>
+<p><b>Sights</b></p>
+<div class="fm">Drop = 1/2 g t^2, t = distance / speed (g = 32.2 ft/s^2)</div>
+<p><b>Sound</b></p>
+<div class="fm">Speed of sound is about 343 m/s (1,125 fps)</div>
+<p><b>Moment of inertia</b></p>
+<div class="fm">I = m r^2 (a weight twice as far out counts four times as much)</div>
+<p><b>Efficiency from data</b></p>
+<div class="fm">1 / v^2 = (m + m_v) / (2 x eta_s x E), a straight line in m</div>
+</section>
+<section class="pg" data-t="Glossary"><h3>Glossary</h3>
+<p><b>AMO / IBO:</b> archery standards bodies. IBO speed is quoted at 70 lb, 30 in draw, 350 gr arrow.</p>
+<p><b>Anchor:</b> the fixed point on your face where the string hand rests at full draw.</p>
+<p><b>ATA (axle-to-axle):</b> distance between the two cam axles.</p>
+<p><b>Back wall:</b> the firm stop at full draw.</p>
+<p><b>Binary cam:</b> two matched cams linked by cables so they drive each other.</p>
+<p><b>Bow press:</b> a tool that compresses the limbs to take the strings off safely.</p>
+<p><b>Brace height:</b> string to grip pivot distance at rest.</p>
+<p><b>Broadhead:</b> a hunting arrow point with cutting blades.</p>
+<p><b>Cable guard:</b> a rod that holds the cables off the arrow's path.</p>
+<p><b>Cam:</b> the non-round pulley at each limb tip.</p>
+<p><b>Centre shot:</b> the left-right position of the arrow relative to the string plane.</p>
+<p><b>D-loop:</b> a loop of cord tied to the string for the release aid.</p>
+<p><b>Draw length:</b> archery-standard measure of how far the bow is drawn (page 11).</p>
+<p><b>Drop-away rest:</b> a rest that falls out of the way at the shot.</p>
+<p><b>FOC:</b> front of centre, the percentage of arrow weight forward of the middle.</p>
+<p><b>GPP:</b> grains per pound, arrow weight divided by draw weight.</p>
+<p><b>Hysteresis:</b> energy lost as heat in a flexing material.</p>
+<p><b>Let-off:</b> percentage reduction in draw force at full draw.</p>
+<p><b>Limb bolt:</b> adjusts limb preload and so draw weight.</p>
+<p><b>Module:</b> a plate on the cam that sets draw length or let-off.</p>
+<p><b>Nock point:</b> where the arrow nock sits on the string, and so the arrow's height.</p>
+<p><b>Paper tuning:</b> shooting through paper to read arrow flight.</p>
+<p><b>Peep:</b> a sight hole in the string.</p>
+<p><b>Power stroke:</b> distance the string pushes the arrow.</p>
+<p><b>Riser:</b> the rigid centre of the bow.</p>
+<p><b>Serving:</b> thread wound over the string for protection.</p>
+<p><b>Spine:</b> arrow stiffness.</p>
+<p><b>Stacking:</b> a steep rise in draw force near full draw on a traditional bow.</p>
+<p><b>Valley:</b> the low-force region at full draw.</p>
+<p><b>Vane:</b> a plastic fletching.</p>
+<p><b>Virtual mass:</b> the effective extra mass the arrow must "carry" because of the moving parts of the bow.</p>
+<p><b>Yoke:</b> a split cable end that lets you tune cam timing and cam lean.</p>
+</section>
+<section class="pg" data-t="Where to Learn More (and What to Read)"><h3>Where to Learn More (and What to Read)</h3>
+<p><b>Hands-on, in Australia.</b></p>
+<ul><li><b>Archery Australia</b> coaching and standards committee publishes compound bow tuning material, including a paper tuning method, and runs coaching courses.</li><li><b>Australian Deer Association and the Game Management Authority</b> run a deer hunting education course (theory and practical), and the GMA publishes "Game Hunting in Victoria", which has a bowhunting chapter.</li><li><b>A good pro archery shop</b> with a bow press and a tech who will let you watch.</li><li><b>A local archery club or field archery club.</b> Free advice, and a safe place to shoot.</li></ul>
+<p><b>The best technical reading.</b></p>
+<ul><li><b>Patents.</b> US Patent 3,486,495 (Holless Allen, 1969) is the original compound bow. Later patents on cams, binary systems and parallel limbs are searchable on Google Patents. A patent is a free engineering lecture: it describes the problem, the prior art and the solution. Start by reading the drawings and the "summary of the invention".</li><li><b>Arrow makers' tuning guides</b> (for example Easton's) for spine, bare-shaft and paper tuning.</li><li><b>Materials datasheets</b> from composite and aluminium suppliers. Learn to read modulus, strength and cure schedules.</li><li><b>A strength of materials textbook.</b> The beam formulas in this book are chapter three.</li><li><b>Free finite element software</b> and a basic course. You will use it for risers and limbs.</li></ul>
+<p><b>Habits that make a master.</b></p>
+<ul><li>Shoot <b>regularly</b>, so you know what the equipment feels like.</li><li><b>Measure</b> everything and keep a log.</li><li><b>Ask</b> people who know more. Archery is full of generous experts.</li><li><b>Stay humble about safety.</b> The people who get hurt are the experienced ones who got casual.</li></ul>
+<p><b>Sources behind this book.</b></p>
+<ul><li>US Patent 3,486,495 and published histories of Holless Wilbur Allen and Tom Jennings.</li><li>The Game Management Authority (Victoria) deer hunting laws page, read 22 November 2026.</li><li>Archery Australia's compound tuning notes, and tuning guides from Lancaster Archery, Field and Stream and Archery360 for paper, walk-back and bare-shaft conventions.</li><li>Standard formulas for arrow energy, momentum and FOC from the archery industry (AMO).</li></ul>
+</section>
+<section class="pg" data-t="A Last Note From the Guide"><h3>A Last Note From the Guide</h3>
+<p>You started this book by saying you accidentally got into bow hunting and became a greenie. You finish it knowing how a machine that stores a human second of effort and turns it into a few milliseconds of flight actually works.</p>
+<p>That is the real shape of the thing. The bow is a very good answer to a very old question: how does a person get close to the wild and take only what they need, with care? The engineering in these pages is the machine that answers it. The Greenie in you is the reason to keep asking.</p>
+<p>Some thoughts to carry out of the book:</p>
+<ul><li><b>A bow is a conversation</b> between limbs, cams, string, arrow and a person. When the conversation is clear, you cannot hear any of them.</li><li><b>Tune first, then trust.</b> An honest tune is worth more than a faster bow.</li><li><b>Respect the stored energy.</b> It deserves a quiet kind of care.</li><li><b>The land is the teacher.</b> The bow got you into the bush. The bush will keep teaching long after the arrow is gone.</li><li><b>Build the bow slowly.</b> The first one you make will not be the best. It will be the one you understand completely.</li></ul>
+<p>One day you will stand on your block in East Gippsland with a bow you designed, machined, laid up, tuned and measured yourself, made in Australia, and you will draw it and let it go. The Guide would like to be there, and to hold the stopwatch.</p>
+<div class="short">Go and shoot. Then come back and read it again. It reads differently once you have the feel in your hands.</div>
+</section></div>`
+      ],
+      see:["speedlimit","chernobylwolves"] },
     { id:"aussiepiss", cat:"Things", title:"Why Australia Needs Your Piss",
       quote:["If an Australian is insulting you, you are in. If they are being polite, run."],
       text:[

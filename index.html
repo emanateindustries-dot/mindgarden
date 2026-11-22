@@ -95,6 +95,28 @@ h1{font:700 26px/1.15 Cinzel,serif;letter-spacing:.02em;margin:18px 0 6px;text-a
 #sheet p a{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
 #sheet .sec{font:700 12px Cinzel,serif;letter-spacing:.2em;text-transform:uppercase;margin:22px 0 8px;color:var(--mute)}
 #sheet .short{background:var(--ink);color:#fff;border-radius:12px;padding:14px 16px;margin:16px 0 0;line-height:1.5;font-size:15px}
+#sheet.bookmode{max-height:92dvh;padding-bottom:0}
+.book .pg{display:none}.book .pg.on{display:block;animation:pgin .22s ease both}
+@keyframes pgin{from{opacity:0;transform:translateX(10px)}to{opacity:1;transform:none}}
+.book h3{font:700 17px/1.25 Cinzel,serif;letter-spacing:.05em;margin:4px 0 12px}
+.book .pg[data-ch]::before{content:attr(data-ch);display:block;font:700 11px Cinzel,serif;letter-spacing:.2em;text-transform:uppercase;color:var(--mute);margin-bottom:6px}
+.book .fm{font:13px/1.65 ui-monospace,Menlo,Consolas,monospace;background:#efede5;border-radius:10px;padding:10px 12px;margin:0 0 14px;overflow-x:auto;overflow-wrap:anywhere}
+.book .tw{overflow-x:auto;margin:0 0 14px}
+.book table{border-collapse:collapse;font-size:14px;width:100%}
+.book th,.book td{border-bottom:1px solid var(--line);padding:7px 8px;text-align:left;vertical-align:top}
+.book th{font:700 11px Cinzel,serif;letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+.bk-bar{position:sticky;bottom:0;background:var(--paper);padding:8px 0 calc(10px + env(safe-area-inset-bottom));margin-top:14px;border-top:1px solid var(--line)}
+.bk-prog{height:3px;background:var(--line);border-radius:2px;overflow:hidden;margin-bottom:8px}.bk-prog i{display:block;height:100%;background:var(--ink);width:0;transition:width .25s}
+.bk-row{display:flex;gap:8px}
+.bk-row button{border:1px solid var(--ink);background:none;color:var(--ink);border-radius:10px;padding:10px 12px;font:600 14px Inter;cursor:pointer}
+.bk-row .bk-mid{flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;line-height:1.25;border-color:var(--line)}
+.bk-mid b{font-size:14px}.bk-mid span{font-size:11px;color:var(--mute);font-weight:500;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bk-row button[disabled]{opacity:.35}
+.bk-toc{max-height:46dvh;overflow:auto;margin-top:8px;border-top:1px solid var(--line)}
+.bk-toc .ch{font:700 11px Cinzel,serif;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);margin:12px 0 4px}
+.bk-toc button{display:flex;gap:10px;width:100%;text-align:left;border:0;background:none;padding:7px 2px;font:14px Inter;color:var(--ink);border-bottom:1px solid var(--line);cursor:pointer}
+.bk-toc button em{font-style:normal;color:var(--mute);min-width:24px}
+.bk-toc button.cur{font-weight:700}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
 .chips button{border:1px solid var(--ink);background:none;border-radius:99px;padding:8px 13px;font:500 13px Inter;color:var(--ink)}
 .chips button.pinbtn{background:var(--ink);color:#fff}
@@ -253,8 +275,56 @@ function openEntry(id){
   (e.see||[]).filter(s=>E[s]).forEach(s=>chips.push(`<button data-open="${s}">${E[s].title}</button>`));
   if(chips.length) h+=`<div class="chips">${chips.join('')}</div>`;
   $('#sheet').innerHTML=h; $('#sheet').classList.toggle('nobar',e.id==='secret'); $('#sheet').scrollTop=0; (function(){const sh=$('#sheet');sh.onscroll=null;if(e.id!=='secret')return;sh.onscroll=()=>{const L=sh.querySelector('.loop');if(!L)return;const H=L.offsetHeight,st=L.offsetTop;if(sh.scrollTop>st+2*H)sh.scrollTop-=H}})(); [...$('#sheet').children].forEach((c,i)=>c.style.animationDelay=(i*70)+'ms');
+  initBooks();
   $('#sheet').classList.add('on'); $('#back').classList.add('on');
 }
+
+/* ---------- paged books inside entries ---------- */
+function initBooks(){
+  const sh=$('#sheet'); sh.classList.toggle('bookmode',!!sh.querySelector('.book'));
+  sh.querySelectorAll('.book').forEach(bk=>{
+    const pg=[...bk.querySelectorAll('.pg')], n=pg.length, key='mgbk-'+(bk.dataset.book||'x');
+    let cur=0; try{cur=Math.min(n-1,Math.max(0,parseInt(localStorage.getItem(key),10)||0))}catch(e){}
+    const bar=document.createElement('div'); bar.className='bk-bar';
+    bar.innerHTML='<div class="bk-prog"><i></i></div><div class="bk-row"><button data-bk="prev">&lsaquo; Prev</button><button data-bk="toc" class="bk-mid"><b></b><span></span></button><button data-bk="next">Next &rsaquo;</button></div><div class="bk-toc" hidden></div>';
+    bk.appendChild(bar);
+    const toc=bar.querySelector('.bk-toc'), tb=[];
+    pg.forEach((p,k)=>{
+      if(p.dataset.ch){const d=document.createElement('div');d.className='ch';d.textContent=p.dataset.ch;toc.appendChild(d)}
+      const b=document.createElement('button');b.dataset.bkgo=k;const e=document.createElement('em');e.textContent=k+1;b.appendChild(e);b.appendChild(document.createTextNode(p.dataset.t||''));toc.appendChild(b);tb.push(b);
+    });
+    function go(k,scroll){
+      cur=Math.min(n-1,Math.max(0,k));
+      pg.forEach((p,i)=>p.classList.toggle('on',i===cur));
+      tb.forEach((b,i)=>b.classList.toggle('cur',i===cur));
+      bar.querySelector('.bk-mid b').textContent='Page '+(cur+1)+' of '+n;
+      bar.querySelector('.bk-mid span').textContent=pg[cur].dataset.t||'';
+      bar.querySelector('.bk-prog i').style.width=((cur+1)/n*100)+'%';
+      bar.querySelector('[data-bk=prev]').disabled=cur===0; bar.querySelector('[data-bk=next]').disabled=cur===n-1;
+      toc.hidden=true;
+      try{localStorage.setItem(key,cur)}catch(e){}
+      if(scroll) sh.scrollTop=Math.max(0,bk.offsetTop-8);
+    }
+    bk._go=go; bk._cur=()=>cur; go(cur,false);
+    let x0=0,y0=0;
+    bk.addEventListener('touchstart',e=>{x0=e.touches[0].clientX;y0=e.touches[0].clientY},{passive:true});
+    bk.addEventListener('touchend',e=>{const t=e.changedTouches[0],dx=t.clientX-x0,dy=t.clientY-y0;if(Math.abs(dx)>70&&Math.abs(dy)<45&&!e.target.closest('.tw,.fm,.bk-toc')) go(cur+(dx<0?1:-1),true)},{passive:true});
+  });
+}
+document.addEventListener('click',e=>{
+  const b=e.target.closest('[data-bk],[data-bkgo]'); if(!b) return;
+  const bk=b.closest('.book'); if(!bk||!bk._go) return;
+  e.preventDefault();
+  if(b.dataset.bkgo!==undefined) return bk._go(+b.dataset.bkgo,true);
+  const a=b.dataset.bk;
+  if(a==='prev') bk._go(bk._cur()-1,true);
+  else if(a==='next') bk._go(bk._cur()+1,true);
+  else if(a==='toc'){const t=bk.querySelector('.bk-toc');t.hidden=!t.hidden;if(!t.hidden){const c=t.querySelector('.cur');if(c)t.scrollTop=Math.max(0,c.offsetTop-60)}}
+});
+document.addEventListener('keydown',e=>{
+  const sh=$('#sheet'); if(!sh.classList.contains('on')) return; const bk=sh.querySelector('.book'); if(!bk||!bk._go) return;
+  if(e.key==='ArrowRight') bk._go(bk._cur()+1,true); else if(e.key==='ArrowLeft') bk._go(bk._cur()-1,true);
+});
 function closeSheet(){$('#sheet').classList.remove('on');$('#back').classList.remove('on')}
 $('#back').addEventListener('click',closeSheet);
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
