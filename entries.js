@@ -624,6 +624,680 @@ window.GUIDE = {
         `A <b>totally free service</b>. <a href="mower.html">Hire Brodie's mower.</a> See also <a href="#" data-open="hiredmower">So I've Hired Brodie's Mower. What Next?</a>`
       ],
       see:["hiredmower"] },
+    { id:"marketgarden", cat:"Things", title:"Breastfeeding for Your Home",
+      quote:["Cold air runs downhill like water. Find out where it sleeps."],
+      text:[
+        `<p style="margin-bottom:6px">A complete book on running a thriving market garden in a frosty gully near Nicholson, East Gippsland, from knowing nothing to selling at market. Flick through it with the buttons at the bottom.</p>`,
+        `<div class="book" data-book="marketgarden"><section class="pg" data-t="Read This First" data-ch="Part One: Starting From Nothing"><h3>Read This First</h3>
+<p>This is a book about growing vegetables to <b>sell</b>, on one particular piece of ground: a gully near Nicholson in East Gippsland, with deep rich topsoil and a frost problem. It starts from nothing, as if you have never grown a carrot, and every few pages it gets harder.</p>
+<p><b>How to read it.</b> Page by page, in order, the first time. Pages are short on purpose. If a page feels easy, good, it is meant to be. If a page feels too hard, you have read ahead of yourself, so go back one.</p>
+<p><b>What you will find.</b></p>
+<ul><li>Parts One and Two: what a market garden actually is, and what your land is doing.</li><li>Parts Three and Four: water and soil, the two things that decide everything.</li><li>Part Five: the crops and the calendar.</li><li>Part Six: frost, which is the real subject of this book.</li><li>Parts Seven and Eight: tunnels, pests and animals.</li><li>Parts Nine and Ten: harvest, cold storage, selling, money and the rules.</li><li>Part Eleven: your first year, month by month, plus the records that make year two better.</li></ul>
+<p><b>Honest limits.</b> The Guide is a guidebook, not an agronomist and not a lawyer. Where it gives a number from a source it says so. Where it gives a rule of thumb it says that too. Your gully will disagree with the Guide on some dates and the gully is right. The most useful instrument in this book is a cheap minimum thermometer, and the habit of writing things down.</p>
+<div class="short">Rule for the whole book: measure your own ground, write it down, and trust that over any book, including this one.</div>
+</section>
+<section class="pg" data-t="What a Market Garden Is" data-ch="Part One: Starting From Nothing"><h3>What a Market Garden Is</h3>
+<p>A <b>market garden</b> is a small, intensive vegetable farm that sells directly to people: at a farmers market, to restaurants, to a box scheme, off the farm gate. It is not a backyard veg patch with a stall bolted on, and it is not a broadacre farm in miniature.</p>
+<p><b>The three things that define it.</b></p>
+<ol><li><b>Small and intense.</b> You grow a lot of different crops on a small area, in permanent beds, and you look after each bed closely.</li><li><b>Direct sales.</b> You are paid retail or near-retail prices, because you cut out the wholesaler. That is the only reason a small area can pay.</li><li><b>Many crops, many harvests.</b> You are not growing one thing once. You are harvesting something almost every week of the year.</li></ol>
+<p><b>Why small can pay.</b> A big farm makes money by volume, selling at wholesale prices that are low. A market garden makes money by value per square metre: higher prices, no middleman, and beds that are replanted the same week a crop comes out.</p>
+<p><b>What it costs you.</b> Time, mostly. Planting, weeding, watering, harvesting, washing, packing and selling are all hands-on. People who make a market garden work describe a lot of weeks of long days at the peak. The Guide would rather you knew that now.</p>
+<p><b>What it is not.</b> It is not a quick way to make money, not passive income, and not something you can leave for a month in summer. Vegetables do not care about your plans.</p>
+</section>
+<section class="pg" data-t="Your Gully: Good News and Bad News" data-ch="Part One: Starting From Nothing"><h3>Your Gully: Good News and Bad News</h3>
+<p>You have told the Guide three things about your ground: it is in a <b>gully</b>, it has <b>rich, deep topsoil</b>, and it gets <b>frosts</b>.</p>
+<p><b>The good news.</b></p>
+<ul><li>Deep, rich topsoil is the hardest thing to buy and the slowest to build. Most beginners start with thin, compacted or sandy ground and spend years fixing it. You are starting with the asset.</li><li>Gullies usually have more moisture, more shelter from wind and often a nearby water source. Those are all useful.</li><li>The land around Nicholson sits in a climate that the Bureau of Meteorology describes for East Gippsland as having fairly stable rainfall of roughly 890 mm a year across the region, with spring the most reliable season. That is a good rainfall for vegetables, with irrigation to fill the gaps.</li></ul>
+<p><b>The bad news.</b></p>
+<ul><li>A gully is, almost by definition, where cold air goes to sleep. On clear still nights, cold dense air runs downhill like water and pools in the low ground. That is a <b>frost hollow</b>, and a frost hollow can have a frost-free season that is weeks shorter than ground a short distance away on the slope.</li><li>Gullies also carry water in heavy rain. Low ground can flood.</li><li>The same shelter that is good against wind can hold the cold air in.</li></ul>
+<p><b>The deal in one line.</b> You have the best soil and the worst frost position on the property, and the entire game is whether you can manage the frost. The rest of this book is about doing that well.</p>
+<div class="short">First job, before you buy a single seed: find out exactly where the cold air goes on your block. 8 shows how.</div>
+</section>
+<section class="pg" data-t="What You Need Before You Start" data-ch="Part One: Starting From Nothing"><h3>What You Need Before You Start</h3>
+<p>A short honest list, from nothing.</p>
+<p><b>Land.</b> You already have it. A first market garden of <b>500 to 1,000 square metres</b> of actual beds is plenty. Resist the urge to start at a hectare.</p>
+<p><b>Water.</b> A reliable source for the whole summer, delivered to the beds. See 14.</p>
+<p><b>A way to sell.</b> Not an afterthought. Decide before you plant who will buy it. See 51.</p>
+<p><b>Tools.</b> Fewer than you think. See 53.</p>
+<p><b>Money.</b> Less than a tractor, more than a packet of seeds. The Guide gives a realistic start-up budget on 54. One North American grower who runs about 1.5 acres says it took roughly $39,000 to buy a first set of tools and gear for a small-scale market garden, including a greenhouse and two hoop houses. That is a US figure and a full-scale kit, so treat it as the top of the range. A starter version of your own can cost far less.</p>
+<p><b>Time.</b> A first season is something like a part-time job that happens to be at a fixed time of year, then a full-time job in the busy months. Work out honestly how many hours a week you have, and plan the garden to that number.</p>
+<p><b>Knowledge.</b> This book, a notebook, and a willingness to be wrong in small ways.</p>
+<p><b>What you do not need yet.</b> A tractor, a big tunnel, a washing shed, a delivery van, an employee, a business plan with forty pages.</p>
+<div class="short">The best first market garden is small enough that you can look after every bed properly.</div>
+</section>
+<section class="pg" data-t="The Idea of the Bed" data-ch="Part One: Starting From Nothing"><h3>The Idea of the Bed</h3>
+<p>Everything in a market garden is built from one unit: the <b>bed</b>.</p>
+<p>A bed is a permanent strip of soil that you never walk on. You walk on the paths either side. Because nobody stands on it, the soil stays loose, full of air and full of life.</p>
+<p><b>A standard bed.</b></p>
+<ul><li>Width: about <b>0.75 to 0.9 metres</b>, so you can reach the middle from either side.</li><li>Length: whatever suits your ground. <b>30 metres</b> is a common working length.</li><li>Paths: about 0.4 to 0.5 metres between beds, wide enough for a wheelbarrow or a narrow hoe.</li></ul>
+<p><b>One bed, in numbers.</b></p>
+<div class="fm">bed area = 0.75 m x 30 m = 22.5 square metres<br>20 beds = 450 square metres of growing area</div>
+<p>With paths, headlands and a wash area, 20 beds sit comfortably on roughly <b>1,000 square metres</b>.</p>
+<p><b>Why permanent beds.</b></p>
+<ul><li>No compaction, because no feet or wheels on the growing soil.</li><li>Every bed gets the same treatment, so you learn fast.</li><li>Planting, weeding and harvesting tools are all sized to the bed.</li><li>You can cover a whole bed with row cover or tunnel hoops in one go. This matters hugely for frost, see 36.</li></ul>
+<p><b>Ordering beds.</b> Number them. Bed 1 to Bed 20. Write every crop, date and result against the bed number. This is the habit that turns the farm from guesswork into knowledge.</p>
+</section>
+<section class="pg" data-t="Four Words You Must Know" data-ch="Part One: Starting From Nothing"><h3>Four Words You Must Know</h3>
+<p>Four ideas run through the whole book. Learn them now.</p>
+<p><b>Succession.</b> Planting small amounts of the same crop every week or two, so you harvest steadily instead of all at once. A lettuce sown every ten days gives you lettuce for months. A lettuce sown once gives you a hundred heads on one Saturday.</p>
+<p><b>Rotation.</b> Not growing the same family of crop in the same bed year after year. Pests and diseases build up in the soil when you do. See 24.</p>
+<p><b>Cover crop.</b> A crop you grow for the soil, not for sale: oats, field peas, vetch, mustard. It feeds the soil, suppresses weeds and holds the ground. See 22.</p>
+<p><b>Frost date.</b> The average date of the last frost in spring and the first frost in autumn. Your gully's dates are not the same as the town's. See 27.</p>
+<p>Learn these words and you will understand most of what a grower says.</p>
+</section>
+<section class="pg" data-t="What Grows When: The Shape of a Year" data-ch="Part One: Starting From Nothing"><h3>What Grows When: The Shape of a Year</h3>
+<p>Eastern Victoria has <b>four real seasons</b>. That means you have a warm season, a cool season, and two shoulders.</p>
+<p><b>Warm season crops</b> grow fast in heat and are killed by frost: tomatoes, capsicum, chilli, eggplant, cucumber, zucchini, pumpkin, melons, sweet corn, basil, beans. They go in <b>after the last frost</b> and finish before the first.</p>
+<p><b>Cool season crops</b> like cool weather and many shrug off frost: silverbeet, kale, spinach, lettuce, brassicas (cabbage, broccoli, cauliflower), peas, broad beans, carrots, beetroot, onions, garlic, leeks.</p>
+<p><b>The big idea.</b> In a frosty gully, you have a shorter warm season than the town, so you plan around frost in two ways:</p>
+<ol><li><b>Use the cold.</b> Grow lots of frost-tolerant crops for autumn, winter and early spring. Most of the high-value salad and brassica crops are in this group.</li><li><b>Start the warm crops early under cover.</b> Raise tomatoes and other tender crops in a heated or protected place so they are ready to plant the day the frost risk ends, then protect them after.</li></ol>
+<p><b>A rough year.</b></p>
+<div class="tw"><table><thead><tr><th>Season</th><th>What is happening</th><th>What you are doing</th></tr></thead><tbody><tr><td>---</td><td>---</td><td>---</td></tr><tr><td>Spring (Sep to Nov)</td><td>Warming, frosts easing</td><td>Sowing and planting out, hardening off, last frost watch</td></tr><tr><td>Summer (Dec to Feb)</td><td>Hot, dry spells</td><td>Warm crops, heavy watering, succession sowings for autumn</td></tr><tr><td>Autumn (Mar to May)</td><td>Cooling, first frosts</td><td>Planting winter crops, harvesting summer crops, cover crops</td></tr><tr><td>Winter (Jun to Aug)</td><td>Frost, short days</td><td>Harvest hardy crops, plan, mend, order seed</td></tr></tbody></table></div>
+<p>Exact dates come from <b>your own records</b> (see 56).</p>
+</section>
+<section class="pg" data-t="Where Cold Air Goes" data-ch="Part Two: Reading Your Gully"><h3>Where Cold Air Goes</h3>
+<p>This is the most important page in the book for your gully.</p>
+<p><b>Cold air flows like water.</b> On a clear, still night the ground loses heat to the sky. The air touching it cools, becomes denser than the air above, and creeps downhill. It collects in the lowest places. These are called <b>frost hollows</b> or <b>frost pockets</b>. This is called <b>radiation frost</b>, and the Bureau of Meteorology says it is the commonest kind in Australia.</p>
+<p><b>Why gullies are the worst case.</b></p>
+<ul><li>Cold air from the whole slope above drains into the gully floor.</li><li>If something blocks the exit, the cold air banks up behind it like water behind a dam. A solid row of trees across a slope, a dense hedge, or a new wall or fence can all act as a dam. Agriculture departments warn about exactly this.</li><li>One Canadian source describes a frost hollow nearly a mile across with a frost-free period some 20 to 30 days shorter than ground a mile away with better air drainage. Your numbers will differ, but that is the scale of difference that position can make.</li></ul>
+<p><b>What it means for you.</b></p>
+<ul><li>The coldest ground on your block is probably the gully floor, and frost there may arrive earlier in autumn and linger later in spring than a spot only a few metres up the side.</li><li><b>Height above the floor matters more than you would expect.</b> A few metres of extra elevation can be the difference between a frost and none.</li><li>You can often <b>fix</b> a frost pocket by opening a path for the cold air to leave. Cutting a gap in a hedge, moving a fence, or running the fence <b>down</b> the slope instead of across it all help.</li></ul>
+<p><b>Quick rules.</b></p>
+<ol><li>Never plant frost-tender crops in the lowest ground if you can avoid it.</li><li>Do not put solid barriers across the slope below your beds.</li><li>Run beds <b>up and down</b> the slope where you can, so cold air flows between them rather than banking up against them.</li><li>Open the lower end of the garden so cold air can leave.</li></ol>
+<div class="short">The next page shows how to find out where your cold actually sits, because guessing is how people lose a crop.</div>
+</section>
+<section class="pg" data-t="Mapping Your Frost, Step by Step" data-ch="Part Two: Reading Your Gully"><h3>Mapping Your Frost, Step by Step</h3>
+<p>You can learn more in two weeks of cheap measurement than in a year of guessing.</p>
+<p><b>What you need.</b></p>
+<ul><li><b>Four to six minimum thermometers.</b> These are cheap thermometers with a marker that stays at the lowest temperature reached overnight. Keep them identical, or at least check them against each other in the same spot first.</li><li>Wooden stakes.</li><li>A notebook, or a phone note.</li></ul>
+<p><b>Method.</b></p>
+<ol><li>Put the stakes at points along a line from the <b>top of the slope to the gully floor</b>, plus a couple at places you are considering for beds.</li><li>Mount each thermometer at the <b>same height</b>, around 10 to 20 cm above the soil. That is plant height for young crops. It is also where the coldest air sits.</li><li>Each morning, <b>before the sun hits them</b>, read each minimum and write it down with the date, then reset.</li><li>Do this for the whole cold season, at least. Longer is better.</li></ol>
+<p><b>What to look for.</b></p>
+<ul><li>Which spots are consistently coldest on a still, clear night?</li><li>How many degrees colder is the floor than a spot a few metres up?</li><li>Does the pattern change on windy or cloudy nights? (It should. Cloud and wind stop frost forming.)</li></ul>
+<p><b>Use a safety margin.</b> Commercial growers who run frost protection do not wait until the thermometer reaches zero. Some set their trigger a few degrees above freezing, because the thermometer at head height reads warmer than the ground-level crop. The Guide suggests treating <b>3 degrees Celsius at a standard thermometer</b> as the point to start worrying, and calibrating to your own readings from there.</p>
+<p><b>Two kinds of frost.</b> A <b>white frost</b> leaves ice on the leaves. A <b>black frost</b> is a dry frost, where the plant cells freeze without ice forming on the surface, and leaves and growing tips blacken. Black frosts catch people out because the ground does not look frosty.</p>
+<div class="short">One season of readings gives you a map. Draw it, pin it on the shed wall, and plan every bed against it.</div>
+</section>
+<section class="pg" data-t="A Note on a Warming Climate" data-ch="Part Two: Reading Your Gully"><h3>A Note on a Warming Climate</h3>
+<p>Honest reading from the Bureau of Meteorology: across East Gippsland, in the last thirty years, there have been <b>fewer frosts</b> and temperatures have been rising, with more consecutive hot days above 35 degrees. Rainfall in the region fell by roughly 50 mm over that period, from about 940 mm to about 890 mm.</p>
+<p>What does that mean for a grower?</p>
+<ul><li>Do not assume that the frost dates in an old book are the dates of today.</li><li>Frost risk in a gully is falling on average, but a cold hollow can still get damaging frosts well into spring. A late frost after warm weather can be the most damaging, because plants are soft and growing.</li><li>Hot, dry summers are becoming more of a concern than the cold in some seasons. Plan <b>shade cloth</b> and reliable water as seriously as you plan frost cover.</li></ul>
+<p><b>The practical lesson.</b> Plan for both ends. Frost cover for the cold nights, shade and water for the hot days, and a record book that tells you which problem is actually hurting you.</p>
+</section>
+<section class="pg" data-t="Reading the Soil You Already Have" data-ch="Part Two: Reading Your Gully"><h3>Reading the Soil You Already Have</h3>
+<p>You said your topsoil is rich and deep. Good. Now confirm it with evidence, because soil can look wonderful and still have a problem you cannot see.</p>
+<p><b>Ten-minute tests you can do today.</b></p>
+<ul><li><b>The spade test.</b> Dig a spade-deep hole and look at the wall. How deep is the dark topsoil? Where does it change colour? Are there roots going deep? Are there earthworms? A healthy soil has crumbly structure and plenty of life.</li><li><b>The squeeze test.</b> Take a moist handful and squeeze it. A ball that crumbles when poked is a good loam. A ball that stays hard and sticky is heavy in clay. A handful that will not hold together is sandy.</li><li><b>The jar test.</b> Put a cup of soil in a tall jar of water, shake, let it settle for a day. Sand settles first, then silt, then clay. The layers tell you roughly the proportions.</li><li><b>The drainage test.</b> Dig a hole 30 cm deep, fill it with water, let it drain, fill again, and time how long the second filling takes to drain. Anything much longer than a few hours means poor drainage.</li><li><b>The smell test.</b> A healthy soil smells sweet and earthy. A sour or rotten-egg smell means the soil has been waterlogged and low in oxygen.</li></ul>
+<p><b>A lab test is worth the money.</b> Send a sample to an Australian soil lab and ask for a standard vegetable-grower package. It should give you:</p>
+<ul><li>pH</li><li>organic carbon or organic matter</li><li>major nutrients (nitrogen, phosphorus, potassium)</li><li>calcium, magnesium and sodium, and the balance between them</li><li>trace elements</li><li>salinity (electrical conductivity)</li></ul>
+<p><b>Take the sample properly.</b> Several spots across the area you plan to grow in, a few centimetres below the surface, mixed together in a clean bucket.</p>
+<div class="short">Test before you add anything. It is a very common and very expensive beginner mistake to add what the soil already has.</div>
+</section>
+<section class="pg" data-t="Gullies, Floods and Fire" data-ch="Part Two: Reading Your Gully"><h3>Gullies, Floods and Fire</h3>
+<p>Two hazards come with the gully and they deserve a page.</p>
+<p><b>Flooding.</b></p>
+<ul><li>A gully carries water in heavy rain. The Bureau of Meteorology issues flash flood warnings for the elevated terrain of East Gippsland that mention six-hourly rainfall totals of 60 to 80 mm. Water from the ranges has to go somewhere.</li><li>Find out <b>where the water goes</b> on your block in a big storm. Walk it during heavy rain if you can do so safely, in daylight, and note the flow paths.</li><li>Put permanent beds <b>above the flood line</b>, or on a slight rise, and keep the lowest ground for things you can afford to lose, such as grass paths and a cover crop.</li><li>Keep drains and culverts open. A blocked drain turns a nuisance into a flood.</li><li>Check what flood information your local catchment and emergency authorities publish for your area.</li></ul>
+<p><b>Bushfire.</b></p>
+<ul><li>East Gippsland is bushfire country. A green, irrigated garden is a <b>fire break</b>. A dam and a pump are a fire resource.</li><li>Keep dry grass short around infrastructure, keep sheds and tunnel plastic away from bush edges, and have a <b>fire plan</b> for yourself, any workers and any customers on the property.</li><li>Ask the CFA and the shire what applies to buildings on your land.</li></ul>
+<p><b>Cold, flood and fire together.</b> The same gully that holds cold air in winter and floods in a storm can be a funnel for fire in summer. Know your ground in all three seasons.</p>
+<div class="short">Safety first, farm second. Nothing in a garden is worth a person's life.</div>
+</section>
+<section class="pg" data-t="Laying Out the Garden" data-ch="Part Two: Reading Your Gully"><h3>Laying Out the Garden</h3>
+<p>Now put the first four pages of Part Two together into a layout.</p>
+<p><b>Principles.</b></p>
+<ol><li><b>Cold-sensitive crops highest.</b> Put the tender warm-season crops on the highest, best-drained part of the cultivated area.</li><li><b>Hardy crops lowest.</b> Put kale, silverbeet, garlic, leeks and brassicas in the coldest ground, where they can take it.</li><li><b>Beds run with the slope</b>, not across it. See 8.</li><li><b>Leave the exit open.</b> No solid fence, hedge or wall across the downhill end.</li><li><b>Close to water and close to the wash area.</b> Every metre you carry a harvest is a metre of labour.</li><li><b>Sun.</b> In winter, a gully can lose the sun early behind a ridge. Walk the site at midday in June and see where the shadows fall. You want your winter beds in the longest sun.</li><li><b>A flat, hard working area</b> for washing, packing and loading, close to the road.</li></ol>
+<p><b>A starter layout for about 1,000 square metres.</b></p>
+<ul><li>12 to 20 beds in a block, with a wide headland at each end.</li><li>A water supply and header tank at the top end.</li><li>A small wash and pack area next to the gate.</li><li>A tunnel site (later), on the best-drained, sunniest ground.</li><li>A compost bay downwind of the beds.</li><li>Wildlife-proof fencing around the lot, in <b>open mesh</b> that cold air can pass through, never a solid wall, see 46.</li></ul>
+<p><b>Draw it.</b> On paper, to scale. Move things around until it works, then peg it out on the ground.</p>
+</section>
+<section class="pg" data-t="Why Water Decides Everything" data-ch="Part Three: Water"><h3>Why Water Decides Everything</h3>
+<p>A vegetable is mostly water. A lettuce is about 95 per cent water, and it grows fast, with shallow roots, so it cannot find water for itself in a dry spell. A market garden without dependable water is a hobby that sometimes works.</p>
+<p><b>What you need to know.</b></p>
+<ul><li><b>How much</b> water you need at the peak of summer.</li><li><b>Where</b> it comes from, and whether you are <b>allowed</b> to use it that way.</li><li><b>How</b> you get it to the beds.</li><li><b>What it costs</b> in energy and gear.</li></ul>
+<p><b>A rough sizing.</b> A growing vegetable crop commonly wants somewhere around <b>25 to 40 mm of water a week</b> in hot weather, from rain plus irrigation together. One millimetre over one square metre is one litre. So:</p>
+<div class="fm">1,000 sq m x 30 mm/week = 30,000 litres a week<br>30,000 litres is 30 cubic metres, or about 4,300 litres a day</div>
+<p>That is <b>a rough planning figure</b>, not a rule, and your crops, soil and weather change it. Use it to size a tank and pump, then check against your real use.</p>
+<p><b>Peak demand is the problem.</b> Rainfall in East Gippsland has been fairly stable at roughly 890 mm a year across the region, but it comes in lumps, and summer can be dry. Your irrigation has to carry the garden through those dry spells, not average ones.</p>
+<div class="short">Work out your peak week, not your average week. Size everything to the peak.</div>
+</section>
+<section class="pg" data-t="Where Your Water Can Come From, and the Rules" data-ch="Part Three: Water"><h3>Where Your Water Can Come From, and the Rules</h3>
+<p>This page is general information, not legal advice. Water law in Victoria is strict and the penalties are real. Confirm everything with your rural water corporation before you build or pump.</p>
+<p><b>The basic rule.</b> Under Victoria's Water Act 1989, you have a <b>private right</b> to take water for <b>domestic and stock</b> purposes from certain sources on your land, without a licence. That right does <b>not</b> automatically cover <b>irrigating a commercial crop</b>.</p>
+<p><b>For a market garden you usually need approval to take water for irrigation, or must use water that arrives some other legal way.</b> What applies depends on where you are and on the source:</p>
+<ul><li><b>A river or creek frontage.</b> If your land fronts a waterway, domestic and stock rights apply for those uses. Irrigation generally needs a <b>surface water licence</b> (a take-and-use licence) from the water corporation.</li><li><b>A farm dam.</b> Dams filled by runoff for domestic and stock use have different rules from dams used for irrigation or commercial purposes. Small catchment dams used for other purposes also require a licence. Building a new dam on a waterway needs a licence to construct.</li><li><b>A bore.</b> You must hold a licence to construct a bore, even for domestic and stock use. For other uses you need a groundwater licence. In many areas of Victoria, new commercial groundwater licences are <b>capped</b>, which means you can only get one by buying an existing one.</li><li><b>Rainwater from roofs and sheds.</b> Generally yours to collect and use. A big shed roof and tanks can make a surprising amount of water. See the next page.</li><li><b>Mains or a supply scheme.</b> Possible near town, expensive at scale.</li></ul>
+<p><b>Who to call.</b> Southern Rural Water manages bores, dams and licences across much of Gippsland. Confirm that they are your water corporation, and ask them plainly: *I want to irrigate about 1,000 square metres of vegetables on this property, with this source. What do I need?* Write down the answer, the name and the date.</p>
+<p><b>Costs.</b> Published tariffs for licences and works are in the hundreds to thousands of dollars, depending on the licence type. Ask for the current schedule rather than trusting any figure in a book.</p>
+<div class="short">Never take water for irrigation, build a dam or sink a bore without asking first. This is the one rule on this page that can cost you the farm.</div>
+</section>
+<section class="pg" data-t="Capturing and Storing Water" data-ch="Part Three: Water"><h3>Capturing and Storing Water</h3>
+<p>Whatever your legal source, <b>storage</b> is the cheapest way to make your garden calm and reliable.</p>
+<p><b>Roof catchment.</b> A rule of thumb: one millimetre of rain on one square metre of roof gives about one litre.</p>
+<div class="fm">200 sq m of shed roof x 700 mm of rain = 140,000 litres a year, before losses</div>
+<p>Use your <b>own local rainfall figure</b>, not the regional average. A local Bureau of Meteorology station such as Bairnsdale gives you a starting point, and your own rain gauge is better.</p>
+<p><b>Tanks.</b></p>
+<ul><li>Poly tanks are cheap, simple and widely available, in sizes from 5,000 to 30,000 litres or more.</li><li>Put the header tank <b>above the garden</b> so gravity does the work. Every metre of height gives about 10 kPa of pressure. A tank 10 m above the beds gives roughly 100 kPa, which is enough for drip irrigation without a pump.</li><li>Keep tanks out of full sun if you can, to slow algae. Screen all inlets.</li><li>Check what rules apply to tanks and any associated structures with your shire.</li></ul>
+<p><b>Dams.</b></p>
+<ul><li>A dam can hold a lot, and evaporates a lot. A dam on your block may have domestic and stock rights only, so see the previous page before pumping from it onto vegetables.</li><li>Water from a dam is often not clean enough to use on the edible parts of a crop without checking. See 49.</li></ul>
+<p><b>Water quality.</b> Salty, muddy or contaminated water harms soil and crops and can create a food safety problem. Get your source tested for salinity, pH and microbes before you rely on it.</p>
+<div class="short">A storage tank is the cheapest insurance in the whole garden.</div>
+</section>
+<section class="pg" data-t="Getting Water to the Plants" data-ch="Part Three: Water"><h3>Getting Water to the Plants</h3>
+<p>Three common systems. A market garden often uses all three.</p>
+<p><b>1. Drip tape or drip line.</b> Thin tubes with small holes or emitters, laid along the bed. Water goes straight to the root zone.</p>
+<ul><li>Pros: efficient, low pressure, less foliage disease, easy to automate.</li><li>Cons: can clog, can be chewed by animals, needs filtering, and does not germinate seeds well in dry soil.</li><li>Best for: tomatoes, capsicum, cucumber, zucchini, brassicas, long-season crops.</li></ul>
+<p><b>2. Overhead sprinklers.</b> Water falls on the leaves.</p>
+<ul><li>Pros: great for germinating seed, good for cooling, and <b>can be used for frost protection</b> in the right conditions, see 38.</li><li>Cons: loses water to wind and evaporation, wets foliage, which can spread disease.</li><li>Best for: seed beds, leafy greens, carrots, young crops.</li></ul>
+<p><b>3. Hand watering.</b> A hose or watering can.</p>
+<ul><li>Pros: free, flexible, lets you look at every plant.</li><li>Cons: very labour-hungry.</li><li>Best for: seedlings, a nursery, spot jobs.</li></ul>
+<p><b>Design points.</b></p>
+<ul><li><b>Filter</b> all drip water. A cheap screen filter saves a world of trouble.</li><li>Use a <b>pressure regulator</b> if your tank is high, so you do not blow the fittings.</li><li>Divide the system into <b>zones</b>, each covering a few beds, so a tank and pump can serve them one at a time.</li><li>Put a <b>timer</b> on at least the main zones.</li><li>Run drip lines in <b>2 per bed</b> for most crops.</li><li>Always build a <b>flush valve</b> at the end of each line.</li></ul>
+<p><b>How long to run it.</b> Check by digging a small hole after a run. You want the soil wet to the root zone, usually 10 to 20 cm, not just the surface. Adjust the time to what you find.</p>
+</section>
+<section class="pg" data-t="Watering Smart: Timing and Soil Moisture" data-ch="Part Three: Water"><h3>Watering Smart: Timing and Soil Moisture</h3>
+<p>Irrigation is not just a tap. It is a decision about <b>when</b> and <b>how much</b>.</p>
+<p><b>Morning is best.</b> Water early so leaves dry in the sun, and so less is lost to evaporation. Evening watering leaves foliage wet through the night, which invites fungal disease, and in a cold gully it can add to frost risk.</p>
+<p><b>Deep and less often beats shallow and often.</b> Deep watering encourages deep roots. Frequent light watering keeps roots at the surface where they dry out in hot weather.</p>
+<p><b>Soil moisture tells the truth.</b></p>
+<ul><li>The cheapest sensor is your <b>finger</b>. Push it 5 cm into the soil. Dry means water, damp means wait.</li><li>A <b>soil moisture meter or tensiometer</b> gives a number. They are inexpensive and worth owning.</li><li>Learn what a stressed crop looks like: grey-green colour, curled leaves, wilting at midday.</li></ul>
+<p><b>Critical stages.</b> Most crops are most sensitive to water stress at <b>germination, transplanting, flowering and fruit or head formation</b>. Keep water steady at these stages above all.</p>
+<p><b>Mulch holds water.</b> A layer of straw or compost on the soil surface slows evaporation and keeps roots cooler. See 23.</p>
+<p><b>Record it.</b> Note the water use per week through summer. In a few seasons you will know your real peak demand, which is the number that sizes your system.</p>
+</section>
+<section class="pg" data-t="What Soil Is, in Plain Language" data-ch="Part Four: Soil and Fertility"><h3>What Soil Is, in Plain Language</h3>
+<p>Soil is not dirt. It is a living system built from five things.</p>
+<ol><li><b>Mineral particles.</b> Sand, silt and clay, in proportions that decide texture.</li><li><b>Organic matter.</b> Dead plant and animal material, and the humus it turns into.</li><li><b>Water.</b> Held in the tiny spaces between particles.</li><li><b>Air.</b> Also in those spaces. Roots need oxygen as well as water.</li><li><b>Life.</b> Bacteria, fungi, protozoa, worms, insects, and more, by the billion in a spoonful of healthy soil.</li></ol>
+<p><b>Why it matters.</b> The life in soil breaks down organic matter and releases nutrients in forms that roots can take up, builds soil structure with its secretions, and competes with disease organisms. A rich topsoil like yours has a lot of this already.</p>
+<p><b>Structure.</b> Good soil sticks together in small crumbs called <b>aggregates</b>, with space between them for air and water to move. Walking on wet soil crushes those crumbs and squeezes the air out. That is the reason for permanent beds with permanent paths.</p>
+<p><b>What damages soil.</b></p>
+<ul><li>Heavy tilling, which breaks up structure and burns organic matter.</li><li>Walking and driving on wet beds.</li><li>Leaving soil bare to sun, wind and rain.</li><li>Overusing fertiliser, which can upset the biology and salt the soil.</li><li>Poor drainage, which suffocates roots.</li></ul>
+<p><b>What builds soil.</b></p>
+<ul><li>Compost and other organic matter.</li><li>Cover crops and living roots in the ground as much of the year as possible.</li><li>Mulch.</li><li>Minimal disturbance.</li><li>Diverse crops in rotation.</li></ul>
+<div class="short">The aim of soil management is simple: keep the soil covered, keep roots growing in it, keep it from being compacted, and feed the life in it.</div>
+</section>
+<section class="pg" data-t="Reading a Soil Test" data-ch="Part Four: Soil and Fertility"><h3>Reading a Soil Test</h3>
+<p>A soil test is a set of numbers. Here is what the main ones mean.</p>
+<p><b>pH.</b> How acid or alkaline the soil is. Most vegetables like a <b>slightly acid to neutral pH, around 6.0 to 7.0</b>, measured in a calcium chloride extract (some labs measure in water, which gives a higher number, so check the method). Many Gippsland soils lean acid. Below about 5.5, some nutrients lock up and others can reach toxic levels.</p>
+<p><b>Organic carbon or organic matter.</b> A measure of the organic material. Higher is generally better for structure, water holding and biology. Your rich topsoil probably tests well here.</p>
+<p><b>Nitrogen.</b> Hard to test reliably because it changes constantly. Tests show a snapshot. Growers manage nitrogen through compost, cover crops (legumes fix nitrogen) and side-dressing.</p>
+<p><b>Phosphorus.</b> Essential for roots and flowering. Often high in old pasture soils that have been fertilised, and sometimes locked up in acid soils.</p>
+<p><b>Potassium, calcium, magnesium.</b> The <b>balance</b> between them matters as well as the amounts. Calcium and magnesium especially affect soil structure.</p>
+<p><b>Sodium and salinity (EC).</b> High sodium makes clay soils sticky and unworkable. High salinity stunts plants. Check both, especially if you use bore or dam water.</p>
+<p><b>Trace elements.</b> Zinc, boron, copper, manganese, iron. Deficiencies are usually specific and fixable, but only if you know which one.</p>
+<p><b>How to use the test.</b></p>
+<ol><li>Do <b>not</b> add something because a book says so. Add it because <b>your test</b> says you are low.</li><li>Retest every year or two so you can see the trend.</li><li>If the report offers recommendations, ask a local advisor to interpret them for a vegetable crop in your district.</li><li>Fix the biggest limit first. A pH problem will stop everything else working.</li></ol>
+<div class="short">Write the lab results in your notebook with the date. In five years the trend is worth more than any single result.</div>
+</section>
+<section class="pg" data-t="Compost: Making Fertility on the Farm" data-ch="Part Four: Soil and Fertility"><h3>Compost: Making Fertility on the Farm</h3>
+<p>Compost is the engine of a market garden. It feeds the soil, holds water, improves structure and suppresses disease.</p>
+<p><b>Bought or made?</b> At first you will probably buy some. Over time, making your own is much cheaper.</p>
+<p><b>The recipe.</b> Compost is a mix of <b>greens</b> (nitrogen-rich: fresh plant waste, manure, kitchen scraps) and <b>browns</b> (carbon-rich: straw, dry leaves, woodchip). Roughly <b>two to three parts brown to one part green by volume</b> is a common starting ratio. Add moisture so the pile is like a wrung-out sponge.</p>
+<p><b>Hot composting in short.</b></p>
+<ol><li>Build a pile at least <b>1 cubic metre</b>, ideally bigger.</li><li>Layer greens and browns, wetting as you go.</li><li>Within a few days it should heat up. Hot piles reach 55 to 65 degrees Celsius, which kills many weed seeds and some pathogens.</li><li>Turn it when it cools, and again when needed.</li><li>It is ready in a few months, dark, crumbly and earthy-smelling.</li></ol>
+<p><b>Safety rules.</b></p>
+<ul><li>Keep compost made from <b>raw manure</b> away from crops you eat raw, and follow the rules on how long a pile must age. See 49.</li><li><b>Do not</b> use manure or compost with unknown contaminants, such as herbicide residues from hay or manure from animals fed treated feed. These can kill vegetables, and it can persist for a long time.</li><li>Test a small batch by growing beans or tomatoes in it before spreading it on a whole garden.</li></ul>
+<p><b>How much do you use?</b> A common practice is a layer of <b>1 to 2 cm of finished compost on top of each bed</b> at the start of the season or between crops. Your soil test and your crop results tell you whether to increase or reduce it.</p>
+<div class="short">Look for the cause of any plant problem in the soil first. Most trouble in a vegetable garden starts below the surface.</div>
+</section>
+<section class="pg" data-t="Cover Crops: Feeding the Soil Without a Shop" data-ch="Part Four: Soil and Fertility"><h3>Cover Crops: Feeding the Soil Without a Shop</h3>
+<p>A cover crop is grown to improve the soil, not to sell.</p>
+<p><b>What they do.</b></p>
+<ul><li>Suppress weeds.</li><li>Hold soil against erosion in heavy rain.</li><li>Add organic matter when they are cut and incorporated or left as mulch.</li><li>Fix nitrogen (legumes).</li><li>Feed soil life with living roots.</li><li>Open compacted soil with deep roots.</li></ul>
+<p><b>Common choices for a cool temperate climate.</b></p>
+<div class="tw"><table><thead><tr><th>Type</th><th>Examples</th><th>Use</th></tr></thead><tbody><tr><td>---</td><td>---</td><td>---</td></tr><tr><td>Cereal</td><td>Oats, cereal rye</td><td>Weed suppression, organic matter, winter cover</td></tr><tr><td>Legume</td><td>Field peas, vetch, faba (broad) beans</td><td>Nitrogen fixing, soil feeding</td></tr><tr><td>Brassica</td><td>Mustard, forage radish</td><td>Biofumigation, deep roots</td></tr><tr><td>Summer</td><td>Buckwheat, millet, sorghum</td><td>Quick summer cover</td></tr></tbody></table></div>
+<p><b>Mixes.</b> Many growers sow a <b>mix</b>: a cereal and a legume together, for example oats and field peas. The cereal grows tall and suppresses weeds, the legume feeds the soil.</p>
+<p><b>Timing.</b> In your climate, autumn sowing of oats and peas works well, because they grow through winter, and are cut in spring. Frost often does not hurt them, and you will find which ones suit your gully by trying.</p>
+<p><b>Termination.</b> Cut the crop at <b>flowering</b>, before it sets seed. You can slash it, mow it, crimp it, or cover it with a tarp for a few weeks (see 23).</p>
+<p><b>Where they fit.</b> A resting bed under a cover crop is a <b>productive</b> bed, just not for cash. A good rotation often puts every bed under a cover crop for one season every few years.</p>
+</section>
+<section class="pg" data-t="No-Till, Tarping and Mulch" data-ch="Part Four: Soil and Fertility"><h3>No-Till, Tarping and Mulch</h3>
+<p><b>Why reduce tillage?</b> Every time you dig or rotary-hoe soil you break up its structure, expose organic matter to air so it burns off faster, and wake up a fresh crop of weed seeds. On the very small farms that market gardens usually are, repeated tillage can wreck a soil that has no fallow time to recover.</p>
+<p><b>No-till.</b> You prepare the bed without turning the soil. Compost goes on top. Seeds and transplants go in through it.</p>
+<p><b>Tarping.</b> A widely used technique among small-scale growers since Jean-Martin Fortier's *The Market Gardener* spread it. You cover a bed with an opaque black plastic sheet for a few weeks. The darkness and heat kill weeds, and the covered soil stays moist and biologically active. When the tarp comes off, the bed is ready to plant.</p>
+<p><b>What the research says.</b> A US study published in 2024 compared four systems over several years on cabbage and winter squash in permanent beds: deep rotary tillage, shallow tillage, no-till and no-till with tarping. It was designed to see how tarping and mulching affect yield, profit and soil nutrients. The authors note that few crop budgets exist that are suited to very small farms. In short: tarping is promising and widely used, but your own conditions will decide, and you should test it on a few beds first.</p>
+<p><b>How to tarp.</b></p>
+<ol><li>Cut or mow the bed, remove the crop residue.</li><li>Cover with a black tarp, weighed down with sandbags, rocks or soil-filled bags.</li><li>Leave it for <b>2 to 6 weeks</b>, depending on season and weeds. Warmer weather works faster.</li><li>Remove, then plant straight away.</li></ol>
+<p><b>Mulch.</b> A layer of straw, hay (check for herbicide), woodchip on paths or spent crop residue. It cuts weeds, conserves water, moderates soil temperature and slowly feeds the soil.</p>
+<p><b>Watch for slugs.</b> Tarps and mulch make a lovely home for slugs and snails in a wet gully. See 44.</p>
+</section>
+<section class="pg" data-t="Rotation: Not Planting the Same Thing Twice" data-ch="Part Four: Soil and Fertility"><h3>Rotation: Not Planting the Same Thing Twice</h3>
+<p><b>The rule.</b> Do not grow crops from the same <b>family</b> in the same bed in consecutive seasons. Leave a gap of <b>three to four years</b> if you can.</p>
+<p><b>Why.</b> Each plant family attracts certain pests and diseases, and has its own nutrient needs. Grow the same family in the same soil again and again, and the pests and diseases build up while the nutrients it likes run down.</p>
+<p><b>The main families you will grow.</b></p>
+<div class="tw"><table><thead><tr><th>Family</th><th>Crops</th></tr></thead><tbody><tr><td>---</td><td>---</td></tr><tr><td>Brassicas</td><td>Cabbage, kale, broccoli, cauliflower, radish, turnip, rocket, mustards, Asian greens</td></tr><tr><td>Alliums</td><td>Onion, garlic, leek, spring onion, chives</td></tr><tr><td>Solanaceae</td><td>Tomato, potato, capsicum, chilli, eggplant</td></tr><tr><td>Cucurbits</td><td>Cucumber, zucchini, pumpkin, melon</td></tr><tr><td>Legumes</td><td>Peas, beans, broad beans</td></tr><tr><td>Umbellifers</td><td>Carrot, parsnip, celery, parsley, coriander, dill, fennel</td></tr><tr><td>Chenopods</td><td>Beetroot, silverbeet, spinach</td></tr><tr><td>Composites</td><td>Lettuce, chicory, endive, sunflower</td></tr><tr><td>Grasses</td><td>Sweet corn, oats, rye</td></tr></tbody></table></div>
+<p><b>A simple four-group rotation.</b></p>
+<ol><li><b>Heavy feeders</b>: brassicas, sweet corn, cucurbits.</li><li><b>Fruiting crops</b>: tomato family.</li><li><b>Root crops and alliums</b>: carrots, beets, onions.</li><li><b>Legumes and cover crop</b>: peas, beans, then a soil-building cover.</li></ol>
+<p>Each bed moves one step along each year.</p>
+<p><b>On a real farm.</b> Rotation gets messy, because crops overlap and come and go through the year. The way to cope is the bed number record, see 56. A map of what was in each bed last year, written down, solves most of it.</p>
+<div class="short">Clubroot in brassicas, and soil-borne diseases in tomatoes, are the classic reasons for rotation. Once they are in a bed they stay.</div>
+</section>
+<section class="pg" data-t="Choosing What to Grow" data-ch="Part Five: Crops and the Calendar"><h3>Choosing What to Grow</h3>
+<p>A beginner's instinct is to grow a bit of everything. A grower's instinct is to grow what <b>sells, grows well here, and pays for the bed it occupies</b>.</p>
+<p><b>Three filters.</b></p>
+<ol><li><b>Does it grow well in my gully?</b> Cool-season crops are the safe bet in a frost pocket.</li><li><b>Will people pay a good price for it?</b> Ask at the market, as a customer, before you plant.</li><li><b>Does it earn its space?</b> A crop that sits in a bed for five months for a low price is a poor use of that bed.</li></ol>
+<p><b>Think in value per bed per week.</b> Some crops are fast and light on the bed: salad mix, radish, baby spinach, bunching turnips. A bed can turn over several of them a season. Others, like pumpkins, occupy ground for months and pay less per square metre.</p>
+<p><b>Beginner-friendly cash crops for a cool district.</b></p>
+<ul><li><b>Salad and baby greens</b>: lettuce, rocket, mizuna, spinach, mustards.</li><li><b>Silverbeet and kale</b>: tough, frost-tolerant, long harvest.</li><li><b>Carrots and beetroot</b>: popular, reliable, store well.</li><li><b>Spring onions and leeks</b>: valued, handle cold.</li><li><b>Garlic</b>: plant in autumn, harvest in summer, stores for months, high value.</li><li><b>Broccoli, cabbage, cauliflower</b>: need good soil, and you have it.</li><li><b>Radish and turnip</b>: fast, a good filler crop.</li><li><b>Herbs</b>: parsley, coriander, dill, chives.</li><li><b>Tomatoes</b>: the star of summer, but the hardest in a frosty place. See later.</li></ul>
+<p><b>A rule from the experienced.</b> The people who write the books on this say the most profitable crops tend to be the ones that grow fast, can be harvested repeatedly, and sell for a good price per kilo. Examples they often name include salad greens, tomatoes, cucumbers and head lettuce. Different growers have different lists, so find what works for you and your customers.</p>
+<p><b>Start with 8 to 10 crops, not 40.</b> Learn them thoroughly.</p>
+</section>
+<section class="pg" data-t="Frost-Tolerant and Frost-Tender: Know Which Is Which" data-ch="Part Five: Crops and the Calendar"><h3>Frost-Tolerant and Frost-Tender: Know Which Is Which</h3>
+<p>This table is a general guide. Individual varieties vary, young plants are softer than mature ones, and a hard frost beats any plant.</p>
+<div class="tw"><table><thead><tr><th>Group</th><th>Crops</th><th>Notes</th></tr></thead><tbody><tr><td>---</td><td>---</td><td>---</td></tr><tr><td><b>Very hardy</b></td><td>Kale, silverbeet, spinach, garlic, onion, leek, broad beans, parsnip, Brussels sprouts, cabbage</td><td>Take hard frost, often taste better after it</td></tr><tr><td><b>Hardy</b></td><td>Peas, carrot, beetroot, turnip, radish, rocket, mizuna, mustard greens, coriander, parsley</td><td>Take light to moderate frost</td></tr><tr><td><b>Half-hardy</b></td><td>Lettuce, broccoli, cauliflower, celery, fennel</td><td>Can be damaged in a hard frost, especially heads and young plants</td></tr><tr><td><b>Tender</b></td><td>Tomato, capsicum, chilli, eggplant, cucumber, zucchini, pumpkin, melon, basil, French beans, sweet corn</td><td>Killed or badly damaged by frost</td></tr></tbody></table></div>
+<p><b>What this means in a frost hollow.</b></p>
+<ul><li>Plant the very hardy and hardy crops in the <b>coldest ground</b>.</li><li>Put the half-hardy crops in a slightly better spot and be ready with <b>row cover</b>.</li><li>Keep tender crops to the <b>warmest, highest ground</b> and plant them out only when the risk has truly passed, or put them in a tunnel.</li></ul>
+<p><b>Frost is not equally bad at all times.</b></p>
+<ul><li>A frost on mature hardy crops in winter is normal.</li><li>A late spring frost on soft young growth is a disaster.</li><li>An early autumn frost can end the tender crop season abruptly.</li></ul>
+<p><b>Hardening off.</b> Seedlings raised in a warm, sheltered place must be toughened for a week or so before planting out. Put them outside by day, bring them in by night, and extend the time. Skipping this is a classic way to lose transplants.</p>
+<div class="short">Frost-tolerant does not mean frost-proof. The Guide has seen many tough crops killed by one bad night.</div>
+</section>
+<section class="pg" data-t="Frost Dates in Your Gully" data-ch="Part Five: Crops and the Calendar"><h3>Frost Dates in Your Gully</h3>
+<p><b>Last frost and first frost.</b> The dates published for a town describe the town, and probably an open, well-drained site with a standard weather station. Your gully has its own dates.</p>
+<p><b>What you can find out.</b></p>
+<ul><li>The Bureau of Meteorology publishes frost and temperature information. For the East Gippsland region it reports fewer frosts over the last 30 years.</li><li>A weather station at Bairnsdale Airport is the nearest widely used reference point. The Nicholson area sits several kilometres away at a different elevation, so expect differences.</li><li><b>Your own thermometers</b> are the real answer. See 9.</li></ul>
+<p><b>How to build your own frost calendar.</b></p>
+<ol><li>Record the minimum at plant height every morning from autumn through spring.</li><li>Mark every day it reached <b>0 degrees or below</b>.</li><li>After one full year, you have your first and last frost dates <b>for each spot you measured</b>.</li><li>After three years, you have a pattern.</li></ol>
+<p><b>The safe-planting rule.</b> For tender crops, plant out when your records show the risk of frost has <b>truly passed</b> for your coldest bed, and keep <b>cover</b> ready for the first month anyway. Many growers add a safety margin of a couple of weeks to the last frost they have observed.</p>
+<p><b>The 'if in doubt' rule.</b> A tomato planted two weeks late still grows. A tomato planted two weeks early and frosted is dead. When in doubt, wait, or cover.</p>
+<p><b>Keep notes on near-misses.</b> Write the date and the lowest temperature of every frost, and what it did. This is gold in year three.</p>
+</section>
+<section class="pg" data-t="A Planting Calendar for Eastern Victoria" data-ch="Part Five: Crops and the Calendar"><h3>A Planting Calendar for Eastern Victoria</h3>
+<p><b>Read this first.</b> This is a <b>starting template</b> for a cool-temperate district with frost, drawn from general practice. Your own frost record overrides it. Use it to know what to think about each month, not as a set of rules.</p>
+<div class="tw"><table><thead><tr><th>Month</th><th>Sow or plant</th><th>Harvest</th></tr></thead><tbody><tr><td>---</td><td>---</td><td>---</td></tr><tr><td><b>Jan</b></td><td>Autumn brassicas in seedling trays, carrots, beetroot, beans (to early Feb), late sweet corn</td><td>Tomatoes, zucchini, cucumber, beans, garlic, onions, salad</td></tr><tr><td><b>Feb</b></td><td>Seedlings for winter brassicas, silverbeet, kale, lettuce, spinach, peas, broad beans</td><td>Tomatoes, capsicum, eggplant, corn, pumpkins starting</td></tr><tr><td><b>Mar</b></td><td>Garlic prep, winter lettuces, spinach, spring onion, cover crops (oats, field peas)</td><td>Tomatoes, pumpkins, capsicums, last of summer crops</td></tr><tr><td><b>Apr</b></td><td>Garlic, broad beans, onions (seedlings), cover crops, peas</td><td>Pumpkins, last tomatoes, carrots, beetroot</td></tr><tr><td><b>May</b></td><td>Garlic (last window), broad beans, cover crops</td><td>Brassicas, silverbeet, kale, leeks</td></tr><tr><td><b>Jun</b></td><td>Mostly protected crops, plan</td><td>Leeks, kale, silverbeet, brassicas, carrots</td></tr><tr><td><b>Jul</b></td><td>Onion seed (nursery), plan, mend, order seed</td><td>Winter greens, brassicas, leeks, carrots</td></tr><tr><td><b>Aug</b></td><td>Early tomatoes and capsicum in a <b>heated</b> nursery, lettuce, peas, brassica seedlings</td><td>Winter greens, early spring crops</td></tr><tr><td><b>Sep</b></td><td>Lettuce, spinach, carrot, beetroot, radish, spring onion, potatoes, hardy crops</td><td>Greens, last winter brassicas</td></tr><tr><td><b>Oct</b></td><td>Hardy crops outdoors, tender crops in the tunnel, harden off</td><td>Early spring greens, radish, spinach</td></tr><tr><td><b>Nov</b></td><td>Tender crops go out <b>if your frost record allows</b>, sweet corn, beans, cucumber, pumpkin</td><td>Spring greens, early garlic, peas, broad beans</td></tr><tr><td><b>Dec</b></td><td>Succession sowings of everything for summer, brassicas for autumn</td><td>Peas, broad beans, garlic, salads, first tomatoes (tunnel)</td></tr></tbody></table></div>
+<p><b>Notes.</b></p>
+<ul><li>Tender crops going out in <b>November</b> is a risk in a hollow. Some years it is safe, others not. Your thermometers decide.</li><li><b>Garlic</b> is one of the most reliable and valuable crops for a cold district. It wants cold. Plant it in autumn and harvest it in summer.</li><li><b>Winter</b> is not dead time. Hardy greens, brassicas, leeks and carrots keep producing, and a tunnel keeps salads coming.</li><li><b>Succession</b> every 1 to 3 weeks for fast crops. See 30.</li></ul>
+</section>
+<section class="pg" data-t="Seeds, Sowing and Nursery Basics" data-ch="Part Five: Crops and the Calendar"><h3>Seeds, Sowing and Nursery Basics</h3>
+<p><b>Start from seed, mostly.</b> Seed is cheap and gives a wide choice of varieties. Buy <b>good seed</b> from a reputable supplier. Look for varieties that are described as cold-hardy or suited to cool climates.</p>
+<p><b>Direct sowing vs transplanting.</b></p>
+<ul><li><b>Direct sow</b>: carrots, beetroot, radish, turnip, peas, beans, spinach, coriander, salad mixes. They dislike root disturbance, or they grow so fast it makes no sense to transplant.</li><li><b>Transplant</b>: tomatoes, capsicum, eggplant, brassicas, lettuce (often), leeks, onions, celery, basil. Raised in trays and planted out as young seedlings.</li></ul>
+<p><b>Why transplant?</b> You get a head start, use the bed for a shorter time, and keep the plants out of danger when they are most vulnerable. In a frosty place it also lets you wait for the right moment to plant.</p>
+<p><b>A simple nursery.</b></p>
+<ul><li>A bench in a sheltered, light place, ideally in a tunnel or glasshouse.</li><li>Seedling trays and a good <b>seed-raising mix</b>. Use a sterile mix, not garden soil.</li><li>Heat for tender crops: a <b>heat mat</b> under the trays makes a big difference to germination of tomatoes and capsicums in late winter.</li><li>Light: strong light after germination, or seedlings stretch and weaken.</li><li>Watering: gentle, from below or with a fine rose.</li></ul>
+<p><b>Sowing depth rule of thumb.</b> About <b>twice the thickness of the seed</b>. Tiny seeds like lettuce barely covered.</p>
+<p><b>Label everything</b> with the crop, variety and date. Memory is a poor tool.</p>
+<p><b>Hardening off.</b> One week before planting out. See 26.</p>
+<p><b>Seed saving?</b> Possible and fun, but a market gardener's first years are better spent growing and selling. Buy seed, save later.</p>
+</section>
+<section class="pg" data-t="Succession Planting: A Steady Harvest" data-ch="Part Five: Crops and the Calendar"><h3>Succession Planting: A Steady Harvest</h3>
+<p><b>The goal.</b> A consistent harvest week after week, so you have something to bring to every market, rather than glut then gap.</p>
+<p><b>How.</b> Sow a small block of a crop every one to three weeks, instead of one big sowing.</p>
+<p><b>Example: lettuce.</b></p>
+<ul><li>You sell 60 heads a week.</li><li>A bed holds about 100 to 150 heads, depending on spacing.</li><li>Sow or transplant a half bed every week. Each half bed matures about six to eight weeks later, depending on season, and you harvest it over a week or two.</li></ul>
+<p><b>Fast crops can be turned over many times a season.</b> After harvesting a bed of baby greens, you can have it <b>replanted within days</b>.</p>
+<p><b>Pace by the season.</b></p>
+<ul><li>In summer, crops mature fast. Succession intervals can be shorter.</li><li>In winter, growth is slow. Plant <b>earlier and more</b> to keep the harvest steady.</li></ul>
+<p><b>Plan backwards from the market.</b> If you want salad on the first Saturday of April, count back from the days to maturity on the seed packet, add a margin for slow weather, and plant then.</p>
+<p><b>Write a crop plan.</b> One page per crop: bed, sowing date, transplant date, expected harvest start, harvest end. The crop plan is the biggest single lever for profit.</p>
+<div class="short">A pale, hurried plan, written in a notebook, is worth ten brilliant plans that live only in your head.</div>
+</section>
+<section class="pg" data-t="Tomatoes in a Frost Pocket" data-ch="Part Five: Crops and the Calendar"><h3>Tomatoes in a Frost Pocket</h3>
+<p>Tomatoes are the crop everyone wants to sell. They are also a good test of whether you have understood frost.</p>
+<p><b>The challenge.</b> Tomatoes need warmth, are killed by frost, and take months to fruit. In a cold hollow your season outdoors may be short, so the fruit can ripen late or not at all.</p>
+<p><b>Strategy 1: grow them in a tunnel.</b> The most reliable approach. See 41. A tunnel can add weeks at each end of the season and protects from the worst frosts.</p>
+<p><b>Strategy 2: start early, in a heated nursery.</b> Sow in late winter on a heat mat, grow on in a warm, bright place, and have <b>large healthy seedlings</b> ready when planting is safe.</p>
+<p><b>Strategy 3: put them on the warmest ground.</b> Plant outdoor tomatoes on the <b>highest, most sheltered, best-drained</b> part of the cultivated area, away from the frost floor.</p>
+<p><b>Strategy 4: choose early varieties.</b> Pick varieties bred to ripen quickly and set fruit in cooler conditions.</p>
+<p><b>Strategy 5: protect them.</b> Keep frost cover on hand, and cover on every cold night from planting until the risk is gone.</p>
+<p><b>Good practice.</b></p>
+<ul><li>Plant deep, burying part of the stem.</li><li>Stake or trellis, and prune to one or two stems for tidy, productive plants.</li><li>Water steadily, because irregular watering causes cracking and blossom-end rot.</li><li>Rotate. Do not follow tomatoes with the same family.</li><li><b>Start a test.</b> Grow a few early varieties in a few spots, and record which ripen first.</li></ul>
+<div class="short">If a tomato is the only crop you are going to put effort into, put it in a tunnel.</div>
+</section>
+<section class="pg" data-t="Garlic, the Cold-Country Crop" data-ch="Part Five: Crops and the Calendar"><h3>Garlic, the Cold-Country Crop</h3>
+<p><b>Why garlic suits you.</b> Garlic <b>wants</b> a cold winter, and a frosty gully gives it one. It is planted in autumn, needs little attention through winter, and is harvested in summer. It sells for a good price and stores for months.</p>
+<p><b>Types.</b> Broadly, <b>hardneck</b> types grow best in cold winters and send up a flower stalk (the scape, itself a sellable crop). <b>Softneck</b> types suit milder climates and store longer. In a frosty district, hardnecks are worth trying, and softnecks too. Test both.</p>
+<p><b>Basic method.</b></p>
+<ol><li><b>Buy clean seed garlic</b> from a reputable grower, not supermarket bulbs. Supermarket garlic may carry disease and may be treated to stop sprouting.</li><li><b>Prepare the bed</b> in autumn with compost, and good drainage. Garlic hates wet feet.</li><li><b>Plant</b> individual cloves, pointed end up, about <b>5 cm deep</b>, around <b>10 to 15 cm apart</b> in rows, between roughly April and May. Check the date against local advice and your own records.</li><li><b>Mulch</b> with straw.</li><li><b>Weed</b> carefully, and keep it watered in dry spells in spring.</li><li><b>Harvest</b> when the lower leaves turn brown, usually around November to January depending on type, then <b>cure</b> the bulbs in a dry, airy place for a few weeks.</li></ol>
+<p><b>Value.</b> Because you grow it in a quiet season, in a small area, and sell it for much of the year, it can be among the most rewarding crops for the space.</p>
+<p><b>Keep your own seed.</b> The best cloves from your best bulbs make next year's seed garlic. Over a few seasons, you build a type adapted to your gully.</p>
+</section>
+<section class="pg" data-t="Rows of Greens: Salads, Brassicas and Roots" data-ch="Part Five: Crops and the Calendar"><h3>Rows of Greens: Salads, Brassicas and Roots</h3>
+<p>A short operating guide to the crops that fill most of a market table.</p>
+<p><b>Salad mix and baby greens.</b></p>
+<ul><li>Sown densely, cut at 10 to 15 cm, often regrow for several cuts.</li><li>A quick turnover crop, 3 to 6 weeks in season.</li><li>Needs steady moisture and must be <b>washed, spun dry and chilled</b> quickly.</li><li>A huge part of many growers' income because of the high price per kilo.</li></ul>
+<p><b>Lettuce.</b> Sow in succession, transplant for a good start, harvest as heads or baby leaf. In heat, lettuce bolts (goes to seed) and turns bitter, so choose heat-tolerant types for summer and shade them.</p>
+<p><b>Kale and silverbeet.</b> Pick the outer leaves and the plant keeps producing for months. Frost-hardy and reliable.</p>
+<p><b>Brassicas (cabbage, broccoli, cauliflower).</b></p>
+<ul><li>Need fertile soil, plenty of water, and protection from <b>caterpillars</b> (cabbage white butterfly, diamondback moth), usually with <b>insect netting</b>.</li><li>Transplant at 4 to 6 weeks old.</li><li>Heads can be damaged by frost at the wrong stage.</li><li>Rotate, because of clubroot.</li></ul>
+<p><b>Carrots and beetroot.</b></p>
+<ul><li>Direct sown. Carrots germinate slowly and need the bed kept <b>moist</b> for the first two weeks. Overhead water helps, and a light cover of row cloth keeps the surface from drying.</li><li>Thin to the right spacing.</li><li>Carrots in deep, rich, stone-free soil like yours can be excellent.</li></ul>
+<p><b>Radish and turnip.</b> Fast and easy, good for filling bed gaps and for market variety.</p>
+<p><b>Spring onions and leeks.</b> Leeks are slow but handle cold well.</p>
+<p><b>Herbs.</b> Parsley, coriander, dill, chives and others are high-value for the space and sell well by the bunch.</p>
+<div class="short">Pick a handful of these and do them extremely well. A stall that always has excellent salad is a stall people come back to.</div>
+</section>
+<section class="pg" data-t="Why Frost Hurts" data-ch="Part Six: Frost, the Real Subject"><h3>Why Frost Hurts</h3>
+<p>To fight frost you need to understand it.</p>
+<p><b>What happens in the plant.</b> When the temperature of plant tissue falls below freezing, water in and between the cells can freeze. Ice crystals form and damage cell membranes. When the plant thaws, the cells leak, and the tissue turns dark, soft and mushy. A black frost can do this without visible ice on the surface.</p>
+<p><b>What makes it worse.</b></p>
+<ul><li><b>Soft, fast growth.</b> Young, lush tissue with lots of water is the most vulnerable.</li><li><b>Low temperatures for longer.</b> A short dip can be survivable, a long freeze is not.</li><li><b>A rapid thaw.</b> Strong morning sun on frozen leaves can make the damage worse. In Australia warm sunny days often follow frosty nights.</li><li><b>Dry soil.</b> Damp soil holds more heat than dry soil and releases it overnight.</li><li><b>Clear, still nights.</b> No cloud or wind means the ground loses heat quickly.</li></ul>
+<p><b>What makes it better.</b></p>
+<ul><li><b>Cloud and wind.</b> Cloud traps heat, and wind mixes the cold air with warmer air above.</li><li><b>Moist soil.</b> Water in the soil stores heat.</li><li><b>Hardened plants.</b> Plants that have been gradually exposed to cold produce compounds that help them tolerate it.</li><li><b>Cover.</b> Any layer between the plant and the open sky helps.</li></ul>
+<p><b>Two ways to protect.</b> Every frost protection method does one or both of these:</p>
+<ol><li><b>Add heat.</b> Heaters, water, warm soil.</li><li><b>Trap heat.</b> Covers, tunnels, windbreaks, mulch.</li></ol>
+<p>The next pages cover each method, starting with the cheapest.</p>
+</section>
+<section class="pg" data-t="Rain, Dew, and Reading the Night Sky" data-ch="Part Six: Frost, the Real Subject"><h3>Rain, Dew, and Reading the Night Sky</h3>
+<p><b>Know a frost night before it comes.</b></p>
+<p><b>The conditions for radiation frost.</b></p>
+<ul><li>A <b>clear sky</b> after sunset.</li><li><b>Little or no wind.</b></li><li>A <b>cold air mass</b> and falling temperatures through the afternoon.</li><li>Often a high-pressure system nearby.</li></ul>
+<p><b>Reading the forecast.</b></p>
+<ul><li>Check the Bureau of Meteorology forecast for your area every afternoon in the cold season. Forecast minimums for towns are rarely the same as your gully floor, so learn the <b>offset</b> from your own records. If the forecast says 3 degrees and your gully floor usually reads 3 degrees colder, plan for zero.</li><li>A forecast of clear skies and light winds is the signal.</li></ul>
+<p><b>Reading the evening.</b></p>
+<ul><li>If the sun sets into a clear sky and the wind drops, and the temperature is already falling quickly, a hard frost is likely.</li><li>A <b>high dew point</b> (humid air) can slow the temperature fall because of the heat released when dew forms, so the minimum is often milder on a muggy night.</li><li>A thin high cloud can help, a thick cloud blanket almost always stops frost.</li></ul>
+<p><b>A frost log.</b> Keep a simple log: forecast minimum, your actual minimum, conditions. After a season you have a rule of thumb for your own site, which is more accurate than any general rule.</p>
+<p><b>Set a routine.</b> At 4 pm in the cold season, check the forecast. At 5 pm, decide. By dark, cover. It is a ten-minute job when you are ready and a disaster when you are not.</p>
+</section>
+<section class="pg" data-t="Row Cover: The Cheapest Frost Insurance" data-ch="Part Six: Frost, the Real Subject"><h3>Row Cover: The Cheapest Frost Insurance</h3>
+<p><b>What it is.</b> A lightweight fabric laid over a crop, either directly on the plants or held up by hoops. It is sold under names such as frost cloth, row cover, floating row cover, or agribon.</p>
+<p><b>What it does.</b> It traps some of the heat rising from the soil, and it reduces radiative heat loss to the clear night sky. Different weights give different protection. Lightweight covers give a few degrees of protection, heavier ones give more.</p>
+<p><b>Why it suits permanent beds.</b> A cover cut to the width of a bed, laid across hoops, can be put on in minutes and taken off in minutes. This is a big reason for standardising your beds. See 5.</p>
+<p><b>Weights.</b> Many suppliers describe covers by grams per square metre. Roughly, light covers are for insects and light frost, medium for light frost protection and heavy for hard frost. Check the manufacturer's stated protection and treat it as a rough guide, then test against your own thermometers.</p>
+<p><b>How to use it.</b></p>
+<ol><li><b>Hoops.</b> Wire or plastic hoops pushed into the soil over the bed, high enough to keep the fabric off the plants.</li><li><b>Cover</b> laid over, with the edges held down with sandbags, pegs, or soil, <b>sealed to the ground</b> so that cold air cannot blow in and warm air cannot escape.</li><li><b>Put it on late afternoon</b>, before the temperature drops, while the soil is still holding the day's warmth.</li><li><b>Take it off</b> in the morning once the frost has gone, or leave it on if it is mild, but watch for overheating on sunny days.</li></ol>
+<p><b>Double layers</b> give extra protection. Two layers of light cover with an air gap often beat one layer of heavy.</p>
+<p><b>Cheap alternatives.</b> Old sheets, hessian, straw, newspaper. They work, but get heavy when wet and need care to avoid crushing the plants.</p>
+<p><b>Other benefits.</b> Row cover also keeps out insects, can speed up growth in cool weather, and shelters young plants from wind.</p>
+<div class="short">Buy enough row cover to cover every frost-sensitive bed at once, on the one night you need it.</div>
+</section>
+<section class="pg" data-t="Low Tunnels and Hoops" data-ch="Part Six: Frost, the Real Subject"><h3>Low Tunnels and Hoops</h3>
+<p>A <b>low tunnel</b> is a hooped cover over a bed, usually one metre or less in height, covered with row cloth or clear plastic.</p>
+<p><b>Why use them.</b></p>
+<ul><li>They give a degree or more of extra protection beyond a floating cover.</li><li>Clear polyethylene traps solar heat by day. This can bring crops on earlier in spring and extend harvest into winter.</li><li>You can cover whole beds with one sheet.</li><li>They are cheap compared with a full tunnel.</li></ul>
+<p><b>Build.</b></p>
+<ol><li>Hoops: <b>fencing wire, EMT conduit or plastic pipe</b>, bent in a half circle, with the ends pushed into the soil, about 1 to 1.5 metres apart.</li><li>Cover: clear plastic film, row cover, or both.</li><li>Anchor: bury the edges in a shallow trench, or weigh them down.</li><li><b>Vents</b>: low tunnels can overheat quickly on a sunny day. Open the ends or lift the sides by mid-morning. Plastic on a sunny winter day can reach damaging temperatures.</li></ol>
+<p><b>Management.</b></p>
+<ul><li>Close in the late afternoon, open in the morning.</li><li>Watch moisture. A closed tunnel is humid, which can encourage fungal disease.</li><li>Remember that plastic does not stop radiation frost entirely. Plastic touching the leaves can transmit frost. Keep the cover above the crop where you can.</li></ul>
+<p><b>Combining.</b> A low tunnel with a row cover <b>inside</b> it gives a double layer for severe frosts.</p>
+<p><b>Where to use them.</b> Winter salads, early spring plantings, young transplants, and a late-season extension for tender crops.</p>
+<div class="short">A set of low tunnels over your frost-prone beds will probably be the most valuable gear you buy in the first two years.</div>
+</section>
+<section class="pg" data-t="Sprinklers, Heaters and Other Active Methods" data-ch="Part Six: Frost, the Real Subject"><h3>Sprinklers, Heaters and Other Active Methods</h3>
+<p>For bigger crops and big frosts, there are active methods. Some are for orchards and not suitable for a vegetable garden, so read the cautions.</p>
+<p><b>Overhead sprinklers for frost protection.</b></p>
+<ul><li>The principle: when water freezes it <b>releases heat</b>. A continuous film of water freezing on a plant keeps the plant tissue near 0 degrees, as long as water keeps being applied.</li><li>This works, but only if the sprinklers run <b>continuously</b> from before the temperature reaches the danger point until the ice has melted in the morning, and the application rate is high enough.</li><li>The risks: if the water stops, the plant can be worse off than before. It uses <b>a lot of water</b>, which your source may not allow. Ice load can break branches. It can also waterlog soil.</li><li>For a small vegetable garden it is usually <b>not worth it</b> compared with covers.</li></ul>
+<p><b>Wind machines and fans.</b> These mix warmer air from above into the cold layer. They only work where there is a <b>temperature inversion</b>, with warmer air above, and they are expensive. Not for a small garden.</p>
+<p><b>Heaters.</b> Orchard heaters, gas heaters, or even burning materials. They are costly, labour-hungry, and may be restricted for fire and air quality reasons. Not recommended for a first-time grower.</p>
+<p><b>Water as a heat store.</b> Black barrels or containers of water inside a tunnel absorb heat by day and release it at night. Cheap and effective inside a tunnel.</p>
+<p><b>Warm the soil.</b> Moist soil holds heat better than dry soil. Watering the day before a forecast frost, in the morning, can help slightly. Avoid wetting leaves just before dusk.</p>
+<p><b>The sensible hierarchy for you.</b></p>
+<ol><li>Site the crops well, see 13.</li><li>Choose hardy crops.</li><li>Use <b>row cover and low tunnels</b>.</li><li>Use a <b>tunnel</b> for tender and high-value crops.</li><li>Think about the rest only if the first four are not enough.</li></ol>
+</section>
+<section class="pg" data-t="Windbreaks and Air Flow Without Making It Worse" data-ch="Part Six: Frost, the Real Subject"><h3>Windbreaks and Air Flow Without Making It Worse</h3>
+<p>A windbreak seems like a plain good idea and in a frost hollow it can be a trap.</p>
+<p><b>The problem.</b> Dense hedges and walls across the slope <b>dam</b> cold air and make frost pockets worse. Agricultural advisers advise leaving breaks in hedges and running fences <b>down</b> a slope, not across it.</p>
+<p><b>What works.</b></p>
+<ul><li><b>Permeable</b> windbreaks that slow the wind but let cold air drift through. Think open rows of shrubs and trees with gaps, or mesh screens, not solid walls.</li><li>Place windbreaks <b>across the wind direction</b>, but make sure they don't sit <b>across the downhill cold-air flow</b> below your beds. Where these two clash, the cold air flow wins, because frost is your bigger risk.</li><li>Put a shelter belt <b>uphill</b> of the garden, to filter some of the cold air flowing down from higher ground. This is a recommended practice.</li><li>Leave <b>gaps</b> for cold air to escape below the garden.</li><li>Trim the lower branches of trees, so cold air flows beneath rather than pooling behind.</li></ul>
+<p><b>What to avoid.</b></p>
+<ul><li>A new solid fence or wall at the low end.</li><li>A thick row of conifers across the slope, downhill of the beds.</li><li>Piles of timber, silage or old tin across the drainage line.</li></ul>
+<p><b>Hot, windy days.</b> Wind also dries crops and damages plants in summer. A permeable windbreak helps. Choose plants that suit your site, and consider native species that will also feed birds and pollinators.</p>
+<div class="short">Walk the cold-air route on a still, cold dawn, with a thermometer, and see where it pools.</div>
+</section>
+<section class="pg" data-t="What To Do the Morning After a Frost" data-ch="Part Six: Frost, the Real Subject"><h3>What To Do the Morning After a Frost</h3>
+<p>Frost has hit. What now?</p>
+<p><b>Do not panic and do not rush.</b></p>
+<ol><li><b>Look, don't touch.</b> Frozen plants are brittle. Walking through or picking them can cause damage.</li><li><b>Cover thawing crops from the sun if possible.</b> A rapid thaw can worsen damage. Leaving row cover on until the plants have thawed slowly is a common trick, if it is practical.</li><li><b>Wait a day or two before judging.</b> Damage often does not show at once. Leaves that look limp on day one may recover, and others that look fine may die.</li><li><b>Prune damaged growth later</b>, once the danger of further frost is over. Dead tissue can protect the living tissue underneath from the next frost.</li><li><b>Water normally.</b> Do not overwater damaged plants.</li><li><b>Don't feed heavily.</b> Nitrogen pushes soft growth that is vulnerable to the next frost.</li><li><b>Check the harvest.</b> Frosted leaf crops may still be usable if undamaged, but frost-damaged produce does not store well. Sell it quickly or discard it. Do not sell anything you are not proud of.</li></ol>
+<p><b>Write it down.</b> Date, lowest temperature, crops affected, damage, what protection was in place, what you will do differently.</p>
+<p><b>Learn from the beds.</b> Which beds took damage and which did not? That is data on your frost map. Update the map.</p>
+</section>
+<section class="pg" data-t="Tunnels: What They Are and Why They Matter" data-ch="Part Seven: Tunnels and Protected Growing"><h3>Tunnels: What They Are and Why They Matter</h3>
+<p>A <b>tunnel</b> (also called a hoophouse, polytunnel or high tunnel) is a large, walk-in, hooped structure covered with plastic film. It is the most valuable single piece of equipment for a grower in a cold, frosty place.</p>
+<p><b>What it gives you.</b></p>
+<ul><li><b>Earlier crops in spring</b> and <b>later crops in autumn</b>, by weeks.</li><li>Winter growing of salads and other crops.</li><li>Protection from frost, wind and heavy rain.</li><li>A good home for <b>tomatoes</b>, <b>capsicums</b>, <b>cucumbers</b> and <b>eggplants</b>, which like heat.</li><li>A nursery space.</li><li>Higher yields and better quality for many crops.</li></ul>
+<p><b>What it does not do.</b></p>
+<ul><li>It is not frost-<b>proof</b>. A severe frost can get inside, especially a tunnel without heating.</li><li>It does not need heating, but frost inside can be fought with extra layers, water barrels, and a bit of heat.</li><li>It can <b>overheat</b> badly on a sunny day. You need to vent.</li><li>It is not cheap, though a basic hand-built tunnel is much cheaper than a commercial greenhouse.</li></ul>
+<p><b>Key idea: a tunnel adds weeks, not months.</b> In a frosty gully, a tunnel might give you an extra month at each end of the warm season, plus a useful winter harvest of cool-season crops.</p>
+<p><b>Think about it for year two.</b> Most beginners are better off starting with low tunnels and row cover, learning to farm, and then buying a tunnel in year two or three when they know what to put in it.</p>
+<p><b>Check the rules.</b> A tunnel is a building or structure in some situations. Check with the shire about planning and building requirements before you build.</p>
+</section>
+<section class="pg" data-t="Siting, Building and Running a Tunnel" data-ch="Part Seven: Tunnels and Protected Growing"><h3>Siting, Building and Running a Tunnel</h3>
+<p><b>Where to put it.</b></p>
+<ul><li><b>Not in the frost pocket floor.</b> Put it on a slight rise or on the sunniest, best-drained ground, so that cold air flows <b>around</b> it rather than pooling inside.</li><li><b>Orientation.</b> Commonly the long axis runs east–west for maximum winter sun, but other factors, like wind and slope, can override this. Align it <b>with the slope</b> if that helps cold air to drain.</li><li><b>Away from big trees</b>, which shade it and drop debris.</li><li><b>Near water and power</b>, if you can.</li><li>On <b>level ground</b>, or levelled.</li><li><b>Wind.</b> A tunnel is a big sail. Anchor it properly, and orient the end walls with the prevailing wind in mind.</li></ul>
+<p><b>Size.</b> A common starting size is about <b>6 to 8 metres wide and 20 to 30 metres long</b>, but start with what you can manage and afford.</p>
+<p><b>Build options.</b></p>
+<ul><li><b>Kit</b>: bought from a supplier, with a tested design and instructions. The easiest.</li><li><b>Hand-bent hoops</b>: cheaper, more work, good for small tunnels.</li><li><b>Second-hand</b>: possible and cheap, but check the structure and film.</li></ul>
+<p><b>Cover.</b> Greenhouse-grade polyethylene film, UV-stabilised, usually lasting several years. Double-layer film with a small fan to inflate between the layers adds insulation.</p>
+<p><b>Ventilation.</b> Roll-up sides and open ends. <b>Overheating kills more tunnel crops than frost does.</b> Open it every sunny morning.</p>
+<p><b>Inside.</b></p>
+<ul><li>Permanent beds, same system as outside.</li><li>Drip irrigation.</li><li>A thermometer at crop height, with a min-max reading, to learn what it is really doing.</li><li>Water barrels as heat stores.</li></ul>
+<p><b>Fire.</b> Plastic burns. Keep it clear of bush and long grass, and consider where it sits in the bushfire plan.</p>
+</section>
+<section class="pg" data-t="Heating, Lighting and Growing in Winter" data-ch="Part Seven: Tunnels and Protected Growing"><h3>Heating, Lighting and Growing in Winter</h3>
+<p><b>Do you need heat?</b> Most growers in a frosty temperate district <b>do not</b> heat the tunnel itself. They use cold-hardy crops and extra layers. They <b>do</b> heat the propagation area, a small insulated cabinet or bench, which is cheaper and more effective.</p>
+<p><b>Heating a propagation bench.</b></p>
+<ul><li>A <b>heat mat</b> under seed trays, with a thermostat.</li><li>Insulation underneath.</li><li>A clear lid or low cover over the trays.</li><li>A cheap, efficient way to start tomatoes, capsicums and others a month or two early.</li></ul>
+<p><b>Inside the tunnel on a cold night.</b></p>
+<ul><li><b>Double cover</b>: a row cover over the crop inside the tunnel.</li><li><b>Water barrels</b>: black containers of water along the south wall, where they catch the winter sun without shading the crops (the sun sits in the north in Australia).</li><li><b>Close it up</b> by mid-afternoon to trap heat.</li><li><b>Moist soil</b> holds heat.</li><li>Extra heat in rare severe frosts: a small gas or electric heater, used with care for ventilation and fire safety, and never unattended.</li></ul>
+<p><b>Winter crops in a tunnel.</b> Salads, spinach, kale, silverbeet, coriander, radish, spring onions, and carrots grow slowly, but they grow, and they sell for good prices when the open ground is frozen.</p>
+<p><b>Light.</b> In midwinter, daylight is short, so growth is slow. That is why you sow earlier for winter harvest: crops need to be nearly full-size before the shortest days.</p>
+<p><b>Condensation and disease.</b> A cold, humid tunnel promotes fungal disease. Vent when you can, keep foliage dry, space plants and water in the morning.</p>
+<div class="short">Winter growing is a skill. Start with a small area and a few crops, and learn.</div>
+</section>
+<section class="pg" data-t="The Philosophy of Pests" data-ch="Part Eight: Pests, Diseases and Wildlife"><h3>The Philosophy of Pests</h3>
+<p><b>The big idea.</b> A healthy plant in healthy soil resists most pests and diseases. Most of your work against them is done before the pest arrives: good soil, good timing, good spacing, and clean habits.</p>
+<p><b>The ladder of response.</b> Start at the bottom and only climb when you need to.</p>
+<ol><li><b>Prevent.</b> Rotation, healthy soil, resistant varieties, clean seed, good drainage.</li><li><b>Exclude.</b> Insect netting, row cover, fences, traps.</li><li><b>Monitor.</b> Walk every bed, every week, looking closely. Under the leaves. Make notes.</li><li><b>Encourage allies.</b> Flowers and habitat for beneficial insects, birds and lizards.</li><li><b>Treat gently.</b> Hand-picking, targeted sprays that suit your growing method.</li><li><b>Remove.</b> Pull and bin badly affected plants before the problem spreads.</li></ol>
+<p><b>Know your pests.</b> You do not need to memorise a hundred. Learn the usual suspects for your crops and your district.</p>
+<p><b>Be honest about thresholds.</b> A few holes in a lettuce leaf is not a crisis. Customers buy blemished organic vegetables when they can see you are the grower. A disease that wipes out a bed is a crisis.</p>
+<p><b>Chemicals.</b> Pesticide use in Victoria is regulated. There are rules on which products you may use on food crops, how, and what training or records you need. Read the label, which is a legal document, and check the rules with Agriculture Victoria before you spray anything you plan to sell.</p>
+<div class="short">Walk the garden every day, if only for five minutes. Problems found early are cheap.</div>
+</section>
+<section class="pg" data-t="The Usual Suspects" data-ch="Part Eight: Pests, Diseases and Wildlife"><h3>The Usual Suspects</h3>
+<p>A field guide to the common troubles in a cool, wet-ish district like yours. Local advisers can confirm what you see.</p>
+<div class="tw"><table><thead><tr><th>Problem</th><th>Attacks</th><th>What you see</th><th>First response</th></tr></thead><tbody><tr><td>---</td><td>---</td><td>---</td><td>---</td></tr><tr><td><b>Slugs and snails</b></td><td>Seedlings, lettuce, brassicas</td><td>Ragged holes, slime trails</td><td>Hand-pick at dusk, remove shelter, beer traps, iron-based baits, clear tarps and mulch edges</td></tr><tr><td><b>Cabbage white butterfly, diamondback moth</b></td><td>Brassicas</td><td>Chewed leaves, green caterpillars</td><td>Insect netting from planting, hand-pick</td></tr><tr><td><b>Aphids</b></td><td>Many crops</td><td>Clusters of tiny insects, sticky leaves</td><td>Strong water spray, encourage ladybirds and lacewings</td></tr><tr><td><b>Thrips, mites</b></td><td>Onions, tomatoes, beans</td><td>Silvery or bronzed leaves</td><td>Monitor, remove, check humidity and dust</td></tr><tr><td><b>Cutworms</b></td><td>Seedlings</td><td>Seedlings cut at the base overnight</td><td>Collars, check at night, till less</td></tr><tr><td><b>Wireworm</b></td><td>Root crops</td><td>Holes bored in carrots, potatoes</td><td>Rotation, avoid planting straight after pasture</td></tr><tr><td><b>Fruit fly</b></td><td>Tomatoes, capsicum, stone fruit</td><td>Soft fruit with maggots</td><td>Check current Victorian advice for your area</td></tr><tr><td><b>Downy mildew</b></td><td>Lettuce, onion, brassicas, cucurbits</td><td>Yellow patches, grey fuzz underneath</td><td>Spacing, airflow, dry leaves, resistant varieties</td></tr><tr><td><b>Powdery mildew</b></td><td>Cucurbits, peas</td><td>White powder on leaves</td><td>Spacing, water at the base</td></tr><tr><td><b>Botrytis (grey mould)</b></td><td>Lettuce, strawberries, tunnel crops</td><td>Grey fluff on rotting tissue</td><td>Ventilate, remove infected material</td></tr><tr><td><b>Clubroot</b></td><td>Brassicas</td><td>Swollen, deformed roots</td><td>Rotation, liming acid soil, do not move infected soil</td></tr><tr><td><b>Blight</b></td><td>Tomato, potato</td><td>Dark patches, rapid collapse in wet weather</td><td>Rotation, airflow, remove infected plants, clean tunnel</td></tr></tbody></table></div>
+<p><b>Hygiene counts.</b> Clean tools, clean trays, clean hands. Remove diseased crop residues from the farm, not onto the compost heap, unless you are sure it gets hot enough. Wash boots and wheelbarrows if you work around known disease.</p>
+<p><b>Beneficial insects.</b> Ladybirds, hoverflies, lacewings and parasitic wasps do much of the work for free. Plant flowers like alyssum, calendula and dill around and within the garden, and avoid broad-spectrum sprays that kill them.</p>
+<p><b>Keep a pest diary.</b> What, when, where, what you did, and what worked.</p>
+</section>
+<section class="pg" data-t="Fencing and the Wildlife Problem" data-ch="Part Eight: Pests, Diseases and Wildlife"><h3>Fencing and the Wildlife Problem</h3>
+<p>In East Gippsland the biggest threat to an unfenced vegetable garden is not an insect. It is a <b>mammal</b>.</p>
+<p><b>Who will turn up.</b></p>
+<ul><li><b>Deer.</b> Sambar deer are widespread in the region. They browse, trample and can jump. They will eat almost anything you grow.</li><li><b>Wallabies and kangaroos.</b> Grazers. A garden full of green food in a dry spell is irresistible.</li><li><b>Wombats.</b> They dig under fences and flatten things.</li><li><b>Rabbits and hares.</b></li><li><b>Possums.</b> Climbers and night raiders.</li><li><b>Birds.</b> Cockatoos, parrots, currawongs and others, especially on seedlings and fruit.</li></ul>
+<p><b>A fence is not optional.</b> Plan it into the budget on day one, not after the first loss.</p>
+<p><b>Basic design.</b></p>
+<ul><li><b>Height.</b> A deer-proof fence is usually taken to be at least about 1.8 to 2 metres high, built tight. Check local advice. Some growers add an extra row of wire on top, or angled outriggers.</li><li><b>Mesh, not solid.</b> Use <b>woven wire or welded mesh</b>, <b>not</b> solid sheet or dense hedging, so <b>cold air can flow through</b>. Remember the lesson in 8.</li><li><b>Bottom.</b> Wombats and rabbits dig, so extend the mesh underground or lay an <b>apron of wire</b> flat along the base on the outside, pegged down.</li><li><b>Gates.</b> Same height and tightness as the fence, with no gap at the bottom.</li><li><b>Posts.</b> Strong, well set, with solid strainers at corners and gates.</li></ul>
+<p><b>Electric.</b> Electric fencing can deter many animals, but is not on its own a guarantee against determined deer. Combined with mesh, it can help. Check electrical safety rules and use an approved energiser.</p>
+<p><b>Birds.</b> Netting over vulnerable crops.</p>
+<p><b>Control and the law.</b> Deer control on private land is regulated in Victoria, and hunting and firearms laws also apply. Ask Agriculture Victoria and the Game Management Authority what is allowed on your block before you act.</p>
+<p><b>Cost.</b> Fencing is one of the biggest start-up costs. Ask for quotes, and ask other growers in the area what has actually worked.</p>
+<div class="short">Fence first, plant second.</div>
+</section>
+<section class="pg" data-t="The Gully Floor in a Wet Year" data-ch="Part Eight: Pests, Diseases and Wildlife"><h3>The Gully Floor in a Wet Year</h3>
+<p>A short page for the rainy times.</p>
+<p><b>What a wet spell does.</b></p>
+<ul><li>Fungal diseases explode: downy mildew, botrytis, blight.</li><li>Slugs and snails multiply.</li><li>Soil becomes waterlogged, and roots suffocate.</li><li>You cannot get onto the beds without damaging them.</li><li>Seedlings damp off.</li></ul>
+<p><b>What to do.</b></p>
+<ul><li><b>Do not work wet soil.</b> Walking and digging in wet soil compacts it. Stay on the paths. If you must, put down a plank to spread the load.</li><li><b>Drain.</b> Make sure the drains and any swales are open, and divert water around the garden, not through it.</li><li><b>Raise the beds</b> a little in the wettest areas, with a slightly mounded profile so water runs off.</li><li><b>Space and ventilate.</b> Open tunnels, thin crops, remove lower leaves from tomatoes.</li><li><b>Choose resistant varieties</b>, especially for lettuce, brassicas and onions.</li><li><b>Harvest and clear</b> diseased crops promptly.</li><li><b>Slug patrol</b> at dusk.</li></ul>
+<p><b>Silver lining.</b> A wet year fills dams and tanks, and the soil in a rich gully recovers fast once it dries out. Write it in the notebook. You will see it again.</p>
+</section>
+<section class="pg" data-t="When to Pick: Harvest Done Right" data-ch="Part Nine: Harvest, Washing and Cold Storage"><h3>When to Pick: Harvest Done Right</h3>
+<p>The best vegetable ruined by a bad harvest is a loss of <b>all</b> the work before.</p>
+<p><b>Harvest early in the day.</b> Plants are crisp, cool and full of water. Heat is the enemy of freshness.</p>
+<p><b>Harvest by crop.</b></p>
+<ul><li><b>Leafy greens</b>: cut with a sharp knife or scissors, into clean crates or tubs, and out of the sun at once.</li><li><b>Roots</b>: pull, trim tops, wash in clean water.</li><li><b>Brassicas</b>: cut heads when firm and tight.</li><li><b>Tomatoes</b>: pick at the right ripeness for the market, handle gently, <b>never refrigerate</b> below about 12 degrees, since cold damages flavour and texture.</li><li><b>Cucumbers, zucchini</b>: pick regularly, small, because they swell fast.</li><li><b>Onions and garlic</b>: harvest when tops die back, then <b>cure</b> in a dry, airy place.</li></ul>
+<p><b>Clean everything.</b> Harvest crates, knives, buckets, gloves. Dirty containers carry disease and can contaminate produce.</p>
+<p><b>Field heat.</b> The biggest enemy after harvest is warmth. Produce keeps respiring after it is picked, using up sugars, losing water, and heading toward rot. <b>Cool it fast.</b></p>
+<p><b>Shade.</b> Keep harvested crates in shade. A pop-up shade tent or a simple roofed wash area is enough to start.</p>
+<p><b>Handle gently.</b> Bruises are rot waiting to happen.</p>
+<p><b>Quality control.</b> Be your own toughest buyer. Discard poor produce.</p>
+<p><b>Write down yields.</b> Weight or bunches per bed per week. This is data for next year's plan.</p>
+</section>
+<section class="pg" data-t="Washing, Packing and Food Safety" data-ch="Part Nine: Harvest, Washing and Cold Storage"><h3>Washing, Packing and Food Safety</h3>
+<p>Fresh vegetables are generally safe, but when something goes wrong, it can make people very sick. You are the first line of defence.</p>
+<p><b>The rules that are changing.</b> Since <b>February 2025</b>, new Primary Production and Processing Standards for <b>leafy vegetables, berries and melons</b> are in the Food Standards Code, regulated in Victoria by <b>Agriculture Victoria</b>. They apply to large businesses <b>and</b> smaller ones that sell at <b>farm gates, u-pick and local markets</b>. If you grow lettuce, spinach, rocket, kale or similar for sale, read the Agriculture Victoria guide and register or notify as it requires.</p>
+<p><b>Core good practice.</b></p>
+<ul><li><b>Water.</b> Use clean water for washing, and be careful with irrigation water, especially for crops eaten raw and for overhead irrigation close to harvest.</li><li><b>Manure and compost.</b> Use well-composted material, and respect the intervals between application and harvest. Keep raw manure off the crops you eat raw.</li><li><b>Animals.</b> Keep livestock and wildlife droppings out of the growing area as far as you can. A fence helps, see 46.</li><li><b>People.</b> Hand washing facilities near the field and wash area, clean clothes, nobody working with a stomach bug.</li><li><b>Wash area.</b> Smooth, cleanable surfaces, clean water, drainage that does not flow back toward crops, and separate from toilets and animals.</li><li><b>Equipment.</b> Clean crates, clean knives, clean tubs.</li><li><b>Records.</b> Write down the date, bed, crop, water source, and compost used. If something goes wrong, you can trace it.</li></ul>
+<p><b>Keep produce cold and clean.</b> See 50.</p>
+<p><b>Labelling.</b> Be accurate about what you sell, including the grower and where it came from.</p>
+<div class="short">If a customer gets sick from your produce, the damage reaches your reputation, your income and, worst of all, a person. Take food safety seriously from the first sale.</div>
+</section>
+<section class="pg" data-t="The Cool Room: Where Your Trade Helps" data-ch="Part Nine: Harvest, Washing and Cold Storage"><h3>The Cool Room: Where Your Trade Helps</h3>
+<p>You are a refrigeration and air conditioning technician. This is the page where you are ahead of every other grower in the district.</p>
+<p><b>Why a cool room matters.</b> A cool room is the <b>single biggest quality tool</b> after the soil. Cooling produce fast after harvest keeps it fresh for days longer, lets you pick the day before market, and lets you hold stock through the week.</p>
+<p><b>What to store at what temperature.</b> Rules of thumb from general post-harvest practice. Check each crop before you rely on them.</p>
+<div class="tw"><table><thead><tr><th>Group</th><th>Examples</th><th>Rough storage temperature</th><th>Humidity</th></tr></thead><tbody><tr><td>---</td><td>---</td><td>---</td><td>---</td></tr><tr><td>Leafy greens, brassicas, roots, herbs (cool)</td><td>Lettuce, kale, spinach, broccoli, carrots, beetroot, radish, spring onion</td><td>About 0 to 2 °C</td><td>High, about 90 to 98%</td></tr><tr><td>Chill-sensitive, warm-loving</td><td>Tomato, capsicum, cucumber, zucchini, basil, eggplant</td><td>About 7 to 13 °C depending on crop</td><td>Medium to high</td></tr><tr><td>Alliums, cured</td><td>Garlic, onions</td><td>Cool and dry, around 0 °C, or cool ambient</td><td>Low humidity</td></tr><tr><td>Pumpkin and winter squash</td><td>Pumpkin</td><td>About 10 to 15 °C, dry, ventilated</td><td>Low to medium</td></tr></tbody></table></div>
+<p><b>Design notes for a small farm.</b></p>
+<ul><li>A <b>walk-in cool room</b> sized for a few cubic metres to start. A small insulated box with a <b>high-capacity controller</b> is enough for a one-person farm.</li><li>High humidity matters as much as temperature. Evaporator size, defrost and air flow all influence how fast produce dries out.</li><li>Keep the coil temperature difference small to keep humidity high.</li><li>A <b>second compartment</b> or a second small unit for chill-sensitive crops.</li><li>Insulated, sealed, cleanable.</li><li>A <b>logging thermometer</b> with alarm.</li><li>Power: a farm blackout is a risk. Think about a generator or solar and batteries.</li><li><b>Never mix</b> ethylene producers (ripe tomatoes, apples) with ethylene-sensitive crops such as leafy greens.</li></ul>
+<p><b>Quick cooling.</b> A forced-air or hydro-cooling step (cold water dunk) before the cool room is worth considering for leafy crops, when volume justifies it.</p>
+<p><b>Regulations.</b> Check refrigerant, gas and electrical rules, and your own licence conditions, if you build a system for sale or as a business asset.</p>
+<div class="short">A well-run cool room doubles your selling window and halves your waste.</div>
+</section>
+<section class="pg" data-t="Where to Sell: Markets and Beyond" data-ch="Part Ten: Selling, Money and the Rules"><h3>Where to Sell: Markets and Beyond</h3>
+<p><b>The first rule.</b> Know your customers <b>before</b> you plant.</p>
+<p><b>Option 1: Farmers markets.</b> Your closest options are in a ring around Nicholson. Schedules are from tourism and market listings and can change, so check each market's own page:</p>
+<ul><li><b>East Gippsland Farmers Market, Bairnsdale:</b> first Saturday of the month, morning.</li><li><b>Metung Farmers Market:</b> second Saturday, on the village green.</li><li><b>Lakes Entrance Farmers and Seafood Market:</b> third Saturday, at the Central Boat Harbour.</li><li><b>Paynesville Farmers' and Makers' Market:</b> fourth Saturday, on the foreshore.</li><li><b>Bairnsdale Sunrise Rotary Market:</b> fourth Sunday.</li><li><b>Lakes Entrance Surf Club Market:</b> first Sunday.</li></ul>
+<p>Between them, these markets cover most weekends of the month. That is a lot of chances to sell, and you could not work all of them at the start.</p>
+<p><b>Pros.</b> Direct contact, immediate feedback, retail prices. <b>Cons.</b> Every market needs a day of picking, packing, travel and standing. Stall fees, weather, and a slow day can sink a bad week.</p>
+<p><b>Option 2: Restaurants and cafes.</b> Higher volume, lower price, regular orders. Great for herbs, salad, specialty crops. You need reliable supply and good relationships.</p>
+<p><b>Option 3: Box scheme or CSA.</b> Customers pay in advance for a weekly or fortnightly box. Predictable income and cash up front. A well-known Quebec market gardener reported that his box scheme made up the largest share of his sales, with farmers markets second.</p>
+<p><b>Option 4: Farm gate and honesty box.</b> Low cost, small volume, depends on traffic.</p>
+<p><b>Option 5: Local shops and grocers.</b> Wholesale pricing, less labour per sale.</p>
+<p><b>A suggestion.</b> Start with <b>one or two markets</b> and a few friends and neighbours as an informal box. Learn what sells. Expand from there.</p>
+<p><b>Your own audience.</b> You already have a community around you. Friends who come to your events, and the people who follow your work, are the most natural first customers. That is a thought, not a plan, and only you know whether it fits.</p>
+</section>
+<section class="pg" data-t="The Rules for Selling Produce in Victoria" data-ch="Part Ten: Selling, Money and the Rules"><h3>The Rules for Selling Produce in Victoria</h3>
+<p>General information only, not legal advice. Check with your local council's environmental health team before you sell.</p>
+<p><b>Food Act registration.</b> In Victoria, businesses selling food must have the right registration or notification under the <b>Food Act 1984</b>. Selling from a <b>market stall</b> counts as a <b>temporary food premises</b>. Registration and notification for temporary and mobile premises goes through <b>FoodTrader</b>, which replaced Streatrader in June 2023. The registering council is the one where your principal premises is.</p>
+<p><b>What about whole vegetables?</b> The lowest-risk category is uncut, unprocessed fruit and vegetables. Councils describe this as a class of business that generally needs to <b>notify</b> the council, rather than hold a full registration. Details change, and the leafy vegetable rules above can add extra requirements, so ask East Gippsland Shire's environmental health team what applies to you.</p>
+<p><b>Statements of trade.</b> Many temporary food businesses must lodge a statement of trade for each event. Ask.</p>
+<p><b>Market rules.</b> Each market has its own stall holder rules and fees. Many require public liability insurance and proof of registration.</p>
+<p><b>Selling cut, washed, packed or processed products.</b> Salad mixes bagged, cut fruit, dressings, jams and so on are different categories with stricter requirements. Check before you add them.</p>
+<p><b>Eggs, meat, dairy.</b> Different regulators. Not covered in this book.</p>
+<p><b>Labels and weights.</b> Selling by weight needs <b>trade-approved scales</b>. Selling by bunch or each does not. Check the National Measurement Institute rules.</p>
+<p><b>Organic claims.</b> If you call your produce <b>organic</b> in a way that implies certification, you may be breaking the rules. Certification generally involves a <b>conversion period</b> of a few years and ongoing audits. Describe your methods honestly instead, for example "grown without synthetic pesticides", if that is true, and check wording rules.</p>
+<p><b>Insurance.</b> Public liability, and think about product liability. Ask a broker.</p>
+<div class="short">The paperwork is boring and takes an afternoon. Selling without it is a bad risk.</div>
+</section>
+<section class="pg" data-t="Tools: What to Buy, in What Order" data-ch="Part Ten: Selling, Money and the Rules"><h3>Tools: What to Buy, in What Order</h3>
+<p>Tools are a trap in two ways. Buy too few and you waste time. Buy too many and you waste money.</p>
+<p><b>Phase 1: the first season.</b></p>
+<ul><li><b>Broadfork or good garden fork.</b> To loosen soil without turning it.</li><li><b>Quality hand tools:</b> a trowel, a hand hoe, harvest knives, secateurs.</li><li><b>Wheelbarrow and a few good buckets.</b></li><li><b>A stirrup hoe or similar.</b> A fast weeding tool for beds.</li><li><b>Measuring tape and pegs.</b> Straight rows, correct spacing.</li><li><b>Seed trays and propagation mix.</b></li><li><b>Hoops and row cover.</b></li><li><b>Irrigation:</b> tank, hose, drip tape, filter, timer.</li><li><b>Fencing materials.</b></li><li><b>Harvest crates, clean tubs, bunching supplies.</b></li><li><b>Minimum thermometers.</b></li><li><b>A notebook.</b></li></ul>
+<p><b>Phase 2: year two.</b></p>
+<ul><li><b>Tunnel.</b></li><li><b>Seeder</b> (a hand push seeder that sows rows quickly).</li><li><b>Cool room.</b></li><li><b>Wash and pack station.</b></li><li><b>A walk-behind tractor or a small machine</b> if the area grows.</li><li><b>Better scales, tent, signs, market display.</b></li></ul>
+<p><b>Phase 3: later, if it grows.</b></p>
+<ul><li>Vehicle, bigger tunnel, mechanisation, staff.</li></ul>
+<p><b>Buy quality for tools you will use daily.</b> A good hoe or knife used every day for years is far cheaper than three bad ones.</p>
+<p><b>Buy second-hand wisely.</b> Fencing materials, tanks and tools are often available from neighbours and sales.</p>
+<p><b>Look after them.</b> Clean, oil, sharpen and store tools. It costs minutes and saves money.</p>
+</section>
+<section class="pg" data-t="The Money: A First-Year Budget and Model" data-ch="Part Ten: Selling, Money and the Rules"><h3>The Money: A First-Year Budget and Model</h3>
+<p>All numbers on this page are <b>planning assumptions, not data</b>. Replace them with real quotes and real sales as soon as you have them.</p>
+<p><b>What the successes report.</b> Jean-Martin Fortier, whose book started the modern small-scale market garden movement, reported about <b>US$140,000 revenue from 1.5 acres in 2013</b>, with roughly <b>60 per cent of sales by subscription box, 30 per cent at farmers markets and 10 per cent to restaurants and shops</b>, with operating margins around 50 per cent. That is a top-performing, well-established farm in Quebec, with a big customer base. It is a useful target, <b>not a forecast</b> for your first year. Other growers reported more modest results, and some say it was not a clear-cut success for them.</p>
+<p><b>A cautious first-year model for 1,000 square metres.</b></p>
+<div class="fm">20 beds x 22.5 sq m = 450 sq m of beds<br>assume 2 to 3 crops per bed per year<br>assume AUD 8 to 15 revenue per bed square metre per crop (assumption)</div>
+<p>Work through the sums for your own case:</p>
+<div class="tw"><table><thead><tr><th>Item</th><th>Low</th><th>High</th></tr></thead><tbody><tr><td>---</td><td>---</td><td>---</td></tr><tr><td>Crops per bed per year</td><td>2</td><td>3</td></tr><tr><td>Revenue per square metre per crop</td><td>AUD 8</td><td>AUD 15</td></tr><tr><td>Beds area</td><td>450 sq m</td><td>450 sq m</td></tr><tr><td><b>Gross revenue</b></td><td><b>AUD 7,200</b></td><td><b>AUD 20,250</b></td></tr></tbody></table></div>
+<p>That is a small first year, and it is meant to be. The aim of year one is to <b>learn the farm and build the customers</b>, with the gross rising as you scale up beds and skill.</p>
+<p><b>Start-up costs, rough ranges to quote against.</b></p>
+<ul><li>Fencing: often the biggest single item.</li><li>Water storage and irrigation.</li><li>Row cover, hoops, tools, crates.</li><li>Seed, compost, mulch.</li><li>Cool room, if you build it yourself, is mostly your own labour plus materials.</li><li>Stall gear: tent, tables, scales, signs, float.</li><li>Insurance, registration, market fees.</li></ul>
+<p><b>Margins.</b> Small, intensive farms can run operating margins around <b>50 to 60 per cent</b> at maturity, according to people who study them, <b>before</b> you pay yourself, tax, depreciation or loan repayments.</p>
+<p><b>GST.</b> Registration is generally required when turnover reaches a government threshold. Check the current figure with the ATO and speak to an accountant.</p>
+<p><b>Pay yourself last, and honestly.</b> Count your own hours. If you work 30 hours a week for AUD 10,000 a year, you are paying to farm.</p>
+</section>
+<section class="pg" data-t="A Business, Not a Hobby" data-ch="Part Ten: Selling, Money and the Rules"><h3>A Business, Not a Hobby</h3>
+<p><b>Structure.</b> Sole trader, partnership, company. An accountant can explain the differences. Get an <b>ABN</b>.</p>
+<p><b>Keep records.</b> Receipts, sales, hours, yields. A simple spreadsheet is enough.</p>
+<p><b>Know your cost per unit.</b> For each crop, estimate seed, labour, water, packaging and market fees. Know your cost per bunch.</p>
+<p><b>Price for the value, not the competition.</b> If your produce is better than the supermarket's, and it often will be, charge for that.</p>
+<p><b>Compare the markets.</b> Track sales per hour at each market. Drop the ones that do not pay.</p>
+<p><b>Time is the real cost.</b> Plant what you can harvest. Harvest what you can sell. Sell what you can grow.</p>
+<p><b>Burnout is real.</b> The hardest thing about a market garden is the <b>sheer volume of work</b>, and a rising workload from spring to autumn. Plan <b>time off</b> into the calendar, and plan the garden to the size of your life.</p>
+<p><b>Ask neighbours.</b> Local growers know things no book does: the dates, the pests, the best markets, which supplier is reliable. Buy them a coffee.</p>
+<p><b>Planning rules.</b> Crop raising is generally an ordinary farm use in a farming zone, but sheds, tunnels, cool rooms, signs and farm-gate sales can raise planning or building questions. Ask East Gippsland Shire before you build.</p>
+<p><b>Chemicals.</b> If you use agricultural chemicals, check the training and record-keeping rules.</p>
+<p><b>Employees.</b> If you hire people, you take on workplace safety, insurance and pay obligations.</p>
+<div class="short">Start small, stay honest in your numbers, and grow only as fast as your skill and your customers do.</div>
+</section>
+<section class="pg" data-t="Records: The Habit That Makes You Good" data-ch="Part Eleven: Your First Year and Beyond"><h3>Records: The Habit That Makes You Good</h3>
+<p>Every experienced grower says the same thing: <b>write it down</b>. A garden you have recorded for three years is a different thing from one you have only worked.</p>
+<p><b>What to record.</b></p>
+<ul><li><b>Weather and frost:</b> daily minimum at plant height, frost nights, damage, rain, hot days.</li><li><b>Beds:</b> bed number, crop, variety, sowing date, planting date, harvest start and end, yield.</li><li><b>Soil:</b> test results, compost applied, cover crops.</li><li><b>Water:</b> how much, how often, any problems.</li><li><b>Pests and diseases:</b> what, where, when, what you did, what worked.</li><li><b>Sales:</b> what you took to market, what sold, at what price, what was left.</li><li><b>Hours and costs:</b> time spent per task, money spent.</li><li><b>Ideas:</b> what to try next year.</li></ul>
+<p><b>The two-minute rule.</b> Record at the end of each work session, in two minutes, while you remember. A phone note, a pocket notebook or a spreadsheet all work. The best system is the one you will use.</p>
+<p><b>A bed card.</b> One page per bed per season. Pin them in the shed. After three years you can look up any bed and see its history.</p>
+<p><b>Review monthly.</b> On the first of each month spend half an hour reading what you recorded. Look for patterns.</p>
+<p><b>Annual review.</b> At the end of each year, sit down and write: what worked, what failed, what to do again, what to drop. This page, more than any book, will improve your farm.</p>
+</section>
+<section class="pg" data-t="Your First Twelve Months, Starting Now" data-ch="Part Eleven: Your First Year and Beyond"><h3>Your First Twelve Months, Starting Now</h3>
+<p>It is late November. This plan assumes you are starting from nothing now. Adjust it to what you find.</p>
+<div class="tw"><table><thead><tr><th>Month</th><th>What to do</th></tr></thead><tbody><tr><td>---</td><td>---</td></tr><tr><td><b>Nov to Dec</b></td><td>Read this book. Measure and map the site. Get <b>thermometers out</b> for the coming cold season. Do soil tests. Call the water authority and the council. Decide the first 12 to 20 beds and mark them. Start a compost heap. Plant a <b>summer cover crop</b> on the beds you will use next.</td></tr><tr><td><b>Jan</b></td><td>Order tools, row cover, tank and irrigation. Plan the fence. Visit a farmers market as a customer and talk to growers. Sow <b>autumn brassica seedlings</b> in a shaded spot.</td></tr><tr><td><b>Feb</b></td><td>Build fence and water system. Prepare beds with compost, in the no-till way. Sow carrots, beetroot, lettuce, silverbeet, spinach.</td></tr><tr><td><b>Mar</b></td><td>Plant out brassicas and kale. Sow <b>cover crops</b> on unused beds. Start taking <b>daily minimum readings</b> if you have not already. Book your first market stall.</td></tr><tr><td><b>Apr</b></td><td><b>Plant garlic.</b> Sow broad beans. Keep planting salads in succession. Check frost cover is ready.</td></tr><tr><td><b>May</b></td><td>First frosts. Practice using row cover. First harvests of greens. First market, small.</td></tr><tr><td><b>Jun to Jul</b></td><td>Harvest, sell, record. Learn frost behaviour in the gully. Mend, order seed, plan next year. Build the propagation bench.</td></tr><tr><td><b>Aug</b></td><td>Start tomatoes and capsicum on heat. Sow spring crops under cover. Review your frost map.</td></tr><tr><td><b>Sep to Oct</b></td><td>Plant out hardy crops. Harvest early greens. <b>Plan the tunnel</b> for year two. Harden off tender seedlings.</td></tr><tr><td><b>Nov</b></td><td>Check last frost record. Plant tender crops <b>only when it is truly safe</b>, with cover ready.</td></tr></tbody></table></div>
+<p><b>In year one, expect to be wrong.</b> Crops will fail. Dates will be off. A frost will surprise you. Your job is to learn faster than the mistakes pile up.</p>
+<p><b>Keep it small.</b> Fewer beds, done well. Add beds in year two.</p>
+<p><b>Test things.</b> Try a couple of tarped beds against uncovered ones. Try two tomato varieties in two spots. The gully is your laboratory.</p>
+</section>
+<section class="pg" data-t="Experiments to Run in Your Gully" data-ch="Part Eleven: Your First Year and Beyond"><h3>Experiments to Run in Your Gully</h3>
+<p>You do not need to take anybody's word for anything. Your gully can answer these questions itself.</p>
+<p><b>1. The cold map.</b> Thermometers at five heights above the floor. How much colder is the floor?</p>
+<p><b>2. The cover test.</b> On a frost night, put a row cover on one bed and leave an identical bed open. Compare the minimums under and outside, and the damage.</p>
+<p><b>3. The double-layer test.</b> Single versus double cover, same night.</p>
+<p><b>4. The tarp test.</b> Two beds, one tarped for three weeks before planting and one not. Compare weeds and yields.</p>
+<p><b>5. The tomato test.</b> Three early varieties, planted at three heights. Which ripens first? Which survives?</p>
+<p><b>6. The garlic test.</b> Hardneck against softneck, two planting dates. Which wins in your gully?</p>
+<p><b>7. The mulch test.</b> Straw against bare soil on a summer crop. How much water does each need?</p>
+<p><b>8. The water test.</b> Drip against sprinkler on the same crop.</p>
+<p><b>9. The market test.</b> Same produce at two markets. Which earns more per hour?</p>
+<p><b>How to run a fair test.</b></p>
+<ul><li>Change <b>one</b> thing at a time.</li><li>Keep a control, the same thing done the usual way.</li><li>Replicate if you can, two beds each.</li><li>Write down results with numbers, not feelings.</li></ul>
+<div class="short">One season of honest experiments in your own gully is worth a shelf of other people's books.</div>
+</section>
+<section class="pg" data-t="Mistakes Everyone Makes" data-ch="Part Eleven: Your First Year and Beyond"><h3>Mistakes Everyone Makes</h3>
+<p>A short list, so you can make fewer of them.</p>
+<ol><li><b>Starting too big.</b> More beds than you can look after.</li><li><b>Growing before selling.</b> Planting a lot and finding no buyers.</li><li><b>Planting tender crops too early.</b> The frost reminds you.</li><li><b>Ignoring the cold-air route.</b> Building a solid fence or hedge across the slope.</li><li><b>Skimping on water.</b> A dry fortnight in summer undoes months of work.</li><li><b>Skipping the fence.</b> The deer read the menu first.</li><li><b>Working wet soil.</b> Compaction that lasts for years.</li><li><b>Not recording.</b> Relearning the same lesson every year.</li><li><b>Chasing too many crops.</b> Forty crops done badly, instead of ten done well.</li><li><b>No cool chain.</b> Beautiful produce that wilts before it gets to the customer.</li><li><b>Underpricing.</b> Pricing to the supermarket.</li><li><b>Doing it all alone, all the time.</b> Burnout.</li><li><b>Buying before testing.</b> Fertiliser the soil did not need.</li><li><b>Ignoring paperwork.</b> Water licences, food registration and insurance are cheap compared with a fine.</li></ol>
+<p><b>The cure for most of these</b> is the same: start small, write things down, and ask someone who has done it.</p>
+</section>
+<section class="pg" data-t="Beyond the First Year" data-ch="Part Eleven: Your First Year and Beyond"><h3>Beyond the First Year</h3>
+<p>If the first year goes reasonably well, here is the shape of what comes next.</p>
+<p><b>Year two.</b></p>
+<ul><li>Add a <b>tunnel</b> and a <b>cool room</b>.</li><li>Add beds, but only as many as you can keep clean.</li><li>Refine your crop plan using your records.</li><li>Drop what did not pay. Double down on what did.</li><li>Add a regular market, and perhaps a small box scheme.</li></ul>
+<p><b>Year three.</b></p>
+<ul><li>Your frost map and records are valuable. Use them to push the season earlier and later.</li><li>Build soil further with compost and cover crops.</li><li>Consider help at peak times.</li><li>Look at <b>value-adding</b> carefully: bunched herbs, salad mix, ferments, seedlings. Check the food rules first.</li></ul>
+<p><b>Year five.</b></p>
+<ul><li>A mature, productive garden, a loyal customer base, and a pretty clear picture of what you want it to be: a livelihood, a supplement or a joy.</li></ul>
+<p><b>Other things to think about.</b></p>
+<ul><li><b>Fruit and perennials.</b> Berries, rhubarb, asparagus and herbs, away from the frost floor, give year-round variety. Orchard trees need frost-free flowering sites.</li><li><b>Seed saving and your own varieties.</b></li><li><b>A farm gate stall</b>, an honesty box, or a few open days.</li><li><b>Teaching and sharing.</b> A neighbour who learns beside you is a friend and an ally.</li></ul>
+<p><b>A last thought on frost.</b> The frost you were worried about when you started is no longer a threat. It is one of the things you know about your land, the way you know where the water goes.</p>
+</section>
+<section class="pg" data-t="Glossary" data-ch="Part Eleven: Your First Year and Beyond"><h3>Glossary</h3>
+<p><b>Aggregate.</b> A small crumb of soil held together by organic matter and biology.</p>
+<p><b>Advection frost.</b> Frost caused by a cold air mass moving in. Rare in Australia.</p>
+<p><b>Black frost.</b> Dry frost that freezes plant tissue without visible ice.</p>
+<p><b>Bed.</b> A permanent, narrow growing strip that is never walked on.</p>
+<p><b>Biointensive.</b> A growing style with close spacing, permanent beds, compost and minimal disturbance.</p>
+<p><b>Brassica.</b> The cabbage family.</p>
+<p><b>Cold air drainage.</b> The downhill flow of cold, dense air on still nights.</p>
+<p><b>Cover crop.</b> A crop grown for soil health rather than for sale.</p>
+<p><b>CSA.</b> Community-supported agriculture, a box scheme paid for in advance.</p>
+<p><b>Cure.</b> Dry a harvested crop such as garlic or onions so it keeps.</p>
+<p><b>Damping off.</b> Seedlings rotting at the base from fungus.</p>
+<p><b>Drip tape.</b> Thin irrigation tubing with small emitters.</p>
+<p><b>EC.</b> Electrical conductivity, a measure of soil or water salinity.</p>
+<p><b>Field heat.</b> Warmth in produce just after harvest.</p>
+<p><b>Frost hollow or pocket.</b> A low spot where cold air collects.</p>
+<p><b>Hardening off.</b> Gradually toughening seedlings to outdoor conditions.</p>
+<p><b>Headland.</b> The working strip at the end of beds.</p>
+<p><b>Hoop house or tunnel.</b> A hooped structure covered in plastic.</p>
+<p><b>No-till.</b> Growing without turning the soil.</p>
+<p><b>pH.</b> How acid or alkaline the soil is.</p>
+<p><b>Radiation frost.</b> Frost caused by ground heat loss to a clear sky.</p>
+<p><b>Row cover.</b> Lightweight fabric laid over crops for frost and insect protection.</p>
+<p><b>Rotation.</b> Moving crop families around so the same family does not follow itself.</p>
+<p><b>Succession.</b> Sowing a little at a time for a steady harvest.</p>
+<p><b>Tarping.</b> Covering a bed with black plastic to kill weeds and prepare it for planting.</p>
+<p><b>Transplant.</b> A seedling raised in a tray and planted out.</p>
+</section>
+<section class="pg" data-t="Where to Read More" data-ch="Part Eleven: Your First Year and Beyond"><h3>Where to Read More</h3>
+<p>The Guide recommends starting with these, in roughly this order.</p>
+<ul><li><b>The Market Gardener</b> by Jean-Martin Fortier. The book that popularised small-scale, high-value market gardening, with detailed methods on beds, tools, crops and sales. It comes from a Quebec climate, so adjust.</li><li><b>The Urban Farmer</b> by Curtis Stone. A different approach, on very small plots, with a strong focus on the business side.</li><li><b>Your own soil, your own thermometers, and your own notebook.</b> The single best reference for your gully.</li><li><b>The Bureau of Meteorology's East Gippsland climate guide for agriculture,</b> which describes the region's rainfall, temperature and frost trends.</li><li><b>Agriculture Victoria</b> for food safety rules on leafy vegetables, berries and melons, and for chemical use and pest advice.</li><li><b>Southern Rural Water</b> for licences on bores, dams and irrigation.</li><li><b>East Gippsland Shire</b> environmental health and planning teams, for food registration, markets and buildings.</li><li><b>The FoodTrader website</b> for registration of temporary and mobile food premises.</li><li><b>Local growers.</b> Walk the farmers markets, buy their produce, and ask questions.</li></ul>
+<div class="short">No book can tell you what your gully will do on a clear still night in June. Your thermometer can.</div>
+</section>
+<section class="pg" data-t="The Last Page" data-ch="Part Eleven: Your First Year and Beyond"><h3>The Last Page</h3>
+<p>You started with a gully, rich soil and a frost problem, and a promise to know nothing and want to know everything.</p>
+<p>You now know the shape of it. A market garden is not a mystery. It is a hundred small jobs done in the right order, in the right place, at the right time, and written down. The soil you already have. The water you can sort out. The frost you can map, read and work with, and the fence, the cool room and the market are all things you can build.</p>
+<p><b>The short version.</b></p>
+<ul><li>Map your cold before you plant.</li><li>Put tender things high and hardy things low.</li><li>Keep the cold-air route open.</li><li>Fence first.</li><li>Water is the real limit.</li><li>Feed the soil, not the plants.</li><li>Start small, write it all down.</li><li>Plant garlic in autumn.</li><li>Sell before you grow.</li></ul>
+<p>The first frost of the year will come on some clear, still morning in the cold season. By then you will be ready, with your thermometers read, your covers on and your notebook open.</p>
+<p>Go and look at the gully at dawn.</p>
+</section></div>`
+      ],
+      see:["spiders","brodiepacks"] },
     { id:"brodie", cat:"Things", title:"Following Brodie",
       quote:["Brodie will start at the door at 6 am. People are welcome to follow me into Mind Garden, but Mind Garden is so hard to find even Brodie misses it at times."],
       text:[
