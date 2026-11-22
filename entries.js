@@ -3447,6 +3447,86 @@ print(&quot;strain %&quot;, round(100 * sigma / E, 2))</pre>
         `<div class="short">Play it once on speakers, once on headphones, and once somewhere out on the block with nothing around you. Then tell the Guide it is wrong.</div>`
       ],
       see:[] },
+    { id:"orbitalspiders", cat:"Things", title:"The Case for Orbital Spider Farms",
+      quote:["Nobody has failed to farm spiders. Nobody has had enough FLOPs to try."],
+      text:[
+        `<div class="short">The Question: can spiders be farmed, and is the thing stopping us a spider problem or a compute problem? Mind Garden's position, argued as hard as it can be argued: it is a compute problem, and the compute lives in orbit. Then the Guide checks the maths and tells you where it holds and where it breaks.</div>`,
+        `<div class="maths">
+<div class="sec">Why Spiders Are Not Farmed</div>
+<p>Silkworms are farmed. Spiders are not. The standard answer is that spiders are territorial and cannibalistic, so you cannot pack them together like worms. Even the patent literature on spider farming says so, and notes that spider silk is roughly a hundredth the thickness of a human hair, so you need an enormous number of spiders for a useful amount.</p>
+<p>The best proof of what it takes is the Golden Spider Silk Cape. It was made in Madagascar from the silk of about 1.2 million golden orb-weaver spiders. It took about 80 people and three years, and the spiders were collected from the wild, milked, and released. The finished cape has 7.48 square metres of cloth and weighs 1,896 grams. Nobody farmed those spiders. They were hunted.</p>
+<div class="sec">The Steel Man</div>
+<p>Here is the strongest version of the case, in five premises.</p>
+<ul>
+<li><b>One.</b> Cannibalism is not a law of nature. It is a rate: encounters multiplied by hunger multiplied by opportunity. Control all three for every individual spider and the cannibalism goes to near zero.</li>
+<li><b>Two.</b> Controlling them means knowing, for every spider, where it is, how hungry it is, and who is next to it, continuously. That is a perception and scheduling problem.</li>
+<li><b>Three.</b> Spiders are built for perfect camouflage. A farm full of animals that evolved not to be seen is a computer vision problem at the hard end of the scale: tiny targets, clutter, motion, and an adversary that is hiding.</li>
+<li><b>Four.</b> Nobody tried this because the compute per spider cost more than the silk earned.</li>
+<li><b>Five.</b> Orbital data centres are about to make compute cheap, so the sum flips.</li>
+</ul>
+<p>Premises two to four are where the maths lives, so let's do the maths.</p>
+<div class="sec">Step 1: How Much Silk Is One Spider Worth?</div>
+<p>Treat dragline silk as a cylinder: mass = density x pi x (diameter / 2) squared x length. Use a density of 1,300 kg per cubic metre.</p>
+<div class="tw"><table><thead><tr><th>Thread</th><th>Length</th><th>Mass</th></tr></thead><tbody>
+<tr><td>4 micron, short milking</td><td>30 m (about 100 ft)</td><td>about 0.5 mg</td></tr>
+<tr><td>4 micron, good milking</td><td>49 m (about 160 ft)</td><td>about 0.8 mg</td></tr>
+<tr><td>4 micron, record milking</td><td>365 m (about 400 yd)</td><td>about 6 mg</td></tr>
+</tbody></table></div>
+<p>Cross-check with the cape: 1,896 g from 1.2 million spiders is at most 1.6 mg of material per spider, and that is the whole cape, not only silk. So one milking is worth about <b>one milligram</b>. That is the number everything else hangs on.</p>
+<p><b>Assumption:</b> a farmed spider can be milked about 50 times a year, so about 50 mg of silk per spider per year.</p>
+<div class="sec">Step 2: What Is That Silk Worth?</div>
+<p>A 2026 market report puts recombinant spider silk protein at about 230 tonnes produced in 2025, at an average of roughly USD 500,000 per tonne, which is about USD 500 per kilogram. A 2026 lifecycle study of E. coli silk puts the minimum selling price at about USD 15 to 88 per kilogram. So lab silk is already cheap, and the farmed spider has to beat it or sell on being natural.</p>
+<div class="fm">revenue per spider-year = 50 mg x price per kg<br>at USD 500 per kg: 0.000050 kg x 500 = USD 0.025<br>at USD 5,000 per kg: USD 0.25<br>at USD 50,000 per kg: USD 2.50</div>
+<p>At the recombinant price, one spider earns two and a half cents a year. Every cent of compute spent on it comes out of that.</p>
+<div class="sec">Step 3: What Does a FLOP Cost?</div>
+<p>Assumptions, stated plainly so you can change them: one H100-class chip, about 989 trillion FLOP per second at 16-bit precision, 700 W power draw, USD 25,000 to buy, a 5 year life, and 40 percent utilisation.</p>
+<div class="fm">energy efficiency = 989e12 / 700 = 1.4e12 FLOP per joule<br>FLOPs delivered in life = 989e12 x 3.156e7 s x 5 yr x 0.4 = 6.2e22<br>capex per FLOP = 25,000 / 6.2e22 = 4.0e-19 USD</div>
+<p>So a FLOP costs about <b>4 x 10^-19 dollars</b> in hardware, before power.</p>
+<div class="sec">Step 4: What Does Orbit Save?</div>
+<p>Google's June 2026 Suncatcher analysis puts orbital power at about USD 14,700 per kW per year at today's launch prices, against USD 570 to 3,000 for a US data centre. If launch falls to about USD 200 per kilogram, orbital power drops to about USD 810 per kW per year. Take that best case.</p>
+<div class="fm">1 kW for a year = 3.156e10 J<br>orbital power at 810 USD/kW-yr = 2.6e-8 USD per joule<br>energy cost per FLOP = 2.6e-8 / 1.4e12 = 1.8e-20 USD</div>
+<div class="tw"><table><thead><tr><th>Where</th><th>Energy per FLOP</th><th>Hardware per FLOP</th><th>Hardware / energy</th></tr></thead><tbody>
+<tr><td>Orbit today (14,700 USD/kW-yr)</td><td>3.3e-19</td><td>4.0e-19</td><td>1.2 : 1</td></tr>
+<tr><td>Orbit at 200 USD/kg launch</td><td>1.8e-20</td><td>4.0e-19</td><td>22 : 1</td></tr>
+<tr><td>Ground (assume 1,500 USD/kW-yr)</td><td>3.4e-20</td><td>4.0e-19</td><td>12 : 1</td></tr>
+</tbody></table></div>
+<p>Hold that thought. Even if orbital power became free, the chip price sets the cost of a FLOP. Remember it for the verdict.</p>
+<div class="sec">Step 5: The Break-Even Rule</div>
+<p>Use orbit at the best case. Total cost per FLOP is 4.0e-19 + 1.8e-20, about 4.2e-19 USD. One GFLOP per second held for a year is 3.156e16 FLOP.</p>
+<div class="fm">compute cost = 3.156e16 x 4.2e-19 = about USD 0.013 per GFLOP/s per spider-year<br>silk needed to pay for it = 0.013 / (50 mg per yr) = about USD 264 per kg<br><br><b>Break-even silk price = about USD 264 per kg for every 1 GFLOP/s you spend on each spider.</b></div>
+<p>That is the whole equation. At the recombinant price of USD 500 per kg you can afford about <b>1.9 GFLOP per second per spider</b> and not a flop more, before you buy a single fly.</p>
+<div class="sec">Step 6: The Camouflage Tax</div>
+<p>How much compute does it take to watch a spider that does not want to be seen? Take a decent small detector at about 30 GFLOP per frame, and a heavy 4K vision transformer at about 1 TFLOP per frame. These are round figures for model families, not a measurement of a real farm, so treat them as estimates.</p>
+<div class="tw"><table><thead><tr><th>Model</th><th>Frames per second per spider</th><th>GFLOP/s per spider</th><th>Break-even silk price</th></tr></thead><tbody>
+<tr><td>Small detector</td><td>0.01 (one look per 100 s)</td><td>0.3</td><td>about USD 80 per kg</td></tr>
+<tr><td>Small detector</td><td>0.1</td><td>3</td><td>about USD 790 per kg</td></tr>
+<tr><td>Small detector</td><td>1</td><td>30</td><td>about USD 7,900 per kg</td></tr>
+<tr><td>Heavy 4K model</td><td>0.01</td><td>10</td><td>about USD 2,600 per kg</td></tr>
+<tr><td>Heavy 4K model</td><td>0.1</td><td>100</td><td>about USD 26,000 per kg</td></tr>
+<tr><td>Heavy 4K model</td><td>1</td><td>1,000</td><td>about USD 264,000 per kg</td></tr>
+</tbody></table></div>
+<p>This is the steel man's best moment. A light-touch watcher (a look every ten seconds with a small model) is cheap enough to pay at recombinant prices. The moment you need a heavy model to find a camouflaged spider in clutter, you are into thousands of dollars per kilogram, and the compute really does decide whether the farm lives. So the claim that this is a compute problem is not crazy. For the perception half of it, the maths backs it.</p>
+<div class="sec">Step 7: How Big a Farm, How Big a Machine?</div>
+<p>To replace the whole 230 tonne recombinant market at 50 mg per spider per year, you would need about 4.6 billion spiders.</p>
+<div class="fm">4.6e9 spiders x 1 GFLOP/s = 4.6e18 FLOP/s<br>one chip delivers 989e12 x 0.4 = 4.0e14 FLOP/s<br>chips needed = 4.6e18 / 4.0e14 = about 11,600<br>power = 11,600 x 700 W = about 8 MW</div>
+<p>8 megawatts is a mid-sized orbital build, not a moonshot. The radiator for it is a real object: a surface radiates P = emissivity x sigma x area x T^4, and at 300 K with an emissivity of 0.9 that is about 2,400 square metres of one-sided radiator per megawatt. So about 19,000 square metres of radiator and a similar area of solar panel (about 2,450 square metres per megawatt at 30 percent efficiency in full sun). Big, and not absurd.</p>
+<div class="sec">Where the Steel Man Leaks</div>
+<p>Here is the Guide's honest audit, because a steel man you cannot knock down is not a steel man, it is a sermon.</p>
+<ul>
+<li><b>Orbit barely helps.</b> Energy is a small slice of the cost of a FLOP. In the best case it is about 1/22 of the hardware cost. Compared with ground power, orbit saves under 10 percent. The thing that makes spider compute cheap is the price of the chip, not where it sits.</li>
+<li><b>The spiders are on the ground.</b> To use orbital compute you have to send the video up. Suppose each spider needs even 100 kilobits per second of camera data. Then a billion spiders is 100 terabits per second of uplink. That is the end of the orbital plan. Compute for this belongs next to the spiders, at the edge.</li>
+<li><b>Cannibalism has a boring fix.</b> Give each spider its own cell. That needs no vision, no scheduling, and no compute, and it is how the few real attempts handle it. The cost then is cells, flies and labour, not FLOPs. The compute problem only exists if you insist on packing them tight.</li>
+<li><b>The competitor is cheap.</b> Fermented silk is already at tens to hundreds of dollars a kilogram. A natural farm has to sell on being natural.</li>
+<li><b>Seasons and biology.</b> The golden orb makes its golden silk for only one season of the year, and only females are used. The 50 milkings a year assumption is generous.</li>
+<li><b>The numbers are assumptions.</b> Milking frequency, chip price, utilisation and model cost are all inputs. Change one and the answer moves a lot. The break-even rule (about USD 264 per kg per GFLOP/s) is the part to keep.</li>
+</ul>
+<div class="sec">The Verdict</div>
+<p>Is it a compute problem? Partly, and honestly more than you would expect. If you want to keep every spider in a shared space and watch them hide, then the compute decides whether the farm pays, and the break-even rule says exactly how much. Will orbital data centres fix it? No. The saving is a rounding error next to the price of the chip, and the video would have to be uploaded. The cheapest working farm is a spider in a small box, fed on a schedule, with no AI at all.</p>
+<p>But the exercise is the point. Every impossible thing in the world is a ratio between what something is worth and what it costs to look at. Spiders earn a fraction of a cent. That is the real reason nobody has farmed them.</p>
+</div>`,
+        `<div class="short">If a Mind Garden member ever builds the first spider farm, it will be a bush shed with a thousand little boxes and not a single satellite. The Guide will accept this as a proof of concept and a rebuttal.</div>`
+      ],
+      see:[] },
     { id:"aussiepiss", cat:"Things", title:"Why Australia Needs Your Piss",
       quote:["If an Australian is insulting you, you are in. If they are being polite, run."],
       text:[
