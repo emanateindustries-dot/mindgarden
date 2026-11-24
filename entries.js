@@ -1144,6 +1144,133 @@ window.GUIDE = {
 </section></div>`
       ],
       see:["bowbible"] },
+    { id:"ethicalveganism", cat:"Things", title:"ethical veganism",
+      quote:["If you cannot be sure of a clean kill, the correct number of arrows to shoot is none."],
+      text:[
+        `<p style="margin-bottom:6px">How to shoot a compound bow correctly, the pitfalls that catch people, and how to make an ethical kill on a sambar. Flick through with the buttons at the bottom.</p>`,
+        `<div class="book" data-book="ethicalveganism"><section class="pg" data-t="Read This First: Why It Is Called That" data-ch="Ethical Veganism (Entry Under 'Ironic Names')"><h3>Read This First: Why It Is Called That</h3>
+<p>The Guide admits the title is a joke. It is also, annoyingly, a serious point.</p>
+<p>Most meat in the world comes from an animal you never met, killed by a person you will never meet, in a building you will never see. A hunter takes all of that back. <b>You</b> decide, <b>you</b> pick the moment, <b>you</b> carry the weight of it, and if you get it wrong the animal pays for your mistake. That is where the ethics lives. Not in the camo.</p>
+<p>This entry is about doing it <b>properly with a compound bow on a sambar deer</b>: shooting the bow correctly, the traps that catch people, and what it takes to kill cleanly. It is not about doing it fast, or doing it cheap, or doing it for a photo.</p>
+<p><b>Three promises you make before you ever nock an arrow.</b></p>
+<ol><li><b>I only shoot when I am confident of a quick, clean kill.</b> Not hopeful. Confident.</li><li><b>If I hit it, I do everything to find it.</b> Every time. Even at midnight in a gully full of blackberry.</li><li><b>I use what I kill.</b> The meat is the point.</li></ol>
+<p><b>The honest truth about bows.</b> A bow kills by <b>blood loss</b>, not shock. A good arrow through the lungs or heart means the animal usually runs a short way and drops within seconds to a minute or so. A bad arrow means a slow, miserable, preventable death. The whole discipline of bowhunting is making sure you only ever take the first kind.</p>
+<div class="short">If any part of this feels like a chore, you are not ready to hunt yet. That is fine. Practise more. The deer is not going anywhere (there are a lot of sambar).</div>
+</section>
+<section class="pg" data-t="The Law: Victoria"><h3>The Law: Victoria</h3>
+<p>Check the current rules on the Game Management Authority (GMA) website before every season. Rules change and this page is a summary, not legal advice.</p>
+<p><b>What you need (as of the GMA pages at the time of writing).</b></p>
+<ul><li>A <b>Victorian Game Licence endorsed for hunting deer.</b> You need it to hunt game deer, including on private land.</li><li><b>Permission</b> from the landowner (on your own block, that is you, but you still need the licence).</li><li>You may only hunt <b>from 30 minutes before sunrise to 30 minutes after sunset</b> during the open season, by any method.</li></ul>
+<p><b>The minimum legal bow for sambar, rusa and red deer in Victoria:</b></p>
+<div class="tw"><table><thead><tr><th>Requirement</th><th>Sambar / rusa / red deer</th></tr></thead><tbody><tr><td>Minimum draw weight</td><td><b>50 lb (22.5 kg)</b></td></tr><tr><td>Arrow plus broadhead, combined weight</td><td><b>at least 400 grains (26 g)</b></td></tr><tr><td>Broadhead</td><td><b>at least two sharpened cutting blades</b></td></tr></tbody></table></div>
+<p>(For hog, fallow and chital deer the minimum is 45 lb and 350 grains. Sambar is the heavier class, so 50 lb and 400 grains is your number.)</p>
+<p><b>What that means for you.</b> The 40 lb Prototype Zero in the bow book is <b>not legal for sambar</b>, and it is not meant to be. It is a bow to learn on and test with. For hunting, use a <b>factory bow of at least 50 lb</b> that fits your draw length, shot until you are boringly accurate.</p>
+<p><b>Also check.</b></p>
+<ul><li>Open seasons and any bag or tag rules for the area you are in.</li><li>Rules about hunting from vehicles, using lights, using dogs, and tracking wounded deer onto neighbouring land.</li><li>Where you can lawfully store the bow, and any transport rules.</li></ul>
+<div class="short">The law sets the minimum. Ethics sets the standard. Plenty of people who are 'legal' still wound animals.</div>
+</section>
+<section class="pg" data-t="Your Honest Range"><h3>Your Honest Range</h3>
+<p>The biggest ethical decision you make is not where to aim. It is <b>how far away you are willing to shoot.</b></p>
+<p><b>Flight time matters.</b> An arrow is slow compared with a bullet. At 270 fps (82 m/s) it takes:</p>
+<div class="tw"><table><thead><tr><th>Distance</th><th>Time of flight (about)</th></tr></thead><tbody><tr><td>15 m</td><td>0.18 s</td></tr><tr><td>20 m</td><td>0.24 s</td></tr><tr><td>30 m</td><td>0.37 s</td></tr><tr><td>40 m</td><td>0.49 s</td></tr></tbody></table></div>
+<p>A deer can hear the string, drop its weight and <b>move</b> in a fraction of a second. Across 20 m of arrow flight an alert animal can step out of your aim point. This is called <b>'jumping the string'</b>. The farther you are, the more room it has.</p>
+<p><b>Your ethical maximum range</b> is not what the bow can do, it is <b>the longest distance at which you can put every arrow into a vital-sized circle, from a real field position, on a bad day.</b> Test it like this:</p>
+<ol><li>Draw a circle about <b>20 cm (8 in)</b> across on a target (a paper plate on foam will do). A big sambar's vital zone is bigger than that, so you have a margin.</li><li>Shoot <b>from standing, from a knee, and after a short jog</b> (so your heart is thumping, like it will be in the bush).</li><li>Shoot <b>10 arrows in a row</b>. If <b>all ten</b> stay in the circle, that distance is a candidate.</li><li>Repeat on three separate days. The shortest distance that passes on all three days is your number.</li></ol>
+<p>For nearly everyone new to hunting, that number is <b>about 15 to 25 metres</b>. Many experienced hunters limit themselves to <b>20 m</b>. If someone tells you they shoot at 60 m, remember: they are not telling you about the animals they lost.</p>
+<p><b>Rangefinders.</b> Use one. Distance estimation by eye is worse than you think (people consistently misjudge by 5 to 10 m, especially uphill, in the bush, or across an open gully). Range the spot <b>before</b> the animal gets there.</p>
+<div class="short">Rule: never take a shot beyond your tested range. The animal will not know you were close to your limit. You will.</div>
+</section>
+<section class="pg" data-t="The Shot, Done Properly"><h3>The Shot, Done Properly</h3>
+<p>Most missed shots are not the bow's fault. They are the <b>archer's.</b> Here is the shot cycle in order, with the common mistake at each step.</p>
+<p><b>1. Stance.</b> Feet shoulder-width, body square to the target, weight even. *Mistake: leaning back or standing too open.*</p>
+<p><b>2. Grip.</b> Relaxed bow hand, a light 'V' of the web, the pivot point on the meat of the thumb. <b>Do not squeeze the grip.</b> Gripping twists the bow at release and the arrow goes left or right. This is <b>torque</b>. The bow book has the physics.</p>
+<p><b>3. Draw.</b> Use your <b>back</b>, not your arm. Raise the bow at about 45 degrees so you do not use your shoulder to haul it, then settle into the shot. *Mistake: muscling it with the arm, shoulder up by the ear.*</p>
+<p><b>4. Anchor.</b> The same point every time: for example the knuckle at the corner of your jaw and the string touching the tip of your nose. If the anchor moves, the arrow lands elsewhere. *Mistake: floating anchor, string at slightly different places.*</p>
+<p><b>5. Aim.</b> With a pin sight, keep both eyes open and focus on the <b>spot</b>, not the pin. The pin floats a bit; that is fine. *Mistake: chasing the pin with your muscles, which makes it worse.*</p>
+<p><b>6. Release.</b> The perfect release is a <b>surprise</b>. With a release aid, increase <b>back tension</b> slowly until the trigger goes off on its own. *Mistake: <b>punching</b> the trigger (target panic, flinch).*</p>
+<p><b>7. Follow-through.</b> Hold the pose, bow arm steady, until the arrow hits. *Mistake: dropping the bow arm early, which sends the arrow low.*</p>
+<p><b>Target panic</b> deserves a warning. It is a mental glitch where you cannot hold on the target (you either snap-shoot or freeze). It ends careers. Prevent it by shooting at <b>blank bale</b> (no aiming) often, and by never letting a shot be a rush. If it creeps in, stop, go back to blank-bale shooting, and have a friend or coach watch you. Do not hunt with it.</p>
+<div class="short">Take 20 slow, perfect arrows over 100 sloppy ones. Quality in the form means quality in the shot when it matters.</div>
+</section>
+<section class="pg" data-t="The Gear: What a Sambar Needs"><h3>The Gear: What a Sambar Needs</h3>
+<p>Sambar are <b>large, thick-skinned and heavy-boned.</b> Mature stags are in the order of hundreds of kilograms, and their shoulders and ribs are a serious obstacle. A cheap setup that works on a goat will bounce off a stag's shoulder.</p>
+<p><b>What matters (in order).</b></p>
+<ol><li><b>A bow you can draw smoothly, with no shake, at 50 lb or more.</b> If you are straining at 60 lb, drop to 50. *Accuracy beats power every time.*</li><li><b>A heavy, stiff, well-tuned arrow.</b> Arrow weight of <b>450 to 600 grains</b> (total), <b>FOC of about 12 to 15 percent</b>, spined for your draw weight. A heavy arrow keeps its momentum through bone and muscle. The Guide's earlier page on kinetic energy and momentum has the maths.</li><li><b>A sharp, strong, fixed-blade broadhead</b> with a cutting diameter of 1 1/8 to 1 1/4 in and a <b>good steel construction</b>. Two or more sharpened blades is the legal minimum. Many experienced hunters prefer fixed-blade heads for dependable penetration.</li><li><b>A tuned bow.</b> Your broadhead and your field point must fly to the same place. Tune with <b>broadhead-tipped</b> arrows (walk-back, bare-shaft, paper tune from the tuning pages).</li><li><b>A rangefinder, a quiet bow and quiet clothes.</b> Use silencers, a quiet rest, wool or quiet synthetic.</li></ol>
+<p><b>Check every outing.</b></p>
+<ul><li><b>Blades:</b> razor sharp, tight, and straight.</li><li><b>Arrows:</b> no cracks, nocks tight, fletchings sound.</li><li><b>String and cams:</b> no fraying; serving intact.</li><li><b>Sight pins:</b> tight and zeroed.</li><li><b>Bow:</b> no loose bolts.</li></ul>
+<p><b>Practice with the broadhead you will hunt with.</b> Shoot it into foam. It may group differently from your field points.</p>
+<div class="short">A well-tuned bow and a heavy arrow with a sharp head are the quiet kind of lethal. Fancy gear does not make up for form.</div>
+</section>
+<section class="pg" data-t="Anatomy of a Sambar"><h3>Anatomy of a Sambar</h3>
+<p>You cannot make a clean kill on an animal you do not understand. Learn this before you go.</p>
+<p><b>Where the vitals are (broadside view).</b></p>
+<ul><li>The <b>lungs</b> sit behind the front shoulder and fill most of the chest. They are the biggest vital target.</li><li>The <b>heart</b> is low in the chest, roughly in line with the <b>back of the front leg</b> and a bit above the brisket.</li><li>The <b>liver</b> is just behind the lungs, to the rear and slightly right.</li><li>The <b>paunch (rumen/gut)</b> sits behind the ribs. A shot here does <b>not</b> kill quickly.</li><li>The <b>shoulder blade and upper leg bone</b> are forward and heavy. Avoid them.</li></ul>
+<p><b>The target zone.</b> On a broadside sambar, the aim point is <b>behind the shoulder, about halfway up from the belly to the back, often a little lower</b> (between the halfway line and the lower third of the body). Many people use an imaginary vertical line up the <b>back of the front leg</b> and a horizontal line through the middle of the body: the vital zone sits at the crossing of the two.</p>
+<p><b>Why behind the shoulder.</b> The shoulder blade is a flat bone protecting the front of the chest; going behind it lets the arrow reach the lungs through ribs, which are thin enough to pass.</p>
+<p><b>What sambar-specific things to watch for.</b></p>
+<ul><li><b>Big body, big chest.</b> A mature animal can have a vital zone larger than you expect. But it also has <b>heavy fur, mud and a thick hide</b>, so penetration depends on a sharp, strong head and a heavy arrow.</li><li><b>Alert and nervous.</b> Sambar are wary and often nocturnal. They bark an alarm and run, so you usually get one chance.</li><li><b>Rolling in wallows.</b> An animal covered in mud may look different from what you expect. Watch for body outline, not colour.</li></ul>
+<div class="short">Study a real anatomy diagram from a hunter education source, and a 3D deer target, until you can point at the heart, lungs and liver with your eyes closed.</div>
+</section>
+<section class="pg" data-t="Angles: Which Shots, Which Not"><h3>Angles: Which Shots, Which Not</h3>
+<p>The same aim point behaves differently depending on <b>which way the animal is facing.</b></p>
+<div class="tw"><table><thead><tr><th>Angle</th><th>Verdict</th><th>Why</th></tr></thead><tbody><tr><td><b>Broadside</b></td><td>Take it (if calm and clear)</td><td>Widest view of the lungs; arrow passes through ribs behind the shoulder</td></tr><tr><td><b>Quartering away</b></td><td>Excellent</td><td>The near shoulder moves forward, out of the way. Aim a bit further back so the arrow goes toward the far shoulder</td></tr><tr><td><b>Quartering toward</b></td><td>Pass</td><td>The shoulder bone and leg cover the vitals; small margin for error</td></tr><tr><td><b>Head-on (frontal)</b></td><td>Pass</td><td>Tiny target, heavy bone, no way to see where the arrow goes</td></tr><tr><td><b>Straight away</b></td><td>Pass (for beginners)</td><td>The arrow must thread between the hips to reach the vitals; gut shot risk</td></tr><tr><td><b>Steeply downhill (from a stand)</b></td><td>Only with experience</td><td>The vitals shift under the spine; easy to hit a single lung or miss low</td></tr></tbody></table></div>
+<p><b>The 'broadside' trap.</b> Many animals that look broadside are actually quartering slightly toward you. If you aim for the 'broadside' spot, the arrow can hit the shoulder or only one lung. <b>Check the angle</b>: can you see the near shoulder clearly in front of the chest, or is it covering the front of the ribs?</p>
+<p><b>Quartering away: how to aim.</b> The arrow should exit behind the <b>far</b> shoulder. So aim further back on the near side than you would for broadside. The more the animal is turned away, the further back the entry point.</p>
+<p><b>Hard rules.</b></p>
+<ul><li>Do not shoot at an animal that is <b>walking, running, feeding with its head down in thick cover, or looking at you</b>. Wait for a <b>still</b> animal.</li><li>Do not shoot through <b>branches, grass stems or scrub</b>. An arrow deflects off twigs you cannot see.</li><li>Do not shoot if you <b>cannot see a safe backstop</b> (a hill, the ground, thick bush) behind the animal.</li></ul>
+<div class="short">If you are not 100 percent sure of the angle, you are not ready to shoot. Let the animal walk. The next shot will be better.</div>
+</section>
+<section class="pg" data-t="Getting Close and Being Still"><h3>Getting Close and Being Still</h3>
+<p>Most bowhunts are won or lost <b>before</b> the shot. The quiet, patient work of getting within 20 metres of a wary sambar is the real skill.</p>
+<p><b>Wind first.</b> Deer smell better than you can imagine. If your scent blows toward the animal, you are done. Check the wind <b>constantly</b> (a puffer bottle of powder, a thread on your bow). Approach <b>into</b> or <b>across</b> the wind, never with it behind you.</p>
+<p><b>Move like a ghost.</b> Walk slowly, lightly, and in stages: <b>three steps, stop, look and listen for a minute.</b> Sambar notice movement and sound. Step on soft ground, avoid dry sticks and leaves, and keep your <b>hunting boots dry</b> and quiet.</p>
+<p><b>Be seen as little as possible.</b> Wear quiet clothing in the colours of the bush (greys, browns, olive), keep your <b>silhouette broken</b> against trees, and do not skyline yourself on a ridge.</p>
+<p><b>Where to sit.</b> Ambush spots near <b>wallows, game trails, water and feeding clearings</b> work well, as do places where an animal must pass within bow range. Use <b>natural cover</b> or a ground blind. Set up with a <b>clear lane</b> and a <b>range marker</b> at 20 m.</p>
+<p><b>Time of day.</b> Sambar are most active at <b>dusk, dawn and into the night.</b> Hunting is only lawful from 30 minutes before sunrise to 30 minutes after sunset, so these are your windows.</p>
+<p><b>Drawing the bow.</b> The biggest moment of the hunt is drawing without being seen. Draw <b>when the animal's head is behind a tree or looking away</b>, or when it is <b>feeding with its head down</b>. Draw smoothly. If the animal looks your way, <b>freeze</b>. If you cannot hold, <b>let down slowly</b>.</p>
+<p><b>Letting down.</b> If the shot is not right, let the bow down slowly and quietly. <b>That is not failure. That is the best decision of the hunt.</b></p>
+<div class="short">The hardest skill in bowhunting is not shooting. It is <b>not shooting</b> when it is not right.</div>
+</section>
+<section class="pg" data-t="The Go or No-Go Checklist"><h3>The Go or No-Go Checklist</h3>
+<p>In the moment, adrenaline will tell you to shoot. Your checklist tells you the truth. Run it <b>every time</b>, in order, in about three seconds.</p>
+<ol><li><b>Range:</b> known, and <b>inside my tested distance</b>?</li><li><b>Angle:</b> broadside or quartering <b>away</b>?</li><li><b>Animal:</b> <b>calm and still</b>, not alerted, not moving?</li><li><b>Lane:</b> clear, with <b>no branches</b> between the arrow and the vitals?</li><li><b>Backstop:</b> safe, with nobody and nothing beyond?</li><li><b>Me:</b> can I <b>hold steady and execute</b> a good shot, with my anchor and my back tension?</li><li><b>Light:</b> enough light to see the <b>arrow impact</b> and watch the animal go?</li><li><b>Recovery:</b> am I able to <b>track it</b> (daylight, time, terrain, permission) if it runs?</li></ol>
+<p><b>If any answer is 'no' or 'not sure': let down.</b></p>
+<p><b>On the 'last chance'.</b> The thought 'this is my only chance' has wounded more animals than any other. <b>Another chance will come.</b> There are a lot of sambar.</p>
+<p><b>If you shoot and then think 'that did not feel right':</b> treat it as a hit. Do not assume a miss. Look for the arrow and signs (see the next page).</p>
+<div class="short">Write the checklist on a card. Rehearse it on a 3D target and on your walks. By the time it matters, it should run itself.</div>
+</section>
+<section class="pg" data-t="After the Shot: Reading, Waiting, Tracking"><h3>After the Shot: Reading, Waiting, Tracking</h3>
+<p>The shot is the start of the job, not the end.</p>
+<p><b>1. Watch.</b> Keep your eyes on the animal until it is out of sight. Note <b>exactly where it was standing</b> and <b>the direction it ran</b>. Listen: a <b>crash</b> or a sudden silence after a short run often means a quick kill. Mark the spot with a bit of tape or by noting a landmark.</p>
+<p><b>2. Check the arrow.</b> Find it. Look at what is on it.</p>
+<div class="tw"><table><thead><tr><th>What you see on the arrow</th><th>Probably means</th></tr></thead><tbody><tr><td>Bright red, pinkish and <b>frothy</b> blood</td><td>Lungs: a quick kill. Wait, then track</td></tr><tr><td>Dark red blood, no bubbles</td><td>Muscle or liver: usually fatal but slower</td></tr><tr><td><b>Green, brown or smelly</b> stomach contents</td><td><b>Gut shot.</b> Wait much longer; it will take hours</td></tr><tr><td>Very little blood, <b>white fat or hair</b></td><td>Possibly a brush with the leg, shoulder or only skin. Be careful</td></tr></tbody></table></div>
+<p><b>3. Wait (this is the hardest bit).</b> Back out <b>quietly</b> and give the animal time to lie down and die.</p>
+<ul><li><b>Lung or heart:</b> wait about <b>30 minutes</b> minimum.</li><li><b>Liver or uncertain:</b> wait <b>a few hours</b>.</li><li><b>Gut:</b> wait <b>many hours</b> (often overnight, if the law and conditions allow). Pushing it too early makes it run and lose the blood trail.</li><li><b>If in doubt, wait longer.</b></li></ul>
+<p><b>4. Track.</b> Walk the blood trail slowly. Mark each drop with tape. Look <b>ahead</b> and <b>sideways</b>, not just down. Use a torch and two people if possible. <b>Do not walk on the trail</b> so you do not destroy it. If the blood stops, <b>circle in widening loops</b> around the last sign.</p>
+<p><b>5. Finish it.</b> If you find the animal <b>alive</b>, take a <b>second arrow</b> quickly at close range to the vitals, or use the means your licence and the law allow. <b>Plan this before the hunt.</b></p>
+<p><b>6. If you cannot find it.</b> Keep searching, ask for help from other hunters, and know the rules about crossing onto neighbouring land. Learn from it.</p>
+<div class="short">If you wound an animal, you owe it everything you have. That is the deal you signed up to.</div>
+</section>
+<section class="pg" data-t="Field Care: Respect Means Using All of It"><h3>Field Care: Respect Means Using All of It</h3>
+<p>A clean kill means nothing if the meat is wasted. The ethical chain ends on the plate.</p>
+<p><b>Get it cool, clean and dry.</b></p>
+<ol><li><b>Field dress</b> (remove the guts) <b>promptly</b>, with a sharp knife, <b>without puncturing</b> the stomach or intestines. Spilled gut contents ruin meat.</li><li><b>Cool the carcass fast.</b> In warm weather, speed matters: <b>quarter it and get the meat cool</b> (in a cooler with ice, or hung in a cool, shaded, fly-free place).</li><li><b>Keep it clean and covered</b> (game bags, fly-proof cover). Flies are the enemy.</li><li><b>Hang the meat</b> in a cool place (below about 5 degrees Celsius) for a day or two if you have the setup, or butcher as soon as you can.</li><li><b>Take everything good:</b> backstraps, tenderloins, rump, shoulders, neck (slow-cook), and the trim. Sambar is lean, so cook it gently.</li></ol>
+<p><b>Dispose of the rest properly.</b> Leave remains where the law and landowner allow, away from tracks and water.</p>
+<p><b>Cook it.</b> Venison (with a bit of fat, slow, low) is a reward. Share it. You are in a long tradition.</p>
+<p><b>Reflect.</b> After a kill, take a minute. Many hunters say a quiet thank-you. Whatever you believe, take that minute. It keeps the whole thing honest.</p>
+<div class="short">If you cannot or will not use the meat, you should not shoot the animal.</div>
+</section>
+<section class="pg" data-t="Top Pitfalls and a Practice Plan"><h3>Top Pitfalls and a Practice Plan</h3>
+<p><b>The Guide's list of ways people ruin a shot, in rough order of frequency.</b></p>
+<ol><li><b>Shooting out of range</b> (too far for your ability).</li><li><b>Poor angle</b>: shooting quartering-toward or head-on.</li><li><b>Not ranging</b> the spot.</li><li><b>Flinching or punching the release</b> (target panic).</li><li><b>Gripping the bow</b> (torque).</li><li><b>Dropping the bow arm</b> too early.</li><li><b>Shooting through brush.</b></li><li><b>A dull or loose broadhead.</b></li><li><b>An untuned bow:</b> broadheads flying differently from field points.</li><li><b>Letting adrenaline make the decision</b> (buck fever).</li><li><b>Not waiting</b> long enough before tracking.</li><li><b>Sloppy tracking:</b> walking on the blood trail.</li><li><b>Shooting without a backstop.</b></li><li><b>Giving up too early.</b></li><li><b>Not being able to draw at 50 lb</b> and trying anyway.</li></ol>
+<p><b>A practice plan (12 weeks).</b></p>
+<div class="tw"><table><thead><tr><th>Weeks</th><th>Focus</th></tr></thead><tbody><tr><td>1 to 3</td><td>Form at 10 m, blank bale, then target. Build the shot cycle into habit.</td></tr><tr><td>4 to 6</td><td>Distances to 20 m. Ten-arrow tests. Tune the bow properly.</td></tr><tr><td>7 to 9</td><td>Field shooting: kneeling, sitting, uphill and downhill, unknown distances, with a rangefinder.</td></tr><tr><td>10 to 12</td><td>Broadheads into foam. 3D targets at random angles. Heart-rate drills (jog, then shoot). Practise the go or no-go checklist out loud.</td></tr></tbody></table></div>
+<p><b>Then keep going.</b> Shoot a little every week, all year. The season is short; the practice is the real hunt.</p>
+<p><b>Join a club</b> or find an experienced bowhunter to mentor you. A pair of eyes watching your form is worth a hundred videos.</p>
+<div class="short">Know your limit, hold to it, and be the hunter the animal would not mind meeting. That is the whole of it.</div>
+</section></div>`
+      ],
+      see:["bowbible","guitar"] },
     { id:"imitation", cat:"Things", title:"Imitation: The Track of 2026",
       quote:["Some tracks you listen to. Some tracks you get taken apart by."],
       text:[
