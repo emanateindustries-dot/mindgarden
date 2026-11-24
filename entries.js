@@ -459,6 +459,26 @@ window.GUIDE = {
         `<div class="short">Play it once on speakers, once on headphones, and once somewhere out on the block with nothing around you. Then tell the Guide it is wrong.</div>`
       ],
       see:[] },
+    { id:"pacifier", cat:"Things", title:"Pacifier",
+      quote:["The further out you go, the more you need something that brings you back."],
+      text:[
+        `<p>The Guide has a dull fact to open with, and it is the most important one in this entry: <b>the people who go furthest into the strange rooms of the mind are the ones who most need a boring kitchen to come back to.</b></p>`,
+        `<p>Call it what you like: meditation, plant medicine, deep stillness, nights in the bush with nothing but your own head. When the usual walls of the self go thin, you can end up in places that feel realer than the real. Some of it is beautiful. Some of it is wonderful. And some of it, with the wrong state of body or mind, tips into a place you cannot get back from on your own: no sleep, no appetite, certainty that outruns evidence, the sense that everything is a message. People who write about the mystic path have known this for thousands of years. It has a very old name: the danger of the road.</p>`,
+        `<div class="sec">The pacifier</div>`,
+        `<p>A baby who cannot yet soothe itself needs a pacifier, a lap, a voice, a rhythm. Nobody calls that weakness. It is how a nervous system learns it can come down. The mystic is in the same position every time they go somewhere new: <b>the further out you go, the more you need something that brings you down.</b> Not as a crutch. As a rope tied to the boat.</p>`,
+        `<p>And here is the catch that makes it hard: out there, nobody is coming to soothe you. The mystic has to be their own pacifier. You have to build, in advance and in ordinary daylight, the things that calm your body and tell it it is safe, because you will not be able to invent them mid-storm.</p>`,
+        `<div class="sec">What a self-soother actually is</div>`,
+        `<p>It is not one thing. It is a small kit you have practised until it works without thinking:</p>`,
+        `<ul><li><b>Body first.</b> Slow breath out longer than in. Feet on the floor. Cold water on the face. Something heavy on the chest. These work because the body drives the mind more than the mind drives the body.</li><li><b>Rhythm.</b> You are a drummer. A steady beat on your leg, a slow groove, a repeated phrase on the guitar. Rhythm is the oldest soother there is, and you have a decade of it in your hands.</li><li><b>Food, water, sleep.</b> Boring, and the first things to go and the first things that fix a spiral. A sleep-starved mind makes its own visions, and they are never kind.</li><li><b>Something familiar.</b> A song you have played a thousand times. A hot drink. The smell of the shed. Familiar tells the nervous system the world has not changed.</li><li><b>A person.</b> Someone you can ring at any hour who will say, 'it is okay, you are here, you are safe', and who will not feed the spiral by being fascinated by it.</li></ul>`,
+        `<div class="sec">Signs the road is getting steep</div>`,
+        `<p>Learn these now, in calm weather, so you can recognise them later:</p>`,
+        `<ul><li>You have barely slept for a couple of nights and do not feel like you need to.</li><li>Thoughts are speeding up, or everything is starting to feel meaningful, personal, or addressed to you.</li><li>You feel certain about things you cannot explain to a friend without them looking worried.</li><li>You are losing track of what is you and what is outside you, and it is not fun any more.</li><li>People who love you are scared and you are not.</li></ul>`,
+        `<p>If two or three of those are true, <b>stop going deeper.</b> Sleep, eat, be around people, do dull things. If it does not settle in a day or two, or it is frightening, speak to a doctor or a mental health service. That is not the end of the road. It is the pit stop that lets you keep driving. If you are ever in a moment where you feel unsafe, ring your local emergency number or Lifeline on 13 11 14 in Australia.</p>`,
+        `<div class="sec">The honest bit</div>`,
+        `<p>The Guide will not tell you the other realms are real, and it will not tell you they are not. It does not know, and neither does anyone who sells certainty about it. What it knows is that the <b>experiences</b> are real, they change people, and they are a lot safer when you carry your own rope.</p>`,
+        `<p>Anyone who walks into the dark and comes back well has the same secret: they never went without something that said <i>come home</i>. Make your pacifier. Practise it when you do not need it. Then go and look at whatever you want to look at.</p>`
+      ],
+      see:["guitar"] },
     { id:"guitar", cat:"Things", title:"Your Guitar Is a Tuned Weapon: DADGAD, Harmonics and the Maths of a Shaking String",
       quote:["Every note you have ever loved is somebody multiplying by a small number."],
       text:[
