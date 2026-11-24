@@ -1009,6 +1009,66 @@ window.GUIDE = {
         `Do not read this entry. Read those.`
       ],
       see:["cantbuy","infinityhotel","panic","beginners","synchronicities"] },
+    { id:"termites", cat:"Things", title:"The Definitive Guide to Ranking Termite Mounds", pins:[[42.5,43.7],[54.9,18.0]],
+      quote:[
+        "Brodies #1 ranked termite mound.",
+        "Brodies #3 ranked termite mound. Raff owns this termite mound so please don't touch it.",
+        "Easy way off easy street, also the #9 best termite mound is here."
+      ],
+      text:[
+        `Of all the great disciplines of the known universe (philosophy, mathematics, the correct folding of a fitted sheet), few have been as quietly neglected as the ranking of termite mounds. This is a great pity, because it is the one discipline on the property that has a single, undisputed, fully accredited authority. His name is <b>Brodie</b>.`,
+        `<div class="sec">Credentials</div>`,
+        `Brodie is the foremost and ultimate master of termite mound ranking, formally accredited by the <a href="#" data-open="society"><b>Official Termite Mound Ranking Society of the World</b></a>. The Society has never, in its entire history, overturned one of his rankings.`,
+        `<div class="sec">How a Mound Is Ranked</div>`,
+        `The method is simple, in the way that all profound methods are simple. Brodie stands in front of a mound. Time passes. A number arrives. The number is final.`,
+        `For the curious, the Guide understands that the number is shaped by the following, none of which are written down anywhere, because they live in Brodie:`,
+        `<ol>
+          <li><b>Stature.</b> How much mound there is, and how seriously it takes being one.</li>
+          <li><b>Posture.</b> Straight, leaning or quietly defiant.</li>
+          <li><b>Presence.</b> How it sits in the bush. Some mounds simply belong to their spot. Others look like they've been dropped there.</li>
+          <li><b>Texture and craft.</b> A mound is the work of a great many tiny builders with no blueprint. The Guide notes that this is more than most of us can say.</li>
+          <li><b>Neighbourhood.</b> Location, location, location. Even for a mound.</li>
+          <li><b>Aura.</b> Not measurable. Brodie measures it anyway.</li>
+        </ol>`,
+        `<div class="sec">The Rankings on the Property</div>`,
+        `<ul>
+          <li><b>#1.</b> The big one, on the west side of the property. It holds the top spot and has done so with great dignity. Marked on the map.</li>
+          <li><b>#3.</b> Up near the Trench. Owned by Raff. <b>Please don't touch it.</b> Marked on the map.</li>
+          <li><b>#9.</b> On Easy Street. Still comfortably in the top ten, which is more than most mounds in the universe can claim.</li>
+          <li><b>#2, #4 to #8, and everything below #9.</b> They exist. Their whereabouts are known to Brodie. Ask nicely.</li>
+        </ul>`,
+        `<div class="sec">Etiquette</div>`,
+        `<ol>
+          <li>Look, don't touch. Mounds are homes, and the residents are busy.</li>
+          <li>Do not propose a mound for promotion. Mounds are not promoted. They are discovered, and then ranked, once, correctly.</li>
+          <li>Do not lodge an appeal. There's no appeals desk. There is Brodie, and he has already given his answer.</li>
+          <li>On the dose: a mound may appear to breathe, shimmer, or hum. In fairness, it is full of insects. Appraise from a respectful distance.</li>
+        </ol>`,
+      ],
+      see:["society","easy","kevin"] },
+    { id:"society", cat:"Things", title:"The Official Termite Mound Ranking Society of the World",
+      text:[
+        `Every great discipline needs a governing body, and ranking termite mounds is no exception. The Official Termite Mound Ranking Society of the World is that body. It is the only organisation of its kind anywhere in the known universe, which has made its membership rules refreshingly easy to write.`,
+        `<div class="sec">Purpose</div>`,
+        `To see that every termite mound on the planet is ranked correctly, once, and that nobody is allowed to rank it a second time.`,
+        `<div class="sec">Founding</div>`,
+        `The Society was founded before records began, which it considers the proper time to found a thing. It has no head office. It has a mound, and a great many more mounds, and that has always been enough.`,
+        `<div class="sec">Accreditation</div>`,
+        `There is one examination. It is held in the bush, it has no questions, and it consists of a very long look at a termite mound followed by a number. The number must be right. <b>Brodie</b> holds the Society's highest accreditation: Foremost and Ultimate Master of Termite Mound Ranking.`,
+        `<div class="sec">The Constitution</div>`,
+        `<ol>
+          <li>Every mound shall be ranked.</li>
+          <li>Rankings are final.</li>
+          <li>Mounds are looked at, never touched. A mound owned by a named individual (see: Raff, #3) is doubly protected.</li>
+          <li>The Society's motto is under review. It has been under review for some time.</li>
+        </ol>`,
+        `<div class="sec">The Society's Reading List</div>`,
+        `For the benefit of the unconvinced, the Society keeps a small library of facts. A termite mound is built from a mixture of soil, termite saliva and dung, which the Society regards as the finest possible endorsement of the dung. In the Northern Territory, cathedral termites build some of the tallest mounds in the world, over seven metres of them. The Society has seen the photographs and is satisfied.`,
+        `Across northern Australia there is a long tradition of dressing mounds in old shirts and hats. The Society neither condones nor condemns this, but notes that a mound in a hat is, strictly speaking, not being looked at as a mound.`,
+        `<div class="sec">Contacting the Society</div>`,
+        `There is no phone number and no website. If you need the Society, find Brodie. He is, in every practical sense, the Society's voice.`,
+      ],
+      see:["termites"] },
     { id:"pacifier", cat:"Things", title:"Pacifier",
       quote:["The psychotic and the mystic are in the same water. One drowns, one swims. The difference is the thread."],
       text:[
@@ -2605,67 +2665,7 @@ window.GUIDE = {
         `Set two alarms. Put one across the room. Go to bed at a sensible time the night before. Come early, walk in with Brodie, and bring a hammock. Everything is better with the music, and the music is only there for the people who showed up for it.`
       ],
       see:["brodie","losers","door","beginners"] },
-    { id:"termites", cat:"Things", title:"The Definitive Guide to Ranking Termite Mounds", pins:[[42.5,43.7],[54.9,18.0]],
-      quote:[
-        "Brodies #1 ranked termite mound.",
-        "Brodies #3 ranked termite mound. Raff owns this termite mound so please don't touch it.",
-        "Easy way off easy street, also the #9 best termite mound is here."
-      ],
-      text:[
-        `Of all the great disciplines of the known universe (philosophy, mathematics, the correct folding of a fitted sheet), few have been as quietly neglected as the ranking of termite mounds. This is a great pity, because it is the one discipline on the property that has a single, undisputed, fully accredited authority. His name is <b>Brodie</b>.`,
-        `<div class="sec">Credentials</div>`,
-        `Brodie is the foremost and ultimate master of termite mound ranking, formally accredited by the <a href="#" data-open="society"><b>Official Termite Mound Ranking Society of the World</b></a>. The Society has never, in its entire history, overturned one of his rankings.`,
-        `<div class="sec">How a Mound Is Ranked</div>`,
-        `The method is simple, in the way that all profound methods are simple. Brodie stands in front of a mound. Time passes. A number arrives. The number is final.`,
-        `For the curious, the Guide understands that the number is shaped by the following, none of which are written down anywhere, because they live in Brodie:`,
-        `<ol>
-          <li><b>Stature.</b> How much mound there is, and how seriously it takes being one.</li>
-          <li><b>Posture.</b> Straight, leaning or quietly defiant.</li>
-          <li><b>Presence.</b> How it sits in the bush. Some mounds simply belong to their spot. Others look like they've been dropped there.</li>
-          <li><b>Texture and craft.</b> A mound is the work of a great many tiny builders with no blueprint. The Guide notes that this is more than most of us can say.</li>
-          <li><b>Neighbourhood.</b> Location, location, location. Even for a mound.</li>
-          <li><b>Aura.</b> Not measurable. Brodie measures it anyway.</li>
-        </ol>`,
-        `<div class="sec">The Rankings on the Property</div>`,
-        `<ul>
-          <li><b>#1.</b> The big one, on the west side of the property. It holds the top spot and has done so with great dignity. Marked on the map.</li>
-          <li><b>#3.</b> Up near the Trench. Owned by Raff. <b>Please don't touch it.</b> Marked on the map.</li>
-          <li><b>#9.</b> On Easy Street. Still comfortably in the top ten, which is more than most mounds in the universe can claim.</li>
-          <li><b>#2, #4 to #8, and everything below #9.</b> They exist. Their whereabouts are known to Brodie. Ask nicely.</li>
-        </ul>`,
-        `<div class="sec">Etiquette</div>`,
-        `<ol>
-          <li>Look, don't touch. Mounds are homes, and the residents are busy.</li>
-          <li>Do not propose a mound for promotion. Mounds are not promoted. They are discovered, and then ranked, once, correctly.</li>
-          <li>Do not lodge an appeal. There's no appeals desk. There is Brodie, and he has already given his answer.</li>
-          <li>On the dose: a mound may appear to breathe, shimmer, or hum. In fairness, it is full of insects. Appraise from a respectful distance.</li>
-        </ol>`,
-      ],
-      see:["society","easy","kevin"] },
 
-    { id:"society", cat:"Things", title:"The Official Termite Mound Ranking Society of the World",
-      text:[
-        `Every great discipline needs a governing body, and ranking termite mounds is no exception. The Official Termite Mound Ranking Society of the World is that body. It is the only organisation of its kind anywhere in the known universe, which has made its membership rules refreshingly easy to write.`,
-        `<div class="sec">Purpose</div>`,
-        `To see that every termite mound on the planet is ranked correctly, once, and that nobody is allowed to rank it a second time.`,
-        `<div class="sec">Founding</div>`,
-        `The Society was founded before records began, which it considers the proper time to found a thing. It has no head office. It has a mound, and a great many more mounds, and that has always been enough.`,
-        `<div class="sec">Accreditation</div>`,
-        `There is one examination. It is held in the bush, it has no questions, and it consists of a very long look at a termite mound followed by a number. The number must be right. <b>Brodie</b> holds the Society's highest accreditation: Foremost and Ultimate Master of Termite Mound Ranking.`,
-        `<div class="sec">The Constitution</div>`,
-        `<ol>
-          <li>Every mound shall be ranked.</li>
-          <li>Rankings are final.</li>
-          <li>Mounds are looked at, never touched. A mound owned by a named individual (see: Raff, #3) is doubly protected.</li>
-          <li>The Society's motto is under review. It has been under review for some time.</li>
-        </ol>`,
-        `<div class="sec">The Society's Reading List</div>`,
-        `For the benefit of the unconvinced, the Society keeps a small library of facts. A termite mound is built from a mixture of soil, termite saliva and dung, which the Society regards as the finest possible endorsement of the dung. In the Northern Territory, cathedral termites build some of the tallest mounds in the world, over seven metres of them. The Society has seen the photographs and is satisfied.`,
-        `Across northern Australia there is a long tradition of dressing mounds in old shirts and hats. The Society neither condones nor condemns this, but notes that a mound in a hat is, strictly speaking, not being looked at as a mound.`,
-        `<div class="sec">Contacting the Society</div>`,
-        `There is no phone number and no website. If you need the Society, find Brodie. He is, in every practical sense, the Society's voice.`,
-      ],
-      see:["termites"] },
 
 
 
