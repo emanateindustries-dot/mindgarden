@@ -1149,6 +1149,27 @@ window.GUIDE = {
         `<div class="short">We found the stuff on the beach that was best at being a switch, and we are still working out what we have asked it to do.</div>`
       ],
       see:["kernel","brodie","rabbitholes","fortytwo"] },
+    { id:"kernel", cat:"Things", title:"The Kernel",
+      quote:["Free to use, free to change, free to share."],
+      text:[
+        `<div class="sec">What a Kernel Is</div>`,
+        `Before a computer can do anything, one small piece of software has to wake up first and stay awake. It is called the kernel, and it sits between the hardware and everything else. It decides which program gets the processor, hands out memory, talks to the screen, the disk and the network card, and stops one program from trampling another. You never see it, and nothing you can see would work without it.`,
+        `The word is older than computing. It comes from the Old English <i>cyrnel</i>, a little seed, from the same root as corn. A kernel is the seed at the middle of the thing, which is why the Guide, a book about gardening, finds it so easy to love.`,
+        `<div class="sec">Linux</div>`,
+        `In 1991 a Finnish student called Linus Torvalds announced that he was writing a free operating system kernel as a hobby, and that it would not be anything big or professional. It became Linux. He released it so that anyone could read it, change it and share it, and thousands of people, then tens of thousands, did exactly that.`,
+        `Today the kernel is tens of millions of lines of code, written by people all over the world, many of them paid by competing companies who nonetheless share the same code. Torvalds also wrote Git, in 2005, because he needed a better way to keep track of the people working on it, and Git is now how most of the world's software is tracked.`,
+        `<div class="sec">How Much of the World It Is</div>`,
+        `<ul><li><b>The internet.</b> Most of the web servers and the cloud computers behind the sites you use run Linux.</li><li><b>Your phone.</b> Android is built on the Linux kernel, so if you carry one, you are carrying Linux.</li><li><b>Supercomputers.</b> Every one of the world's 500 fastest runs it, and has since 2017.</li><li><b>Everything quiet.</b> Home routers, smart TVs, cars, medical gear, factory controllers and the box that runs the checkout at the servo.</li><li><b>Space.</b> It has been used on the International Space Station, and it ran on the Mars helicopter Ingenuity.</li></ul>`,
+        `Most people have never heard of it, and nearly all of them used it before breakfast. A good kernel is like a good foundation. It is the part that does its job so well that nobody thinks about it.`,
+        `<div class="sec">Why It Matters</div>`,
+        `Linux is one of the great quiet acts of cooperation in human history. Nobody owns it. Strangers who will never meet each wrote a small piece, each stood on what had been written before, and the result holds up banks, hospitals, aeroplanes and the thing you are reading this on. It is a very large garden that thousands of people tend, and that no one fenced off.`,
+        `<div class="sec">Brodie's Thought</div>`,
+        `Brodie's idea is that <b>humans are the tip of the kernel, and the tip is the present</b>. Everything that came before us is the kernel: the physics, the chemistry, the first cells, every creature and every idea that was ever written down and passed along. It is all still running underneath, and everything we do is built on top of it.`,
+        `We are the newest edge of it, the part that is being written right now. Behind the tip it is already compiled and cannot be edited. Ahead of it there is nothing yet, and so the tip of the kernel is always the present, the one place where the code is live and anyone can still make a change.`,
+        `Like Linux, nobody owns it and everyone adds to it. You did not start it, and you will not finish it. You get your turn at the tip, so write something worth keeping for whoever comes after.`,
+        `<div class="short">A kernel is the seed at the middle of the thing. You are at the growing end of it, right now.</div>`
+      ],
+      see:["brodie","lifetime","fortytwo","rabbitholes"] },
     { id:"dolphins", cat:"Things", title:"Why Dolphins Might Be Smarter Than the Sand Humans Made Think",
       quote:["The dolphin was never asked to think. It just did."],
       text:[
@@ -2838,27 +2859,6 @@ window.GUIDE = {
 
 
 
-    { id:"kernel", cat:"Things", title:"The Kernel",
-      quote:["Free to use, free to change, free to share."],
-      text:[
-        `<div class="sec">What a Kernel Is</div>`,
-        `Before a computer can do anything, one small piece of software has to wake up first and stay awake. It is called the kernel, and it sits between the hardware and everything else. It decides which program gets the processor, hands out memory, talks to the screen, the disk and the network card, and stops one program from trampling another. You never see it, and nothing you can see would work without it.`,
-        `The word is older than computing. It comes from the Old English <i>cyrnel</i>, a little seed, from the same root as corn. A kernel is the seed at the middle of the thing, which is why the Guide, a book about gardening, finds it so easy to love.`,
-        `<div class="sec">Linux</div>`,
-        `In 1991 a Finnish student called Linus Torvalds announced that he was writing a free operating system kernel as a hobby, and that it would not be anything big or professional. It became Linux. He released it so that anyone could read it, change it and share it, and thousands of people, then tens of thousands, did exactly that.`,
-        `Today the kernel is tens of millions of lines of code, written by people all over the world, many of them paid by competing companies who nonetheless share the same code. Torvalds also wrote Git, in 2005, because he needed a better way to keep track of the people working on it, and Git is now how most of the world's software is tracked.`,
-        `<div class="sec">How Much of the World It Is</div>`,
-        `<ul><li><b>The internet.</b> Most of the web servers and the cloud computers behind the sites you use run Linux.</li><li><b>Your phone.</b> Android is built on the Linux kernel, so if you carry one, you are carrying Linux.</li><li><b>Supercomputers.</b> Every one of the world's 500 fastest runs it, and has since 2017.</li><li><b>Everything quiet.</b> Home routers, smart TVs, cars, medical gear, factory controllers and the box that runs the checkout at the servo.</li><li><b>Space.</b> It has been used on the International Space Station, and it ran on the Mars helicopter Ingenuity.</li></ul>`,
-        `Most people have never heard of it, and nearly all of them used it before breakfast. A good kernel is like a good foundation. It is the part that does its job so well that nobody thinks about it.`,
-        `<div class="sec">Why It Matters</div>`,
-        `Linux is one of the great quiet acts of cooperation in human history. Nobody owns it. Strangers who will never meet each wrote a small piece, each stood on what had been written before, and the result holds up banks, hospitals, aeroplanes and the thing you are reading this on. It is a very large garden that thousands of people tend, and that no one fenced off.`,
-        `<div class="sec">Brodie's Thought</div>`,
-        `Brodie's idea is that <b>humans are the tip of the kernel, and the tip is the present</b>. Everything that came before us is the kernel: the physics, the chemistry, the first cells, every creature and every idea that was ever written down and passed along. It is all still running underneath, and everything we do is built on top of it.`,
-        `We are the newest edge of it, the part that is being written right now. Behind the tip it is already compiled and cannot be edited. Ahead of it there is nothing yet, and so the tip of the kernel is always the present, the one place where the code is live and anyone can still make a change.`,
-        `Like Linux, nobody owns it and everyone adds to it. You did not start it, and you will not finish it. You get your turn at the tip, so write something worth keeping for whoever comes after.`,
-        `<div class="short">A kernel is the seed at the middle of the thing. You are at the growing end of it, right now.</div>`
-      ],
-      see:["brodie","lifetime","fortytwo","rabbitholes"] },
     { id:"whynot", cat:"Things", title:"Why Deep Thought Was Wrong",
       quote:["The question is still missing. The answer is at the bottom, and you will have to read all of this to get there."],
       text:[
