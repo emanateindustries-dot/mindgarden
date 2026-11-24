@@ -58,14 +58,6 @@ window.PHOTOS = [
   "caption": "Termite mound arch"
  },
  {
-  "src": "photos/fence.jpg",
-  "caption": "Old fence post in the scrub"
- },
- {
-  "src": "photos/boot.jpg",
-  "caption": "Barbed wire in the leaf litter"
- },
- {
   "src": "photos/branches-1.jpg",
   "caption": "Fungi on fallen branches"
  },
