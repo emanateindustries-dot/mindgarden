@@ -292,7 +292,7 @@ function initBooks(){
   const sh=$('#sheet'); sh.classList.toggle('bookmode',!!sh.querySelector('.book'));
   sh.querySelectorAll('.book').forEach(bk=>{
     const un=isUnlocked('bowprize'); const pg=[...bk.querySelectorAll('.pg')].filter(p=>!p.dataset.lock||un), n=pg.length, key='mgbk-'+(bk.dataset.book||'x');
-    let cur=0; try{cur=Math.min(n-1,Math.max(0,parseInt(localStorage.getItem(key),10)||0))}catch(e){}
+    const gate=bk.dataset.gate==='1'; let cur=0, mx=0; if(!gate){try{cur=Math.min(n-1,Math.max(0,parseInt(localStorage.getItem(key),10)||0))}catch(e){}}
     const bar=document.createElement('div'); bar.className='bk-bar';
     bar.innerHTML='<div class="bk-prog"><i></i></div><div class="bk-row"><button data-bk="prev">&lsaquo; Prev</button><button data-bk="toc" class="bk-mid"><b></b><span></span></button><button data-bk="next">Next &rsaquo;</button></div><div class="bk-toc" hidden></div>';
     bk.appendChild(bar);
@@ -302,15 +302,17 @@ function initBooks(){
       const b=document.createElement('button');b.dataset.bkgo=k;const e=document.createElement('em');e.textContent=k+1;b.appendChild(e);b.appendChild(document.createTextNode(p.dataset.t||''));toc.appendChild(b);tb.push(b);
     });
     function go(k,scroll){
+      if(gate){mx=0;while(mx<n-1&&pg[mx].dataset.ok==='1')mx++; k=Math.min(k,mx)}
       cur=Math.min(n-1,Math.max(0,k));
       pg.forEach((p,i)=>p.classList.toggle('on',i===cur));
       tb.forEach((b,i)=>b.classList.toggle('cur',i===cur));
       bar.querySelector('.bk-mid b').textContent='Page '+(cur+1)+' of '+n;
       bar.querySelector('.bk-mid span').textContent=pg[cur].dataset.t||'';
       bar.querySelector('.bk-prog i').style.width=((cur+1)/n*100)+'%';
-      bar.querySelector('[data-bk=prev]').disabled=cur===0; bar.querySelector('[data-bk=next]').disabled=cur===n-1;
+      bar.querySelector('[data-bk=prev]').disabled=cur===0; bar.querySelector('[data-bk=next]').disabled=cur===n-1||(gate&&pg[cur].dataset.ok!=='1');
+      if(gate) tb.forEach((b,i)=>{b.disabled=i>mx; b.style.opacity=i>mx?'.4':''});
       toc.hidden=true;
-      try{localStorage.setItem(key,cur)}catch(e){}
+      if(!gate){try{localStorage.setItem(key,cur)}catch(e){}}
       if(scroll) sh.scrollTop=Math.max(0,bk.offsetTop-8);
     }
     bk._go=go; bk._cur=()=>cur; go(cur,false);
@@ -343,6 +345,20 @@ document.addEventListener('click',e=>{
   } else {
     res.textContent='You got '+ok+' of '+qs.length+'. You need '+need+'. Have another read of the book, then try again.';
   }
+});
+
+document.addEventListener('click',e=>{
+  const b=e.target.closest('.qz2-go'); if(!b) return;
+  const z=b.closest('.qz2'), sec=b.closest('.pg'), bk=b.closest('.book'); if(!z||!sec||!bk) return; e.preventDefault();
+  const qs=[...z.querySelectorAll('.qz-q')]; let bad=0, blank=0;
+  qs.forEach(q=>{q.classList.remove('no'); const c=q.querySelector('input:checked'); if(!c){blank++;q.classList.add('no');return} if(c.value!==q.dataset.a){bad++;q.classList.add('no')}});
+  const res=z.querySelector('.qz-res');
+  if(blank){res.textContent='Answer every question first ('+blank+' left, marked in gold).';return}
+  if(bad){res.textContent=bad+' wrong (marked in gold). Go back over the page and try again.';return}
+  sec.dataset.ok='1';
+  const fin=z.dataset.final==='1';
+  res.textContent=fin?'All correct. You have graduated. Close this entry and open it again to go round once more, because repetition is the point.':'All correct. The next page is unlocked.';
+  if(bk._go) bk._go(bk._cur(),false);
 });
 document.addEventListener('click',e=>{
   const b=e.target.closest('[data-bk],[data-bkgo]'); if(!b) return;

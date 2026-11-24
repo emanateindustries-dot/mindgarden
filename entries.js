@@ -424,6 +424,726 @@ window.GUIDE = {
       see:["marketing","leave","losers"] },
 
     /* ================= THINGS ================= */
+    { id:"guitar", cat:"Things", title:"Your Guitar Is a Tuned Weapon: DADGAD, Harmonics and the Maths of a Shaking String",
+      quote:["Every note you have ever loved is somebody multiplying by a small number."],
+      text:[
+        `<p style="margin-bottom:6px">A gated, repeat-until-it-sticks course on the acoustic guitar for someone starting from nothing: what sound is, the maths of strings, frets, harmonics and ratios, then DADGAD, theory and the weapons. Every page ends in a quiz you must pass to unlock the next page, and it resets when you close it.</p>`,
+        `<div class="book" data-book="guitar" data-gate="1"><section class="pg" data-t="Read This First (and Why It Keeps Resetting)" data-ch="Part One: You Know Nothing, Wonderful"><h3>Read This First (and Why It Keeps Resetting)</h3>
+<p>This is the guitar section of the Guide. Entry for the planet Earth, under 'Things that go twang': <b>a stretched string that, when disturbed, tells the truth about physics at a rate of a few hundred times a second.</b></p>
+<p>You said you want everything about the guitar, starting from knowing nothing, in your style: <b>DADGAD</b>, acoustic, harmonic, a bit flamenco, a bit hit-it-like-a-drum. You are a drummer of ten years, which is the single best thing you could have walked in with. You already have time. We are going to add notes.</p>
+<p><b>How this book behaves (on purpose).</b></p>
+<ul><li>Every page ends with a short quiz. <b>You must get every answer right to unlock the next page.</b> Get one wrong and it tells you which, so you can go back and read, which is the whole trick.</li><li><b>Nothing is saved.</b> Close the entry and you start again from page one, locked. That is not a bug. It is repetition, and repetition is how a drummer gets a fill into the hands. You will read the first pages so many times you will start hearing them in your sleep.</li><li>The pages get denser as you go. The maths is real but never worse than a bit of multiplying.</li></ul>
+<p><b>The plan.</b></p>
+<div class="tw"><table><thead><tr><th>Part</th><th>What happens</th></tr></thead><tbody><tr><td>One</td><td>What sound is, the guitar, the notes</td></tr><tr><td>Two</td><td>The maths: octaves, frets, tension, harmonics, ratios</td></tr><tr><td>Three</td><td>DADGAD: tuning, chords, scales, theory</td></tr><tr><td>Four</td><td>The weapons: right hand, harmonics, percussion, slides, practice</td></tr></tbody></table></div>
+<div class="short">The Guide's one rule for learning an instrument: ten minutes every day beats three hours on Sunday. Nobody believes this, and it is still true.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="1"><p><b>1.</b> What happens to your progress when you close this entry?</p>
+<label><input type="radio" name="g22_1" value="0"> It is saved forever</label>
+<label><input type="radio" name="g22_1" value="1"> It resets and you start again from page one</label>
+<label><input type="radio" name="g22_1" value="2"> It sends itself to a different planet</label>
+<label><input type="radio" name="g22_1" value="3"> It is emailed to Elon</label>
+</div>
+<div class="qz-q" data-a="3"><p><b>2.</b> What do you need to unlock the next page?</p>
+<label><input type="radio" name="g22_2" value="0"> Wait ten minutes</label>
+<label><input type="radio" name="g22_2" value="1"> Pay the Guide a pizza</label>
+<label><input type="radio" name="g22_2" value="2"> Get one answer right</label>
+<label><input type="radio" name="g22_2" value="3"> Get every quiz answer right</label>
+</div>
+<div class="qz-q" data-a="0"><p><b>3.</b> Which tuning is this book built around?</p>
+<label><input type="radio" name="g22_3" value="0"> DADGAD</label>
+<label><input type="radio" name="g22_3" value="1"> Drop C</label>
+<label><input type="radio" name="g22_3" value="2"> Whichever is closest to the beach</label>
+<label><input type="radio" name="g22_3" value="3"> Standard</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="What Sound Actually Is"><h3>What Sound Actually Is</h3>
+<p>Sound is <b>air being pushed and pulled, very fast.</b> That is all. A guitar string moves back and forth, shoves the air next to it, and that shove travels outward as a wave of squeezed air then stretched air, squeezed then stretched. Your ear drum is a tiny wall that gets pushed around by it, and your brain, which is a meat computer with opinions, calls the result 'a G'.</p>
+<p><b>Frequency</b> is how many back-and-forths per second. Its unit is the <b>hertz (Hz)</b>. 100 Hz is one hundred wiggles a second.</p>
+<ul><li>A human ear hears roughly <b>20 Hz to 20,000 Hz</b> (and the top end drops as you age and as you stand next to loud drums, which you would know about).</li><li><b>Low frequency = low note. High frequency = high note.</b></li><li>The lowest string in DADGAD wiggles about <b>73 times a second</b>. The highest wiggles about <b>294 times a second</b>.</li><li>A note's frequency has nothing to do with how loud it is. <b>Loudness is the size of the wiggle</b> (amplitude). Pitch is the speed of the wiggle.</li></ul>
+<div class="fm">period (seconds per wiggle) = 1 / frequency<br>73 Hz   ->   1 / 73 = about 0.0137 s = 13.7 milliseconds per wiggle</div>
+<p><b>A440.</b> The note A above middle C is set to <b>440 Hz</b> by international agreement. Tuners use it as the reference so the whole planet agrees on what 'in tune' means. (Before the standard, pitch varied by town. A choir in one city could be a semitone off the next. Musical history is full of people being very sure they were right.)</p>
+<p><b>Why your drummer brain helps here.</b> Below about 20 beats per second you hear a <b>rhythm</b>. Above it, the beats blur into a <b>pitch</b>. A very fast drum roll is a note. A very slow note is a drum pattern. They are the same thing at different speeds. Hold that thought; it comes back.</p>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="2"><p><b>1.</b> What does frequency measure?</p>
+<label><input type="radio" name="g22_1" value="0"> How expensive the guitar was</label>
+<label><input type="radio" name="g22_1" value="1"> How loud a sound is</label>
+<label><input type="radio" name="g22_1" value="2"> How many back-and-forths per second</label>
+<label><input type="radio" name="g22_1" value="3"> How long the string is</label>
+</div>
+<div class="qz-q" data-a="0"><p><b>2.</b> A note at 440 Hz wiggles how many times each second?</p>
+<label><input type="radio" name="g22_2" value="0"> 440</label>
+<label><input type="radio" name="g22_2" value="1"> 44</label>
+<label><input type="radio" name="g22_2" value="2"> 4,400</label>
+<label><input type="radio" name="g22_2" value="3"> As many as it feels like</label>
+</div>
+<div class="qz-q" data-a="2"><p><b>3.</b> What is the period of a 100 Hz note?</p>
+<label><input type="radio" name="g22_3" value="0"> 0.1 seconds</label>
+<label><input type="radio" name="g22_3" value="1"> 100 seconds</label>
+<label><input type="radio" name="g22_3" value="2"> 0.01 seconds</label>
+<label><input type="radio" name="g22_3" value="3"> 1 second</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="Meet the Guitar"><h3>Meet the Guitar</h3>
+<p>An acoustic guitar is a <b>box with a string-stretching neck bolted on</b>. Here is every part that matters and what physics job it does:</p>
+<ul><li><b>Strings:</b> the vibrating thing. Six of them, numbered <b>1 (thinnest, highest) to 6 (thickest, lowest).</b> Yes, the numbering is backwards from how it looks when you look down. Guitarists name things like this on purpose.</li><li><b>Nut:</b> the bone or plastic strip at the top of the neck. One end of the vibrating string.</li><li><b>Bridge (saddle):</b> the other end of the vibrating string, glued to the body. The string pushes the bridge, and the bridge pushes the top of the guitar, and <b>the top of the guitar is the loudspeaker</b>.</li><li><b>Soundboard (top):</b> a thin sheet of wood. A string alone makes almost no sound (try plucking one stretched across a table). The top moves lots of air. It is a lever for turning tiny string wiggles into loud noise.</li><li><b>Sound hole and body:</b> the air inside the box has its own wobble, which boosts the low notes.</li><li><b>Frets:</b> the metal wires on the neck. Press a string behind one and the string is now shorter.</li><li><b>Tuning pegs:</b> make the string tighter or looser.</li></ul>
+<p><b>Scale length</b> is the length of string that actually vibrates (nut to bridge). Most acoustics are about <b>648 mm (25.5 inches)</b>; some are 630 mm. We will use 648 mm in the examples.</p>
+<p><b>The three ways to change a note.</b> Everything in this book comes back to three levers:</p>
+<ol><li><b>Length</b> (press a fret, string gets shorter, note goes up)</li><li><b>Tension</b> (turn a peg, string gets tighter, note goes up)</li><li><b>Thickness / mass</b> (fatter string, note goes down)</li></ol>
+<div class="short">You will meet this again as a formula. For now, remember: shorter, tighter, lighter = higher.</div>
+<p><b>Reading tab and chord boxes.</b> In a chord diagram the six vertical lines are strings, the left one being string 6 (lowest). Dots show where you press. 'O' is open, 'X' is do-not-play. That is all the notation you need for now.</p>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="2"><p><b>1.</b> Which string is number 1?</p>
+<label><input type="radio" name="g22_1" value="0"> The one that always goes out of tune</label>
+<label><input type="radio" name="g22_1" value="1"> The thickest, lowest</label>
+<label><input type="radio" name="g22_1" value="2"> The thinnest, highest</label>
+<label><input type="radio" name="g22_1" value="3"> It is a secret</label>
+</div>
+<div class="qz-q" data-a="0"><p><b>2.</b> What actually produces most of the sound from an acoustic guitar?</p>
+<label><input type="radio" name="g22_2" value="0"> The vibrating soundboard (top) driven by the strings through the bridge</label>
+<label><input type="radio" name="g22_2" value="1"> The tuning pegs</label>
+<label><input type="radio" name="g22_2" value="2"> The strings alone</label>
+<label><input type="radio" name="g22_2" value="3"> The strap</label>
+</div>
+<div class="qz-q" data-a="3"><p><b>3.</b> Pressing a string behind a fret does what to the string and the note?</p>
+<label><input type="radio" name="g22_3" value="0"> Makes it longer and lower</label>
+<label><input type="radio" name="g22_3" value="1"> Nothing</label>
+<label><input type="radio" name="g22_3" value="2"> Makes it thicker and quieter</label>
+<label><input type="radio" name="g22_3" value="3"> Makes it shorter and higher</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="The Twelve Notes (Only Twelve, Honest)"><h3>The Twelve Notes (Only Twelve, Honest)</h3>
+<p>Western music is built from <b>12 note names</b>. Then the whole thing repeats higher or lower. That is it. All of it. Every song you have ever loved is a remix of 12 things.</p>
+<p><b>A  A#  B  C  C#  D  D#  E  F  F#  G  G#</b> then back to <b>A</b>.</p>
+<ul><li>The step between neighbouring notes is a <b>semitone</b> (also called a <b>half step</b>). On a guitar it is <b>one fret</b>.</li><li>Two semitones make a <b>tone</b> (whole step), which is two frets.</li><li>The # means <b>sharp</b> (one semitone up). The b means <b>flat</b> (one semitone down). <b>C# and Db are the same note</b> with two names, because music loves aliases.</li><li><b>There is no sharp between B and C, or E and F.</b> Those pairs are already one semitone apart. (Nobody knows why the alphabet did this. The Guide suspects a committee.)</li><li>After 12 semitones you arrive at the same name again but higher. That gap is an <b>octave</b>.</li></ul>
+<p><b>The whole guitar neck is just this loop.</b> Moving one fret up moves one letter along. Starting on the D string (open D) the frets read: D, D#, E, F, F#, G, G#, A, A#, B, C, C#, then D again at <b>fret 12</b>.</p>
+<div class="tw"><table><thead><tr><th>Fret</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th></tr></thead><tbody><tr><td>Note on an open-D string</td><td>D</td><td>D#</td><td>E</td><td>F</td><td>F#</td><td>G</td><td>G#</td><td>A</td></tr></tbody></table></div>
+<p><b>Why does fret 12 give the same name?</b> Twelve semitones equals an octave, and an octave is exactly <b>half the string length</b>. Fret 12 is at the halfway point of the string, which you will prove with maths in a moment.</p>
+<div class="short">If you only learn one piece of theory this week, learn the order of the twelve notes and where the two missing sharps are (B-C and E-F). Drummers: this is your paradiddle. Drill it until it is boring.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="1"><p><b>1.</b> How many different note names are there before the pattern repeats?</p>
+<label><input type="radio" name="g22_1" value="0"> 24</label>
+<label><input type="radio" name="g22_1" value="1"> 12</label>
+<label><input type="radio" name="g22_1" value="2"> 7</label>
+<label><input type="radio" name="g22_1" value="3"> 8</label>
+</div>
+<div class="qz-q" data-a="0"><p><b>2.</b> Between which pairs of notes is there NO sharp?</p>
+<label><input type="radio" name="g22_2" value="0"> B and C, E and F</label>
+<label><input type="radio" name="g22_2" value="1"> C and D, F and G</label>
+<label><input type="radio" name="g22_2" value="2"> All of them have one</label>
+<label><input type="radio" name="g22_2" value="3"> A and B, D and E</label>
+</div>
+<div class="qz-q" data-a="3"><p><b>3.</b> How many frets is a whole tone?</p>
+<label><input type="radio" name="g22_3" value="0"> 3</label>
+<label><input type="radio" name="g22_3" value="1"> 12</label>
+<label><input type="radio" name="g22_3" value="2"> 1</label>
+<label><input type="radio" name="g22_3" value="3"> 2</label>
+</div>
+<div class="qz-q" data-a="2"><p><b>4.</b> What note is at fret 12 of an open D string?</p>
+<label><input type="radio" name="g22_4" value="0"> A</label>
+<label><input type="radio" name="g22_4" value="1"> F#</label>
+<label><input type="radio" name="g22_4" value="2"> D (an octave higher)</label>
+<label><input type="radio" name="g22_4" value="3"> E</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="Octaves and the Number 2" data-ch="Part Two: The Maths (It Is Friendly, I Promise)"><h3>Octaves and the Number 2</h3>
+<p>Here is the first piece of real physics: <b>raising a note by an octave doubles its frequency.</b></p>
+<div class="fm">octave up = frequency x 2<br>octave down = frequency / 2</div>
+<div class="tw"><table><thead><tr><th>Note</th><th>Frequency (Hz)</th></tr></thead><tbody><tr><td>A2</td><td>110</td></tr><tr><td>A3</td><td>220</td></tr><tr><td>A4</td><td>440</td></tr><tr><td>A5</td><td>880</td></tr></tbody></table></div>
+<p>Each row is double the one above. Notice that your ear hears these as 'the same note, higher', even though the numbers are not close together. <b>Your ear judges pitch by ratio, not difference.</b> The step from 110 to 220 (110 Hz apart) sounds identical in size to 440 to 880 (440 Hz apart). That is why we use multiplication, not addition, for everything in music.</p>
+<p><b>Chopping an octave into 12 equal steps.</b> There are 12 semitones per octave, and each step multiplies the frequency by the same amount. Do it 12 times and you must arrive at x2. So each step is:</p>
+<div class="fm">semitone ratio = 2^(1/12) = <b>1.059463...</b></div>
+<p>That is, each fret raises the pitch by about <b>5.9 percent</b>. This system is called <b>equal temperament</b>, and it is how a modern guitar is built.</p>
+<p><b>Worked example.</b> Start at the open D string in DADGAD, D3 = <b>146.83 Hz</b>. What is fret 2?</p>
+<div class="fm">146.83 x 1.059463^2 = 146.83 x 1.12246 = <b>164.81 Hz</b></div>
+<p>That is E3. Real E3 is 164.81 Hz. The maths works, which is rare in life.</p>
+<p><b>Going up 12 frets:</b> 1.059463^12 = 2.000. Exactly the octave. Beautiful.</p>
+<div class="short">A semitone is a ratio, not a distance. Each one is about 5.9 percent bigger than the last pitch. The 'distance' in Hz grows as you climb, but the ratio is always the same. Your ear and your fretboard both think in ratios.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="3"><p><b>1.</b> Raising a note by one octave does what to its frequency?</p>
+<label><input type="radio" name="g22_1" value="0"> Multiplies by 12</label>
+<label><input type="radio" name="g22_1" value="1"> Adds 100 Hz</label>
+<label><input type="radio" name="g22_1" value="2"> Triples it</label>
+<label><input type="radio" name="g22_1" value="3"> Doubles it</label>
+</div>
+<div class="qz-q" data-a="1"><p><b>2.</b> What is the frequency ratio of one semitone in equal temperament?</p>
+<label><input type="radio" name="g22_2" value="0"> 1.5</label>
+<label><input type="radio" name="g22_2" value="1"> 2^(1/12), about 1.0595</label>
+<label><input type="radio" name="g22_2" value="2"> 12/2</label>
+<label><input type="radio" name="g22_2" value="3"> 1.2</label>
+</div>
+<div class="qz-q" data-a="2"><p><b>3.</b> If A3 is 220 Hz, what is A4?</p>
+<label><input type="radio" name="g22_3" value="0"> 221 Hz</label>
+<label><input type="radio" name="g22_3" value="1"> 330 Hz</label>
+<label><input type="radio" name="g22_3" value="2"> 440 Hz</label>
+<label><input type="radio" name="g22_3" value="3"> 660 Hz</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="Where the Frets Go"><h3>Where the Frets Go</h3>
+<p>Why are frets not evenly spaced? Because <b>ratios, not distances, make the notes</b>. To raise the pitch by a semitone you must make the vibrating length 1/1.0595 of what it was. That is, multiply by 0.9439 each fret. The spacing shrinks as you go up.</p>
+<p>The formula for how far from the nut the nth fret is:</p>
+<div class="fm">distance from nut = L x (1 - 2^(-n/12))<br>L = scale length (from nut to bridge)<br>n = fret number</div>
+<p><b>For a 648 mm scale:</b></p>
+<div class="tw"><table><thead><tr><th>Fret</th><th>Distance from nut (mm)</th><th>Left of the bridge (mm)</th></tr></thead><tbody><tr><td>1</td><td>36.4</td><td>611.6</td></tr><tr><td>2</td><td>70.7</td><td>577.3</td></tr><tr><td>3</td><td>103.1</td><td>544.9</td></tr><tr><td>4</td><td>133.7</td><td>514.3</td></tr><tr><td>5</td><td>162.5</td><td>485.5</td></tr><tr><td>7</td><td>215.5</td><td>432.5</td></tr><tr><td>9</td><td>262.7</td><td>385.3</td></tr><tr><td>12</td><td>324.0</td><td>324.0</td></tr></tbody></table></div>
+<p>Check the key ones:</p>
+<ul><li><b>Fret 12</b> is exactly <b>half</b> the string (324 mm). That is the octave. Frequency doubles because length halves.</li><li><b>Fret 7</b> is almost exactly <b>one third</b> from the end, which is why it gives a <b>perfect fifth</b> (frequency ratio about 3:2).</li><li><b>Fret 5</b> gives a <b>perfect fourth</b>, and the fret 5 position is about a quarter of the way along.</li></ul>
+<p><b>Why you care.</b> (a) If you ever build or fix a guitar, this is the formula. (b) When a luthier talks about <b>intonation</b>, they mean fine-tuning the bridge position so that fret 12 sits at *exactly* half the string. (c) The rule of 18: a quick ancient shortcut divides by 17.817 for the first fret. The formula above is the clean version of that.</p>
+<div class="short">Fun fact: the fretboard is a ruler that measures musical ratios. Each fret is a tiny maths exam you pass by pressing.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="3"><p><b>1.</b> What fraction of the string is left (vibrating) when you play the 12th fret?</p>
+<label><input type="radio" name="g22_1" value="0"> Two thirds</label>
+<label><input type="radio" name="g22_1" value="1"> One quarter</label>
+<label><input type="radio" name="g22_1" value="2"> The same as open</label>
+<label><input type="radio" name="g22_1" value="3"> One half</label>
+</div>
+<div class="qz-q" data-a="2"><p><b>2.</b> Why are the frets closer together as you go up the neck?</p>
+<label><input type="radio" name="g22_2" value="0"> The wood shrinks</label>
+<label><input type="radio" name="g22_2" value="1"> Manufacturers save metal</label>
+<label><input type="radio" name="g22_2" value="2"> Each fret must shorten the string by a fixed ratio, not a fixed distance</label>
+<label><input type="radio" name="g22_2" value="3"> To confuse beginners</label>
+</div>
+<div class="qz-q" data-a="1"><p><b>3.</b> On a 648 mm scale, about how far is the 12th fret from the nut?</p>
+<label><input type="radio" name="g22_3" value="0"> 648 mm</label>
+<label><input type="radio" name="g22_3" value="1"> 324 mm</label>
+<label><input type="radio" name="g22_3" value="2"> 162 mm</label>
+<label><input type="radio" name="g22_3" value="3"> 450 mm</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="Why a String Has the Pitch It Has"><h3>Why a String Has the Pitch It Has</h3>
+<p>This is the big one. A guitar string's frequency follows a law first worked out by people in wigs:</p>
+<div class="fm">f = (1 / 2L) x sqrt( T / m )<br>f = frequency (Hz), L = length of the vibrating part (m)<br>T = tension (newtons), m = mass per unit length of the string (kg per metre)</div>
+<p>Three knobs, as I promised:</p>
+<ul><li><b>Length L</b>: halve the length and the frequency <b>doubles</b>. That is the octave at fret 12.</li><li><b>Tension T</b>: frequency goes with the <b>square root</b> of tension. To double the frequency (an octave) you need <b>four times</b> the tension. That is why strings snap when you try to crank an octave on a whim.</li><li><b>Mass m</b>: heavier strings are lower. A fat wound string has more m, so it sits low.</li></ul>
+<p><b>Worked example (a plain .010 high E).</b> Scale 0.648 m, tuned to E4 = 329.63 Hz.</p>
+<div class="fm">wave speed on the string = 2 x L x f = 2 x 0.648 x 329.63 = about 427 m/s<br>string mass per metre for a 0.254 mm steel wire = about 0.0004 kg/m<br>T = m x speed^2 = 0.0004 x 427^2 = about <b>72 N (roughly 16 lb)</b></div>
+<p>So that one thin high string pulls on the bridge with about 16 pounds. Six strings together pull around <b>70 to 80 kg-force</b> in total. The top of your guitar is under a quiet, constant, serious load. Handle gently.</p>
+<p><b>Tuning down in DADGAD.</b> Strings 6, 2 and 1 each go <b>down a whole tone</b>. Frequency ratio is 2^(-2/12) = 0.8909. Because tension goes with frequency squared:</p>
+<div class="fm">tension ratio = 0.8909^2 = <b>0.794</b></div>
+<p>So those three strings are about <b>21 percent slacker</b>. That is why they feel floppy in DADGAD, and why many players put a slightly heavier string on the high D.</p>
+<div class="short">The string law explains every piece of guitar behaviour: capos, string gauges, why the bass strings are wrapped in wire, why a shorter scale feels slinky. It all reduces to length, tension and mass.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="3"><p><b>1.</b> If you halve the vibrating length of a string, the frequency...</p>
+<label><input type="radio" name="g22_1" value="0"> Halves</label>
+<label><input type="radio" name="g22_1" value="1"> Quadruples</label>
+<label><input type="radio" name="g22_1" value="2"> Stays the same</label>
+<label><input type="radio" name="g22_1" value="3"> Doubles</label>
+</div>
+<div class="qz-q" data-a="1"><p><b>2.</b> To double a string's frequency by tension alone you need what tension change?</p>
+<label><input type="radio" name="g22_2" value="0"> Ten times</label>
+<label><input type="radio" name="g22_2" value="1"> Four times the tension</label>
+<label><input type="radio" name="g22_2" value="2"> Double the tension</label>
+<label><input type="radio" name="g22_2" value="3"> Half the tension</label>
+</div>
+<div class="qz-q" data-a="0"><p><b>3.</b> Tuning string 1 down a whole tone (E to D) makes it about how much slacker?</p>
+<label><input type="radio" name="g22_3" value="0"> 21 percent</label>
+<label><input type="radio" name="g22_3" value="1"> 50 percent</label>
+<label><input type="radio" name="g22_3" value="2"> 1 percent</label>
+<label><input type="radio" name="g22_3" value="3"> It becomes tighter</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="Why a Box Makes It Loud"><h3>Why a Box Makes It Loud</h3>
+<p>A string on its own makes almost no noise because it is thin. It slices through the air instead of pushing it, like a very sharp ruler. The body of the guitar is what <b>couples</b> that tiny motion to a lot of air.</p>
+<p>The signal path:</p>
+<ol><li>Pluck. The string vibrates.</li><li>The <b>bridge</b> passes the vibration down into the <b>top (soundboard)</b>.</li><li>The top vibrates over a large area and shoves lots of air. That is the loudness.</li><li>The air inside the box also resonates. Air in a bottle blows a note when you blow across the neck; the guitar does the same through its sound hole.</li></ol>
+<p><b>Two resonances shape your tone.</b> (Rough numbers, they vary by guitar.)</p>
+<ul><li>The <b>air resonance</b> (Helmholtz resonance) of the body and sound hole, typically around <b>100 Hz</b>. It boosts the low end.</li><li>The <b>top plate resonance</b>, typically around <b>200 Hz</b>. It boosts the low-mids.</li></ul>
+<p>Now check DADGAD against those: the lowest string, D2, is <b>73 Hz</b>, a bit below the body's air resonance, and the next string, A2, is <b>110 Hz</b>, almost right on top of it. That is part of why DADGAD sounds so huge on an acoustic: the open strings sit around the guitar's natural boom.</p>
+<p><b>The practical bit.</b></p>
+<ul><li><b>Where you pluck matters.</b> Near the bridge: thin, bright, trebly. Over the sound hole or neck: round, warm, fat. You have a free tone knob in your right hand.</li><li><b>Hit the top.</b> Because the top is the loudspeaker, tapping it makes a drum sound. You are a drummer. Remember this for Part Four.</li></ul>
+<div class="short">Wood does not need to be mystical. A good top is light, stiff and thin, so it moves easily and does not waste energy. Everything else is marketing.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="2"><p><b>1.</b> What is the main job of the guitar body?</p>
+<label><input type="radio" name="g22_1" value="0"> To look good</label>
+<label><input type="radio" name="g22_1" value="1"> To keep the strings at the right tension</label>
+<label><input type="radio" name="g22_1" value="2"> To couple the string's tiny motion to lots of air so it is loud</label>
+<label><input type="radio" name="g22_1" value="3"> To hold the strings</label>
+</div>
+<div class="qz-q" data-a="2"><p><b>2.</b> Plucking near the bridge sounds...</p>
+<label><input type="radio" name="g22_2" value="0"> Lower in pitch</label>
+<label><input type="radio" name="g22_2" value="1"> Warm and round</label>
+<label><input type="radio" name="g22_2" value="2"> Thin and bright</label>
+<label><input type="radio" name="g22_2" value="3"> Silent</label>
+</div>
+<div class="qz-q" data-a="2"><p><b>3.</b> Why does DADGAD sound so big on many acoustics?</p>
+<label><input type="radio" name="g22_3" value="0"> It uses thicker strings</label>
+<label><input type="radio" name="g22_3" value="1"> The strings are longer</label>
+<label><input type="radio" name="g22_3" value="2"> Several open strings sit near the body's natural resonances</label>
+<label><input type="radio" name="g22_3" value="3"> It is magic</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="Harmonics: The String Singing in Several Voices"><h3>Harmonics: The String Singing in Several Voices</h3>
+<p>A plucked string does not just wiggle one way. It wiggles as a whole <b>and</b> in halves <b>and</b> in thirds, all at once. Each of those extra motions is a <b>harmonic</b> (or overtone). Their frequencies are exact multiples of the lowest one (the <b>fundamental</b>):</p>
+<div class="fm">harmonic n has frequency n x f1</div>
+<div class="tw"><table><thead><tr><th>Harmonic</th><th>Multiple</th><th>Interval above the fundamental</th></tr></thead><tbody><tr><td>1</td><td>1 x</td><td>the note itself</td></tr><tr><td>2</td><td>2 x</td><td>octave</td></tr><tr><td>3</td><td>3 x</td><td>octave plus a fifth</td></tr><tr><td>4</td><td>4 x</td><td>two octaves</td></tr><tr><td>5</td><td>5 x</td><td>two octaves plus a major third</td></tr><tr><td>6</td><td>6 x</td><td>two octaves plus a fifth</td></tr></tbody></table></div>
+<p>That is the <b>harmonic series</b>. It is why a chord of root, fifth and third sounds 'natural': nature put them there.</p>
+<p><b>Natural harmonics on the guitar.</b> Touch the string very lightly directly over a fret wire (do not press down), pluck, then lift off. You have forced the string to have a still point there (a <b>node</b>), killing every wiggle that needs to move at that spot.</p>
+<ul><li><b>Fret 12</b> touches the middle: you hear harmonic 2 (octave).</li><li><b>Fret 7</b> (and fret 19) sits at one third: harmonic 3 (octave plus a fifth).</li><li><b>Fret 5</b> (and fret 24) sits at one quarter: harmonic 4 (two octaves above).</li><li><b>Fret 4</b> (and fret 9, 16) gives harmonic 5, the <b>major third</b>.</li></ul>
+<p><b>Try it in DADGAD.</b> Open string 6 is D (73 Hz). Its 12th-fret harmonic is D (147 Hz). Its 7th-fret harmonic is A (220 Hz, harmonic 3). Its 5th-fret harmonic is D (294 Hz). That is the notes of a D chord coming out of one string, on its own, for free.</p>
+<div class="short">This is the harmonic style you are after. Bells, chimes, shimmer: they are the string showing you its own overtones. In DADGAD, where several strings are D or A, those overtones stack on top of each other and ring together, because they are the same notes.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="2"><p><b>1.</b> A string's second harmonic has what relation to its fundamental?</p>
+<label><input type="radio" name="g22_1" value="0"> Triple</label>
+<label><input type="radio" name="g22_1" value="1"> Half</label>
+<label><input type="radio" name="g22_1" value="2"> Double the frequency (an octave)</label>
+<label><input type="radio" name="g22_1" value="3"> Same frequency</label>
+</div>
+<div class="qz-q" data-a="2"><p><b>2.</b> Which fret gives the octave harmonic?</p>
+<label><input type="radio" name="g22_2" value="0"> 1</label>
+<label><input type="radio" name="g22_2" value="1"> 5</label>
+<label><input type="radio" name="g22_2" value="2"> 12</label>
+<label><input type="radio" name="g22_2" value="3"> 7</label>
+</div>
+<div class="qz-q" data-a="1"><p><b>3.</b> Which fret's natural harmonic is one octave plus a fifth above the open string?</p>
+<label><input type="radio" name="g22_3" value="0"> 3</label>
+<label><input type="radio" name="g22_3" value="1"> 7</label>
+<label><input type="radio" name="g22_3" value="2"> 20</label>
+<label><input type="radio" name="g22_3" value="3"> 12</label>
+</div>
+<div class="qz-q" data-a="1"><p><b>4.</b> When you play a natural harmonic you lightly touch the string and...</p>
+<label><input type="radio" name="g22_4" value="0"> Press it to the fret</label>
+<label><input type="radio" name="g22_4" value="1"> Do not press it down, just touch over the fret wire</label>
+<label><input type="radio" name="g22_4" value="2"> Pluck behind the nut</label>
+<label><input type="radio" name="g22_4" value="3"> Pull it sideways</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="Intervals as Ratios, and Cents"><h3>Intervals as Ratios, and Cents</h3>
+<p>An <b>interval</b> is the gap between two notes, and it is described by a <b>frequency ratio</b>. Smaller whole numbers sound smoother (more consonant).</p>
+<div class="tw"><table><thead><tr><th>Interval</th><th>Just ratio</th><th>Equal-temperament ratio</th></tr></thead><tbody><tr><td>Octave</td><td>2 : 1</td><td>2.0000</td></tr><tr><td>Perfect fifth</td><td>3 : 2 = 1.5000</td><td>1.4983</td></tr><tr><td>Perfect fourth</td><td>4 : 3 = 1.3333</td><td>1.3348</td></tr><tr><td>Major third</td><td>5 : 4 = 1.2500</td><td>1.2599</td></tr><tr><td>Minor third</td><td>6 : 5 = 1.2000</td><td>1.1892</td></tr><tr><td>Major second (tone)</td><td>9 : 8 = 1.1250</td><td>1.1225</td></tr></tbody></table></div>
+<p><b>Just intonation</b> is tuning by those pure ratios. <b>Equal temperament</b> is the 12-equal-steps system the guitar uses. The two agree closely on fifths and fourths, and disagree on thirds.</p>
+<p><b>Cents.</b> To compare tiny differences, musicians divide each semitone into <b>100 cents</b>. An octave is 1200 cents.</p>
+<div class="fm">cents = 1200 x log2( ratio )</div>
+<div class="tw"><table><thead><tr><th>Interval</th><th>Just (cents)</th><th>Equal (cents)</th><th>Equal is...</th></tr></thead><tbody><tr><td>Perfect fifth</td><td>701.96</td><td>700</td><td>2 flat</td></tr><tr><td>Major third</td><td>386.31</td><td>400</td><td>13.7 sharp</td></tr><tr><td>Minor third</td><td>315.64</td><td>300</td><td>15.6 flat</td></tr></tbody></table></div>
+<p>So on a guitar, the <b>major third is almost 14 cents sharp</b> compared with the pure ratio. Chords with thirds in them are slightly 'busy'. Chords with only fifths and octaves (hello, DADGAD with no third) are <b>nearly perfectly smooth</b>. That is a real reason DADGAD sounds so clean and open.</p>
+<p><b>Why can't they be reconciled?</b> Stack twelve perfect fifths (3:2 each) and you land near seven octaves, but not exactly: you are off by about 23.5 cents, called the <b>Pythagorean comma</b>. A fixed-fret instrument has to fudge this somewhere. Equal temperament spreads the fudge evenly so every key is equally (a little) wrong.</p>
+<div class="short">Your ear can detect about 5 cents in isolation. A 14-cent sharp third in an open chord is the sort of thing a good ear hears and a good player learns to love or to pull flat with a finger-bend.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="2"><p><b>1.</b> What is the just frequency ratio of a perfect fifth?</p>
+<label><input type="radio" name="g22_1" value="0"> 5:4</label>
+<label><input type="radio" name="g22_1" value="1"> 2:1</label>
+<label><input type="radio" name="g22_1" value="2"> 3:2</label>
+<label><input type="radio" name="g22_1" value="3"> 4:3</label>
+</div>
+<div class="qz-q" data-a="3"><p><b>2.</b> How many cents are in one octave?</p>
+<label><input type="radio" name="g22_2" value="0"> 2400</label>
+<label><input type="radio" name="g22_2" value="1"> 100</label>
+<label><input type="radio" name="g22_2" value="2"> 700</label>
+<label><input type="radio" name="g22_2" value="3"> 1200</label>
+</div>
+<div class="qz-q" data-a="0"><p><b>3.</b> Compared with the pure ratio, the equal-tempered major third on a guitar is...</p>
+<label><input type="radio" name="g22_3" value="0"> About 14 cents sharp</label>
+<label><input type="radio" name="g22_3" value="1"> About 14 cents flat</label>
+<label><input type="radio" name="g22_3" value="2"> Exactly the same</label>
+<label><input type="radio" name="g22_3" value="3"> A full semitone off</label>
+</div>
+<div class="qz-q" data-a="1"><p><b>4.</b> Why does a chord with no third (just fifths and octaves) sound so smooth?</p>
+<label><input type="radio" name="g22_4" value="0"> It is louder</label>
+<label><input type="radio" name="g22_4" value="1"> Its intervals are the ones equal temperament matches best</label>
+<label><input type="radio" name="g22_4" value="2"> Fifths are impossible to tune</label>
+<label><input type="radio" name="g22_4" value="3"> It uses fewer strings</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="Beats: How to Tune by Ear Like a Wizard"><h3>Beats: How to Tune by Ear Like a Wizard</h3>
+<p>When two notes are very close in frequency but not equal, you hear a slow wobble in loudness. Those are <b>beats</b>.</p>
+<div class="fm">beat rate = | f1 - f2 |<br>440 Hz and 443 Hz -> 3 beats per second</div>
+<p>As the two notes get closer, the wobble slows. When they match exactly, the wobble stops: <b>in tune</b>. You can tune by listening for the beats to disappear. This is how every piano tuner and every wise guitarist works, and it is far better than looking at a tuner.</p>
+<p><b>Beats are a rhythm, and you are a drummer.</b> A wobble of 3 beats per second is a slow tempo you could clap along to. Use your time sense: you can actually hear the difference between 'a beat every half second' and 'slowing down to a stop'.</p>
+<p><b>Method for a pair of strings tuned to the same note.</b></p>
+<ol><li>Play both strings together. Listen for the wobble.</li><li>Tighten or loosen one string slowly. The wobble speeds up or slows down.</li><li>Go the way that <b>slows</b> it. Stop when it vanishes.</li></ol>
+<p><b>Beats with intervals too.</b> A fifth should be a near-perfect 3:2. The equal-tempered one is just 2 cents flat, so you hear a <b>very slow</b> beat (a few seconds per wobble). A major third is <b>13.7 cents sharp</b>, which gives a <b>fast, buzzy beat</b>. You will hear this as the chord 'shimmering' or 'working'. Try it: strum an open chord with a third in it and listen for the pulse in the sustain.</p>
+<p><b>Warnings.</b></p>
+<ul><li>Very flat strings do not beat clearly. Get close with a tuner first, then finish by ear.</li><li>Old strings and cold rooms drift. If you chase the beat forever, change the strings.</li></ul>
+<div class="short">Beats are the physics of 'two things almost together'. They are also why a choir sings with that shimmer, and why a perfectly tuned synthesiser sounds a bit dead.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="3"><p><b>1.</b> Two notes at 220 Hz and 224 Hz are played together. How many beats per second?</p>
+<label><input type="radio" name="g22_1" value="0"> 2</label>
+<label><input type="radio" name="g22_1" value="1"> 220</label>
+<label><input type="radio" name="g22_1" value="2"> 444</label>
+<label><input type="radio" name="g22_1" value="3"> 4</label>
+</div>
+<div class="qz-q" data-a="2"><p><b>2.</b> When two strings tuned to the same note match exactly, what happens to the beats?</p>
+<label><input type="radio" name="g22_2" value="0"> They turn into a chord</label>
+<label><input type="radio" name="g22_2" value="1"> They double</label>
+<label><input type="radio" name="g22_2" value="2"> They stop</label>
+<label><input type="radio" name="g22_2" value="3"> They get faster</label>
+</div>
+<div class="qz-q" data-a="0"><p><b>3.</b> When tuning two strings together, you adjust until the wobble...</p>
+<label><input type="radio" name="g22_3" value="0"> Gets slower and vanishes</label>
+<label><input type="radio" name="g22_3" value="1"> Becomes a different note</label>
+<label><input type="radio" name="g22_3" value="2"> Gets faster</label>
+<label><input type="radio" name="g22_3" value="3"> Becomes louder</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="DADGAD: What It Is" data-ch="Part Three: DADGAD, The Good Bit"><h3>DADGAD: What It Is</h3>
+<p><b>DADGAD</b> is a tuning where the six open strings, from low to high, are:</p>
+<p><b>D - A - D - G - A - D</b></p>
+<p>It is spelled out by the notes: strings 6 to 1. Compare with standard tuning:</p>
+<div class="tw"><table><thead><tr><th>String</th><th>Standard</th><th>DADGAD</th><th>Change</th></tr></thead><tbody><tr><td>6</td><td>E</td><td>D</td><td>down a tone</td></tr><tr><td>5</td><td>A</td><td>A</td><td>same</td></tr><tr><td>4</td><td>D</td><td>D</td><td>same</td></tr><tr><td>3</td><td>G</td><td>G</td><td>same</td></tr><tr><td>2</td><td>B</td><td>A</td><td>down a tone</td></tr><tr><td>1</td><td>E</td><td>D</td><td>down a tone</td></tr></tbody></table></div>
+<p><b>Only three strings change</b>, each down by a whole tone. That is why it is easy to get into.</p>
+<p><b>The frequencies (Hz, equal temperament).</b></p>
+<div class="tw"><table><thead><tr><th>String</th><th>Note</th><th>Frequency</th></tr></thead><tbody><tr><td>6</td><td>D2</td><td>73.42</td></tr><tr><td>5</td><td>A2</td><td>110.00</td></tr><tr><td>4</td><td>D3</td><td>146.83</td></tr><tr><td>3</td><td>G3</td><td>196.00</td></tr><tr><td>2</td><td>A3</td><td>220.00</td></tr><tr><td>1</td><td>D4</td><td>293.66</td></tr></tbody></table></div>
+<p><b>Why it is special.</b> Strum it open and you get <b>D, A, D, G, A, D</b>. There is a root (D), a fifth (A), and a fourth (G), and <b>no third</b>. A third is what makes a chord major or minor. Without it the chord is <b>neutral</b>: it is neither happy nor sad, it is just *open*. This is called a <b>suspended</b> sound (Dsus4). It hangs in the air and begs you to do something, and the beauty of DADGAD is that it works whether you resolve it or not.</p>
+<p><b>Where DADGAD comes from.</b> The tuning was popularised in British and Irish folk by <b>Davey Graham</b> in the 1960s, who borrowed the sound from Moroccan oud music, and now it lives in Celtic, folk, fingerstyle and flamenco-adjacent playing. It suits drones, modes and open ringing strings.</p>
+<p><b>How to get there.</b> Start in standard. Then:</p>
+<ol><li>Tune string 6 down a whole tone to D.</li><li>Tune string 2 down a whole tone to A.</li><li>Tune string 1 down a whole tone to D.</li></ol>
+<div class="short">Warning: check the tension. Those three strings are about 21 percent slacker (page 7). A slight fret buzz is normal; a heavier gauge on string 1 or a small truss-rod nudge from a tech fixes it.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="3"><p><b>1.</b> What are the six open strings in DADGAD, low to high?</p>
+<label><input type="radio" name="g22_1" value="0"> E A D G B E</label>
+<label><input type="radio" name="g22_1" value="1"> A D G C E A</label>
+<label><input type="radio" name="g22_1" value="2"> D A D F# A D</label>
+<label><input type="radio" name="g22_1" value="3"> D A D G A D</label>
+</div>
+<div class="qz-q" data-a="2"><p><b>2.</b> Which strings change from standard tuning to DADGAD?</p>
+<label><input type="radio" name="g22_2" value="0"> 3, 4 and 5</label>
+<label><input type="radio" name="g22_2" value="1"> All six</label>
+<label><input type="radio" name="g22_2" value="2"> 1, 2 and 6</label>
+<label><input type="radio" name="g22_2" value="3"> Only string 6</label>
+</div>
+<div class="qz-q" data-a="1"><p><b>3.</b> Why does open DADGAD sound neither major nor minor?</p>
+<label><input type="radio" name="g22_3" value="0"> It is too quiet</label>
+<label><input type="radio" name="g22_3" value="1"> It has no third</label>
+<label><input type="radio" name="g22_3" value="2"> It has too many Ds</label>
+<label><input type="radio" name="g22_3" value="3"> It is out of tune</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="Tuning DADGAD by Ear (Beats in Action)"><h3>Tuning DADGAD by Ear (Beats in Action)</h3>
+<p>You do not need a tuner (but use one for the first few days). Here is the beat method on the three strings that move. Start from standard tuning with strings 5, 4 and 3 already correct (A, D, G).</p>
+<p><b>String 6 to D.</b> Pluck open string 4 (D3, 146.83 Hz) and open string 6 (E2, 82.41 Hz, heading down to D2 at 73.42). When string 6 reaches D2 it is <b>exactly one octave below</b> string 4 (73.42 x 2 = 146.84). Pluck both and listen. Slow the beat until it dies. Check with the 12th-fret harmonic on string 6, which should equal open string 4.</p>
+<p><b>String 1 to D.</b> String 1 should be <b>one octave above</b> string 4. Play open string 4 and open string 1 (heading down from E4 330 to D4 294). As they approach the octave, the beat slows. Stop when it vanishes. Check with the 12th-fret harmonic on string 4, which should equal the open string 1.</p>
+<p><b>String 2 to A.</b> String 2 should be <b>one octave above</b> string 5 (A2 110, so A3 220). Play both and slow the beat. Check with the 12th-fret harmonic on string 5.</p>
+<p>Now <b>verify</b> with a cross-check: the 5th fret on string 6 is <b>G</b> (low G, 98 Hz), which should sit exactly one octave below the open string 3. And the 5th fret on string 5 (A) gives D, which should match the open string 4.</p>
+<div class="tw"><table><thead><tr><th>Check</th><th>Should match</th></tr></thead><tbody><tr><td>String 6, 12th-fret harmonic</td><td>Open string 4</td></tr><tr><td>String 4, 12th-fret harmonic</td><td>Open string 1</td></tr><tr><td>String 5, 12th-fret harmonic</td><td>Open string 2</td></tr><tr><td>String 6, fret 5</td><td>One octave below open string 3 (G)</td></tr><tr><td>String 5, fret 5</td><td>Open string 4 (D)</td></tr></tbody></table></div>
+<p>Strum all six open. If they bloom into a big, boomy, unresolved chord, you are in tune. If they scrunch up into a wobbly hum, find the string beating.</p>
+<div class="short">Bonus trick: strings 1 and 4 are both D (octaves), 2 and 5 are both A (octaves). Whenever one of them is out, you hear a beat. The tuning itself is built around pairs that agree, so DADGAD is easy to check.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="3"><p><b>1.</b> String 6 in DADGAD should be how it relates to open string 4?</p>
+<label><input type="radio" name="g22_1" value="0"> The same pitch exactly</label>
+<label><input type="radio" name="g22_1" value="1"> A fifth above</label>
+<label><input type="radio" name="g22_1" value="2"> A semitone below</label>
+<label><input type="radio" name="g22_1" value="3"> The same note, an octave lower</label>
+</div>
+<div class="qz-q" data-a="0"><p><b>2.</b> Which strings are octaves of each other that you can check by beats?</p>
+<label><input type="radio" name="g22_2" value="0"> 1 and 4 are D; 2 and 5 are A</label>
+<label><input type="radio" name="g22_2" value="1"> None of them</label>
+<label><input type="radio" name="g22_2" value="2"> 3 and 6</label>
+<label><input type="radio" name="g22_2" value="3"> 1 and 3</label>
+</div>
+<div class="qz-q" data-a="2"><p><b>3.</b> Fret 5 on string 6 gives which note?</p>
+<label><input type="radio" name="g22_3" value="0"> E</label>
+<label><input type="radio" name="g22_3" value="1"> B</label>
+<label><input type="radio" name="g22_3" value="2"> G (an octave below open string 3)</label>
+<label><input type="radio" name="g22_3" value="3"> A</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="Why DADGAD Sounds Like That: Chords and the Capo"><h3>Why DADGAD Sounds Like That: Chords and the Capo</h3>
+<p>Open DADGAD is <b>D sus4</b>, but your left hand can change the mood by moving just one or two fingers.</p>
+<p><b>Chord shapes (strings listed 6 to 1; X = do not play).</b></p>
+<div class="tw"><table><thead><tr><th>Chord</th><th>Fret pattern (6 to 1)</th><th>Notes it makes</th></tr></thead><tbody><tr><td>Open (Dsus4)</td><td>0 0 0 0 0 0</td><td>D A D G A D</td></tr><tr><td>D5 (power)</td><td>0 0 0 2 0 0</td><td>D A D A A D</td></tr><tr><td>D major</td><td>0 0 4 0 0 0</td><td>D A F# G A D</td></tr><tr><td>D minor</td><td>0 0 3 0 0 0</td><td>D A F G A D</td></tr><tr><td>Dsus2</td><td>0 0 2 0 0 0</td><td>D A E G A D</td></tr></tbody></table></div>
+<p>(The middle number of interest is the third one, string 4, which is open D. Fretting it at 2, 3 or 4 gives E, F or F#. Fret 3 gives F, the minor third. Fret 4 gives F#, the major third, with the open G still hanging on as a suspended 4th, so it is a very friendly major.)</p>
+<p>Notice that <b>one finger on string 4 decides the mood</b>, because every other string stays as drone. A drone is a note that rings the whole time under the melody. This is the key to the DADGAD sound: <b>the open strings are a permanent backing band</b>, and the notes you fret are a melody floating on top.</p>
+<p><b>The capo.</b> A capo clamps across the neck and shortens all strings equally, so every open note rises by the same number of semitones. Capo at fret 2 gives <b>E B E A B E</b> (Esus4). Fret 3: F-C-F-Bb-C-F. <b>Every shape you know still works</b>, but in a new key. This is how you match a singer without learning new chords.</p>
+<p><b>Why drones are nice maths.</b> The open strings are all D or A (or G), which are related by perfect fifths and fourths. Those are the simplest ratios (3:2, 4:3). They sound smooth and they reinforce each other's harmonics. You do not need to understand it to enjoy it, but understanding it makes you smug in a healthy way.</p>
+<div class="short">The easiest first tune in DADGAD is to strum open, move one finger across string 4 or string 3, and hear how the entire chord changes colour. That is the maths of chord quality in one finger.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="2"><p><b>1.</b> Which note is added when you fret string 4 at fret 4 in DADGAD?</p>
+<label><input type="radio" name="g22_1" value="0"> E</label>
+<label><input type="radio" name="g22_1" value="1"> F natural (minor third)</label>
+<label><input type="radio" name="g22_1" value="2"> F# (major third)</label>
+<label><input type="radio" name="g22_1" value="3"> G</label>
+</div>
+<div class="qz-q" data-a="3"><p><b>2.</b> What does a capo at fret 2 do to open DADGAD?</p>
+<label><input type="radio" name="g22_2" value="0"> Tunes it to standard</label>
+<label><input type="radio" name="g22_2" value="1"> Nothing</label>
+<label><input type="radio" name="g22_2" value="2"> Lowers it by a tone</label>
+<label><input type="radio" name="g22_2" value="3"> Raises every open string by two semitones, making it E B E A B E</label>
+</div>
+<div class="qz-q" data-a="0"><p><b>3.</b> Why does DADGAD feel like a drone backing band?</p>
+<label><input type="radio" name="g22_3" value="0"> Open strings keep ringing under the melody notes you fret</label>
+<label><input type="radio" name="g22_3" value="1"> Because you can't mute them</label>
+<label><input type="radio" name="g22_3" value="2"> The strings are louder</label>
+<label><input type="radio" name="g22_3" value="3"> It has seven strings</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="Scales: Finally, the Boring Bit Made Interesting"><h3>Scales: Finally, the Boring Bit Made Interesting</h3>
+<p>You said you are weak on scales. We fix that now with one idea.</p>
+<p>A <b>scale</b> is a set of notes in a pattern of steps. The <b>major scale</b> (the one that sounds like Do-Re-Mi) is:</p>
+<p><b>W W H W W W H</b> (W = whole tone = 2 frets; H = half tone = 1 fret)</p>
+<p>Start anywhere and follow it. From D:</p>
+<div class="tw"><table><thead><tr><th>Step</th><th>D</th><th>E</th><th>F#</th><th>G</th><th>A</th><th>B</th><th>C#</th><th>D</th></tr></thead><tbody><tr><td>Gap</td><td></td><td>W</td><td>W</td><td>H</td><td>W</td><td>W</td><td>W</td><td>H</td></tr></tbody></table></div>
+<p>That is <b>D E F# G A B C# D</b>, the D major scale.</p>
+<p><b>The scale on string 4 (open D) in DADGAD.</b> Frets 0, 2, 4, 5, 7, 9, 11, 12 give D E F# G A B C# D. The same pattern works up string 3 starting from G, or any string from any note. <b>Once you know the shape, you know it everywhere.</b> That is the entire trick of the guitar: patterns slide.</p>
+<p><b>The minor scale (natural)</b> is: <b>W H W W H W W</b>. From D: D E F G A Bb C D. Compare to major: the 3rd, 6th and 7th are each one fret lower. That is the 'sad' scale.</p>
+<p><b>Why scales matter.</b> A scale is the menu of notes that sound good together over a key. Songs mostly use notes from one scale.</p>
+<p><b>Modes.</b> If you play a D major scale but start and finish on E, you get a different flavour (<b>Dorian</b>: E F# G A B C# D E). Same notes, new home. Folk, flamenco and DADGAD love modes.</p>
+<p><b>The drummer's way to practise scales.</b> Do not just run up and down. Use rhythm: play each scale in <b>triplets</b>, then <b>eight notes</b>, then <b>sixteenth notes</b>, then accent every third note. You already know rhythm; use it to make scales a groove instead of homework.</p>
+<div class="short">Ten minutes a day, one scale, slowly, with a metronome. Then speed up by 5 bpm only when it is clean.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="1"><p><b>1.</b> What is the step pattern of the major scale?</p>
+<label><input type="radio" name="g22_1" value="0"> H H W W H H W</label>
+<label><input type="radio" name="g22_1" value="1"> W W H W W W H</label>
+<label><input type="radio" name="g22_1" value="2"> W H W W H W W</label>
+<label><input type="radio" name="g22_1" value="3"> W W W W W W W</label>
+</div>
+<div class="qz-q" data-a="2"><p><b>2.</b> Which notes make up the D major scale?</p>
+<label><input type="radio" name="g22_2" value="0"> D D D D</label>
+<label><input type="radio" name="g22_2" value="1"> D F A C</label>
+<label><input type="radio" name="g22_2" value="2"> D E F# G A B C#</label>
+<label><input type="radio" name="g22_2" value="3"> D E F G A Bb C</label>
+</div>
+<div class="qz-q" data-a="3"><p><b>3.</b> What is the best way to practise scales according to the drummer's method?</p>
+<label><input type="radio" name="g22_3" value="0"> Never practise them</label>
+<label><input type="radio" name="g22_3" value="1"> Run them as fast as possible</label>
+<label><input type="radio" name="g22_3" value="2"> Only play them backwards</label>
+<label><input type="radio" name="g22_3" value="3"> Use rhythm: triplets, eighths, sixteenths and accents</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="Chords From Theory: Stacking Thirds"><h3>Chords From Theory: Stacking Thirds</h3>
+<p>Where do chords come from? <b>You stack every other note of a scale.</b> Take D major (D E F# G A B C#) and pick note 1, 3, 5:</p>
+<p><b>D, F#, A.</b> That is a <b>D major triad</b>. Done. A triad is three notes: <b>root, third, fifth</b>.</p>
+<p><b>What makes it major or minor?</b> Only the third.</p>
+<div class="tw"><table><thead><tr><th>Chord</th><th>Third above the root</th><th>Interval (frets)</th></tr></thead><tbody><tr><td>Major</td><td>Major third</td><td>4 semitones</td></tr><tr><td>Minor</td><td>Minor third</td><td>3 semitones</td></tr><tr><td>Sus2</td><td>Replace the third with a second</td><td>2 semitones</td></tr><tr><td>Sus4</td><td>Replace the third with a fourth</td><td>5 semitones</td></tr></tbody></table></div>
+<p><b>The fifth is the stable pillar</b> (7 semitones, ratio 3:2). It is why a power chord (root plus fifth) sounds strong and ambiguous.</p>
+<p><b>Chords in a key.</b> From each note of the D major scale, build a triad using only notes from the scale. You get a family of chords that always sound good together:</p>
+<div class="tw"><table><thead><tr><th>Degree</th><th>Note</th><th>Chord</th></tr></thead><tbody><tr><td>I</td><td>D</td><td>D major</td></tr><tr><td>ii</td><td>E</td><td>E minor</td></tr><tr><td>iii</td><td>F#</td><td>F# minor</td></tr><tr><td>IV</td><td>G</td><td>G major</td></tr><tr><td>V</td><td>A</td><td>A major</td></tr><tr><td>vi</td><td>B</td><td>B minor</td></tr><tr><td>vii</td><td>C#</td><td>C# diminished</td></tr></tbody></table></div>
+<p>The <b>I, IV and V</b> chords (D, G, A) are the foundation of a vast share of the songs ever written. In DADGAD, the open strings already contain D, G and A.</p>
+<p><b>Extended chords.</b> Add the 7th (one more third stacked), the 9th (a tone above the octave), and you get seventh and add9 chords. In DADGAD many of these happen almost by accident, because open strings already include the 4th and the 9th (the open A and the D). That is why DADGAD chords are so often described as lush.</p>
+<div class="short">Do not memorise chord names first. Learn the pattern: root, third, fifth. Then ask which third. The names will follow like ducklings.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="2"><p><b>1.</b> What three notes make up a D major triad?</p>
+<label><input type="radio" name="g22_1" value="0"> D F A</label>
+<label><input type="radio" name="g22_1" value="1"> D E G</label>
+<label><input type="radio" name="g22_1" value="2"> D F# A</label>
+<label><input type="radio" name="g22_1" value="3"> D G A</label>
+</div>
+<div class="qz-q" data-a="1"><p><b>2.</b> What decides whether a triad is major or minor?</p>
+<label><input type="radio" name="g22_2" value="0"> The root</label>
+<label><input type="radio" name="g22_2" value="1"> The third</label>
+<label><input type="radio" name="g22_2" value="2"> The fifth</label>
+<label><input type="radio" name="g22_2" value="3"> The volume</label>
+</div>
+<div class="qz-q" data-a="1"><p><b>3.</b> In the key of D major, which chord is built on the fifth note, A?</p>
+<label><input type="radio" name="g22_3" value="0"> A diminished</label>
+<label><input type="radio" name="g22_3" value="1"> A major</label>
+<label><input type="radio" name="g22_3" value="2"> A minor</label>
+<label><input type="radio" name="g22_3" value="3"> A sus</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="The Right Hand: Where the Music Lives" data-ch="Part Four: The Weapons"><h3>The Right Hand: Where the Music Lives</h3>
+<p>The left hand picks the notes; the right hand makes the music. For a fingerstyle and flamenco-flavoured player, the right hand is the engine. As a drummer you will find this natural.</p>
+<p><b>Thumb, fingers, and the PIMA names.</b> Classical and flamenco guitarists label the fingers by Spanish letters: <b>p</b> = thumb (pulgar), <b>i</b> = index, <b>m</b> = middle, <b>a</b> = ring. (The little finger, c, joins for flamenco.) The thumb plays the bass strings (6, 5, 4), and the fingers play the treble strings (3, 2, 1).</p>
+<p><b>Basic arpeggio pattern.</b> p-i-m-a on strings 5-3-2-1, repeating. In DADGAD, with open strings, this already sounds like a full piece. Slow it down and make it even.</p>
+<p><b>Rhythm ratios (the drummer bit).</b> Time is also ratios.</p>
+<div class="tw"><table><thead><tr><th>Subdivision</th><th>Notes per beat</th><th>Ratio to the beat</th></tr></thead><tbody><tr><td>Quarter notes</td><td>1</td><td>1 : 1</td></tr><tr><td>Eighth notes</td><td>2</td><td>2 : 1</td></tr><tr><td>Triplets</td><td>3</td><td>3 : 1</td></tr><tr><td>Sixteenth notes</td><td>4</td><td>4 : 1</td></tr></tbody></table></div>
+<p><b>Polyrhythm: 3 against 2.</b> Tap 3 notes with one hand while tapping 2 with the other over the same time. That ratio is <b>3:2</b>, <b>the very same ratio as a perfect fifth</b>. In pitch the two notes line up every 2 cycles of the lower and 3 of the higher; in rhythm the two patterns line up every 2 beats and 3 beats. Rhythm and pitch are one thing at two speeds, which is what we said back on page 2.</p>
+<p><b>Strumming and the rasgueado.</b> A strum is the thumb or the fingers sweeping across the strings. The flamenco <b>rasgueado</b> unrolls the fingers one after the other (like flicking out each finger) to make a rapid roll, like a drum roll on strings. For power, strum with the <b>nail and the flesh together</b>. For softness, use the flesh only.</p>
+<div class="short">Do not use a hard plectrum on fingerstyle ideas. The real weapon is your hand: nail for edge, flesh for warmth, thumb for the bass.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="2"><p><b>1.</b> In PIMA notation, what does 'p' stand for?</p>
+<label><input type="radio" name="g22_1" value="0"> Pinky</label>
+<label><input type="radio" name="g22_1" value="1"> Pause</label>
+<label><input type="radio" name="g22_1" value="2"> Thumb (pulgar)</label>
+<label><input type="radio" name="g22_1" value="3"> Pick</label>
+</div>
+<div class="qz-q" data-a="2"><p><b>2.</b> The 3:2 polyrhythm matches the frequency ratio of which musical interval?</p>
+<label><input type="radio" name="g22_2" value="0"> Major third</label>
+<label><input type="radio" name="g22_2" value="1"> Octave</label>
+<label><input type="radio" name="g22_2" value="2"> Perfect fifth</label>
+<label><input type="radio" name="g22_2" value="3"> Semitone</label>
+</div>
+<div class="qz-q" data-a="2"><p><b>3.</b> Which strings does the thumb normally play in basic fingerstyle?</p>
+<label><input type="radio" name="g22_3" value="0"> None</label>
+<label><input type="radio" name="g22_3" value="1"> Only string 1</label>
+<label><input type="radio" name="g22_3" value="2"> The bass strings 4-6</label>
+<label><input type="radio" name="g22_3" value="3"> The treble strings 1-3</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="Harmonics as a Weapon"><h3>Harmonics as a Weapon</h3>
+<p>You met harmonics in Part Two. Now we turn them into a performance weapon.</p>
+<p><b>Natural harmonics (the ones we did).</b> Touch lightly over fret 12, 7 or 5, pluck, lift off. In DADGAD you get:</p>
+<div class="tw"><table><thead><tr><th>Fret</th><th>String 6 (D2)</th><th>String 5 (A2)</th></tr></thead><tbody><tr><td>12</td><td>D3</td><td>A3</td></tr><tr><td>7</td><td>A3</td><td>E4</td></tr><tr><td>5</td><td>D4</td><td>A4</td></tr></tbody></table></div>
+<p>Because the DADGAD open strings are D, A, D, G, A, D, the harmonics at 12, 7 and 5 are all in the D major/sus family. <b>They always sound good together</b>, which makes a bell-like chord on all six strings: lightly touch all six strings at fret 12 with the flat of your index finger, then strum across. This single trick gives a shimmering chord. It is *the* classic acoustic chime.</p>
+<p><b>Artificial (pinch) harmonics.</b> Fret any note with the left hand. Then, with the right hand, touch the string <b>12 frets above</b> (an octave higher) with your index finger and pluck with the thumb or ring finger. The note rings out an octave up as a harmonic. Doing this melody-style makes a flute-like voice.</p>
+<p><b>Tapped harmonics.</b> Fret a note with the left hand and tap the string 12 frets above with the right hand. This one looks like wizardry.</p>
+<p><b>The maths of 'why it works'.</b> Touching a point at 1/2 the string length kills every motion that needs movement there, leaving only even harmonics (2, 4, 6 ...) and giving you a note an octave up. At 1/3, you kill everything except the 3rd, 6th, 9th harmonics. The smaller the fraction, the higher and thinner the note.</p>
+<p><b>Tips.</b></p>
+<ul><li>Touch <b>directly over the fret wire</b>, not between frets.</li><li>Lift off fast. Think 'touch and release', like a hot pan.</li><li>Pluck close to the bridge for the most ring.</li></ul>
+<div class="short">A cheap trick every time: finish a song with a slow strum of fret-12 harmonics. People will think you are a wizard, and you will be.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="2"><p><b>1.</b> Where do you touch the string for a natural octave harmonic?</p>
+<label><input type="radio" name="g22_1" value="0"> Over fret 1</label>
+<label><input type="radio" name="g22_1" value="1"> Behind the nut</label>
+<label><input type="radio" name="g22_1" value="2"> Over fret 12</label>
+<label><input type="radio" name="g22_1" value="3"> At the bridge</label>
+</div>
+<div class="qz-q" data-a="3"><p><b>2.</b> For a pinch (artificial) harmonic, where does the right hand touch relative to the fretted note?</p>
+<label><input type="radio" name="g22_2" value="0"> Behind the nut</label>
+<label><input type="radio" name="g22_2" value="1"> At the bridge</label>
+<label><input type="radio" name="g22_2" value="2"> One fret higher</label>
+<label><input type="radio" name="g22_2" value="3"> 12 frets higher (an octave up)</label>
+</div>
+<div class="qz-q" data-a="2"><p><b>3.</b> Why do harmonics sound so good together in DADGAD?</p>
+<label><input type="radio" name="g22_3" value="0"> They are all out of tune</label>
+<label><input type="radio" name="g22_3" value="1"> The strings are all the same</label>
+<label><input type="radio" name="g22_3" value="2"> The open strings are D and A, whose harmonics fall in the same chord family</label>
+<label><input type="radio" name="g22_3" value="3"> Harmonics are random</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="Percussion: The Drummer's Secret Weapon"><h3>Percussion: The Drummer's Secret Weapon</h3>
+<p>Your guitar is secretly a drum with a neck. The top is a thin, resonant membrane. Hit it and you get a drum sound; add strings and you get a drum that plays chords.</p>
+<p><b>The golpe.</b> In flamenco, a <b>golpe</b> is a tap on the guitar top with the ring finger (or the flat of the fingertips) near the bridge or below the sound hole. It is a percussive snap that lands on the beat, a kick drum or a snare depending on where you hit.</p>
+<p><b>Where to hit and what you get.</b> (Rough guide; your guitar will vary.)</p>
+<div class="tw"><table><thead><tr><th>Place</th><th>Sound</th></tr></thead><tbody><tr><td>Top, just below the sound hole</td><td>Deep kick-drum thump</td></tr><tr><td>Top, near the bridge</td><td>Sharper, snare-ish crack</td></tr><tr><td>Side (rim)</td><td>Dry wood click, like a rimshot</td></tr><tr><td>Back (with the body against you)</td><td>Soft low boom</td></tr></tbody></table></div>
+<p><b>Muted strumming (chucking).</b> Lay the left hand lightly across the strings so they don't ring, and strum: you get a <b>hi-hat-like scratch</b>. Alternate it with open ringing strums for a pulse.</p>
+<p><b>A kit in one guitar.</b></p>
+<ul><li><b>Kick:</b> golpe below the sound hole</li><li><b>Snare:</b> strum muted with the nail</li><li><b>Hi-hat:</b> light brushes across muted strings</li><li><b>Bass:</b> open string 6 with the thumb</li></ul>
+<p><b>Why it works physically.</b> The soundboard is a plate with its own resonances (around 100-200 Hz, page 8). A hit with a <b>broad, soft finger</b> excites the low ones (boom). A <b>hard, thin nail</b> excites the high ones (crack).</p>
+<p><b>An exercise.</b> Count 1 & 2 & 3 & 4 &. Play golpe on 1 and 3, muted strum on 2 and 4, open bass note on the ands. You are now a one-person band, and you have never been so well qualified.</p>
+<div class="short">Respect the top. Tap, do not smash. Use a golpe plate (a clear plastic guard) if your guitar has a nice finish.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="2"><p><b>1.</b> A golpe is...</p>
+<label><input type="radio" name="g22_1" value="0"> A tuning</label>
+<label><input type="radio" name="g22_1" value="1"> A string bend</label>
+<label><input type="radio" name="g22_1" value="2"> A tap on the guitar top used as percussion</label>
+<label><input type="radio" name="g22_1" value="3"> A kind of capo</label>
+</div>
+<div class="qz-q" data-a="3"><p><b>2.</b> A broad, soft finger hit on the top mostly excites...</p>
+<label><input type="radio" name="g22_2" value="0"> Nothing</label>
+<label><input type="radio" name="g22_2" value="1"> High frequencies only</label>
+<label><input type="radio" name="g22_2" value="2"> Only the strings</label>
+<label><input type="radio" name="g22_2" value="3"> Low resonances (boom)</label>
+</div>
+<div class="qz-q" data-a="1"><p><b>3.</b> Which technique gives a hi-hat-like sound?</p>
+<label><input type="radio" name="g22_3" value="0"> Open ringing strum</label>
+<label><input type="radio" name="g22_3" value="1"> Muted strumming with the left hand across the strings</label>
+<label><input type="radio" name="g22_3" value="2"> Capo at fret 7</label>
+<label><input type="radio" name="g22_3" value="3"> Natural harmonics</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="Slides, Hammer-ons, Bends and the Maths of Vibrato"><h3>Slides, Hammer-ons, Bends and the Maths of Vibrato</h3>
+<p>These are the <b>left-hand articulations</b>. They make a guitar speak instead of just beep.</p>
+<ul><li><b>Hammer-on:</b> strike a fretted note down with a left finger without plucking again. A new note sounds, higher. Cheap and quick.</li><li><b>Pull-off:</b> pluck the string downward with the fretting finger as it leaves, so the string sounds the lower note it was already fretted on or the open string.</li><li><b>Slide:</b> fret a note and glide the finger up or down the neck. You are sweeping through the frets continuously, hitting every pitch in between.</li><li><b>Bend:</b> push the string sideways across the fret, which stretches it and raises the tension, so the pitch rises.</li><li><b>Vibrato:</b> rock the bend back and forth for a singing wobble.</li></ul>
+<p><b>The physics of a bend.</b> Frequency goes with the square root of tension (page 7). To raise a note by one semitone (ratio 1.0595) the tension must rise by:</p>
+<div class="fm">tension ratio = 1.0595^2 = <b>1.122</b>, about 12 percent more</div>
+<p>A whole tone bend (ratio 1.1225) takes <b>26 percent</b> more tension (1.1225^2 = 1.26). The string is stretching a bit, and your finger is the extra pull. This is why the thin strings bend easily and the thick ones fight you.</p>
+<p><b>Vibrato maths.</b> Vibrato is a wobble of about <b>5 to 7 times a second</b> (a rhythm you can count) with a depth of about <b>20 to 50 cents</b>. A singer does the same thing. Slow it down and it sounds sad; speed it up and it gets nervous. A violin player rolls the finger; a guitarist usually bends and releases.</p>
+<p><b>DADGAD bonus.</b> Hammer-ons and pull-offs from the open strings (which are all the drone notes) are the <b>signature move</b>. Hammer from open to fret 2 on any string and you land on the next scale note while the other strings ring.</p>
+<div class="short">Slides are the closest thing the guitar has to the human voice. Learn to land on the exact pitch by ear. It is a skill of listening, not of hands.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="2"><p><b>1.</b> To raise a note by a semitone through a bend, tension must rise by about...</p>
+<label><input type="radio" name="g22_1" value="0"> 1 percent</label>
+<label><input type="radio" name="g22_1" value="1"> 50 percent</label>
+<label><input type="radio" name="g22_1" value="2"> 12 percent</label>
+<label><input type="radio" name="g22_1" value="3"> Double</label>
+</div>
+<div class="qz-q" data-a="0"><p><b>2.</b> A pull-off is...</p>
+<label><input type="radio" name="g22_2" value="0"> Pluck the string with the fretting finger as it leaves, sounding the lower note</label>
+<label><input type="radio" name="g22_2" value="1"> A kind of strum</label>
+<label><input type="radio" name="g22_2" value="2"> Press the string into the fret harder</label>
+<label><input type="radio" name="g22_2" value="3"> Slide the capo</label>
+</div>
+<div class="qz-q" data-a="2"><p><b>3.</b> Roughly how fast is a normal vibrato?</p>
+<label><input type="radio" name="g22_3" value="0"> 50 times per second</label>
+<label><input type="radio" name="g22_3" value="1"> 0.1 times per second</label>
+<label><input type="radio" name="g22_3" value="2"> 5 to 7 times per second</label>
+<label><input type="radio" name="g22_3" value="3"> 500 times per second</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="Composing in DADGAD: The Gambit"><h3>Composing in DADGAD: The Gambit</h3>
+<p>You write songs about deeply personal things. Good. That is the only reason a song has ever worked. Here is a simple method to turn a feeling into a tune in DADGAD.</p>
+<p><b>Step 1. Pick a drone.</b> Leave open D (string 6 or 4) ringing all the time. That is your emotional floor.</p>
+<p><b>Step 2. Choose a mood with one finger.</b> Open = unresolved. Fret 3 on string 4 (F) = sad. Fret 4 (F#) = hopeful. Fret 2 on string 4 (E) = sus2, dreamy.</p>
+<p><b>Step 3. Play a pattern.</b> Pick any rhythm: golpe on 1, thumb on 2, fingers on 3, muted strum on 4. Loop it.</p>
+<p><b>Step 4. Put a melody on strings 1-3.</b> Use the D major scale (D E F# G A B C#) or D minor for sad. Aim to <b>move by steps</b> and <b>leap on the important word</b>.</p>
+<p><b>Step 5. Add a harmonic ending.</b> End on a fret-12 harmonic chord. People hold their breath.</p>
+<p><b>Step 6. Repeat and vary.</b> Repeat the same four bars. Then change one thing: a higher octave, a different mood finger, a pause. Repetition makes it a song; variation makes it <b>yours</b>.</p>
+<p><b>The structure.</b></p>
+<div class="tw"><table><thead><tr><th>Section</th><th>Idea</th></tr></thead><tbody><tr><td>Intro</td><td>Open strings, drone</td></tr><tr><td>Verse</td><td>Pattern plus melody</td></tr><tr><td>Chorus</td><td>Move to a higher string or fret, open it up</td></tr><tr><td>Bridge</td><td>Change mood (major to minor)</td></tr><tr><td>Ending</td><td>Harmonics and silence</td></tr></tbody></table></div>
+<p><b>A rule of silence.</b> Leave gaps. In an acoustic piece, the <b>decay of the open strings</b> is a feature, not dead air. Space makes the notes mean something.</p>
+<div class="short">Write the tune first and name the feeling after. Your hands often know something your head has not admitted yet.</div>
+<div class="qz2" data-final="0">
+<div class="qz-q" data-a="0"><p><b>1.</b> What does leaving a string open as a drone give your song?</p>
+<label><input type="radio" name="g22_1" value="0"> A constant tonal floor that ties everything together</label>
+<label><input type="radio" name="g22_1" value="1"> More fret buzz</label>
+<label><input type="radio" name="g22_1" value="2"> Nothing</label>
+<label><input type="radio" name="g22_1" value="3"> A new tuning</label>
+</div>
+<div class="qz-q" data-a="3"><p><b>2.</b> Which fret on string 4 makes the DADGAD chord feel major (adds F#)?</p>
+<label><input type="radio" name="g22_2" value="0"> Fret 12</label>
+<label><input type="radio" name="g22_2" value="1"> Fret 3</label>
+<label><input type="radio" name="g22_2" value="2"> Fret 5</label>
+<label><input type="radio" name="g22_2" value="3"> Fret 4</label>
+</div>
+<div class="qz-q" data-a="3"><p><b>3.</b> What makes a repeated part into 'yours'?</p>
+<label><input type="radio" name="g22_3" value="0"> Exact repetition forever</label>
+<label><input type="radio" name="g22_3" value="1"> Never repeating</label>
+<label><input type="radio" name="g22_3" value="2"> Only playing it fast</label>
+<label><input type="radio" name="g22_3" value="3"> Repeating and then varying one thing</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section>
+<section class="pg" data-t="The Practice Plan and the Final Boss"><h3>The Practice Plan and the Final Boss</h3>
+<p>Everything in this book is useless without <b>short, regular, repeated practice.</b> You already know this from drums. A paradiddle did not learn itself.</p>
+<p><b>The ten-minute daily routine.</b> Do this, in this order:</p>
+<div class="tw"><table><thead><tr><th>Minutes</th><th>Task</th></tr></thead><tbody><tr><td>1</td><td>Tune by ear with beats (page 11).</td></tr><tr><td>2</td><td>One scale (major or minor), slowly, with a metronome or a backing beat.</td></tr><tr><td>3</td><td>One technique: harmonics, golpe, pull-offs or rasgueado.</td></tr><tr><td>3</td><td>Play your tune or write one new bar.</td></tr><tr><td>1</td><td>Finish on a fret-12 harmonic chord. Smile.</td></tr></tbody></table></div>
+<p><b>Spaced repetition.</b> Revisit things at growing gaps: tomorrow, in three days, in a week, in a month. This book resets every time on purpose: reading page one again is spaced repetition happening to you.</p>
+<p><b>Progress markers.</b></p>
+<ul><li><b>Week 1:</b> tune DADGAD by ear in under a minute.</li><li><b>Week 4:</b> play major and minor scales on any string, in time.</li><li><b>Week 8:</b> do the fret-12 harmonic chime and a golpe groove at the same time.</li><li><b>Week 12:</b> write and finish one song.</li></ul>
+<p><b>The final boss.</b> Get all of these right to graduate.</p>
+<div class="short">The Guide's closing note: the guitar is a stretched string, a box and a very large number of ratios. You have just learned the ratios. Go and make some noise.</div>
+<div class="qz2" data-final="1">
+<div class="qz-q" data-a="0"><p><b>1.</b> What ratio does one octave correspond to in frequency?</p>
+<label><input type="radio" name="g22_1" value="0"> 2:1</label>
+<label><input type="radio" name="g22_1" value="1"> 3:2</label>
+<label><input type="radio" name="g22_1" value="2"> 5:4</label>
+<label><input type="radio" name="g22_1" value="3"> 4:3</label>
+</div>
+<div class="qz-q" data-a="2"><p><b>2.</b> In DADGAD, the open strings from low to high are...</p>
+<label><input type="radio" name="g22_2" value="0"> D A D F# A D</label>
+<label><input type="radio" name="g22_2" value="1"> E A D G B E</label>
+<label><input type="radio" name="g22_2" value="2"> D A D G A D</label>
+<label><input type="radio" name="g22_2" value="3"> A D G C E A</label>
+</div>
+<div class="qz-q" data-a="0"><p><b>3.</b> Each fret multiplies the frequency by about...</p>
+<label><input type="radio" name="g22_3" value="0"> 1.0595</label>
+<label><input type="radio" name="g22_3" value="1"> 1.5</label>
+<label><input type="radio" name="g22_3" value="2"> 0.5</label>
+<label><input type="radio" name="g22_3" value="3"> 2</label>
+</div>
+<div class="qz-q" data-a="1"><p><b>4.</b> Which fret gives the octave harmonic?</p>
+<label><input type="radio" name="g22_4" value="0"> 7</label>
+<label><input type="radio" name="g22_4" value="1"> 12</label>
+<label><input type="radio" name="g22_4" value="2"> 3</label>
+<label><input type="radio" name="g22_4" value="3"> 5</label>
+</div>
+<div class="qz-q" data-a="0"><p><b>5.</b> Equal-tempered major thirds are about how many cents sharp of pure?</p>
+<label><input type="radio" name="g22_5" value="0"> 14</label>
+<label><input type="radio" name="g22_5" value="1"> 0</label>
+<label><input type="radio" name="g22_5" value="2"> 50</label>
+<label><input type="radio" name="g22_5" value="3"> 100</label>
+</div>
+<button class="qz2-go" type="button">Check answers</button><div class="qz-res" aria-live="polite"></div></div>
+</section></div>`
+      ],
+      see:["bowbible"] },
     { id:"imitation", cat:"Things", title:"Imitation: The Track of 2026",
       quote:["Some tracks you listen to. Some tracks you get taken apart by."],
       text:[
