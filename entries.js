@@ -1321,7 +1321,7 @@ window.GUIDE = {
     { id:"rubenqubit", cat:"Things", title:"Ruben Von Qubit",
       quote:["He writes nothing down. You have to be there."],
       text:[
-        `<p>There are very few people on Earth who can say they have been misunderstood by an entire field of mathematics for decades. <b>Ruben Von Qubit</b> is one of them, and he is also the only speed cuber in Jamaica, which makes him, by default, the best. He is, as it turns out, the foremost expert on wombats in the known universe. Nobody knew. Ruben did not tell anyone. He was busy.</p>`,
+        `<p>There are very few people on Earth who can say they have been misunderstood by an entire field of mathematics for decades. <b>Ruben Von Qubit</b> is one of them, and he is also the only speed cuber in Jamaica, which makes him, by default, the best. He is, as it turns out, the foremost expert on wombats in the known universe. Nobody knew. Ruben did not tell anyone. He was busy. He was solving mathematics so advanced that it makes <a href="#" data-open="vacuumcatastrophe"><b>the vacuum catastrophe</b></a> look like child's play.</p>`,
         `<div class="sec">The Talent Contest</div>`,
         `<p>The discovery was an accident, which is how most of the good ones are. A small and very obscure talent contest, the sort held in a hall with a folding stage and a raffle, had Ruben down to solve a 3x3 cube in <b>dim light</b>. He did it in the dark, in a time the organisers described as <i>fine</i>. The whole performance was filmed on a phone and then uploaded to a quantum computer <b>by accident</b>. Nobody meant to do it. Someone was clearing the phone's storage, hit the wrong button, and the file went into the quantum computer instead. Everything that follows in this entry happened because of that one misclick.</p>`,
         `<p>The quantum computer looked at the footage for an unusually long time. Then it produced a result, and then another result, and then it was turned off and on again, and the results were still there. What it had found was not a cube-solving method. It was a <b>research programme</b>.</p>`,
@@ -1347,7 +1347,25 @@ window.GUIDE = {
         `<p>Ruben's teachings are only now starting to be untangled. They are so advanced that for years they looked like a man solving a cube. Researchers estimate that the footage contains decades of material, and that the Jamaican speed cubing community, who have all been quietly and calmly pleased, knew about it from the start. The Guide has been unable to confirm this, because there is only one of them.</p>`,
         `<p>If you ever get the chance to watch Ruben Von Qubit solve a cube, <b>go</b>. Do not take notes. He does not. And if you see a wombat, stand quietly, and consider the possibility that you are in the presence of the most advanced mind in the galaxy, on its night shift, making a cube.</p>`
       ],
-      see:["sand","pyramids"] },
+      see:["vacuumcatastrophe","sand","pyramids"] },
+    { id:"vacuumcatastrophe", cat:"Things", title:"The Vacuum Catastrophe",
+      quote:["Theory says empty space is full of energy. The universe disagrees by about 120 zeros."],
+      text:[
+        `<p>Physics has a number that is so wrong that it has been given a name with the word <i>catastrophe</i> in it. It is called the <b>vacuum catastrophe</b>, or, more politely, the <b>cosmological constant problem</b>. It is the reason Ruben Von Qubit can look at the rest of physics with a calm and gentle pity.</p>`,
+        `<div class="sec">What the theory says</div>`,
+        `<p>Quantum field theory says empty space is never really empty. Every field in the universe has a minimum amount of energy it cannot get rid of, called <b>zero-point energy</b>, even at absolute nothing. Add it all up and the theory says that a given volume of empty space should hold an enormous amount of energy.</p>`,
+        `<div class="sec">What gravity says</div>`,
+        `<p>General relativity says that energy of any kind bends space and acts as gravity. Vacuum energy, in particular, behaves like the <b>cosmological constant</b> that Einstein added to his equations: a steady push that makes space expand. A vacuum with as much energy as the theory predicts should have blown the universe apart almost instantly.</p>`,
+        `<div class="sec">What we actually see</div>`,
+        `<p>The universe is expanding faster and faster, which is what a small positive vacuum energy (what we call <b>dark energy</b>) would do. But the amount is tiny. The gap between the number the theory gives and the number we measure is usually quoted as about <b>120 orders of magnitude</b>: a one with 120 zeros after it. Depending on how you do the sum, published estimates run from about 50 or 60 up to 120 or more, and every one of them is a disaster.</p>`,
+        `<div class="sec">A small correction</div>`,
+        `<p>It is tempting to say that space has an incomprehensible amount of energy hiding in nothing, and the Guide understands why. But the actual problem is the other way round. <b>The theory predicts far too much. The universe has far too little.</b> The mystery is not that nothing is full of energy. It is why nothing contains almost none, when the best theory we have says it should contain a staggering amount. Nobody knows. Some physicists suspect that the calculation itself is wrong, and others think something has to be cancelling the huge terms to extraordinary precision, and neither camp has convinced the other.</p>`,
+        `<div class="sec">Why this matters for Ruben</div>`,
+        `<p>The vacuum catastrophe is regularly named as one of the biggest unsolved problems in physics, a mismatch of 120 orders of magnitude in a quantity as basic as the energy of empty space. Ruben is understood to regard it as a warm-up. The Guide has not been able to confirm this either, because he has not written it down.</p>`,
+        `<div class="sec">If you want to go deeper</div>`,
+        `<ul><li><a href="https://en.wikipedia.org/wiki/Cosmological_constant_problem" target="_blank" rel="noopener">The cosmological constant problem (Wikipedia)</a>, a general overview.</li><li><a href="https://ui.adsabs.harvard.edu/abs/1995AmJPh..63..620A/abstract" target="_blank" rel="noopener">Vacuum catastrophe: an elementary exposition of the cosmological constant problem</a>, a 1995 paper in the American Journal of Physics.</li><li><a href="https://arxiv.org/pdf/astro-ph/0605242" target="_blank" rel="noopener">The vacuum energy crisis</a>, a readable essay on why the number is such a puzzle.</li></ul>`
+      ],
+      see:["rubenqubit"] },
     { id:"guitar", cat:"Things", title:"Your Guitar Is a Tuned Weapon: DADGAD, Harmonics and the Maths of a Shaking String",
       quote:["Every note you have ever loved is somebody multiplying by a small number."],
       text:[
