@@ -535,6 +535,43 @@ window.GUIDE = {
         `<div class="short">Play it once on speakers, once on headphones, and once somewhere out on the block with nothing around you. Then tell the Guide it is wrong.</div>`
       ],
       see:[] },
+    { id:"brodie", cat:"Things", title:"Following Brodie",
+      quote:["Brodie will start at the door at 6 am. People are welcome to follow me into Mind Garden, but Mind Garden is so hard to find even Brodie misses it at times."],
+      text:[
+        `Every expedition needs a leader. Every leader needs a plan. Brodie has the first, and takes a relaxed and deeply personal view of the second.`,
+        `<div class="sec">The Plan</div>`,
+        `Brodie starts at the Door at <b>06:00</b>. From there he heads for Mind Garden by the shortest route he knows, which is also, by any ordinary standard, the hardest, steepest and most indirect route available. You are welcome to follow. He knows these hills better than anyone alive. Whether this helps you is a separate question.`,
+        `<div class="sec">A Note on Reliability</div>`,
+        `Mind Garden is so hard to find that even Brodie misses it at times. The Guide regards this as an honest feature rather than a flaw. A guide who occasionally walks straight past the destination is simply the most accurate possible description of the destination.`,
+        `<div class="sec">If You're Late</div>`,
+        `Late? Then follow the music in. Mind Garden has a sound, and once it's going, it carries. Music stops at 12:00, after which the day heads down to the Trench. Be warned that following sound through thick bush is a skill, and the bush has opinions about it.`,
+        `<div class="sec">The Residents</div>`,
+        `Mind Garden is beautiful. It is also a wild place, and its residents were not consulted about your itinerary. There is a clear and known danger on the property, and it comes in several forms:`,
+        `<ul>
+          <li><b>Kevin</b>, the red-bellied black snake. See his entry. Kevin has relatives: tiger snakes, brown snakes and copperheads also live in this part of Victoria. Nearly all Victorian snakes are venomous. None of them want anything to do with you.</li>
+          <li><b>Eagles and hawks.</b> Overhead, with an excellent view of you. Keep well clear of any nest.</li>
+          <li><b>Victorian funnel-web spiders.</b> A relative of the famous Sydney funnel-web, living in silk-lined burrows in the ground, ferns, stumps and tree trunks. Best treated with respect, and a bandage if it goes wrong.</li>
+          <li><b>Scorpions.</b> Under bark, logs and rocks. Small, and sulky.</li>
+          <li><b>Ants.</b> Bull ants in particular, who regard your ankle as a personal insult. Some people are seriously allergic to stings.</li>
+          <li><b>Everything else.</b> Redbacks, centipedes, wasps and bees, falling branches, heat, steep ground, and tired legs at the end of the day.</li>
+        </ul>`,
+        `<div class="sec">What To Do About It</div>`,
+        `<ol>
+          <li>Long pants and sturdy boots. Walk with a bit of noise: most snakes and many other creatures will retreat when they hear you coming.</li>
+          <li>Look before you put hands or feet anywhere you can't see. Logs, rocks, tree stumps and hollows are homes.</li>
+          <li>Check the tree before you clip your hammock to it, and check your boots before you put them back on.</li>
+          <li>Look, don't touch, and don't try to be a hero. If you see something, back away and tell the others.</li>
+        </ol>`,
+        `<b>If someone is bitten:</b>`,
+        `<ul>
+          <li><b>Snake or funnel-web spider:</b> keep them completely still, call <b>000</b>, and apply a pressure bandage over the bite and up the limb. Splint the limb. Don't wash the bite.</li>
+          <li><b>Redback or other spiders:</b> wash the area and apply a cold pack for 15 minutes or more, and get medical help. No bandage for these.</li>
+          <li><b>Ants, scorpions, wasps and bees:</b> cold pack on the sting. Trouble breathing or a swelling face or throat means <b>000</b>.</li>
+          <li><b>Never</b> cut a bite or use a tourniquet.</li>
+        </ul>`,
+        `Poisons Information: <b>13 11 26</b>. The Guide is not a doctor and nor, for the record, is Brodie.`,
+      ],
+      see:["find","gully","kevin","safety","day"] },
     { id:"matt", cat:"Things", title:"Can I Follow Matt? I Hear He's Quite the Gardener",
       quote:["Ask Matt. He will tell you. Sit down first."],
       text:[
@@ -2494,43 +2531,6 @@ window.GUIDE = {
 </section></div>`
       ],
       see:["spiders","brodiepacks"] },
-    { id:"brodie", cat:"Things", title:"Following Brodie",
-      quote:["Brodie will start at the door at 6 am. People are welcome to follow me into Mind Garden, but Mind Garden is so hard to find even Brodie misses it at times."],
-      text:[
-        `Every expedition needs a leader. Every leader needs a plan. Brodie has the first, and takes a relaxed and deeply personal view of the second.`,
-        `<div class="sec">The Plan</div>`,
-        `Brodie starts at the Door at <b>06:00</b>. From there he heads for Mind Garden by the shortest route he knows, which is also, by any ordinary standard, the hardest, steepest and most indirect route available. You are welcome to follow. He knows these hills better than anyone alive. Whether this helps you is a separate question.`,
-        `<div class="sec">A Note on Reliability</div>`,
-        `Mind Garden is so hard to find that even Brodie misses it at times. The Guide regards this as an honest feature rather than a flaw. A guide who occasionally walks straight past the destination is simply the most accurate possible description of the destination.`,
-        `<div class="sec">If You're Late</div>`,
-        `Late? Then follow the music in. Mind Garden has a sound, and once it's going, it carries. Music stops at 12:00, after which the day heads down to the Trench. Be warned that following sound through thick bush is a skill, and the bush has opinions about it.`,
-        `<div class="sec">The Residents</div>`,
-        `Mind Garden is beautiful. It is also a wild place, and its residents were not consulted about your itinerary. There is a clear and known danger on the property, and it comes in several forms:`,
-        `<ul>
-          <li><b>Kevin</b>, the red-bellied black snake. See his entry. Kevin has relatives: tiger snakes, brown snakes and copperheads also live in this part of Victoria. Nearly all Victorian snakes are venomous. None of them want anything to do with you.</li>
-          <li><b>Eagles and hawks.</b> Overhead, with an excellent view of you. Keep well clear of any nest.</li>
-          <li><b>Victorian funnel-web spiders.</b> A relative of the famous Sydney funnel-web, living in silk-lined burrows in the ground, ferns, stumps and tree trunks. Best treated with respect, and a bandage if it goes wrong.</li>
-          <li><b>Scorpions.</b> Under bark, logs and rocks. Small, and sulky.</li>
-          <li><b>Ants.</b> Bull ants in particular, who regard your ankle as a personal insult. Some people are seriously allergic to stings.</li>
-          <li><b>Everything else.</b> Redbacks, centipedes, wasps and bees, falling branches, heat, steep ground, and tired legs at the end of the day.</li>
-        </ul>`,
-        `<div class="sec">What To Do About It</div>`,
-        `<ol>
-          <li>Long pants and sturdy boots. Walk with a bit of noise: most snakes and many other creatures will retreat when they hear you coming.</li>
-          <li>Look before you put hands or feet anywhere you can't see. Logs, rocks, tree stumps and hollows are homes.</li>
-          <li>Check the tree before you clip your hammock to it, and check your boots before you put them back on.</li>
-          <li>Look, don't touch, and don't try to be a hero. If you see something, back away and tell the others.</li>
-        </ol>`,
-        `<b>If someone is bitten:</b>`,
-        `<ul>
-          <li><b>Snake or funnel-web spider:</b> keep them completely still, call <b>000</b>, and apply a pressure bandage over the bite and up the limb. Splint the limb. Don't wash the bite.</li>
-          <li><b>Redback or other spiders:</b> wash the area and apply a cold pack for 15 minutes or more, and get medical help. No bandage for these.</li>
-          <li><b>Ants, scorpions, wasps and bees:</b> cold pack on the sting. Trouble breathing or a swelling face or throat means <b>000</b>.</li>
-          <li><b>Never</b> cut a bite or use a tourniquet.</li>
-        </ul>`,
-        `Poisons Information: <b>13 11 26</b>. The Guide is not a doctor and nor, for the record, is Brodie.`,
-      ],
-      see:["find","gully","kevin","safety","day"] },
 
 
 
