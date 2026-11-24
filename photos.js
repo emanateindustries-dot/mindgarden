@@ -6,6 +6,10 @@ window.PHOTOS = [
   "caption": "Something dark in the scrub. Look closely."
  },
  {
+  "src": "photos/kevin-zoom.jpg",
+  "caption": "Kevin, zoomed in"
+ },
+ {
   "src": "photos/echidna.jpg",
   "caption": "Echidna, doing its own thing"
  },
