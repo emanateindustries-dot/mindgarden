@@ -10,10 +10,6 @@ window.PHOTOS = [
   "caption": "Echidna, doing its own thing"
  },
  {
-  "src": "photos/sock.jpg",
-  "caption": "Found on the trail. Carry in, carry out."
- },
- {
   "src": "photos/dragon-1.jpg",
   "caption": "Eastern water dragon"
  },
