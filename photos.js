@@ -72,5 +72,85 @@ window.PHOTOS = [
  {
   "src": "photos/branches-3.jpg",
   "caption": "Fungi on fallen branches"
+ },
+ {
+  "src": "photos/track.jpg",
+  "caption": "The track through the scrub"
+ },
+ {
+  "src": "photos/looking-up.jpg",
+  "caption": "Looking up through the canopy"
+ },
+ {
+  "src": "photos/moss-rock.jpg",
+  "caption": "Moss and lichen on a rock"
+ },
+ {
+  "src": "photos/quartz.jpg",
+  "caption": "Quartz veins running through the rock"
+ },
+ {
+  "src": "photos/roots.jpg",
+  "caption": "Tree roots gripping the slope"
+ },
+ {
+  "src": "photos/red-fungi-1.jpg",
+  "caption": "Little red mushrooms"
+ },
+ {
+  "src": "photos/red-fungi-2.jpg",
+  "caption": "A single red mushroom hiding in the sticks"
+ },
+ {
+  "src": "photos/pore-fungi.jpg",
+  "caption": "Fungi from below, lit by the sun"
+ },
+ {
+  "src": "photos/jawbone.jpg",
+  "caption": "Jawbone among the burnt logs"
+ },
+ {
+  "src": "photos/stump.jpg",
+  "caption": "Broken dead tree"
+ },
+ {
+  "src": "photos/creek-log.jpg",
+  "caption": "Creek bed with a log across it"
+ },
+ {
+  "src": "photos/mushroom-grass.jpg",
+  "caption": "Mushroom in the grass"
+ },
+ {
+  "src": "photos/moss-ball.jpg",
+  "caption": "Bright moss"
+ },
+ {
+  "src": "photos/mossy-log.jpg",
+  "caption": "Mossy log"
+ },
+ {
+  "src": "photos/white-mushroom-1.jpg",
+  "caption": "White mushroom with a dirt cap"
+ },
+ {
+  "src": "photos/lichen-branches.jpg",
+  "caption": "Lichen and fungi on fallen branches"
+ },
+ {
+  "src": "photos/orange-fungus.jpg",
+  "caption": "Orange fungus, close up"
+ },
+ {
+  "src": "photos/white-mushroom-2.jpg",
+  "caption": "White mushroom, leaning"
+ },
+ {
+  "src": "photos/mossy-trunk.jpg",
+  "caption": "Mossy trunk and a rocky slope"
+ },
+ {
+  "src": "photos/ferns.jpg",
+  "caption": "Ferns in the sun"
  }
 ];
