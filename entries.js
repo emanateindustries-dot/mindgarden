@@ -858,6 +858,25 @@ window.GUIDE = {
         `<div class="short">The most valuable thing in the collection is that Neil can tell you which shells were worth keeping, and which were worth leaving where he found them.</div>`
       ],
       see:["neil","likeneil","neilfans","rock"] },
+    { id:"neilbigcoin", cat:"Things", title:"Neil's Bigcoin",
+      quote:["Backed by something you can actually hold."],
+      text:[
+        `You can buy Neil's cryptocurrency. It is called <b>Bigcoin</b>, and it is the only digital currency in the world backed by a physical asset that sits in a cabinet and can be held in the hand. The asset is <a href="#" data-open="neilshells"><b>Neil's shell collection</b></a>.`,
+        `<div class="sec">How It Works</div>`,
+        `Every coin represents a share of the collection, and the value of the coin follows the value of the shells. Bitcoin is backed by electricity and belief. Bigcoin is backed by calcium carbonate and Neil.`,
+        `The Guide has already explained that nobody can guess the value of the collection, and that the figure only tells you what a shell costs, not what it is worth. That makes Bigcoin the first currency whose price is, on principle, unknown. The Guide believes this is a feature. Every other coin on the market is also unknown, but pretends not to be.`,
+        `The first law of shell economics applies here too. The Glory of the Sea cone was priced like a masterpiece until somebody found where it lived, and then it cost less than a pair of shoes. <b>Scarcity is a fact about your information.</b> Bigcoin holders are advised to remember this on any day somebody finds a new reef.`,
+        `<div class="sec">The Email Address</div>`,
+        `Neil has never had an email address. Not once, not ever. No account, no password, no recovery question, no inbox with nine thousand unread messages. For the whole life of the internet he has been quietly <b>outside it</b>.`,
+        `This is the key to Bigcoin's security. There is no email to hack, no login to phish and no support line to call, and there never will be. A thief cannot steal a seed phrase from a man who has never owned a computer that mattered. The wallet is a cabinet. The cabinet has a lock. The lock is Neil.`,
+        `<div class="sec">Ahead of the Deal</div>`,
+        `A growing number of people believe the internet is dying, that most of what is posted is now written by machines and read by other machines, and that the people have mostly left. It is a theory with a name, and the Guide takes it seriously, but not as seriously as it takes Neil.`,
+        `Neil never joined. He did not wait for the internet to die and then leave. He left <b>before it started</b>. While everybody else was building a digital life and slowly realising it was empty, he was on a beach picking up something real. He was ahead of the deal on the death of the internet by roughly thirty years, and the Guide cannot find a single moment in which he was wrong.`,
+        `<div class="sec">How to Buy</div>`,
+        `Find Neil, in person, and ask. Payment is accepted in conversation, in a good yarn, or in a shell of equal or greater interest. There is no exchange, no app and no chart. If the price moves, he will tell you about it over a cup of tea.`,
+        `<div class="short">Bigcoin is a joke. It is not a real token, it cannot be bought anywhere, and nothing here is financial advice. The shells, however, are real, and so is Neil.</div>`
+      ],
+      see:["neilshells","neil","neilwild","neilfans"] },
     { id:"spiders", cat:"Things", title:"Why Spiders Cannot Be Farmed",
       quote:["Eight legs, eight eyes, no interest in your business plan."],
       text:[
