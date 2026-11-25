@@ -1050,6 +1050,11 @@ window.GUIDE = {
         `It does not hold up as engineering. As an argument it is airtight, in the way that a very large lever is airtight: put the fulcrum somewhere reasonable and you can move anything. The Guide has therefore <b>emailed Elon</b> with the question, and is waiting. If he builds the sphere, the first job on it will be the spiders. Though by then the spiders may already have noticed who is on whose farm.`
       ],
       see:["orbitalspiders","spiderswayforward","spiders"] },
+    { id:"fakenews", cat:"Things", title:"Fake News You Can Now Trust",
+      text:[
+        `<p><a href="https://www.abc.net.au/news" target="_blank" rel="noopener"><b>ABC News</b></a></p>`
+      ],
+      see:[] },
     { id:"whatnottoread", cat:"Things", title:"What Not to Read",
       quote:["Put this Guide down and pick up a book."],
       text:[
