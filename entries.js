@@ -1010,7 +1010,8 @@ window.GUIDE = {
       see:["dysonspiders"] },
     { id:"spiderswayforward", cat:"Things", title:"We will find a way to farm spiders, I'm sure it's just a compute problem and I've emailed Elon regarding the matter. - Brodie Richardson",
       text:[
-        `I need more work on this, it's unfinished at this point, but I'm sure there is a way.`
+        `I need more work on this, it's unfinished at this point, but I'm sure there is a way.`,
+        `<p>Follow the progress on X: <a href="https://x.com/mindgarden1313" target="_blank" rel="noopener"><b>@mindgarden1313</b></a></p>`
       ],
       see:["dysonspiders"] },
     { id:"dysonspiders", cat:"Things", title:"The Dyson Sphere Case for Finally Understanding Why We Cannot Farm Spiders",
