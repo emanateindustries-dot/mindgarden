@@ -1007,12 +1007,35 @@ window.GUIDE = {
 </div>`,
         `<div class="short">If a Mind Garden member ever builds the first spider farm, it will be a bush shed with a thousand little boxes and not a single satellite. The Guide will accept this as a proof of concept and a rebuttal.</div>`
       ],
-      see:[] },
+      see:["dysonspiders"] },
     { id:"spiderswayforward", cat:"Things", title:"We will find a way to farm spiders, I'm sure it's just a compute problem and I've emailed Elon regarding the matter. - Brodie Richardson",
       text:[
         `I need more work on this, it's unfinished at this point, but I'm sure there is a way.`
       ],
-      see:[] },
+      see:["dysonspiders"] },
+    { id:"dysonspiders", cat:"Things", title:"The Dyson Sphere Case for Finally Understanding Why We Cannot Farm Spiders",
+      quote:["A star is a lot of compute for a very small animal."],
+      text:[
+        `The Question: if the orbital data centres in the neighbouring entry are not enough compute to work out why we cannot farm spiders, how much is? The Mind Garden position is that the answer is <b>one star</b>. The Guide has run the numbers, found where they hold and where they do not, and corrected itself once already while writing this.`,
+        `<div class="sec">The Setup</div>`,
+        `Spiders are not farmed because they eat each other. The Guide's other entries argue that cannibalism is not a law of nature but a <b>rate</b> (encounters x hunger x opportunity), and that controlling the rate means watching every spider, continuously, in a farm full of animals that evolved to be invisible. That is a perception and scheduling problem, and it is a very large one.`,
+        `So the question becomes: how much thinking can a civilisation do, and is it enough?`,
+        `<div class="sec">Step 1: The Floor</div>`,
+        `Computing has a physical minimum cost, called the <b>Landauer limit</b>. Erasing one bit of information must give off at least this much heat:<div class="maths"><div class="fm">E = k x T x ln 2<br>k = 1.38e-23 J/K, T = 300 K<br>E = 2.9e-21 joules per bit</div></div>No computer can beat that. Real computers sit far above it. It is the best case, and it tells you how much thinking a given amount of energy can possibly buy.`,
+        `<div class="sec">Step 2: What Earth Can Offer</div>`,
+        `Earth catches about <b>1.7e17 watts</b> of sunlight. If every watt went to thinking, and none to crops, cities or keeping the lights on:<div class="maths"><div class="fm">1.7e17 W / 2.9e-21 J = about 6e37 bit operations per second</div></div>That sounds like a lot. It is the most the whole planet could ever do, and it assumes the planet gives up on everything else.`,
+        `<div class="sec">Step 3: Build the Sphere</div>`,
+        `The Sun puts out about <b>3.8e26 watts</b>. A Dyson sphere (or, more sensibly, a swarm of collectors around the star) catches all of it:<div class="maths"><div class="fm">3.8e26 W / 2.9e-21 J = about 1.3e47 bit operations per second</div></div>Divide the two:<div class="maths"><div class="fm">1.3e47 / 6e37 = about 2e9</div></div>The Sun offers roughly <b>two billion times</b> what the whole of Earth could, at the same efficiency. The Guide first wrote "ten orders of magnitude" here, and then did the division. It is nine. Two billion is still a very large number.`,
+        `As a bonus, the colder the sphere runs, the cheaper each bit becomes, so real designs would radiate at low temperature and do even better than this. Nobody has ever been this efficient, but the physics allows it.`,
+        `<div class="sec">Step 4: What You Would Do With It</div>`,
+        `A spider weighs roughly a gram or less. It is a few billion billion billion atoms. With the whole Sun working on it, you could model every spider on the planet in full molecular detail, run the simulation faster than real time, and test a million farm designs against them before breakfast. You would find out exactly why they eat each other, down to the signal, the scent and the vibration that sets it off.`,
+        `This is also the point where the <a href="#" data-open="pacifier"><b>Pacifier</b></a> problem arrives in reverse: a mind big enough to understand the spider might have to take the spider seriously as a mind.`,
+        `<div class="sec">Where It Breaks</div>`,
+        `<ul><li><b>Nobody has built a Dyson sphere.</b> It is a thought experiment. Full shells are considered physically impossible, and the swarm version needs an enormous amount of material, which is usually imagined as coming from dismantling planets.</li><li><b>The Landauer figures are the best case.</b> Real hardware is far less efficient, so treat the 1e47 as a ceiling, not a forecast.</li><li><b>Compute may not be the bottleneck.</b> Silkworms already make spider silk in laboratories, and fermentation makes it without spiders at all. The real wall may be money, not mathematics.</li><li><b>The answer may be boring.</b> After building a star-sized computer, it could well report that the spiders need more room.</li></ul>`,
+        `<div class="sec">The Guide's Verdict</div>`,
+        `It does not hold up as engineering. As an argument it is airtight, in the way that a very large lever is airtight: put the fulcrum somewhere reasonable and you can move anything. The Guide has therefore <b>emailed Elon</b> with the question, and is waiting. If he builds the sphere, the first job on it will be the spiders.`
+      ],
+      see:["orbitalspiders","spiderswayforward","spiders"] },
     { id:"whatnottoread", cat:"Things", title:"What Not to Read",
       quote:["Put this Guide down and pick up a book."],
       text:[
