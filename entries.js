@@ -1194,6 +1194,22 @@ window.GUIDE = {
         `<div class="short">This page is part of the Guide and is not collecting money. When a real fundraiser exists, its link will go here. Until then, nobody should send anybody anything.</div>`
       ],
       see:["snakejazz","guitar","donkeypiss","rules"] },
+    { id:"musictaste", cat:"Things", title:"Mind Garden's Music Taste Surpasses That of Ruben Von Qubit",
+      quote:["He solves the cube. We pick the track."],
+      text:[
+        `The Guide does not say this lightly. <a href="#" data-open="rubenqubit">Ruben Von Qubit</a> has been misunderstood by an entire field of mathematics, has out-thought a quantum computer and has communicated with wombats. None of that has saved him. <b>Mind Garden's music taste surpasses his.</b> The Guide has checked, and the evidence is below.`,
+        `<div class="sec">The Evidence</div>`,
+        `<p><a href="https://open.spotify.com/playlist/02HZMkqlXLYENlg5Gn0Bxx" target="_blank" rel="noopener"><b>Brodie's personal playlist: Absolute Weapons of Production</b></a></p>`,
+        `It is a playlist for people who listen to the production as much as the song: the low end, the width, the way a track builds and then lets go. Every track on it is there because somebody sat with it and worked out how it was made. Ruben has never published a playlist, which the Guide notes is the first problem with his case.`,
+        `<div class="sec">The Track of the Year</div>`,
+        `The Guide named its track of 2026 some time ago, and it has not changed its mind. It is <b>Imitation</b> by <b>LATENT SPACE</b>, a Sydney artist who builds his own tools and his own speakers and is still putting out the track of the year. The full write-up is in <a href="#" data-open="imitation">Imitation: The Track of 2026</a>. Play it first. If it does not move something in you, the rest of this entry will not help.`,
+        `<div class="sec">Why Ruben Loses</div>`,
+        `<ul><li><b>Ruben's taste cannot be checked.</b> He writes nothing down, so there is nothing to compare. Mind Garden's taste is a link.</li><li><b>Ruben never plays anything back.</b> His whole body of work disappears as the cube is scrambled. A playlist can be played again tomorrow.</li><li><b>Ruben takes a wombat's advice on settledness.</b> Mind Garden takes advice from a kick drum and a good pair of speakers.</li><li><b>Mind Garden has a <a href="#" data-open="listeningroom">listening room</a> planned.</b> It is not built yet, and it will still be a better room than the one Ruben solves a cube in.</li></ul>`,
+        `<div class="sec">Where to Go From Here</div>`,
+        `<ol><li>Open the playlist and play it once, start to finish, on the best speakers you can find.</li><li>Play <a href="#" data-open="imitation">Imitation</a> next, once on speakers, once on headphones and once out on the block with nothing around you.</li><li>Then read <a href="#" data-open="rubenqubit">Ruben Von Qubit</a> and decide for yourself whether the claim stands.</li></ol>`,
+        `<div class="short">Taste is the one thing you cannot scramble. Press play.</div>`
+      ],
+      see:["imitation","rubenqubit","listeningroom"] },
     { id:"whatnottoread", cat:"Things", title:"What Not to Read",
       quote:["Put this Guide down and pick up a book."],
       text:[
