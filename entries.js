@@ -5652,7 +5652,8 @@ print(&quot;strain %&quot;, round(100 * sigma / E, 2))</pre>
       see:["levels"] },
     { id:"lsd", cat:"Things", title:"Lysergic Acid Diethylamide",
       text:[
-        `<div class="lockbox" data-lock="lsd"><div class="lk-t">Restricted</div><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`
+        `<div class="lockbox" data-lock="lsd"><div class="lk-t">Restricted</div><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`,
+        `<div class="short">It's not LSD's fault you can't handle it. That's a you problem.</div>`
       ],
       see:["pacifier","levels"] },
     { id:"brushhacks", cat:"Things", title:"Brodie's Brush Bhacks Bips Bricks Bnd Berects",
