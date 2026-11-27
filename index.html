@@ -129,6 +129,10 @@ h1{font:700 26px/1.15 Cinzel,serif;letter-spacing:.02em;margin:18px 0 6px;text-a
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
 .chips button{border:1px solid var(--ink);background:none;border-radius:99px;padding:8px 13px;font:500 13px Inter;color:var(--ink)}
 .chips button.pinbtn{background:var(--ink);color:#fff}
+.share{margin-top:24px;padding-top:14px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.share button{border:1px solid var(--ink);background:none;border-radius:99px;padding:8px 14px;font:500 13px Inter;color:var(--ink)}
+.share .sh-msg{font-size:12px;color:var(--mute)}
+.share input{flex:1 1 220px;min-width:0;border:1px solid var(--line);border-radius:8px;padding:8px 10px;font:13px Inter;background:none;color:var(--ink)}
 .empty{color:var(--mute);font-style:italic}
 .gal{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-top:14px}
 .gal button{padding:0;border:0;background:var(--line);aspect-ratio:1;overflow:hidden;cursor:pointer}
@@ -284,6 +288,7 @@ function openEntry(id){
   if(e.pins&&e.pins.length&&location.hash!=='#map') chips.push(`<button class="pinbtn" data-map="${e.id}">Show on map</button>`);
   (e.see||[]).filter(s=>E[s]).forEach(s=>chips.push(`<button data-open="${s}">${E[s].title}</button>`));
   if(chips.length) h+=`<div class="chips">${chips.join('')}</div>`;
+  if(e.cat==='Things') h+=`<div class="share"><button data-share="${e.id}">Copy link to share</button><span class="sh-msg" role="status"></span></div>`;
   $('#sheet').innerHTML=h; $('#sheet').classList.toggle('nobar',e.id==='secret'); $('#sheet').scrollTop=0; (function(){const sh=$('#sheet');sh.onscroll=null;if(e.id!=='secret')return;sh.onscroll=()=>{const L=sh.querySelector('.loop');if(!L)return;const H=L.offsetHeight,st=L.offsetTop;if(sh.scrollTop>st+2*H)sh.scrollTop-=H}})(); [...$('#sheet').children].forEach((c,i)=>c.style.animationDelay=(i*70)+'ms');
   initBooks();
   $('#sheet').classList.add('on'); $('#back').classList.add('on');
@@ -400,6 +405,19 @@ document.addEventListener('keydown',e=>{
   const sh=$('#sheet'); if(!sh.classList.contains('on')) return; const bk=sh.querySelector('.book'); if(!bk||!bk._go) return;
   if(e.key==='ArrowRight') bk._go(bk._cur()+1,true); else if(e.key==='ArrowLeft') bk._go(bk._cur()-1,true);
 });
+/* ---------- share links ---------- */
+function shareBase(){const l=location; if(/^https?:$/.test(l.protocol)&&!/claudeusercontent\.com$/.test(l.hostname)) return l.origin+l.pathname; return 'https://claude.ai/artifact/R7386JhqdhAJz2p7YCt8Es'}
+function shareUrl(id){return shareBase()+'#e/'+encodeURIComponent(id)}
+async function copyText(t){
+  try{ if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(t);return true} }catch(e){}
+  try{ const a=document.createElement('textarea'); a.value=t; a.setAttribute('readonly',''); a.style.cssText='position:fixed;opacity:0;top:0;left:0'; document.body.appendChild(a); a.select(); a.setSelectionRange(0,t.length); const ok=document.execCommand('copy'); a.remove(); return !!ok }catch(e){return false}
+}
+document.addEventListener('click',async e=>{
+  const b=e.target.closest('[data-share]'); if(!b) return;
+  const box=b.closest('.share'), msg=box.querySelector('.sh-msg'), url=shareUrl(b.dataset.share);
+  if(await copyText(url)){ msg.textContent='Link copied. Send it to a friend.'; setTimeout(()=>{msg.textContent=''},3500) }
+  else{ msg.textContent='Copy this link:'; if(!box.querySelector('input')){const i=document.createElement('input'); i.readOnly=true; i.value=url; i.addEventListener('focus',()=>i.select()); box.appendChild(i); i.focus(); i.select()} }
+});
 function closeSheet(){$('#sheet').classList.remove('on');$('#back').classList.remove('on')}
 $('#back').addEventListener('click',closeSheet);
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
@@ -435,6 +453,8 @@ function route(){
   if(t==='dates') renderDates();
   if(t==='photos') renderPhotos();
   if(t==='home') tickDoor(true);
+  const m=/^e\/(.+)$/.exec(h), q=new URLSearchParams(location.search).get('e'), id=m?decodeURIComponent(m[1]):(!location.hash&&q&&!window._qDone?q:null);
+  if(id&&E[id]){ window._qDone=true; document.querySelectorAll('.view').forEach(v=>v.classList.toggle('on',v.id==='v-list')); document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.dataset.t==='list')); openEntry(id) }
 }
 window.addEventListener('hashchange',route);
 
