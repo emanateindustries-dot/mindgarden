@@ -1186,7 +1186,7 @@ window.GUIDE = {
         `What the fuck is the pyramids? Nobody here knows. Possibly tombs. Possibly, if you go with the man on the internet, a very large garden centre.`
       ],
       see:["trench","schwechten","brodie"] },
-    { id:"angkor", cat:"Things", title:"Actually Fuck the Pyramids",
+    { id:"angkor", cat:"Things", title:"Actually Fuck the Pyramids this is way cooler",
       quote:["The Guide has nothing against the pyramids. It simply has a better one, and nobody ever talks about it."],
       text:[
         `Every few weeks somebody at the Trench leans back, looks at the sky, and says the word <i>pyramids</i> in the voice of a person who is about to have an idea. The Guide has <a href="#" data-open="pyramids">an entry</a> for that. This is the other entry. This is for the people who have been to the pyramids in their head so many times that they have worn the track smooth, and who would be well served by being pointed in a different direction.`,
