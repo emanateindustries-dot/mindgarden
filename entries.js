@@ -5991,6 +5991,8 @@ print(&quot;strain %&quot;, round(100 * sigma / E, 2))</pre>
         `You paid at the Door, with a book, a homemade goodie, and a promise to grow in the way you see most fit. That was the price of entry, and it was a fair one. The best things in life are free, and Mind Garden is one of them. Nothing is owed.`,
         `<div class="sec">If That Still Is Not Enough</div>`,
         `If you still feel the need to give something back, the Guide suggests a donation to <b>MAPS</b>, the Multidisciplinary Association for Psychedelic Studies, which does research into psychedelics. Give what you can, and only what you can.`,
+        `<div class="sec">Or Give an Artist a Day Off</div>`,
+        `You can also give to <a href="#" data-open="artistfund"><b>Mind Garden's Go Fund Me to Pay Artists to Have a Day Off</b></a>. It pays an artist to come to Mind Garden, hang around and not have to perform, with their fee, travel and a bed covered. It is still a proposal, so nothing is collecting yet. When the real fundraiser exists, its link will be on that page, and not before.`,
         `<div class="sec">The Boring Bit</div>`,
         `Depending on where you live, a donation may be tax-deductible. In some countries it is, and in others, including for many overseas charities in Australia, it is not. The Guide is not an accountant. Check with a real one before you claim anything.`,
         `<div class="sec">Do Not Tell Brodie</div>`,
@@ -5999,7 +6001,7 @@ print(&quot;strain %&quot;, round(100 * sigma / E, 2))</pre>
         `A hug. Someone to hold him at the closing of Mind Garden, when the Door shuts and the song plays. It has been a hell of a road out of the woods. If you want to give him something, give him that.`,
         `<div class="short">I love every single one of you, so so much. &mdash; Brodie</div>`
       ],
-      see:["closingsong","brodie","beginners"] },
+      see:["closingsong","brodie","beginners","artistfund"] },
     { id:"cantbuy", cat:"Things", title:"What Money Can't Buy",
       quote:["A fit body, a calm mind, a house full of love. &mdash; Naval Ravikant"],
       text:[
