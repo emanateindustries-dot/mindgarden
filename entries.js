@@ -5641,21 +5641,18 @@ print(&quot;strain %&quot;, round(100 * sigma / E, 2))</pre>
       ],
       see:["outofthewoods","levels","guitar"] },
     { id:"levels", cat:"Things", title:"There's Levels to This Shit",
-      quote:["Restricted."],
       text:[
-        `<div class="lockbox" data-lock="levels"><div class="lk-t">Locked</div><p>This entry is behind a password. Enter it to see the levels.</p><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`
+        `<div class="lockbox" data-lock="levels"><div class="lk-t">Restricted</div><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`
       ],
       see:[] },
     { id:"levels2", cat:"Things", title:"There's Levels to This Shit, Part 2",
-      quote:["Restricted."],
       text:[
-        `<div class="lockbox" data-lock="levels2"><div class="lk-t">Locked</div><p>This entry is behind a password. Enter it to go deeper.</p><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`
+        `<div class="lockbox" data-lock="levels2"><div class="lk-t">Restricted</div><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`
       ],
       see:["levels"] },
     { id:"lsd", cat:"Things", title:"Lysergic Acid Diethylamide",
-      quote:["Restricted."],
       text:[
-        `<div class="lockbox" data-lock="lsd"><div class="lk-t">Locked</div><p>This entry is behind a password. Enter it to read what the Guide knows.</p><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`
+        `<div class="lockbox" data-lock="lsd"><div class="lk-t">Restricted</div><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`
       ],
       see:["pacifier","levels"] },
     { id:"brushhacks", cat:"Things", title:"Brodie's Brush Bhacks Bips Bricks Bnd Berects",
