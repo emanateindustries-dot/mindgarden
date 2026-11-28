@@ -129,7 +129,7 @@ window.GUIDE = {
         "If you litter, Brodie will be forced to remove you from Mind Garden, violent or not, your choice.",
         "<b>Rubbish:</b> pack a small zip lock bag.",
         "<b>Organic waste:</b> can be disposed of at the Trench, where the giant ants' nest lives nearby. They love a good donation.",
-        "<b>Toilet:</b> there's a toilet at Neil's, but it's only for the few who arrive early with Brodie. For everyone else there isn't one. If you must poo or wee, pick a spot and use toilet paper only. <b>No wet wipes.</b>"
+        "<b>Toilet:</b> there's a toilet at Neil's, but it's only for the few who arrive early with Brodie. For everyone else there isn't one. If you must poo or wee, pick a spot and use toilet paper only. <b>No wet wipes.</b> <b>Camping overnight?</b> You take your waste with you. The house septic can't handle the bulk waste, so see <a href=\"#\" data-open=\"camping\">Camping</a>."
       ],
       see:["trench","must"] },
 
@@ -147,6 +147,8 @@ window.GUIDE = {
         `Two places only. <b>The main drive</b> and <b>the road down to Recovery Lane.</b> Both are used to get in and out, and someone will need to drive down them at an inconvenient hour. Do not camp on either. Do not park across either, either.`,
         `<div class="sec">Leave No Trace Still Applies</div>`,
         `<a href="#" data-open="leave">Leave No Trace</a> is a firm rule, and it does not take the night off. Camping makes it harder, not easier, so plan for it. In particular, <b>pack a shitter.</b> Bring a way to take your waste with you, and then take it with you. If you bring it in, you carry it out.`,
+        `<div class="sec">There Is No Toilet</div>`,
+        `There is <b>no toilet at the block.</b> Anyone camping has to <b>take their waste with them</b> when they leave. The house septic cannot handle the bulk waste of a campsite full of people, so it is not an option, and please do not ask to use it for this. Bring a portable toilet, or a bucket and bags, and plan how you will carry it out before you arrive.`,
         `<div class="sec">It Gets Easier</div>`,
         `Over the years, as you get better at Mind Garden, you will learn how much to pack and how long to stay. You will learn what you actually used and what you carried up a hill for nothing. And you will learn to be okay with missing some of it. Nobody sees all of Mind Garden in one go.`
       ],
