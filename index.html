@@ -145,6 +145,7 @@ h1{font:700 26px/1.15 Cinzel,serif;letter-spacing:.02em;margin:18px 0 6px;text-a
 #lb .nv{position:absolute;top:50%;background:none;border:0;color:#f5f4ef;font-size:40px;cursor:pointer;padding:12px}
 #lb .nv.l{left:2px}#lb .nv.r{right:2px}
 
+.lk-open dl{margin:0}.lk-open dt{margin-top:12px}.lk-open dd{margin:2px 0 0;color:var(--mute)}
 </style>
 </head>
 <body>
@@ -348,7 +349,7 @@ async function lkTry(box){
   btn.disabled=true; msg.textContent='Checking...';
   try{
     const html=await lkDecrypt(inp.value.trim(),o);
-    const w=document.createElement('div'); w.className='lk-open'; w.innerHTML=html; box.replaceWith(w);
+    const w=document.createElement('div'); w.className='lk-open'; w.innerHTML=html; box.replaceWith(w); try{ if(typeof initBooks==='function') initBooks(); }catch(e){}
   }catch(err){ msg.textContent='Wrong password.'; inp.value=''; inp.focus(); }
   btn.disabled=false;
 }
