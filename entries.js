@@ -30,7 +30,7 @@ window.GUIDE = {
       text:[
 `At the bottom of the Guide there is a section called <b>Access Denied</b>. Its entries open only with a password. The Guide will not tell you the passwords, will not hint at them, and will not be talked round. This entry is as close as it gets to an answer.`,
 `<div class="sec">The short version</div>`,
-`<ol><li><b>Come to Mind Garden.</b> Nobody gets a key from a screen.</li><li><b>Get your name on the door.</b> Be someone the garden knows.</li><li><b>Keep asking questions.</b> Ask Brodie, ask the others, ask the place. Then ask better ones.</li><li><b>Give it time.</b> Given enough of it, you will work the passwords out. Nobody is handed them.</li></ol>`,
+`<ol><li><b>Come to Mind Garden.</b> Nobody gets a key from a screen.</li><li><b>Get your name on the door.</b> Be someone the garden knows.</li><li><b>Keep asking questions.</b> Ask Brodie, ask the others, ask the place. Then ask better ones. Keep on digging, and do not stop.</li><li><b>Give it time.</b> Given enough of it, you will work the passwords out. Nobody is handed them.</li></ol>`,
 `<div class="sec">Read all of it</div>`,
 `The Guide is longer than it looks. If you read <b>the entire thing</b>, every entry, including the ones that look like jokes, you will find that it has left <b>clues</b> to unlocking the restricted sections of the library. They are there for people who read properly, and for nobody else.`,
 `<div class="sec">What the Guide will say about it</div>`,
