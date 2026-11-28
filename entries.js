@@ -42,6 +42,9 @@ window.GUIDE = {
       text:[
         "Mind Garden is a 06:00 to 18:00 day out on a 110 acre bush block, and only Brodie knows where Mind Garden is. He starts at 6, and you are welcome to follow him in.",
         "Mind Garden is an <b>all-weather event</b>. Rain, wind or shine, the Door opens. Pack and dress for whatever the day throws at you.",
+        `<div class="sec">There Is No Way to Win Mind Garden</div>`,
+        `That is on purpose. There is no score, no prize, no finish line and no ranking, and the Guide has made sure there never will be. Mind Garden is <b>deliberately hard to get into</b>, and it costs you <b>nothing but time</b>. The Guide's view is that this is the whole point: time is the one thing money cannot buy, so it is the only honest price. Spending it on something with no prize attached is the Guide's case for why mind gardening is good for you.`,
+        `There is also <b>no good, bad, right or wrong way to do it.</b> It is a door, a set of dates, and all the stories between: <b>ten years of growth</b> that sit behind that door and keep growing. You do not win it. You turn up, and you take part.`,
         `<b>Mind Garden may not be for you right now if:</b>`,
         `<ul>
           <li>you're not ready for a long day of mind, body and soul on steep, rough bush</li>
