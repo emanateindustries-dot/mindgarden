@@ -33,6 +33,7 @@ window.GUIDE = {
 `<ol><li><b>Come to Mind Garden.</b> Nobody gets a key from a screen.</li><li><b>Get your name on the door.</b> Be someone the garden knows.</li><li><b>Keep asking questions.</b> Ask Brodie, ask the others, ask the place. Then ask better ones. Keep on digging, and do not stop.</li><li><b>Give it time.</b> Given enough of it, you will work the passwords out. Nobody is handed them.</li></ol>`,
 `<div class="sec">Read all of it</div>`,
 `The Guide is longer than it looks. If you read <b>the entire thing</b>, every entry, including the ones that look like jokes, you will find that it has left <b>clues</b> to unlocking the restricted sections of the library. They are there for people who read properly, and for nobody else.`,
+`<p><i>Yuo cna lraen yuor way out of it, yuo dlyexsic fcuk, bcuaese I konw it cna be dnoe.</i></p>`,
 `<div class="sec">What the Guide will say about it</div>`,
 `Not much more. The restricted section is not a prize for being clever. It is for people who turned up, paid attention, and stayed curious. Those people usually get in eventually, which is the point.`
       ], see:[] },
