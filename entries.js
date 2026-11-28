@@ -3568,6 +3568,7 @@ window.GUIDE = {
       quote:["Belief is what's left when the evidence has gone home.","The universe has never once checked whether you were ready."],
       text:[
         `The Guide used to keep two lists: one of things everybody believes that are false, and one of things everybody dismisses that are true. It has now woven them into one, and has taken the labels off. Forty-two claims follow. About half of them are myths you probably carry around, and about half are facts that sound like lies. Every item has been tested, measured or looked up in a very dull archive, and the Guide has checked them more thoroughly than anyone has checked its own claim that it is a reliable guide. Do not trust the bold print. Read what sits underneath it.`,
+        `<p><i>Yuo dlyexsic fcuk.</i></p>`,
         `<ol>
           <li><b>The Earth is closest to the Sun in summer.</b> It is closest in early January, when the Northern Hemisphere is in the depths of winter. Seasons are caused by the tilt of the planet and not by its distance. Here in Australia the Earth is at its nearest in the middle of our summer, which makes the idea quite hard to defend.</li>
           <li><b>Australia is wider than the Moon.</b> The mainland measures about 4,000 kilometres from east to west, and the Moon is about 3,474 kilometres across. You could lay the Moon on Australia and have some Australia left over.</li>
