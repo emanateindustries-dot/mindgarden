@@ -25,6 +25,17 @@ window.GUIDE = {
   entries: [
 
     /* ================= RULES & HOW IT WORKS ================= */
+    { id:"restrictedkey", cat:"Keys", title:"How Do I Get a Key to the Restricted Section of Mind Gardening?",
+      quote:["Some doors in the Guide are locked. That is deliberate."],
+      text:[
+`At the bottom of the Guide there is a section called <b>Access Denied</b>. Its entries open only with a password. The Guide will not tell you the passwords, will not hint at them, and will not be talked round. This entry is as close as it gets to an answer.`,
+`<div class="sec">The short version</div>`,
+`<ol><li><b>Come to Mind Garden.</b> Nobody gets a key from a screen.</li><li><b>Get your name on the door.</b> Be someone the garden knows.</li><li><b>Keep asking questions.</b> Ask Brodie, ask the others, ask the place. Then ask better ones.</li><li><b>Give it time.</b> Given enough of it, you will work the passwords out. Nobody is handed them.</li></ol>`,
+`<div class="sec">Read all of it</div>`,
+`The Guide is longer than it looks. If you read <b>the entire thing</b>, every entry, including the ones that look like jokes, you will find that it has left <b>clues</b> to unlocking the restricted sections of the library. They are there for people who read properly, and for nobody else.`,
+`<div class="sec">What the Guide will say about it</div>`,
+`Not much more. The restricted section is not a prize for being clever. It is for people who turned up, paid attention, and stayed curious. Those people usually get in eventually, which is the point.`
+      ], see:[] },
     { id:"first", cat:"Rules", title:"Read This First",
       text:[
         "Mind Garden is a 06:00 to 18:00 day out on a 110 acre bush block, and only Brodie knows where Mind Garden is. He starts at 6, and you are welcome to follow him in.",

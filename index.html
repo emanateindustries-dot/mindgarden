@@ -259,10 +259,10 @@ setInterval(tickDoor,1000);
 /* ---------- list ---------- */
 function renderList(filter=''){
   const f=filter.trim().toLowerCase(); let out='';
-  for(const cat of ['Rules','Places','Things','Access Denied']){
+  for(const cat of ['Keys','Rules','Places','Things','Access Denied']){
     const items=G.entries.filter(e=>e.cat===cat&&(!f||(e.title+' '+(e.quote||[]).join(' ')+' '+(e.text||[]).join(' ')).toLowerCase().includes(f)));
     if(items.length){
-      out+=`<div class="cat">${cat}</div>`+(cat==='Access Denied'?`<div class="sub" style="margin:0 0 6px">Restricted mind gardening. The dark arts.</div>`:'')+items.map(e=>`<button class="row" data-open="${e.id}">${e.title}<span>›</span></button>`).join('');
+      out+=`<div class="cat">${cat}</div>`+(cat==='Keys'?`<div class="sub" style="margin:0 0 6px">For the curious.</div>`:cat==='Access Denied'?`<div class="sub" style="margin:0 0 6px">Restricted mind gardening. The dark arts.</div>`:'')+items.map(e=>`<button class="row" data-open="${e.id}">${e.title}<span>›</span></button>`).join('');
     }
   }
   $('#list').innerHTML=out||'<p class="empty">Nothing in the Guide about that. Yet.</p>';
