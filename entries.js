@@ -5815,17 +5815,9 @@ print(&quot;strain %&quot;, round(100 * sigma / E, 2))</pre>
         `<div class="lockbox" data-lock="lsd"><div class="lk-t">Restricted</div><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`
       ],
       see:[] },
-    { id:"arancini", cat:"Access Denied", title:"The Arancini Gatekeeper of Knowledge",
-      quote:["Nobody has ever got past him. Nobody has ever wanted to leave."],
+    { id:"arachnid", cat:"Access Denied", title:"The Arachnid Gatekeeper of Knowledge",
       text:[
-        `Every restricted section needs a keeper. This one is a rice ball.`,
-        `<div class="sec">The Keeper</div>`,
-        `<b>Arancini</b> means "little oranges" in Italian, after the golden crust. It is a ball of risotto rolled in breadcrumbs, stuffed with something good and fried until it is a fortress. In Sicily the argument over its shape has run for generations. In Palermo it is round. In Catania it is pointed, to look like Mount Etna. Both sides are right, and both sides are guarding the same thing.`,
-        `<div class="sec">The Rules of the Gate</div>`,
-        `<ol><li><b>You do not pass hungry.</b> Knowledge on an empty stomach is just anxiety.</li><li><b>Half goes to somebody else.</b> The Gatekeeper has never once let a person through who ate the whole thing alone. This is the oldest rule in Mind Garden and he did not make it up.</li><li><b>You do not ask what is in the middle.</b> The middle is the knowledge. It is hot, it is a bit cheesy, and it is not meant to be explained.</li><li><b>You break the crust yourself.</b> Nobody can do it for you, and a knife is cheating.</li></ol>`,
-        `<div class="sec">What He Guards</div>`,
-        `Nothing, according to the people who have asked him. Everything, according to the people who have eaten him. The Guide has stood in front of him for some time and notes only that the crust is very good, and that he has not moved.`,
-        `<div class="short">The secret is in the centre. The centre is warm.</div>`
+        `<div class="lockbox" data-lock="arachnid"><div class="lk-t">Restricted</div><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`
       ],
       see:[] },
     { id:"levels", cat:"Access Denied", title:"There's Levels to This Shit",
