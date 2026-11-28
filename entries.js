@@ -551,6 +551,24 @@ window.GUIDE = {
         `<div class="short">Play it once on speakers, once on headphones, and once somewhere out on the block with nothing around you. Then tell the Guide it is wrong.</div>`
       ],
       see:[] },
+    { id:"timelines", cat:"Things", title:"Timelines: The Album of 2026",
+      quote:["Every track is a reflection of the next."],
+      text:[
+        `<div class="short">The Guide's album of 2026 is <b>Timelines</b>, an EP by <b>truth.</b> The Guide knows an EP is a short album, and has decided this one is long enough to count.</div>`,
+        `<div class="sec">The Verdict</div>`,
+        `Like the track of the year, this is the Guide's pick, a call made by ear and not a chart position or a prize. It sits directly under <a href="#" data-open="imitation">Imitation</a> because the two belong together: one is a single that takes you apart, and the other is a whole record that puts the pieces somewhere new.`,
+        `<div class="sec">Why It Won</div>`,
+        `Not only because of the production, which is very high. It won because the <b>entire record tells a story</b>, from the first track to the very last, and <b>every track is a reflection of the next</b>. Play it out of order and you lose the thread. Play it start to finish and it closes on itself, like a loop that turns out to have been a spiral.`,
+        `The Guide does not give album of the year to a collection of good tracks. It gives it to a thing that is built as a whole.`,
+        `<div class="sec">How to Listen</div>`,
+        `<ol><li>Start at track one and do not shuffle.</li><li>Use the best speakers or headphones you can get your hands on.</li><li>Play it all the way through in one sitting.</li><li>Then play it again, and listen for what each track is reflecting back from the one after it.</li></ol>`,
+        `<div class="sec">The Dark Side of It</div>`,
+        `It is <b>dark</b>. Dark enough that the Guide thinks it belongs in the restricted part of this guide, and it has been kept in mind for the next time a door is opened there. Play it late, and give it the full run.`,
+        `<div class="sec">The Question About Ruben</div>`,
+        `Has <a href="#" data-open="rubenqubit">Ruben Von Qubit</a> finished his newest equations? They are, as far as the Guide can tell, an <b>ornate pizza oven, hand built over winter</b>. If so, he may have had an album of the year of his own, in some form the Guide cannot hear and has no way to verify. We may never understand.`,
+        `<div class="short">Press play on track one. Do not skip.</div>`
+      ],
+      see:["imitation","musictaste","rubenqubit"] },
     { id:"brodie", cat:"Things", title:"Following Brodie",
       quote:["Brodie will start at the door at 6 am. People are welcome to follow me into Mind Garden, but Mind Garden is so hard to find even Brodie misses it at times."],
       text:[
@@ -1245,11 +1263,7 @@ window.GUIDE = {
         `<div class="sec">The Track of the Year</div>`,
         `The Guide named its track of 2026 some time ago, and it has not changed its mind. It is <b>Imitation</b> by <b>LATENT SPACE</b>, a Sydney artist who builds his own tools and his own speakers and is still putting out the track of the year. The full write-up is in <a href="#" data-open="imitation">Imitation: The Track of 2026</a>. Play it first. If it does not move something in you, the rest of this entry will not help.`,
         `<div class="sec">The Album of the Year</div>`,
-        `The Guide's album of 2026 is <b>Timelines</b>, an EP by <b>truth.</b> The Guide is aware that an EP is a short album, and has decided that this one is long enough to count.`,
-        `It won, and not only because of the production, which is very high. It won because the <b>entire record tells a story</b>, from the first track to the last, and <b>every track is a reflection of the next</b>. Play it out of order and you lose the thread. Play it start to finish and it closes on itself, like a loop that turns out to have been a spiral. The Guide does not hand out album of the year to a collection of good tracks. It hands it to a thing that is built as a whole.`,
-        `It is also <b>dark</b>. Dark enough that the Guide thinks it belongs in the restricted part of this guide, and it has been kept in mind for the next time a door is opened there. Play it late, on good speakers, and give it the full run.`,
-        `<div class="sec">The Question About Ruben</div>`,
-        `Has <a href="#" data-open="rubenqubit">Ruben Von Qubit</a> finished his newest equations? They are, as far as the Guide can tell, an <b>ornate pizza oven, hand built over winter</b>. If so, he may have had an album of the year of his own, in some form the Guide cannot hear and has no way to verify. We may never understand.`,
+        `The Guide's album of 2026 is <b>Timelines</b>, an EP by <b>truth.</b> The whole record tells one story, with every track a reflection of the next. The full write-up, and the question about Ruben, is in <a href="#" data-open="timelines">Timelines: The Album of 2026</a>.`,
         `<div class="sec">Why Ruben Loses</div>`,
         `<ul><li><b>Ruben's taste cannot be checked.</b> He writes nothing down, so there is nothing to compare. Mind Garden's taste is a link.</li><li><b>Ruben never plays anything back.</b> His whole body of work disappears as the cube is scrambled. A playlist can be played again tomorrow.</li><li><b>Ruben takes a wombat's advice on settledness.</b> Mind Garden takes advice from a kick drum and a good pair of speakers.</li><li><b>Mind Garden has a <a href="#" data-open="listeningroom">listening room</a> planned.</b> It is not built yet, and it will still be a better room than the one Ruben solves a cube in.</li></ul>`,
         `<div class="sec">The Room It Will Be Played In</div>`,
@@ -1259,7 +1273,7 @@ window.GUIDE = {
         `<ol><li>Open the playlist and play it once, start to finish, on the best speakers you can find.</li><li>Play <a href="#" data-open="imitation">Imitation</a> next, once on speakers, once on headphones and once out on the block with nothing around you.</li><li>Then read <a href="#" data-open="rubenqubit">Ruben Von Qubit</a> and decide for yourself whether the claim stands.</li><li>Then see where it will all be played: <a href="#" data-open="listeningroom"><b>Mind Garden Has a Listening Room?</b></a></li></ol>`,
         `<div class="short">Taste is the one thing you cannot scramble. Press play.</div>`
       ],
-      see:["imitation","rubenqubit","listeningroom"] },
+      see:["imitation","timelines","rubenqubit","listeningroom"] },
     { id:"mustreads", cat:"Things", title:"Must Reads for Those Who Want to Journey Deeper Into the Unknown",
       quote:["Read it slowly. Then go for a walk."],
       text:[
