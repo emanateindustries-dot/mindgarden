@@ -5803,14 +5803,10 @@ print(&quot;strain %&quot;, round(100 * sigma / E, 2))</pre>
         `<p>So make your pacifier. Tie your rope. Then swim as far as you like.</p>`
       ],
       see:["outofthewoods","levels","guitar"] },
-    { id:"levels", cat:"Access Denied", title:"There's Levels to This Shit",
+    { id:"terror", cat:"Access Denied", title:"The Terror Is the Ticket",
+      quote:["The terror is the ticket."],
       text:[
-        `<div class="lockbox" data-lock="levels"><div class="lk-t">Restricted</div><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`
-      ],
-      see:[] },
-    { id:"levels2", cat:"Access Denied", title:"There's Levels to This Shit, Part 2",
-      text:[
-        `<div class="lockbox" data-lock="levels2"><div class="lk-t">Restricted</div><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`
+        `<div class="lockbox" data-lock="terror"><div class="lk-t">Restricted</div><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`
       ],
       see:[] },
     { id:"lsd", cat:"Access Denied", title:"Lysergic Acid Diethylamide",
@@ -5819,10 +5815,14 @@ print(&quot;strain %&quot;, round(100 * sigma / E, 2))</pre>
         `<div class="lockbox" data-lock="lsd"><div class="lk-t">Restricted</div><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`
       ],
       see:[] },
-    { id:"terror", cat:"Access Denied", title:"The Terror Is the Ticket",
-      quote:["The terror is the ticket."],
+    { id:"levels", cat:"Access Denied", title:"There's Levels to This Shit",
       text:[
-        `<div class="lockbox" data-lock="terror"><div class="lk-t">Restricted</div><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`
+        `<div class="lockbox" data-lock="levels"><div class="lk-t">Restricted</div><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`
+      ],
+      see:[] },
+    { id:"levels2", cat:"Access Denied", title:"There's Levels to This Shit, Part 2",
+      text:[
+        `<div class="lockbox" data-lock="levels2"><div class="lk-t">Restricted</div><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`
       ],
       see:[] },
     { id:"brushhacks", cat:"Things", title:"Brodie's Brush Bhacks Bips Bricks Bnd Berects",
