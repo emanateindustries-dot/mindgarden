@@ -5820,6 +5820,7 @@ print(&quot;strain %&quot;, round(100 * sigma / E, 2))</pre>
         `<div class="lockbox" data-lock="arachnid"><div class="lk-t">Restricted</div><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`
       ],
       see:[] },
+    { id:"godslibrary", cat:"Access Denied", title:"Gods Library", quote:["The books worth the time, if you want to understand religion and the deep states behind it."], text:[`<div class="lockbox" data-lock="godslibrary"><div class="lk-t">Restricted</div><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`], see:[] },
     { id:"levels", cat:"Access Denied", title:"There's Levels to This Shit",
       text:[
         `<div class="lockbox" data-lock="levels"><div class="lk-t">Restricted</div><input class="lk-in" type="password" inputmode="numeric" autocomplete="off" placeholder="Password" aria-label="Password"><button class="lk-go">Unlock</button><div class="lk-msg" role="status"></div></div>`
