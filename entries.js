@@ -34,6 +34,7 @@ window.GUIDE = {
 `<div class="sec">Read all of it</div>`,
 `The Guide is longer than it looks. If you read <b>the entire thing</b>, every entry, including the ones that look like jokes, you will find that it has left <b>clues</b> to unlocking the restricted sections of the library. They are there for people who read properly, and for nobody else.`,
 `<p><i>Yuo cna lraen yuor way out of it, yuo dlyexsic fcuk, bcuaese I konw it cna be dnoe.</i></p>`,
+`<p>If you read the entire thing, congrats. Brodie curates this constantly, and it is forever changing. It is never finished, and it is not meant to be. That is the idea behind <b>The Beginning of Infinity</b> by David Deutsch: knowledge has no end point, every answer opens better questions, and the work is to keep going.</p>`,
 `<div class="sec">What the Guide will say about it</div>`,
 `Not much more. The restricted section is not a prize for being clever. It is for people who turned up, paid attention, and stayed curious. Those people usually get in eventually, which is the point.`
       ], see:[] },
