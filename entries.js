@@ -3533,11 +3533,6 @@ window.GUIDE = {
         `<div class="short">Thank you. You know who you are.</div>`
       ],
       see:["savealife","brodie","outofthewoods","matt"] },
-    { id:"heavyweight", cat:"Things", title:"Just because you hold the weight well does not mean it's not heavy",
-      text:[
-        `<div class="short">Thank you.</div>`
-      ],
-      see:["actuallysave"] },
     { id:"mushrooms", cat:"Things", title:"Making the Most of Mushrooms: A Guide to Doing It Effectively",
       quote:["The mushroom does the work. You just have to turn up."],
       text:[
