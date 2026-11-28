@@ -1085,7 +1085,7 @@ window.GUIDE = {
       see:["orbitalspiders","spiderswayforward","spiders"] },
     { id:"fakenews", cat:"Things", title:"Fake News You Can Now Trust",
       text:[
-        `<p><a href="https://www.abc.net.au/news" target="_blank" rel="noopener"><b>ABC News</b></a></p>`
+        `<p><a href="https://www.abc.net.au/news" target="_blank" rel="noopener"><b>Fake news you can now trust, click here</b></a></p>`
       ],
       see:[] },
     { id:"listeningroom", cat:"Things", title:"Mind Garden Has a Listening Room?",
