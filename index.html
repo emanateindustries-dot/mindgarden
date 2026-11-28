@@ -258,9 +258,11 @@ setInterval(tickDoor,1000);
 /* ---------- list ---------- */
 function renderList(filter=''){
   const f=filter.trim().toLowerCase(); let out='';
-  for(const cat of ['Rules','Places','Things']){
+  for(const cat of ['Rules','Places','Things','Access Denied']){
     const items=G.entries.filter(e=>e.cat===cat&&(!f||(e.title+' '+(e.quote||[]).join(' ')+' '+(e.text||[]).join(' ')).toLowerCase().includes(f)));
-    if(items.length) out+=`<div class="cat">${cat}</div>`+items.map(e=>`<button class="row" data-open="${e.id}">${e.title}<span>›</span></button>`).join('');
+    if(items.length){
+      out+=`<div class="cat">${cat}</div>`+(cat==='Access Denied'?`<div class="sub" style="margin:0 0 6px">Restricted mind gardening. The dark arts.</div>`:'')+items.map(e=>`<button class="row" data-open="${e.id}">${e.title}<span>›</span></button>`).join('');
+    }
   }
   $('#list').innerHTML=out||'<p class="empty">Nothing in the Guide about that. Yet.</p>';
 }
@@ -288,7 +290,7 @@ function openEntry(id){
   if(e.pins&&e.pins.length&&location.hash!=='#map') chips.push(`<button class="pinbtn" data-map="${e.id}">Show on map</button>`);
   (e.see||[]).filter(s=>E[s]).forEach(s=>chips.push(`<button data-open="${s}">${E[s].title}</button>`));
   if(chips.length) h+=`<div class="chips">${chips.join('')}</div>`;
-  if(e.cat==='Things') h+=`<div class="share"><button data-share="${e.id}">Copy link to share</button><span class="sh-msg" role="status"></span></div>`;
+  if(e.cat==='Things'||e.cat==='Access Denied') h+=`<div class="share"><button data-share="${e.id}">Copy link to share</button><span class="sh-msg" role="status"></span></div>`;
   $('#sheet').innerHTML=h; $('#sheet').classList.toggle('nobar',e.id==='secret'); $('#sheet').scrollTop=0; (function(){const sh=$('#sheet');sh.onscroll=null;if(e.id!=='secret')return;sh.onscroll=()=>{const L=sh.querySelector('.loop');if(!L)return;const H=L.offsetHeight,st=L.offsetTop;if(sh.scrollTop>st+2*H)sh.scrollTop-=H}})(); [...$('#sheet').children].forEach((c,i)=>c.style.animationDelay=(i*70)+'ms');
   initBooks();
   $('#sheet').classList.add('on'); $('#back').classList.add('on');
